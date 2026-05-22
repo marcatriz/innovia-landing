@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -27,13 +28,13 @@ export default function Hero() {
             {t('body')}
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="/#contact" className="btn-primary">
+            <Link href="/#contact" className="btn-primary">
               {t('cta')}
               <span aria-hidden>→</span>
-            </a>
-            <a href="/#modules" className="btn-secondary">
+            </Link>
+            <Link href="/#modules" className="btn-secondary">
               {t('ctaSecondary')}
-            </a>
+            </Link>
           </div>
         </div>
         <div className="hidden lg:col-span-5 lg:block">
