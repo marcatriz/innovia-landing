@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Link } from '@/i18n/routing';
+import { Link, type AppLocale } from '@/i18n/routing';
 import { WHITEPAPERS, getWhitepaper } from '@/components/whitepapers/registry';
 import { routing } from '@/i18n/routing';
 import AfterTheUiLayerFalls from '@/components/whitepapers/AfterTheUiLayerFalls';
@@ -16,7 +16,7 @@ export function generateStaticParams() {
   );
 }
 
-function renderContent(slug: string, locale: 'en' | 'ro') {
+function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
     case 'after-the-ui-layer-falls':
       return <AfterTheUiLayerFalls locale={locale} />;
@@ -37,7 +37,7 @@ export default async function WhitepaperPage({
 
   const meta = getWhitepaper(slug);
   if (!meta) notFound();
-  const localeKey = (locale === 'ro' ? 'ro' : 'en') as 'en' | 'ro';
+  const localeKey = locale as AppLocale;
   const localized = meta[localeKey];
 
   return (

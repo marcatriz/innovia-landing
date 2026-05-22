@@ -13,7 +13,7 @@
  */
 
 import { useEffect, useReducer } from 'react';
-import { Link } from '@/i18n/routing';
+import { Link, type AppLocale } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 import {
   DIMENSIONS,
@@ -81,7 +81,7 @@ function reducer(state: State, action: Action): State {
   }
 }
 
-export default function Diagnostic({ locale }: { locale: 'en' | 'ro' }) {
+export default function Diagnostic({ locale }: { locale: AppLocale }) {
   const t = useTranslations('diagnostic');
   const [state, dispatch] = useReducer(reducer, undefined, initialState);
 
@@ -148,7 +148,7 @@ function Intro({
   answeredCount,
   onReset,
 }: {
-  locale: 'en' | 'ro';
+  locale: AppLocale;
   onStart: () => void;
   answeredCount: number;
   onReset: () => void;
@@ -194,7 +194,7 @@ function Intro({
   );
 }
 
-function DimensionList({ locale }: { locale: 'en' | 'ro' }) {
+function DimensionList({ locale }: { locale: AppLocale }) {
   const t = useTranslations('diagnostic');
   return (
     <div className="rounded-xl border border-slate-200 bg-paper p-6">
@@ -225,7 +225,7 @@ function Quiz({
   onSubmit,
   onReset,
 }: {
-  locale: 'en' | 'ro';
+  locale: AppLocale;
   current: number;
   answers: Answers;
   onAnswer: (questionId: string, value: AnswerValue) => void;
@@ -337,7 +337,7 @@ function Result({
   answers,
   onReset,
 }: {
-  locale: 'en' | 'ro';
+  locale: AppLocale;
   answers: Answers;
   onReset: () => void;
 }) {

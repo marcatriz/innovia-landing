@@ -2,7 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Link } from '@/i18n/routing';
+import { Link, type AppLocale } from '@/i18n/routing';
 import { WHITEPAPERS } from '@/components/whitepapers/registry';
 
 export default async function WhitepapersIndexPage({
@@ -26,7 +26,7 @@ export default async function WhitepapersIndexPage({
 
 function WhitepapersIndex({ locale }: { locale: string }) {
   const t = useTranslations('whitepapersIndex');
-  const localeKey = (locale === 'ro' ? 'ro' : 'en') as 'en' | 'ro';
+  const localeKey = locale as AppLocale;
 
   return (
     <section className="bg-paper py-24">

@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "services": "Services",
+    "modules": "Plateforme",
+    "partnership": "Partenariat",
+    "thesis": "Thèse",
+    "diagnostic": "Diagnostic",
+    "whitepapers": "Whitepapers",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Innovia Systems",
+    "title": "Nous concevons des plateformes de lending AI-first. Du diagnostic au prototype en semaines.",
+    "tagline": "Fit for Digital. Fit for AI.",
+    "body": "Nous reconstruisons le cœur que les opérateurs de leasing, de crédit à la consommation et de gestion de flotte ont dépassé. Diagnostic en semaines. Un prototype configuré qui fait tourner vos produits sur vos données en un trimestre. Près de deux décennies d'exploitation de plateformes européennes de leasing soutiennent chaque décision.",
+    "cta": "Réserver une session de travail de 45 minutes",
+    "ctaSecondary": "Voir la plateforme"
+  },
+  "stats": {
+    "items": {
+      "verticals": { "value": "5", "label": "Verticaux sur un seul moteur" },
+      "ready": { "value": "2", "label": "Modules en production" },
+      "codev": { "value": "3", "label": "Pré-production pour 2026-2027" },
+      "operator": { "value": "~20 ans", "label": "Profondeur d'opérateur en leasing européen" }
+    }
+  },
+  "problem": {
+    "eyebrow": "L'écart",
+    "title": "Les opérateurs mid-tier tournent sur des stacks qu'ils ont dépassés.",
+    "body": "Les sociétés de leasing, les captives, les prêteurs non bancaires et les opérateurs de flotte atteignent un point où les systèmes existants ne suivent plus la cadence des nouveaux produits, des nouveaux canaux et des nouvelles exigences de conformité. Le temps que le rapport de rebuild soit validé par le board, le prochain cycle produit est déjà perdu et les challengers AI-natifs ont livré deux fois. Innovia comble cet écart en tant que cabinet spécialisé avec une plateforme fonctionnelle derrière, pas une présentation et une recherche de partenaire."
+  },
+  "thesis": {
+    "eyebrow": "La thèse",
+    "title": "La couche UI devient une commodité. Le cœur, la configuration et la vitesse ne le deviennent pas.",
+    "body": "Les LLM et l'orchestration de workflow dévorent le front-end de chaque application enterprise. Restent défendables : un cœur auditable et déterministe, la configuration métier que chaque partenaire construit dessus, et la vitesse à laquelle les deux peuvent évoluer ensemble. Innovia est structurée autour de cette thèse depuis le premier jour. Le premier whitepaper développe où se déplace réellement le moat dans le lending. Voir Whitepapers."
+  },
+  "services": {
+    "eyebrow": "Ce que nous faisons",
+    "title": "Diagnostic, redesign, prototype, implémentation.",
+    "body": "Innovia opère comme un cabinet spécialisé avec livraison technologique intégrée. Les quatre types d'engagement s'enchaînent : la plupart des partenaires commencent par un diagnostic et avancent par le redesign, le déploiement de prototype et le support d'implémentation.",
+    "items": {
+      "diagnostics": {
+        "title": "Diagnostic",
+        "body": "Une lecture structurée de la position de votre stack en origination, decisioning, cycle de vie du contrat et reporting, comparée aux benchmarks actuels d'opérateurs. Livrable décisionnel exploitable par l'équipe de direction.",
+        "duration": "2-4 semaines"
+      },
+      "redesign": {
+        "title": "Redesign du modèle opérationnel",
+        "body": "Target operating model pour les segments que vous servez : organisation, processus, données, technologie. Séquencé selon ce que l'entreprise peut réellement absorber.",
+        "duration": "4-8 semaines"
+      },
+      "prototype": {
+        "title": "Prototypage logiciel",
+        "body": "Prototypes fonctionnels sur la plateforme Innovia, configurés à votre modèle de données et à vos produits. Prêts pour des tests en conditions réelles en quelques semaines.",
+        "duration": "6-12 semaines"
+      },
+      "implementation": {
+        "title": "Support d'implémentation",
+        "body": "Du prototype à la production : intégration, migration de données, change management, hypercare. Nous restons jusqu'à ce que la plateforme fasse tourner l'activité, pas l'inverse.",
+        "duration": "3-9 mois"
+      }
+    }
+  },
+  "modules": {
+    "eyebrow": "La plateforme derrière le prototype",
+    "title": "Cinq verticaux, un seul moteur.",
+    "body": "Les engagements de prototypage et d'implémentation tournent sur la plateforme Innovia. Cinq modules partagent le même moteur, le même modèle de données et le même orchestrateur de workflow. Asset Finance et Fleet sont au niveau production aujourd'hui. Working Capital, Consumer Credit et Secured Microcredit sont en pré-production pour 2026-2027.",
+    "statusReady": "Niveau production",
+    "statusCoDev": "Pré-production",
+    "items": {
+      "assetFinance": {
+        "title": "Asset Finance",
+        "body": "Origination, scoring, cycle de vie du contrat, facturation, comptabilité. End-to-end pour le leasing financier et opérationnel, avec reporting cross-tenant au niveau groupe."
+      },
+      "fleet": {
+        "title": "Fleet",
+        "body": "Gestion des véhicules et des services pour les captives et les flottes indépendantes. Compatible télématique, avec analytique coût-par-km et valeur résiduelle."
+      },
+      "workingCapital": {
+        "title": "Working Capital",
+        "body": "Lignes de crédit corporate, tirages, calculs d'intérêts, suivi des covenants. Facilités revolving, term et uncommitted, distinctes du floorplan dealer."
+      },
+      "consumerCredit": {
+        "title": "Consumer Credit",
+        "body": "Crédit point-of-sale et direct-to-consumer. Decisioning sous 15 minutes, intégration marchande, KYC et AML intégrés."
+      },
+      "securedMicrocredit": {
+        "title": "Secured Microcredit",
+        "body": "Crédit gagé, en canal partenaire et intégré au retail marchand. Suivi du collatéral, déboursement rapide, conformité sur tout le cycle."
+      }
+    }
+  },
+  "partnership": {
+    "eyebrow": "Comment l'engagement est structuré",
+    "title": "Innovation Partnership.",
+    "body": "L'année un se déroule comme un engagement de co-création. Le partenaire obtient un déploiement configuré, des droits de décision sur la roadmap de son module et la profondeur d'opérateur issue de près de deux décennies d'exploitation de plateformes européennes de leasing.",
+    "pillars": {
+      "configured": {
+        "title": "Déploiement configuré",
+        "body": "Une plateforme fonctionnelle modelée sur le modèle de données, les produits et les processus du partenaire dès le premier jour."
+      },
+      "decision": {
+        "title": "Droits de décision",
+        "body": "Le partenaire co-détient la roadmap du module. Ce qui sort en premier, deuxième et troisième reflète ses priorités."
+      },
+      "operator": {
+        "title": "Profondeur d'opérateur",
+        "body": "Près de deux décennies à exploiter des plateformes européennes de leasing. Les engagements partent d'un contexte métier au niveau opérateur."
+      },
+      "outcome": {
+        "title": "Résultat concret",
+        "body": "À la fin de l'année 1, vous avez un déploiement qui fait tourner vos produits sur vos données, pas un empilement de slides et un mémo de sélection de vendeur."
+      }
+    }
+  },
+  "operator": {
+    "eyebrow": "Track record",
+    "title": "Construit par un opérateur.",
+    "body": "Près de deux décennies à exploiter des plateformes européennes de leasing sur les segments automotive, equipment et captive finance, dans des contextes mid-tier et groupe. Le travail a couvert des migrations, des déploiements multi-pays, des refontes de politique de crédit, des changements réglementaires et le firefighting de fin de mois sans gloire qui transforme une plateforme de théorique à fiable. La roadmap produit et la pratique d'advisory reflètent toutes deux ce qui casse réellement en production."
+  },
+  "diagnostic": {
+    "eyebrow": "Diagnostic",
+    "title": "Fit for Digital. Fit for AI.",
+    "subtitle": "Sept minutes pour situer honnêtement votre opération.",
+    "intro1": "Vingt questions sur sept dimensions : plateforme cœur, configuration et vitesse, données et decisioning, conformité et audit, maturité IA, expérience client et expérience collaborateur. La barre est placée au niveau opérateur, pas au baseline enterprise.",
+    "intro2": "Pas d'e-mail, pas d'inscription. Le résultat vit uniquement dans votre navigateur. Si le score paraît honnête, le pas suivant est une conversation.",
+    "dimensionsHeading": "Ce qui est mesuré",
+    "loading": "Chargement...",
+    "meta": {
+      "duration": "Environ 7 minutes"
+    },
+    "cta": {
+      "start": "Lancer le diagnostic",
+      "resume": "Reprendre le diagnostic",
+      "reset": "Réinitialiser"
+    },
+    "quiz": {
+      "questionLabel": "Question {current} sur {total}",
+      "back": "Précédent",
+      "next": "Suivant",
+      "submit": "Voir mon score"
+    },
+    "result": {
+      "eyebrow": "Votre résultat",
+      "scoreLabel": "Fit for Digital. Fit for AI.",
+      "breakdownTitle": "Détail par dimension",
+      "ctaEyebrow": "Prochaine étape",
+      "ctaTitle": "Le score est la partie facile. C'est la conversation qui le rend utile.",
+      "ctaBody": "Si quelque chose dans ce détail vous a surpris, c'est exactement ce à quoi servent les premières 45 minutes. Votre roadmap, notre prototype, une lecture honnête de l'adéquation.",
+      "ctaPrimary": "Réserver une session de 45 minutes",
+      "ctaSecondary": "Lire le whitepaper",
+      "buckets": {
+        "exposed": {
+          "title": "Exposition significative.",
+          "body": "Plusieurs des sept dimensions sont au niveau ou en dessous du seuil où le risque réglementaire, concurrentiel ou opérationnel se compose rapidement. La prochaine décision de plateforme ne devrait pas être un exercice de procurement."
+        },
+        "gaps": {
+          "title": "Lacunes fondamentales.",
+          "body": "C'est là que se situent la plupart des opérateurs mid-tier du lending à une première lecture honnête. La base fonctionne, mais le cœur, la configuration et la maturité IA ne sont pas encore au niveau opérateur. La bonne nouvelle, c'est que l'écart se referme en un seul cycle d'Innovation Partnership."
+        },
+        "strong": {
+          "title": "Base solide, écart IA.",
+          "body": "Le cœur et les couches opérationnelles sont en bonne forme. L'opportunité est de passer du configuré au véritablement fluide et de transformer le score de maturité IA d'un écart en un moat."
+        },
+        "operator": {
+          "title": "Niveau opérateur.",
+          "body": "Peu d'opérateurs atterrissent ici. Si c'est vraiment votre état, la conversation porte moins sur la plateforme et plus sur la manière de garder l'avance. Les modèles de partenariat qui échangent de la profondeur d'opérateur fonctionnent dans les deux sens."
+        }
+      }
+    }
+  },
+  "whitepapersIndex": {
+    "eyebrow": "Whitepapers",
+    "title": "Le point de vue Innovia.",
+    "body": "Notes engagées, au niveau opérateur, sur la direction du stack de lending. De nouveaux papers à mesure que la plateforme s'étend.",
+    "readMore": "Lire le paper",
+    "minutes": "min de lecture"
+  },
+  "whitepaper": {
+    "backToList": "Retour à tous les whitepapers",
+    "backToHome": "Retour à l'accueil"
+  },
+  "contact": {
+    "eyebrow": "Prendre contact",
+    "title": "Une décision de plateforme à dimensionner pour 2026-2027 ?",
+    "body": "Ouvert à une conversation si vous opérez dans l'un des cinq segments ci-dessus. Le premier appel est une session de travail de 45 minutes : votre roadmap, notre prototype, une lecture honnête de l'adéquation.",
+    "email": "E-mail",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "Innovia Systems",
+    "tagline": "Fit for Digital. Fit for AI."
+  }
+}
