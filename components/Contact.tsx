@@ -12,7 +12,7 @@ export default function Contact() {
           <p className="mb-10 text-body-lg text-slate-500">{t('body')}</p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="mailto:mariuscatalin.rizea@gmail.com"
+              href="mailto:catalin.rizea@innoviasystems.io"
               className="btn-primary"
             >
               {t('email')}
