@@ -52,4 +52,35 @@
   .accent-bar {
     @apply inline-block h-5 w-1 bg-teal-500 align-middle mr-3;
   }
+
+  .prose-paper {
+    @apply text-body-lg text-ink-700;
+  }
+  .prose-paper h2 {
+    @apply mt-12 mb-4 text-h3 text-ink-700;
+  }
+  .prose-paper h2:first-child {
+    @apply mt-0;
+  }
+  .prose-paper h3 {
+    @apply mt-8 mb-3 text-h4 text-ink-700;
+  }
+  .prose-paper p {
+    @apply mb-5 leading-relaxed;
+  }
+  .prose-paper ol {
+    @apply mb-6 ml-6 list-decimal space-y-3;
+  }
+  .prose-paper ul {
+    @apply mb-6 ml-6 list-disc space-y-2;
+  }
+  .prose-paper li {
+    @apply pl-2 leading-relaxed;
+  }
+  .prose-paper strong {
+    @apply text-ink-700;
+  }
+  .prose-paper a {
+    @apply text-teal-700 underline decoration-teal-300 underline-offset-4 hover:text-teal-900;
+  }
 }

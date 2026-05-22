@@ -4,20 +4,34 @@
     "modules": "Platform",
     "partnership": "Partnership",
     "thesis": "Thesis",
+    "whitepapers": "Whitepapers",
     "contact": "Contact"
   },
   "hero": {
     "eyebrow": "Innovia Systems",
-    "title": "The operational core for European leasing, consumer finance, and fleet.",
+    "title": "The leasing stack rebuilt around AI, not retrofitted onto it.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "Helping leasing, consumer finance, and fleet management firms become fit for digital and AI: from diagnostic and operating-model redesign through to a working platform in production.",
-    "cta": "Start a conversation",
-    "ctaSecondary": "See the modules"
+    "body": "I help leasing, consumer finance, and fleet operators rebuild the core they have outgrown. Diagnostic to working platform in months, not years. The product roadmap and the advisory practice both come from nearly two decades inside European leasing operations.",
+    "cta": "Book a 45-minute working session",
+    "ctaSecondary": "See the platform"
+  },
+  "stats": {
+    "items": {
+      "verticals": { "value": "5", "label": "Verticals on one engine" },
+      "ready": { "value": "2", "label": "Modules production-grade" },
+      "codev": { "value": "3", "label": "In co-development for 2026-2027" },
+      "operator": { "value": "~20y", "label": "European leasing operator depth" }
+    }
   },
   "problem": {
     "eyebrow": "The gap",
     "title": "Mid-tier operators are running on stacks they have outgrown.",
-    "body": "Leasing companies, captives, IFNs, and fleet operators reach a point where the existing systems cannot keep up with new products, new channels, and new compliance demands, but a full platform rebuild is not where the energy of the business should go. Innovia closes the gap as a specialist advisory practice with a working platform behind it."
+    "body": "Leasing companies, captives, IFNs, and fleet operators reach a point where the existing systems cannot keep up with new products, new channels, and new compliance demands. By the time the rebuild board paper gets approved, the next product cycle is already lost and the AI-native challengers have shipped twice. Innovia closes the gap as a specialist advisory practice with a working platform behind it, not a slide pack and a partner search."
+  },
+  "thesis": {
+    "eyebrow": "The thesis",
+    "title": "The UI layer is being commoditised. The core, the config, and the speed are not.",
+    "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is the auditable, deterministic core, the domain configuration each partner builds on top of it, and the speed at which both can move together. Innovia is structured around that thesis from day one. The first whitepaper expands on where the moat actually moves in lending — see Whitepapers."
   },
   "services": {
     "eyebrow": "What I do",
@@ -49,8 +63,8 @@
   "modules": {
     "eyebrow": "The platform behind the prototype",
     "title": "Five verticals, one engine.",
-    "body": "Prototyping and implementation engagements run on the Innovia platform. Five modules share the same engine, data model, and workflow orchestrator. Asset Finance and Fleet are prototype-mature today. Working Capital, Consumer Credit, and Secured Microcredit are in active co-development with design partners in 2026.",
-    "statusReady": "Demo-ready",
+    "body": "Prototyping and implementation engagements run on the Innovia platform. Five modules share the same engine, data model, and workflow orchestrator. Asset Finance and Fleet are prototype-mature today. Working Capital, Consumer Credit, and Secured Microcredit are in active co-development with design partners for 2026-2027.",
+    "statusReady": "Production-grade",
     "statusCoDev": "In co-development",
     "items": {
       "assetFinance": {
@@ -91,18 +105,28 @@
       "operator": {
         "title": "Operator depth",
         "body": "Nearly two decades operating European leasing platforms. Engagements start from operator-grade domain context."
+      },
+      "outcome": {
+        "title": "Concrete outcome",
+        "body": "At the end of Year 1 you have a deployment running your products on your data, not a stack of slides and a vendor selection memo."
       }
     }
-  },
-  "thesis": {
-    "eyebrow": "The thesis",
-    "title": "The UI layer is being commoditised. The core, the config, and the speed are not.",
-    "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is the auditable, deterministic core, the domain configuration each partner builds on top, and the speed at which both can move together. Innovia is structured around that thesis from day one."
   },
   "operator": {
     "eyebrow": "Track record",
     "title": "Built by an operator.",
-    "body": "Nearly two decades operating European leasing platforms across automotive, equipment, and captive finance. The product roadmap and the advisory practice both reflect what actually breaks in production."
+    "body": "Nearly two decades operating European leasing platforms across automotive, equipment, and captive finance, in mid-tier and group settings. The work covered migrations, multi-country rollouts, credit-policy redesign, regulatory change, and the unglamorous month-end firefighting that turns a platform from theoretical to trusted. The product roadmap and the advisory practice both reflect what actually breaks in production."
+  },
+  "whitepapersIndex": {
+    "eyebrow": "Whitepapers",
+    "title": "The Innovia view.",
+    "body": "Opinionated, operator-grade notes on where the lending stack is moving. New papers as the platform expands.",
+    "readMore": "Read the paper",
+    "minutes": "min read"
+  },
+  "whitepaper": {
+    "backToList": "Back to all whitepapers",
+    "backToHome": "Back to home"
   },
   "contact": {
     "eyebrow": "Get in touch",

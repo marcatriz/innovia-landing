@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-const PILLARS = ['configured', 'decision', 'operator'] as const;
+const PILLARS = ['configured', 'decision', 'operator', 'outcome'] as const;
 
 export default function Partnership() {
   const t = useTranslations('partnership');
@@ -17,7 +17,7 @@ export default function Partnership() {
             <p className="text-body-lg text-slate-200">{t('body')}</p>
           </div>
         </div>
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {PILLARS.map((p, i) => (
             <article
               key={p}

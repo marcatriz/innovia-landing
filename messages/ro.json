@@ -4,20 +4,34 @@
     "modules": "Platformă",
     "partnership": "Parteneriat",
     "thesis": "Teza",
+    "whitepapers": "Whitepapers",
     "contact": "Contact"
   },
   "hero": {
     "eyebrow": "Innovia Systems",
-    "title": "Nucleul operațional pentru leasing, finanțare de consum și flote, la nivel european.",
+    "title": "Stack-ul de leasing reconstruit în jurul AI-ului, nu retrofitat peste el.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "Ajut companiile de leasing, finanțare de consum și management de flote să devină pregătite pentru digital și AI: de la diagnostic și redesign de model operațional până la o platformă funcțională în producție.",
-    "cta": "Hai să vorbim",
-    "ctaSecondary": "Vezi modulele"
+    "body": "Ajut operatorii de leasing, finanțare de consum și flote să reconstruiască nucleul pe care l-au depășit. De la diagnostic la platformă funcțională în luni, nu în ani. Roadmap-ul de produs și practica de advisory vin amândouă din aproape două decenii de operare a platformelor europene de leasing.",
+    "cta": "Programează o sesiune de lucru de 45 de minute",
+    "ctaSecondary": "Vezi platforma"
+  },
+  "stats": {
+    "items": {
+      "verticals": { "value": "5", "label": "Verticale pe un singur motor" },
+      "ready": { "value": "2", "label": "Module la nivel de producție" },
+      "codev": { "value": "3", "label": "În co-dezvoltare pentru 2026-2027" },
+      "operator": { "value": "~20 ani", "label": "Profunzime de operator în leasing european" }
+    }
   },
   "problem": {
     "eyebrow": "Golul din piață",
     "title": "Operatorii mid-tier rulează pe stack-uri pe care le-au depășit.",
-    "body": "Companiile de leasing, captive-urile, IFN-urile și operatorii de flote ajung într-un punct în care sistemele existente nu mai țin pasul cu produsele noi, canalele noi și cerințele noi de conformitate, dar un rebuild complet al platformei nu este locul unde ar trebui să se ducă energia business-ului. Innovia închide golul ca o practică de consultanță specializată cu o platformă funcțională în spate."
+    "body": "Companiile de leasing, captive-urile, IFN-urile și operatorii de flote ajung într-un punct în care sistemele existente nu mai țin pasul cu produsele noi, canalele noi și cerințele noi de conformitate. Până vine aprobarea pe board paper-ul de rebuild, următorul ciclu de produs e deja pierdut și competitorii AI-native au livrat de două ori. Innovia închide acest gol ca o practică de consultanță specializată cu o platformă funcțională în spate, nu un slide deck și o căutare de partener."
+  },
+  "thesis": {
+    "eyebrow": "Teza",
+    "title": "Stratul de UI este comoditizat. Nucleul, configurația și viteza nu.",
+    "body": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este nucleul auditabil și determinist, configurația de domeniu pe care fiecare partener o construiește deasupra, și viteza cu care cele două pot evolua împreună. Innovia este structurată în jurul acestei teze din ziua unu. Primul whitepaper detaliază unde se mută moat-ul efectiv în lending — vezi Whitepapers."
   },
   "services": {
     "eyebrow": "Ce livrez",
@@ -49,8 +63,8 @@
   "modules": {
     "eyebrow": "Platforma din spatele prototipului",
     "title": "Cinci verticale, un singur motor.",
-    "body": "Engagement-urile de prototipare și implementare rulează pe platforma Innovia. Cinci module împart același motor, același model de date și același orchestrator de workflow. Asset Finance și Fleet sunt mature ca prototip astăzi. Working Capital, Consumer Credit și Secured Microcredit sunt în co-dezvoltare activă cu design partners în 2026.",
-    "statusReady": "Demonstrabil",
+    "body": "Engagement-urile de prototipare și implementare rulează pe platforma Innovia. Cinci module împart același motor, același model de date și același orchestrator de workflow. Asset Finance și Fleet sunt mature ca prototip astăzi. Working Capital, Consumer Credit și Secured Microcredit sunt în co-dezvoltare activă cu design partners pentru 2026-2027.",
+    "statusReady": "Nivel de producție",
     "statusCoDev": "În co-dezvoltare",
     "items": {
       "assetFinance": {
@@ -91,18 +105,28 @@
       "operator": {
         "title": "Profunzime operațională",
         "body": "Aproape două decenii de operare a platformelor europene de leasing. Engagement-urile pornesc dintr-un context de domeniu de nivel de operator."
+      },
+      "outcome": {
+        "title": "Rezultat concret",
+        "body": "La sfârșitul Anului 1 ai un deployment care rulează produsele tale pe datele tale, nu un teanc de slide-uri și un memo de selecție de vendor."
       }
     }
-  },
-  "thesis": {
-    "eyebrow": "Teza",
-    "title": "Stratul de UI este comoditizat. Nucleul, configurația și viteza nu.",
-    "body": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este nucleul auditabil și determinist, configurația de domeniu pe care fiecare partener o construiește deasupra, și viteza cu care cele două pot evolua împreună. Innovia este structurată în jurul acestei teze din ziua unu."
   },
   "operator": {
     "eyebrow": "Track record",
     "title": "Construit de un operator.",
-    "body": "Aproape două decenii de operare a platformelor europene de leasing, în auto, echipamente și captive finance. Roadmap-ul produsului și practica de advisory reflectă amândouă ce se sparge efectiv în producție."
+    "body": "Aproape două decenii de operare a platformelor europene de leasing, în auto, echipamente și captive finance, în setări mid-tier și de grup. Munca a acoperit migrări, roll-out-uri multi-țară, redesign de politică de credit, schimbări de reglementare, și luptele nesexy de month-end care transformă o platformă din teoretică în una de încredere. Roadmap-ul produsului și practica de advisory reflectă amândouă ce se sparge efectiv în producție."
+  },
+  "whitepapersIndex": {
+    "eyebrow": "Whitepapers",
+    "title": "Punctul de vedere Innovia.",
+    "body": "Note opinionate, de nivel operator, despre unde se mișcă stack-ul de lending. Papers noi pe măsură ce platforma se extinde.",
+    "readMore": "Citește documentul",
+    "minutes": "min de citit"
+  },
+  "whitepaper": {
+    "backToList": "Înapoi la toate whitepapers",
+    "backToHome": "Înapoi la pagina principală"
   },
   "contact": {
     "eyebrow": "Hai să vorbim",

@@ -20,19 +20,22 @@ export default function Header() {
           />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
-          <a href="#services" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <a href="/#services" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('services')}
           </a>
-          <a href="#modules" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <a href="/#modules" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('modules')}
           </a>
-          <a href="#partnership" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <a href="/#partnership" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('partnership')}
           </a>
-          <a href="#thesis" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <a href="/#thesis" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('thesis')}
           </a>
-          <a href="#contact" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <Link href="/whitepapers" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+            {t('whitepapers')}
+          </Link>
+          <a href="/#contact" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('contact')}
           </a>
         </nav>

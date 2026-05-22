@@ -27,11 +27,11 @@ export default function Hero() {
             {t('body')}
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="#contact" className="btn-primary">
+            <a href="/#contact" className="btn-primary">
               {t('cta')}
               <span aria-hidden>→</span>
             </a>
-            <a href="#modules" className="btn-secondary">
+            <a href="/#modules" className="btn-secondary">
               {t('ctaSecondary')}
             </a>
           </div>
