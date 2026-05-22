@@ -4,6 +4,7 @@
     "modules": "Platform",
     "partnership": "Partnership",
     "thesis": "Thesis",
+    "diagnostic": "Diagnostic",
     "whitepapers": "Whitepapers",
     "contact": "Contact"
   },
@@ -116,6 +117,57 @@
     "eyebrow": "Track record",
     "title": "Built by an operator.",
     "body": "Nearly two decades operating European leasing platforms across automotive, equipment, and captive finance, in mid-tier and group settings. The work covered migrations, multi-country rollouts, credit-policy redesign, regulatory change, and the unglamorous month-end firefighting that turns a platform from theoretical to trusted. The product roadmap and the advisory practice both reflect what actually breaks in production."
+  },
+  "diagnostic": {
+    "eyebrow": "Diagnostic",
+    "title": "Fit for Digital. Fit for AI.",
+    "subtitle": "A 7-minute read on where your operation actually sits.",
+    "intro1": "Twenty questions across seven dimensions: core platform, configuration and speed, data and decisioning, compliance and audit, AI readiness, customer experience, and employee experience. The bar is set at operator-grade, not enterprise-baseline.",
+    "intro2": "No email, no signup. The result lives in your browser and your browser only. If the score looks honest, the next step is a conversation.",
+    "dimensionsHeading": "What gets measured",
+    "loading": "Loading...",
+    "meta": {
+      "duration": "About 7 minutes"
+    },
+    "cta": {
+      "start": "Start the diagnostic",
+      "resume": "Resume the diagnostic",
+      "reset": "Reset"
+    },
+    "quiz": {
+      "questionLabel": "Question {current} of {total}",
+      "back": "Back",
+      "next": "Next",
+      "submit": "See my score"
+    },
+    "result": {
+      "eyebrow": "Your result",
+      "scoreLabel": "Fit for Digital. Fit for AI.",
+      "breakdownTitle": "Breakdown by dimension",
+      "ctaEyebrow": "Next step",
+      "ctaTitle": "The score is the easy part. The conversation is where it gets useful.",
+      "ctaBody": "If anything in this breakdown surprised you, that is exactly the kind of thing the first 45 minutes are good for. Your roadmap, my prototype, an honest read on fit.",
+      "ctaPrimary": "Book a 45-minute working session",
+      "ctaSecondary": "Read the whitepaper",
+      "buckets": {
+        "exposed": {
+          "title": "Significant exposure.",
+          "body": "Several of the seven dimensions are at or below the threshold where regulatory, competitive, or operational risk compounds quickly. The next platform decision should not be a procurement exercise."
+        },
+        "gaps": {
+          "title": "Foundational gaps.",
+          "body": "This is where most mid-tier operators in lending sit on an honest first read. The base is functional, but core, configuration, and AI readiness are not yet at operator-grade. The good news is that the gap is closable in a single Innovation Partnership cycle."
+        },
+        "strong": {
+          "title": "Strong base, AI gap.",
+          "body": "The core and the operational layers are in good shape. The opportunity is in moving from configured to truly fluid, and in turning the AI readiness score from a gap into a moat."
+        },
+        "operator": {
+          "title": "Operator-grade.",
+          "body": "Few operators land here. If this is genuinely your state, the conversation is less about platform and more about how to keep the lead. Partnership models that exchange operator depth go in both directions."
+        }
+      }
+    }
   },
   "whitepapersIndex": {
     "eyebrow": "Whitepapers",

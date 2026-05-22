@@ -32,6 +32,9 @@ export default function Header() {
           <Link href="/#thesis" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('thesis')}
           </Link>
+          <Link href="/diagnostic" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+            {t('diagnostic')}
+          </Link>
           <Link href="/whitepapers" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('whitepapers')}
           </Link>

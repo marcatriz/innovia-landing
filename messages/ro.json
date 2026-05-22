@@ -4,6 +4,7 @@
     "modules": "Platformă",
     "partnership": "Parteneriat",
     "thesis": "Teza",
+    "diagnostic": "Diagnostic",
     "whitepapers": "Whitepapers",
     "contact": "Contact"
   },
@@ -116,6 +117,57 @@
     "eyebrow": "Track record",
     "title": "Construit de un operator.",
     "body": "Aproape două decenii de operare a platformelor europene de leasing, în auto, echipamente și captive finance, în setări mid-tier și de grup. Munca a acoperit migrări, roll-out-uri multi-țară, redesign de politică de credit, schimbări de reglementare, și luptele nesexy de month-end care transformă o platformă din teoretică în una de încredere. Roadmap-ul produsului și practica de advisory reflectă amândouă ce se sparge efectiv în producție."
+  },
+  "diagnostic": {
+    "eyebrow": "Diagnostic",
+    "title": "Fit for Digital. Fit for AI.",
+    "subtitle": "7 minute despre unde stă efectiv operațiunea ta.",
+    "intro1": "Douăzeci de întrebări pe șapte dimensiuni: platforma de bază, configurație și viteză, date și decizionare, compliance și audit, pregătire pentru AI, experiența clienților și experiența angajaților. Bar-ul e setat la nivel de operator, nu la baseline de enterprise.",
+    "intro2": "Fără email, fără signup. Rezultatul trăiește doar în browser-ul tău. Dacă scorul pare onest, pasul următor e o discuție.",
+    "dimensionsHeading": "Ce se măsoară",
+    "loading": "Se încarcă...",
+    "meta": {
+      "duration": "Aproximativ 7 minute"
+    },
+    "cta": {
+      "start": "Începe diagnosticul",
+      "resume": "Reia diagnosticul",
+      "reset": "Reset"
+    },
+    "quiz": {
+      "questionLabel": "Întrebarea {current} din {total}",
+      "back": "Înapoi",
+      "next": "Următoarea",
+      "submit": "Vezi scorul meu"
+    },
+    "result": {
+      "eyebrow": "Rezultatul tău",
+      "scoreLabel": "Fit for Digital. Fit for AI.",
+      "breakdownTitle": "Defalcare pe dimensiuni",
+      "ctaEyebrow": "Pasul următor",
+      "ctaTitle": "Scorul e partea ușoară. Discuția e acolo unde devine utilă.",
+      "ctaBody": "Dacă ceva din breakdown-ul de mai sus te-a surprins, exact pentru asta sunt bune primele 45 de minute. Roadmap-ul tău, prototipul meu, o citire onestă de potrivire.",
+      "ctaPrimary": "Programează o sesiune de lucru de 45 de minute",
+      "ctaSecondary": "Citește whitepaper-ul",
+      "buckets": {
+        "exposed": {
+          "title": "Expunere semnificativă.",
+          "body": "Mai multe dintre cele șapte dimensiuni sunt la sau sub pragul la care riscul regulator, competitiv sau operațional se compune rapid. Decizia următoare de platformă nu ar trebui să fie un exercițiu de procurement."
+        },
+        "gaps": {
+          "title": "Goluri fundamentale.",
+          "body": "Aici stau majoritatea operatorilor mid-tier din lending pe o primă citire onestă. Baza funcționează, dar core-ul, configurația și pregătirea pentru AI nu sunt încă la nivel de operator. Vestea bună e că golul se închide într-un singur ciclu de Innovation Partnership."
+        },
+        "strong": {
+          "title": "Bază solidă, gol pe AI.",
+          "body": "Core-ul și straturile operaționale sunt în formă bună. Oportunitatea e să treci de la configurat la cu adevărat fluid și să transformi scorul de AI dintr-un gol într-un moat."
+        },
+        "operator": {
+          "title": "Nivel de operator.",
+          "body": "Puțini operatori ajung aici. Dacă asta e genuin starea ta, conversația e mai puțin despre platformă și mai mult despre cum păstrezi avansul. Modelele de parteneriat care fac schimb de profunzime de operator merg în ambele direcții."
+        }
+      }
+    }
   },
   "whitepapersIndex": {
     "eyebrow": "Whitepapers",
