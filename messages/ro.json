@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "services": "Servicii",
+    "modules": "Platformă",
+    "partnership": "Parteneriat",
+    "thesis": "Teza",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Innovia Systems",
+    "title": "Nucleul operațional pentru leasing, finanțare de consum și flote, la nivel european.",
+    "tagline": "Fit for Digital. Fit for AI.",
+    "body": "Ajut companiile de leasing, finanțare de consum și management de flote să devină pregătite pentru digital și AI: de la diagnostic și redesign de model operațional până la o platformă funcțională în producție.",
+    "cta": "Hai să vorbim",
+    "ctaSecondary": "Vezi modulele"
+  },
+  "problem": {
+    "eyebrow": "Golul din piață",
+    "title": "Operatorii mid-tier rulează pe stack-uri pe care le-au depășit.",
+    "body": "Companiile de leasing, captive-urile, IFN-urile și operatorii de flote ajung într-un punct în care sistemele existente nu mai țin pasul cu produsele noi, canalele noi și cerințele noi de conformitate, dar un rebuild complet al platformei nu este locul unde ar trebui să se ducă energia business-ului. Innovia închide golul ca o practică de consultanță specializată cu o platformă funcțională în spate."
+  },
+  "services": {
+    "eyebrow": "Ce livrez",
+    "title": "Diagnostic, redesign, prototip, implementare.",
+    "body": "Innovia operează ca o consultanță specializată cu livrare tehnologică încorporată. Cele patru tipuri de engagement se înlănțuie: cei mai mulți parteneri încep cu un diagnostic și avansează prin redesign către deployment de prototip și suport de implementare.",
+    "items": {
+      "diagnostics": {
+        "title": "Diagnostic",
+        "body": "O citire structurată a stadiului stack-ului vostru de originare, decizionare, ciclu de viață al contractului și raportare, comparat cu benchmark-urile actuale ale operatorilor. Rezultat decision-grade pe care echipa de leadership îl poate acționa.",
+        "duration": "2-4 săptămâni"
+      },
+      "redesign": {
+        "title": "Redesign de model operațional",
+        "body": "Target operating model pentru segmentele pe care le serviți: organizație, proces, date, tehnologie. Secvențiat pe ce poate business-ul efectiv să absoarbă.",
+        "duration": "4-8 săptămâni"
+      },
+      "prototype": {
+        "title": "Prototipare software",
+        "body": "Prototipuri funcționale pe platforma Innovia, configurate pe modelul vostru de date și produsele voastre. Gata pentru testare live în câteva săptămâni.",
+        "duration": "6-12 săptămâni"
+      },
+      "implementation": {
+        "title": "Suport de implementare",
+        "body": "De la prototip la producție: integrare, migrare de date, change management, hypercare. Rămân până când platforma rulează business-ul, nu invers.",
+        "duration": "3-9 luni"
+      }
+    }
+  },
+  "modules": {
+    "eyebrow": "Platforma din spatele prototipului",
+    "title": "Cinci verticale, un singur motor.",
+    "body": "Engagement-urile de prototipare și implementare rulează pe platforma Innovia. Cinci module împart același motor, același model de date și același orchestrator de workflow. Asset Finance și Fleet sunt mature ca prototip astăzi. Working Capital, Consumer Credit și Secured Microcredit sunt în co-dezvoltare activă cu design partners în 2026.",
+    "statusReady": "Demonstrabil",
+    "statusCoDev": "În co-dezvoltare",
+    "items": {
+      "assetFinance": {
+        "title": "Asset Finance",
+        "body": "Originare, scoring, ciclu de viață al contractului, facturare, contabilitate. End-to-end pentru leasing financiar și operațional, cu raportare cross-tenant la nivel de grup."
+      },
+      "fleet": {
+        "title": "Fleet",
+        "body": "Gestiunea vehiculelor și a serviciilor pentru flote captive și independente. Pregătit pentru telematică, cu analitici cost-per-km și valoare reziduală."
+      },
+      "workingCapital": {
+        "title": "Working Capital",
+        "body": "Linii corporate de credit, trageri, calcul de dobândă, monitorizare de covenante. Facilități revolving, term și uncommitted, distincte de dealer floorplan."
+      },
+      "consumerCredit": {
+        "title": "Consumer Credit",
+        "body": "Creditare la punctul de vânzare și direct-to-consumer. Decizionare sub 15 minute, integrare cu merchanți, KYC și AML încorporate."
+      },
+      "securedMicrocredit": {
+        "title": "Secured Microcredit",
+        "body": "Amanet, canal de parteneri și creditare integrată în retail. Monitorizare colateral, disbursement rapid, full-cycle compliance."
+      }
+    }
+  },
+  "partnership": {
+    "eyebrow": "Cum este structurat engagement-ul",
+    "title": "Innovation Partnership.",
+    "body": "Primul an rulează ca o colaborare de co-creație. Partenerul primește un deployment configurat, drept de decizie pe roadmap-ul modulului propriu și profunzimea operațională venită din aproape două decenii de operare a platformelor europene de leasing.",
+    "pillars": {
+      "configured": {
+        "title": "Deployment configurat",
+        "body": "O platformă funcțională modelată pe datele, produsele și procesele partenerului din ziua unu."
+      },
+      "decision": {
+        "title": "Drept de decizie",
+        "body": "Partenerul co-deține roadmap-ul modulului. Ce intră în producție întâi, al doilea, al treilea reflectă prioritățile lui."
+      },
+      "operator": {
+        "title": "Profunzime operațională",
+        "body": "Aproape două decenii de operare a platformelor europene de leasing. Engagement-urile pornesc dintr-un context de domeniu de nivel de operator."
+      }
+    }
+  },
+  "thesis": {
+    "eyebrow": "Teza",
+    "title": "Stratul de UI este comoditizat. Nucleul, configurația și viteza nu.",
+    "body": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este nucleul auditabil și determinist, configurația de domeniu pe care fiecare partener o construiește deasupra, și viteza cu care cele două pot evolua împreună. Innovia este structurată în jurul acestei teze din ziua unu."
+  },
+  "operator": {
+    "eyebrow": "Track record",
+    "title": "Construit de un operator.",
+    "body": "Aproape două decenii de operare a platformelor europene de leasing, în auto, echipamente și captive finance. Roadmap-ul produsului și practica de advisory reflectă amândouă ce se sparge efectiv în producție."
+  },
+  "contact": {
+    "eyebrow": "Hai să vorbim",
+    "title": "O decizie de platformă în roadmap pentru 2026-2027?",
+    "body": "Deschis la o discuție dacă operați în oricare dintre cele cinci segmente de mai sus. Prima discuție este o sesiune de lucru de 45 de minute: roadmap-ul vostru, prototipul meu, o citire onestă de potrivire.",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "Innovia Systems",
+    "tagline": "Fit for Digital. Fit for AI."
+  }
+}

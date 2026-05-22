@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "services": "Services",
+    "modules": "Platform",
+    "partnership": "Partnership",
+    "thesis": "Thesis",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Innovia Systems",
+    "title": "The operational core for European leasing, consumer finance, and fleet.",
+    "tagline": "Fit for Digital. Fit for AI.",
+    "body": "Helping leasing, consumer finance, and fleet management firms become fit for digital and AI: from diagnostic and operating-model redesign through to a working platform in production.",
+    "cta": "Start a conversation",
+    "ctaSecondary": "See the modules"
+  },
+  "problem": {
+    "eyebrow": "The gap",
+    "title": "Mid-tier operators are running on stacks they have outgrown.",
+    "body": "Leasing companies, captives, IFNs, and fleet operators reach a point where the existing systems cannot keep up with new products, new channels, and new compliance demands, but a full platform rebuild is not where the energy of the business should go. Innovia closes the gap as a specialist advisory practice with a working platform behind it."
+  },
+  "services": {
+    "eyebrow": "What I do",
+    "title": "Diagnostics, redesign, prototype, implementation.",
+    "body": "Innovia operates as a specialist consultancy with technology delivery built in. The four engagement types stack: most partners start with a diagnostic and move through redesign into prototype deployment and implementation support.",
+    "items": {
+      "diagnostics": {
+        "title": "Diagnostics",
+        "body": "A structured read on where your origination, decisioning, contract lifecycle, and reporting stack stand against current operator benchmarks. Decision-grade output the leadership team can act on.",
+        "duration": "2-4 weeks"
+      },
+      "redesign": {
+        "title": "Operating-model redesign",
+        "body": "Target operating model for the segments you serve: org, process, data, technology. Sequenced to what the business can actually absorb.",
+        "duration": "4-8 weeks"
+      },
+      "prototype": {
+        "title": "Software prototyping",
+        "body": "Working prototypes on the Innovia platform, configured to your data model and products. Ready for live testing within weeks.",
+        "duration": "6-12 weeks"
+      },
+      "implementation": {
+        "title": "Implementation support",
+        "body": "From prototype to production: integration, data migration, change management, hypercare. I stay until the platform runs the business, not the other way around.",
+        "duration": "3-9 months"
+      }
+    }
+  },
+  "modules": {
+    "eyebrow": "The platform behind the prototype",
+    "title": "Five verticals, one engine.",
+    "body": "Prototyping and implementation engagements run on the Innovia platform. Five modules share the same engine, data model, and workflow orchestrator. Asset Finance and Fleet are prototype-mature today. Working Capital, Consumer Credit, and Secured Microcredit are in active co-development with design partners in 2026.",
+    "statusReady": "Demo-ready",
+    "statusCoDev": "In co-development",
+    "items": {
+      "assetFinance": {
+        "title": "Asset Finance",
+        "body": "Origination, scoring, contract lifecycle, billing, accounting. End-to-end for financial and operational lease, with cross-tenant group reporting."
+      },
+      "fleet": {
+        "title": "Fleet",
+        "body": "Vehicle and service management for captives and independent fleets. Telematics-ready, with cost-per-km and residual value analytics."
+      },
+      "workingCapital": {
+        "title": "Working Capital",
+        "body": "Corporate credit lines, drawdowns, interest runs, covenant tracking. Revolving, term, and uncommitted facilities, distinct from dealer floorplan."
+      },
+      "consumerCredit": {
+        "title": "Consumer Credit",
+        "body": "Point-of-sale and direct-to-consumer lending. Sub-15-minute decisioning, merchant integration, KYC and AML built in."
+      },
+      "securedMicrocredit": {
+        "title": "Secured Microcredit",
+        "body": "Pawn-style, partner-channel, and merchant-bundled lending. Collateral tracking, rapid disbursement, full-cycle compliance."
+      }
+    }
+  },
+  "partnership": {
+    "eyebrow": "How the engagement is structured",
+    "title": "Innovation Partnership.",
+    "body": "Year one runs as a co-creation engagement. The partner gets a configured deployment, decision rights on their module roadmap, and the operator depth that comes from nearly two decades of running European leasing platforms.",
+    "pillars": {
+      "configured": {
+        "title": "Configured deployment",
+        "body": "A working platform shaped to the partner's data model, products, and processes from day one."
+      },
+      "decision": {
+        "title": "Decision rights",
+        "body": "The partner co-owns the module roadmap. What ships first, second, and third reflects their priorities."
+      },
+      "operator": {
+        "title": "Operator depth",
+        "body": "Nearly two decades operating European leasing platforms. Engagements start from operator-grade domain context."
+      }
+    }
+  },
+  "thesis": {
+    "eyebrow": "The thesis",
+    "title": "The UI layer is being commoditised. The core, the config, and the speed are not.",
+    "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is the auditable, deterministic core, the domain configuration each partner builds on top, and the speed at which both can move together. Innovia is structured around that thesis from day one."
+  },
+  "operator": {
+    "eyebrow": "Track record",
+    "title": "Built by an operator.",
+    "body": "Nearly two decades operating European leasing platforms across automotive, equipment, and captive finance. The product roadmap and the advisory practice both reflect what actually breaks in production."
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Sizing a platform decision for 2026-2027?",
+    "body": "Open to a conversation if you operate in any of the five segments above. The first call is a 45-minute working session: your roadmap, my prototype, an honest read on fit.",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "Innovia Systems",
+    "tagline": "Fit for Digital. Fit for AI."
+  }
+}

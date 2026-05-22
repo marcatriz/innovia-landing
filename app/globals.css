@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --innovia-navy: #17202A;
+    --innovia-teal: #079A9C;
+    --innovia-blue: #005CFE;
+    --innovia-ink: #2E3942;
+    --innovia-paper: #FFFFFF;
+    --innovia-tint: #F4F6F8;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: 'cv11', 'ss01', 'ss03';
+  }
+
+  body {
+    @apply font-body text-ink-700 bg-paper antialiased;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-ink-700;
+  }
+
+  ::selection {
+    @apply bg-teal-100 text-ink-700;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto max-w-container px-6 lg:px-10;
+  }
+
+  .eyebrow {
+    @apply text-caption uppercase tracking-wider text-teal-500;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-navy-800 px-6 py-3 font-display font-semibold text-paper transition-colors hover:bg-navy-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-slate-200 bg-paper px-6 py-3 font-display font-semibold text-ink-700 transition-colors hover:border-teal-500 hover:text-teal-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-500;
+  }
+
+  .accent-bar {
+    @apply inline-block h-5 w-1 bg-teal-500 align-middle mr-3;
+  }
+}
