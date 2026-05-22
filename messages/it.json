@@ -20,7 +20,7 @@
     "items": {
       "verticals": { "value": "5", "label": "Verticali su un unico motore" },
       "ready": { "value": "2", "label": "Moduli a livello di produzione" },
-      "codev": { "value": "3", "label": "Pre-produzione per 2026-2027" },
+      "codev": { "value": "3", "label": "Pre-produzione per H2 2026" },
       "operator": { "value": "~20 anni", "label": "Profondità da operatore nel leasing europeo" }
     }
   },
@@ -64,7 +64,7 @@
   "modules": {
     "eyebrow": "La piattaforma dietro il prototipo",
     "title": "Cinque verticali, un solo motore.",
-    "body": "Gli engagement di prototipazione e implementazione girano sulla piattaforma Innovia. Cinque moduli condividono lo stesso motore, lo stesso modello dati e lo stesso orchestratore di workflow. Asset Finance e Fleet sono a livello di produzione oggi. Working Capital, Consumer Credit e Secured Microcredit sono in pre-produzione per 2026-2027.",
+    "body": "Gli engagement di prototipazione e implementazione girano sulla piattaforma Innovia. Cinque moduli condividono lo stesso motore, lo stesso modello dati e lo stesso orchestratore di workflow. Asset Finance e Fleet sono a livello di produzione oggi. Working Capital, Consumer Credit e Secured Microcredit sono in pre-produzione per H2 2026.",
     "statusReady": "Livello di produzione",
     "statusCoDev": "Pre-produzione",
     "items": {

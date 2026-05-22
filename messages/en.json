@@ -20,7 +20,7 @@
     "items": {
       "verticals": { "value": "5", "label": "Verticals on one engine" },
       "ready": { "value": "2", "label": "Modules production-grade" },
-      "codev": { "value": "3", "label": "Pre-production for 2026-2027" },
+      "codev": { "value": "3", "label": "Pre-production for H2 2026" },
       "operator": { "value": "~20y", "label": "European leasing operator depth" }
     }
   },
@@ -64,7 +64,7 @@
   "modules": {
     "eyebrow": "The platform behind the prototype",
     "title": "Five verticals, one engine.",
-    "body": "Prototyping and implementation engagements run on the Innovia platform. Five modules share the same engine, data model, and workflow orchestrator. Asset Finance and Fleet are production-grade today. Working Capital, Consumer Credit, and Secured Microcredit are pre-production for 2026-2027.",
+    "body": "Prototyping and implementation engagements run on the Innovia platform. Five modules share the same engine, data model, and workflow orchestrator. Asset Finance and Fleet are production-grade today. Working Capital, Consumer Credit, and Secured Microcredit are pre-production for H2 2026.",
     "statusReady": "Production-grade",
     "statusCoDev": "Pre-production",
     "items": {

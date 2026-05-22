@@ -20,7 +20,7 @@
     "items": {
       "verticals": { "value": "5", "label": "Vertikalen auf einer Engine" },
       "ready": { "value": "2", "label": "Module produktionsreif" },
-      "codev": { "value": "3", "label": "Pre-Produktion für 2026-2027" },
+      "codev": { "value": "3", "label": "Pre-Produktion für H2 2026" },
       "operator": { "value": "~20 J.", "label": "Erfahrungstiefe im europäischen Leasing" }
     }
   },
@@ -64,7 +64,7 @@
   "modules": {
     "eyebrow": "Die Plattform hinter dem Prototyp",
     "title": "Fünf Vertikalen, eine Engine.",
-    "body": "Prototyping- und Implementierungs-Engagements laufen auf der Innovia-Plattform. Fünf Module teilen sich dieselbe Engine, dasselbe Datenmodell und denselben Workflow-Orchestrator. Asset Finance und Fleet sind heute produktionsreif. Working Capital, Consumer Credit und Secured Microcredit sind Pre-Produktion für 2026-2027.",
+    "body": "Prototyping- und Implementierungs-Engagements laufen auf der Innovia-Plattform. Fünf Module teilen sich dieselbe Engine, dasselbe Datenmodell und denselben Workflow-Orchestrator. Asset Finance und Fleet sind heute produktionsreif. Working Capital, Consumer Credit und Secured Microcredit sind Pre-Produktion für H2 2026.",
     "statusReady": "Produktionsreif",
     "statusCoDev": "Pre-Produktion",
     "items": {
