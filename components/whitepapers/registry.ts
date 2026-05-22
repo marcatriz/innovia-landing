@@ -1,12 +1,12 @@
 /**
- * Whitepaper registry — central index used by both the index page and the
+ * Whitepaper registry: central index used by both the index page and the
  * `[slug]` route. Adding a new paper means:
  *   1. Append an entry below.
  *   2. Create the content component at `components/whitepapers/<Slug>.tsx`.
  *   3. Wire it into the `renderContent()` switch in `app/[locale]/whitepapers/[slug]/page.tsx`.
  *
  * Whitepapers are static, served from the static export (Cloudflare Pages).
- * No CMS — JSX as content keeps the toolchain tiny until the catalog grows
+ * No CMS. JSX as content keeps the toolchain tiny until the catalog grows
  * past 3-5 papers, at which point switching to MDX is the next step.
  */
 

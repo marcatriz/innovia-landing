@@ -31,7 +31,7 @@
   "thesis": {
     "eyebrow": "The thesis",
     "title": "The UI layer is being commoditised. The core, the config, and the speed are not.",
-    "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is the auditable, deterministic core, the domain configuration each partner builds on top of it, and the speed at which both can move together. Innovia is structured around that thesis from day one. The first whitepaper expands on where the moat actually moves in lending — see Whitepapers."
+    "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is the auditable, deterministic core, the domain configuration each partner builds on top of it, and the speed at which both can move together. Innovia is structured around that thesis from day one. The first whitepaper expands on where the moat actually moves in lending. See Whitepapers."
   },
   "services": {
     "eyebrow": "What I do",

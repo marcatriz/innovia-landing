@@ -1,4 +1,4 @@
-# Innovia Systems — landing page
+# Innovia Systems landing page
 
 Next.js 15 (App Router) + Tailwind + next-intl (EN/RO).
 
@@ -17,7 +17,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000 — middleware redirects `/` to the default locale (`/en`).
+Open http://localhost:3000. Middleware redirects `/` to the default locale (`/en`).
 
 ## Build
 

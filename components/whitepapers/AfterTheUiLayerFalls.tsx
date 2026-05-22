@@ -27,7 +27,7 @@ function En() {
       <p>
         Every wave of enterprise software has produced a new commodity layer. In the 2000s it was
         the application server. In the 2010s it was the cloud runtime. In the 2020s it is the
-        application&apos;s presentation layer itself — the screens, the forms, the dashboards, the
+        application&apos;s presentation layer itself: the screens, the forms, the dashboards, the
         report builders. Generative interfaces, copilot patterns, and the orchestration logic that
         sits above them are turning what used to be twelve months of design and build into a few
         days of configuration. The end state is not that UIs disappear. It is that the cost of
@@ -115,7 +115,7 @@ function En() {
         <li>
           <strong>Who owns the configuration?</strong> If your risk policy lives in a Word
           document and is replicated into three different platforms by three different teams,
-          you do not have a configuration layer — you have a coordination tax. The defensible
+          you do not have a configuration layer. You have a coordination tax. The defensible
           version of this layer is a small, versioned, testable artifact that the business and
           the platform team co-own.
         </li>
@@ -138,7 +138,7 @@ function En() {
         The Year-1 Innovation Partnership is the configuration work. The operator depth is mine to
         bring. The speed is what the technology stack and the engagement model are jointly designed
         to deliver. None of that is unique on a slide. The work is in proving it on a deployment
-        — which is exactly what the prototype and implementation engagements are for.
+        , which is exactly what the prototype and implementation engagements are for.
       </p>
       <p>
         If any of the four questions above is currently sitting unanswered in your operating
@@ -155,7 +155,7 @@ function Ro() {
       <p>
         Fiecare val de software enterprise a produs un strat nou care a devenit commodity. În anii
         2000 a fost application server-ul. În anii 2010 a fost cloud runtime-ul. În anii 2020 este
-        chiar stratul de prezentare al aplicației — ecranele, formularele, dashboard-urile,
+        chiar stratul de prezentare al aplicației: ecranele, formularele, dashboard-urile,
         report builder-ele. Interfețele generative, pattern-urile de copilot și logica de
         orchestrare care stă deasupra transformă ce însemna douăsprezece luni de design și build în
         câteva zile de configurație. Nu e că UI-urile dispar. E că prețul producerii unui UI scade
@@ -166,7 +166,7 @@ function Ro() {
         Schimbarea contează specific pentru lending. Sectoarele de leasing, finanțare de consum și
         flote au construit categorii întregi de produse pe presupunerea că interfața de utilizator
         e rară, lentă și scumpă. Deciziile de selecție de vendor, politica internă, bugetele de
-        training, calendarele de integrare — toate sunt ancorate pe acea presupunere. Când ea
+        training, calendarele de integrare, toate sunt ancorate pe acea presupunere. Când ea
         încetează să fie adevărată, multe dintre acele decizii sunt re-prețuite simultan.
       </p>
 
@@ -246,7 +246,7 @@ function Ro() {
         <li>
           <strong>Cine deține configurația?</strong> Dacă politica ta de risc trăiește într-un
           document Word și e replicată în trei platforme diferite de trei echipe diferite, nu ai
-          un strat de configurație — ai o taxă de coordonare. Versiunea defensibilă a acestui
+          un strat de configurație. Ai o taxă de coordonare. Versiunea defensibilă a acestui
           strat e un artefact mic, versionat și testabil pe care business-ul și echipa de
           platformă îl dețin împreună.
         </li>
@@ -270,7 +270,7 @@ function Ro() {
         auditabil. Innovation Partnership-ul de Anul 1 este munca de configurație. Profunzimea de
         operator este ce aduc eu. Viteza este ce stack-ul tehnologic și modelul de engagement sunt
         proiectate împreună să livreze. Nimic din asta nu e unic pe un slide. Munca e în a o
-        demonstra pe un deployment — care e exact pentru ce sunt engagement-urile de prototip și
+        demonstra pe un deployment, care e exact pentru ce sunt engagement-urile de prototip și
         implementare.
       </p>
       <p>

@@ -9,7 +9,7 @@ import { routing } from '@/i18n/routing';
 import AfterTheUiLayerFalls from '@/components/whitepapers/AfterTheUiLayerFalls';
 
 export function generateStaticParams() {
-  // Cross product of locale x slug — required for `output: 'export'`.
+  // Cross product of locale x slug, required for `output: 'export'`.
   return routing.locales.flatMap((locale) =>
     WHITEPAPERS.map((w) => ({ locale, slug: w.slug })),
   );
