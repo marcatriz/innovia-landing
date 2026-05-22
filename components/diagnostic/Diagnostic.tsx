@@ -352,6 +352,17 @@ function Result({
   const bucketTitle = t(`result.buckets.${bucketKey}.title`);
   const bucketBody = t(`result.buckets.${bucketKey}.body`);
 
+  // Soft semaphore matching the per-dimension bar thresholds below:
+  // < 50% = exposed (warning amber), 50-70% = gaps (brandblue), 70%+ = strong/operator (teal).
+  // The big score number and the bucket title share this colour so the
+  // score block reads as one signal.
+  const scoreTone =
+    score.overall < 50
+      ? 'text-warning'
+      : score.overall < 70
+        ? 'text-brandblue-700'
+        : 'text-teal-700';
+
   return (
     <>
       <section className="relative overflow-hidden bg-tint">
@@ -366,12 +377,12 @@ function Result({
         <div className="container-x relative max-w-3xl py-20">
           <p className="eyebrow mb-4">{t('result.eyebrow')}</p>
           <div className="mb-6 flex items-baseline gap-4">
-            <span className="font-display text-[6rem] font-bold leading-none text-teal-700 lg:text-[8rem]">
+            <span className={`font-display text-[6rem] font-bold leading-none ${scoreTone} lg:text-[8rem]`}>
               {score.overall}%
             </span>
             <span className="text-body-lg text-slate-500">{t('result.scoreLabel')}</span>
           </div>
-          <h1 className="mb-4 text-h2 text-ink-700">{bucketTitle}</h1>
+          <h1 className={`mb-4 text-h2 ${scoreTone}`}>{bucketTitle}</h1>
           <p className="text-body-lg text-slate-500">{bucketBody}</p>
         </div>
       </section>
