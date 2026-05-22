@@ -20,6 +20,21 @@ export interface WhitepaperMeta {
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'the-compounding-cost-of-waiting',
+    date: '2026-05-22',
+    minutes: 11,
+    en: {
+      title: 'The compounding cost of waiting',
+      subtitle: 'Why Fit for Digital and Fit for AI is a 2026 conversation, not a 2027 one.',
+      lede: 'Most mid-tier lending operators score between 40 and 65 percent on the Fit for Digital. Fit for AI. diagnostic. The spread is not the news. The news is what happens to that score if the operator does nothing for twelve more months. Four clocks tick: regulator, talent, AI-native competitor, customer expectations.',
+    },
+    ro: {
+      title: 'Costul compus al așteptării',
+      subtitle: 'De ce Fit for Digital și Fit for AI sunt o conversație de 2026, nu de 2027.',
+      lede: 'Majoritatea operatorilor mid-tier de lending obțin între 40 și 65 la sută pe diagnosticul Fit for Digital. Fit for AI. Intervalul nu este știrea. Știrea este ce se întâmplă cu scorul dacă operatorul nu face nimic în următoarele douăsprezece luni. Patru ceasuri ticăie: regulator, talent, concurența AI-native, așteptările clienților.',
+    },
+  },
+  {
     slug: 'after-the-ui-layer-falls',
     date: '2026-05-22',
     minutes: 12,

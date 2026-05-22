@@ -7,6 +7,7 @@ import { Link } from '@/i18n/routing';
 import { WHITEPAPERS, getWhitepaper } from '@/components/whitepapers/registry';
 import { routing } from '@/i18n/routing';
 import AfterTheUiLayerFalls from '@/components/whitepapers/AfterTheUiLayerFalls';
+import TheCompoundingCostOfWaiting from '@/components/whitepapers/TheCompoundingCostOfWaiting';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -19,6 +20,8 @@ function renderContent(slug: string, locale: 'en' | 'ro') {
   switch (slug) {
     case 'after-the-ui-layer-falls':
       return <AfterTheUiLayerFalls locale={locale} />;
+    case 'the-compounding-cost-of-waiting':
+      return <TheCompoundingCostOfWaiting locale={locale} />;
     default:
       return null;
   }
