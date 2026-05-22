@@ -10,9 +10,9 @@
   },
   "hero": {
     "eyebrow": "Innovia Systems",
-    "title": "The leasing stack rebuilt around AI, not retrofitted onto it.",
+    "title": "We build lending platforms around AI. Not on top of it.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "I help leasing, consumer finance, and fleet operators rebuild the core they have outgrown. Diagnostic to working platform in months, not years. The product roadmap and the advisory practice both come from nearly two decades inside European leasing operations.",
+    "body": "We rebuild the core that leasing, consumer finance, and fleet operators have outgrown. Diagnostic to a configured platform running your products on your data, in months not years. Nearly two decades of European leasing operations sit behind every decision.",
     "cta": "Book a 45-minute working session",
     "ctaSecondary": "See the platform"
   },
@@ -27,7 +27,7 @@
   "problem": {
     "eyebrow": "The gap",
     "title": "Mid-tier operators are running on stacks they have outgrown.",
-    "body": "Leasing companies, captives, IFNs, and fleet operators reach a point where the existing systems cannot keep up with new products, new channels, and new compliance demands. By the time the rebuild board paper gets approved, the next product cycle is already lost and the AI-native challengers have shipped twice. Innovia closes the gap as a specialist advisory practice with a working platform behind it, not a slide pack and a partner search."
+    "body": "Leasing companies, captives, non-bank lenders, and fleet operators reach a point where the existing systems cannot keep up with new products, new channels, and new compliance demands. By the time the rebuild board paper gets approved, the next product cycle is already lost and the AI-native challengers have shipped twice. Innovia closes the gap as a specialist advisory practice with a working platform behind it, not a slide pack and a partner search."
   },
   "thesis": {
     "eyebrow": "The thesis",
@@ -35,7 +35,7 @@
     "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is the auditable, deterministic core, the domain configuration each partner builds on top of it, and the speed at which both can move together. Innovia is structured around that thesis from day one. The first whitepaper expands on where the moat actually moves in lending. See Whitepapers."
   },
   "services": {
-    "eyebrow": "What I do",
+    "eyebrow": "What we do",
     "title": "Diagnostics, redesign, prototype, implementation.",
     "body": "Innovia operates as a specialist consultancy with technology delivery built in. The four engagement types stack: most partners start with a diagnostic and move through redesign into prototype deployment and implementation support.",
     "items": {
@@ -56,7 +56,7 @@
       },
       "implementation": {
         "title": "Implementation support",
-        "body": "From prototype to production: integration, data migration, change management, hypercare. I stay until the platform runs the business, not the other way around.",
+        "body": "From prototype to production: integration, data migration, change management, hypercare. We stay until the platform runs the business, not the other way around.",
         "duration": "3-9 months"
       }
     }
@@ -146,7 +146,7 @@
       "breakdownTitle": "Breakdown by dimension",
       "ctaEyebrow": "Next step",
       "ctaTitle": "The score is the easy part. The conversation is where it gets useful.",
-      "ctaBody": "If anything in this breakdown surprised you, that is exactly the kind of thing the first 45 minutes are good for. Your roadmap, my prototype, an honest read on fit.",
+      "ctaBody": "If anything in this breakdown surprised you, that is exactly the kind of thing the first 45 minutes are good for. Your roadmap, our prototype, an honest read on fit.",
       "ctaPrimary": "Book a 45-minute working session",
       "ctaSecondary": "Read the whitepaper",
       "buckets": {
@@ -183,7 +183,7 @@
   "contact": {
     "eyebrow": "Get in touch",
     "title": "Sizing a platform decision for 2026-2027?",
-    "body": "Open to a conversation if you operate in any of the five segments above. The first call is a 45-minute working session: your roadmap, my prototype, an honest read on fit.",
+    "body": "Open to a conversation if you operate in any of the five segments above. The first call is a 45-minute working session: your roadmap, our prototype, an honest read on fit.",
     "email": "Email",
     "linkedin": "LinkedIn"
   },

@@ -8,7 +8,7 @@
  *
  * Style rules (enforced):
  *  - No em dashes. Substitute with colon, comma, parens, or sentence split.
- *  - First-person singular voice.
+ *  - Website voice: first person plural ("we").
  *  - No client, partner, or competitor names.
  */
 
@@ -46,7 +46,7 @@ function En() {
       </p>
       <p>
         A 60 percent score is not a failing grade. It is the honest market
-        median for mid-tier IFNs, captives, and independent fleets in European
+        median for mid-tier non-bank lenders, captives, and independent fleets in European
         leasing. The reason most operators land there is structural, not
         embarrassing: the segment was built on assumptions about pace, vendor
         leverage, and AI maturity that no longer hold.
@@ -182,8 +182,8 @@ function En() {
       <p>
         If your score is in the 40 to 65 percent band, that is the market
         median. The question is not whether to be embarrassed. The question is
-        what the next move looks like in 2026. I will help you find it. The
-        first 45 minutes are on me.
+        what the next move looks like in 2026. We will help you find it. The
+        first 45 minutes are on us.
       </p>
     </div>
   );
@@ -361,8 +361,8 @@ function Ro() {
       <p>
         Dacă scorul tău este în banda 40-65 la sută, asta este mediana de
         piață. Întrebarea nu este dacă să te jenezi. Întrebarea este cum
-        arată următoarea mișcare în 2026. Te ajut să o găsești. Primele 45 de
-        minute sunt din partea mea.
+        arată următoarea mișcare în 2026. Te ajutăm să o găsești. Primele 45 de
+        minute sunt din partea noastră.
       </p>
     </div>
   );

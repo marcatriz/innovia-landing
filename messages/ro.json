@@ -10,9 +10,9 @@
   },
   "hero": {
     "eyebrow": "Innovia Systems",
-    "title": "Stack-ul de leasing reconstruit în jurul AI-ului, nu retrofitat peste el.",
+    "title": "Construim platforme de lending în jurul AI-ului. Nu peste el.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "Ajut operatorii de leasing, finanțare de consum și flote să reconstruiască nucleul pe care l-au depășit. De la diagnostic la platformă funcțională în luni, nu în ani. Roadmap-ul de produs și practica de advisory vin amândouă din aproape două decenii de operare a platformelor europene de leasing.",
+    "body": "Reconstruim nucleul pe care l-au depășit operatorii de leasing, finanțare de consum și flote. De la diagnostic la o platformă configurată care rulează produsele tale pe datele tale, în luni nu în ani. Aproape două decenii de operare a platformelor europene de leasing stau în spatele fiecărei decizii.",
     "cta": "Programează o sesiune de lucru de 45 de minute",
     "ctaSecondary": "Vezi platforma"
   },
@@ -35,7 +35,7 @@
     "body": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este nucleul auditabil și determinist, configurația de domeniu pe care fiecare partener o construiește deasupra, și viteza cu care cele două pot evolua împreună. Innovia este structurată în jurul acestei teze din ziua unu. Primul whitepaper detaliază unde se mută moat-ul efectiv în lending. Vezi Whitepapers."
   },
   "services": {
-    "eyebrow": "Ce livrez",
+    "eyebrow": "Ce livrăm",
     "title": "Diagnostic, redesign, prototip, implementare.",
     "body": "Innovia operează ca o consultanță specializată cu livrare tehnologică încorporată. Cele patru tipuri de engagement se înlănțuie: cei mai mulți parteneri încep cu un diagnostic și avansează prin redesign către deployment de prototip și suport de implementare.",
     "items": {
@@ -56,7 +56,7 @@
       },
       "implementation": {
         "title": "Suport de implementare",
-        "body": "De la prototip la producție: integrare, migrare de date, change management, hypercare. Rămân până când platforma rulează business-ul, nu invers.",
+        "body": "De la prototip la producție: integrare, migrare de date, change management, hypercare. Rămânem până când platforma rulează business-ul, nu invers.",
         "duration": "3-9 luni"
       }
     }
@@ -146,7 +146,7 @@
       "breakdownTitle": "Defalcare pe dimensiuni",
       "ctaEyebrow": "Pasul următor",
       "ctaTitle": "Scorul e partea ușoară. Discuția e acolo unde devine utilă.",
-      "ctaBody": "Dacă ceva din breakdown-ul de mai sus te-a surprins, exact pentru asta sunt bune primele 45 de minute. Roadmap-ul tău, prototipul meu, o citire onestă de potrivire.",
+      "ctaBody": "Dacă ceva din breakdown-ul de mai sus te-a surprins, exact pentru asta sunt bune primele 45 de minute. Roadmap-ul tău, prototipul nostru, o citire onestă de potrivire.",
       "ctaPrimary": "Programează o sesiune de lucru de 45 de minute",
       "ctaSecondary": "Citește whitepaper-ul",
       "buckets": {
@@ -183,7 +183,7 @@
   "contact": {
     "eyebrow": "Hai să vorbim",
     "title": "O decizie de platformă în roadmap pentru 2026-2027?",
-    "body": "Deschis la o discuție dacă operați în oricare dintre cele cinci segmente de mai sus. Prima discuție este o sesiune de lucru de 45 de minute: roadmap-ul vostru, prototipul meu, o citire onestă de potrivire.",
+    "body": "Deschiși la o discuție dacă operați în oricare dintre cele cinci segmente de mai sus. Prima discuție este o sesiune de lucru de 45 de minute: roadmap-ul vostru, prototipul nostru, o citire onestă de potrivire.",
     "email": "Email",
     "linkedin": "LinkedIn"
   },

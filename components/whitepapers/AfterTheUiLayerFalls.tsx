@@ -7,9 +7,12 @@
  * pattern.
  *
  * Style notes:
- *  - First person singular ("I"). No corporate "we".
+ *  - Website voice: first person plural ("we"). The split between we (public
+ *    site, whitepapers, decks) and I (DMs, 1:1 emails) is captured in the
+ *    no-corporate-we memory note.
  *  - No named clients, partners, or competitors.
  *  - Operator-grade voice: concrete, opinionated, no consulting boilerplate.
+ *  - No em dashes anywhere, in either language.
  */
 
 interface ContentProps {
@@ -84,7 +87,7 @@ function En() {
 
       <h2>What it means for a mid-tier operator in 2026</h2>
       <p>
-        If you are running a mid-tier IFN, a captive, or an independent fleet, the practical
+        If you are running a mid-tier non-bank lender, a captive, or an independent fleet, the practical
         implication is that the shape of your next platform decision has changed. A traditional
         decision in 2018 looked like this: write a board paper, run an RFP, pick a vendor, spend
         eighteen to twenty-four months on implementation, hope nothing material changes in the
@@ -132,10 +135,10 @@ function En() {
         </li>
       </ol>
 
-      <h2>What I am building around this thesis</h2>
+      <h2>What we are building around this thesis</h2>
       <p>
         Innovia is structured around the four layers above. The platform is the auditable core.
-        The Year-1 Innovation Partnership is the configuration work. The operator depth is mine to
+        The Year-1 Innovation Partnership is the configuration work. The operator depth is what we
         bring. The speed is what the technology stack and the engagement model are jointly designed
         to deliver. None of that is unique on a slide. The work is in proving it on a deployment
         , which is exactly what the prototype and implementation engagements are for.
@@ -264,11 +267,11 @@ function Ro() {
         </li>
       </ol>
 
-      <h2>Ce construiesc în jurul acestei teze</h2>
+      <h2>Ce construim în jurul acestei teze</h2>
       <p>
         Innovia este structurată în jurul celor patru straturi de mai sus. Platforma este nucleul
         auditabil. Innovation Partnership-ul de Anul 1 este munca de configurație. Profunzimea de
-        operator este ce aduc eu. Viteza este ce stack-ul tehnologic și modelul de engagement sunt
+        operator este ce aducem. Viteza este ce stack-ul tehnologic și modelul de engagement sunt
         proiectate împreună să livreze. Nimic din asta nu e unic pe un slide. Munca e în a o
         demonstra pe un deployment, care e exact pentru ce sunt engagement-urile de prototip și
         implementare.
