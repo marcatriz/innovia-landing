@@ -11,7 +11,7 @@
   "hero": {
     "eyebrow": "Innovia Systems",
     "title": "Wir entwerfen Lending-Plattformen AI-first. Von der Diagnostik zum Prototyp in Wochen.",
-    "tagline": "Fit for Digital. Fit for AI.",
+    "tagline": "Fit for Digital, Fit for AI.",
     "body": "Wir bauen den Kern neu auf, den Leasing-, Konsumentenkredit- und Fuhrparkbetreiber bereits hinter sich gelassen haben. Diagnostik in Wochen. Ein konfigurierter Prototyp, der Ihre Produkte auf Ihren Daten betreibt, innerhalb eines Quartals. Hinter jeder Entscheidung stehen knapp zwei Jahrzehnte europäischer Leasingbetrieb.",
     "cta": "Vereinbaren Sie eine 45-minütige Arbeitssitzung",
     "ctaSecondary": "Plattform ansehen"
@@ -120,7 +120,7 @@
   },
   "diagnostic": {
     "eyebrow": "Diagnostik",
-    "title": "Fit for Digital. Fit for AI.",
+    "title": "Fit for Digital, Fit for AI.",
     "subtitle": "Eine 7-minütige Standortbestimmung Ihres Betriebs.",
     "intro1": "Zwanzig Fragen über sieben Dimensionen: Kernplattform, Konfiguration und Tempo, Daten und Decisioning, Compliance und Audit, KI-Reife, Kundenerlebnis und Mitarbeitererlebnis. Die Messlatte liegt auf Betreiberniveau, nicht auf Enterprise-Baseline.",
     "intro2": "Keine E-Mail, keine Anmeldung. Das Ergebnis lebt ausschließlich in Ihrem Browser. Wenn der Score ehrlich aussieht, ist der nächste Schritt ein Gespräch.",
@@ -142,7 +142,7 @@
     },
     "result": {
       "eyebrow": "Ihr Ergebnis",
-      "scoreLabel": "Fit for Digital. Fit for AI.",
+      "scoreLabel": "Ihr Gesamtergebnis",
       "breakdownTitle": "Aufschlüsselung nach Dimension",
       "ctaEyebrow": "Nächster Schritt",
       "ctaTitle": "Der Score ist der einfache Teil. Erst das Gespräch macht ihn nützlich.",
@@ -189,6 +189,6 @@
   },
   "footer": {
     "copyright": "Innovia Systems",
-    "tagline": "Fit for Digital. Fit for AI."
+    "tagline": "Fit for Digital, Fit for AI."
   }
 }

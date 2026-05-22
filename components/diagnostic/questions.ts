@@ -1,5 +1,5 @@
 /**
- * Fit for Digital. Fit for AI. Diagnostic questionnaire.
+ * Fit for Digital, Fit for AI. Diagnostic questionnaire.
  *
  * 7 dimensions, 20 questions, 5 options each. Each option scores 0/25/50/75/100.
  * Dimension score = mean of its questions. Overall = mean of 7 dimensions.
