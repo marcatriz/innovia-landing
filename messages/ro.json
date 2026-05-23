@@ -2,6 +2,7 @@
   "nav": {
     "services": "Servicii",
     "modules": "Platformă",
+    "useCases": "Cazuri de utilizare",
     "partnership": "Parteneriat",
     "thesis": "Teza",
     "diagnostic": "Diagnostic",
@@ -87,6 +88,64 @@
       "securedMicrocredit": {
         "title": "Secured Microcredit",
         "body": "Amanet, canal de parteneri și creditare integrată în retail. Monitorizare colateral, disbursement rapid, full-cycle compliance."
+      }
+    }
+  },
+  "useCases": {
+    "eyebrow": "Din platforma operațională",
+    "title": "Zece fluxuri pe care platforma Innovia le execută out of the box.",
+    "body": "Capturi din aplicația Innovia live, blurate ușor astfel încât structura rămâne lizibilă iar datele specifice rămân private. Fiecare card corespunde unui rol real și unui flux real care rulează deja pe date demo.",
+    "note": "Capturi din branch-ul Innovia. Blurate pentru protecția datelor demo — demonstrații clare disponibile la cerere.",
+    "items": {
+      "executiveDashboard": {
+        "area": "Privire executivă",
+        "title": "Centru de comandă portofoliu",
+        "body": "KPI la nivel de grup, mix de portofoliu, trend time-to-yes și time-to-pay, distribuție pe tipuri de contract — o singură imagine operațională pe branduri și canale."
+      },
+      "dealPipeline": {
+        "area": "Vânzări și originare",
+        "title": "Pipeline de deal-uri",
+        "body": "Operatorii de vânzări mută dosarele de la cerere până la aprobare într-un singur workspace. Valoare pipeline, time-to-yes, rata de aprobare și distribuție pe etape urmărite peste fiecare tip de contract."
+      },
+      "financialScoring": {
+        "area": "Risc și underwriting",
+        "title": "Motor de scoring financiar",
+        "body": "Scoring corporate pe cinci dimensiuni: venit, marjă EBITDA, levier, lichiditate, rată capital propriu. Scorează, stochează și auditează deciziile chiar pe dosarul deal-ului."
+      },
+      "contractManagement": {
+        "area": "Servicing contracte",
+        "title": "Managementul contractelor",
+        "body": "Întregul portofoliu de leasing într-o listă căutabilă — status, valoare finanțată, dobândă medie, contracte active. Detaliu pe schedule, servicii și documente."
+      },
+      "collections": {
+        "area": "Colectări și recuperare",
+        "title": "Collections și dunning",
+        "body": "Aging buckets, restanțe per contract, conturi marcate la risc și o coadă de acțiuni. Linie directă de la o plată ratată la workflow-ul de dunning."
+      },
+      "productCatalog": {
+        "area": "Configurare produse",
+        "title": "Catalog produse financiare",
+        "body": "Operating Lease, Finance Lease, Hire Purchase, credite corporate, variante EV și green — monedă, tip de eșalonare, benzi de dobândă și avans per produs."
+      },
+      "insuranceCatalog": {
+        "area": "Configurare produse",
+        "title": "Produse de asigurare",
+        "body": "Catalog asigurări (CASCO, GAP, viață și specifice activului) legat de suma finanțată și marja brokerului. Activabil per piață, prețuit per clasă de activ."
+      },
+      "fleetOperations": {
+        "area": "Flotă și operațiuni",
+        "title": "Vedere flotă client",
+        "body": "Mărime flotă, valoare finanțată, expunere reziduală, contracte care expiră, active suspendate — plus un timeline de expirare a contractelor pentru planificarea reînnoirilor."
+      },
+      "dealerPortal": {
+        "area": "Self-service dealer",
+        "title": "Portal dealer",
+        "body": "Dealerii cotează, aplică și urmăresc din propriul portal. Campaniile active apar cu rată subvenționată, uplift RV și volumul rămas."
+      },
+      "clientPortal": {
+        "area": "Self-service împrumutat",
+        "title": "Portal client",
+        "body": "Împrumutații retail și corporate își văd eșalonarea, plătit vs. rămas, plățile viitoare, alertele de restanță și serviciile active fără să sune back-office."
       }
     }
   },

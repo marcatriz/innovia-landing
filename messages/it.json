@@ -2,6 +2,7 @@
   "nav": {
     "services": "Servizi",
     "modules": "Piattaforma",
+    "useCases": "Casi d'uso",
     "partnership": "Partnership",
     "thesis": "Tesi",
     "diagnostic": "Diagnostica",
@@ -87,6 +88,64 @@
       "securedMicrocredit": {
         "title": "Secured Microcredit",
         "body": "Pegno, canale partner e credito integrato nel retail. Tracciamento collaterale, erogazione rapida, conformità su tutto il ciclo."
+      }
+    }
+  },
+  "useCases": {
+    "eyebrow": "Dalla piattaforma operativa",
+    "title": "Dieci workflow che la piattaforma Innovia esegue out of the box.",
+    "body": "Catture dall'applicazione Innovia in esecuzione, leggermente sfocate così che la struttura resti leggibile ma i dati specifici restino privati. Ogni card corrisponde a un ruolo reale e a un workflow reale già operativo su dati demo.",
+    "note": "Catture dal trunk Innovia. Sfocate per proteggere i dati demo — walkthrough nitidi disponibili su richiesta.",
+    "items": {
+      "executiveDashboard": {
+        "area": "Vista esecutiva",
+        "title": "Centro di comando del portafoglio",
+        "body": "KPI a livello di gruppo, mix di portafoglio, trend time-to-yes e time-to-pay, breakdown per tipo di contratto — una vista operativa unica su brand e canali."
+      },
+      "dealPipeline": {
+        "area": "Vendite e origination",
+        "title": "Pipeline di deal",
+        "body": "Gli operatori commerciali muovono le pratiche dalla richiesta all'approvazione in un unico workspace. Valore pipeline, time-to-yes, tasso di approvazione e breakdown per fase su ogni tipo di contratto."
+      },
+      "financialScoring": {
+        "area": "Rischio e underwriting",
+        "title": "Motore di scoring finanziario",
+        "body": "Scoring corporate a cinque dimensioni: ricavo, margine EBITDA, leva, liquidità, rapporto di equity. Valuta, archivia e audita le decisioni direttamente sulla pratica del deal."
+      },
+      "contractManagement": {
+        "area": "Servicing contratti",
+        "title": "Gestione contratti",
+        "body": "L'intero book di leasing in una lista ricercabile — stato, valore finanziato, tasso medio, contratti attivi. Drill-in su piano di ammortamento, servizi e documenti."
+      },
+      "collections": {
+        "area": "Recupero crediti",
+        "title": "Collections e solleciti",
+        "body": "Aging buckets, scaduto per contratto, conti segnalati a rischio e una coda di azioni. Linea diretta dal pagamento mancato al workflow di sollecito."
+      },
+      "productCatalog": {
+        "area": "Configurazione prodotto",
+        "title": "Catalogo prodotti finanziari",
+        "body": "Operating Lease, Finance Lease, locazione con riscatto, prestiti corporate, varianti EV e green — valuta, tipo di piano, fasce di tasso e anticipo per prodotto."
+      },
+      "insuranceCatalog": {
+        "area": "Configurazione prodotto",
+        "title": "Prodotti assicurativi",
+        "body": "Catalogo assicurativo (CASCO, GAP, vita e specifico per asset) collegato all'importo finanziato e al margine broker. Attivabile per mercato, prezzato per classe di asset."
+      },
+      "fleetOperations": {
+        "area": "Flotta e operations",
+        "title": "Vista flotta cliente",
+        "body": "Dimensione flotta, valore finanziato, esposizione residuale, contratti in scadenza, asset sospesi — più una timeline di scadenza contratti per la pianificazione dei rinnovi."
+      },
+      "dealerPortal": {
+        "area": "Self-service concessionario",
+        "title": "Portale concessionario",
+        "body": "I concessionari preventivano, propongono e tracciano dal proprio portale. Le campagne attive emergono con tasso sovvenzionato, uplift VR e volume residuo."
+      },
+      "clientPortal": {
+        "area": "Self-service cliente",
+        "title": "Portale cliente",
+        "body": "Mutuatari retail e corporate vedono il loro piano, pagato vs. residuo, prossimi pagamenti, alert di scaduto e servizi attivi senza chiamare il back-office."
       }
     }
   },

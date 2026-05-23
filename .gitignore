@@ -2,6 +2,9 @@ node_modules/
 .next/
 out/
 .env*
+scripts/_captures/
+scripts/_preview-*.png
+scripts/_debug-*.png
 !.env.example
 .DS_Store
 *.log

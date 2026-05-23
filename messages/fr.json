@@ -2,6 +2,7 @@
   "nav": {
     "services": "Services",
     "modules": "Plateforme",
+    "useCases": "Cas d'usage",
     "partnership": "Partenariat",
     "thesis": "Thèse",
     "diagnostic": "Diagnostic",
@@ -87,6 +88,64 @@
       "securedMicrocredit": {
         "title": "Secured Microcredit",
         "body": "Crédit gagé, en canal partenaire et intégré au retail marchand. Suivi du collatéral, déboursement rapide, conformité sur tout le cycle."
+      }
+    }
+  },
+  "useCases": {
+    "eyebrow": "Depuis la plateforme en production",
+    "title": "Dix workflows que la plateforme Innovia exécute out of the box.",
+    "body": "Captures de l'application Innovia en fonctionnement, légèrement floutées : la structure reste lisible, les données spécifiques restent privées. Chaque carte correspond à un rôle réel et à un workflow réel déjà opérationnel sur des données de démonstration.",
+    "note": "Captures issues du trunk Innovia. Floutées pour protéger les données de démonstration — démonstrations nettes disponibles sur demande.",
+    "items": {
+      "executiveDashboard": {
+        "area": "Vue exécutive",
+        "title": "Centre de pilotage du portefeuille",
+        "body": "KPI au niveau du groupe, mix de portefeuille, tendances time-to-yes et time-to-pay, répartition par type de contrat — une seule vue opérationnelle sur marques et canaux."
+      },
+      "dealPipeline": {
+        "area": "Ventes et origination",
+        "title": "Pipeline de deals",
+        "body": "Les commerciaux font passer les dossiers de la demande à l'approbation dans un seul workspace. Valeur du pipeline, time-to-yes, taux d'approbation et répartition par étapes suivis sur chaque type de contrat."
+      },
+      "financialScoring": {
+        "area": "Risque et underwriting",
+        "title": "Moteur de scoring financier",
+        "body": "Scoring corporate à cinq dimensions : chiffre d'affaires, marge EBITDA, levier, liquidité, ratio de fonds propres. Noter, stocker et auditer les décisions directement sur le dossier deal."
+      },
+      "contractManagement": {
+        "area": "Servicing contrats",
+        "title": "Gestion des contrats",
+        "body": "L'ensemble du book de leasing dans une liste filtrable — statut, valeur financée, taux moyen, contrats actifs. Drill-in vers l'échéancier, les services et les documents."
+      },
+      "collections": {
+        "area": "Recouvrement",
+        "title": "Collections et relance",
+        "body": "Aging buckets, impayés par contrat, comptes marqués à risque et file d'actions. Lien direct du paiement manqué au workflow de relance."
+      },
+      "productCatalog": {
+        "area": "Configuration produit",
+        "title": "Catalogue de produits financiers",
+        "body": "Operating Lease, Finance Lease, location avec option d'achat, crédits corporate, variantes EV et green — devise, type d'échéancier, plages de taux et d'apport par produit."
+      },
+      "insuranceCatalog": {
+        "area": "Configuration produit",
+        "title": "Produits d'assurance",
+        "body": "Catalogue d'assurances (CASCO, GAP, vie et spécifiques à l'actif) câblé à la valeur financée et à la marge courtier. Activable par marché, tarifé par classe d'actif."
+      },
+      "fleetOperations": {
+        "area": "Flotte et opérations",
+        "title": "Vue flotte client",
+        "body": "Taille de flotte, valeur financée, exposition résiduelle, contrats arrivant à échéance, actifs suspendus — plus une timeline d'expiration de contrats pour la planification des renouvellements."
+      },
+      "dealerPortal": {
+        "area": "Self-service concessionnaire",
+        "title": "Portail concessionnaire",
+        "body": "Les concessionnaires cotent, soumettent et suivent depuis leur propre portail. Les campagnes actives apparaissent avec taux subventionné, uplift VR et volume restant."
+      },
+      "clientPortal": {
+        "area": "Self-service emprunteur",
+        "title": "Portail client",
+        "body": "Les emprunteurs retail et corporate voient leur échéancier, payé vs. restant, prochaines échéances, alertes d'impayé et services actifs sans appeler le back-office."
       }
     }
   },
