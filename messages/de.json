@@ -31,8 +31,8 @@
   },
   "thesis": {
     "eyebrow": "Die These",
-    "title": "Die UI-Schicht wird zur Commodity. Der Kern, die Konfiguration und das Tempo nicht.",
-    "body": "LLMs und Workflow-Orchestrierung fressen das Frontend jeder Enterprise-Anwendung. Verteidigungsfähig bleiben drei Dinge: der auditierbare, deterministische Kern, die domänenspezifische Konfiguration, die jeder Partner darauf aufbaut, und das Tempo, in dem sich beide gemeinsam bewegen können. Innovia ist von Tag eins um diese These herum aufgebaut. Das erste Whitepaper vertieft, wohin sich der Burggraben im Lending tatsächlich verschiebt. Siehe Whitepapers."
+    "title": "Drei Eigenschaften halten ihren Wert, wenn die UI-Schicht zur Commodity wird: verifizierte Isolation, ein Single Codebase, KI-nativ ab Tag eins.",
+    "body": "LLMs und Workflow-Orchestrierung fressen das Frontend jeder Enterprise-Anwendung. Verteidigungsfähig bleibt Multi-Tenant-Isolation, die durch fünfundzwanzig Integrationstests in CI verifiziert und nicht im Marketing versprochen wird, ein Single Codebase, der sich über Audit, KI, Schema und Deployment aufzinst, und eine KI-native Haltung, die vom ersten Commit an eingebaut ist (Anthropic Vision über Dokumenten, MCP-aufrufbare Tools, agententaugliches Audit-Log). Innovia ist von Tag eins um alle drei herum aufgebaut. Die Whitepapers vertiefen jede Eigenschaft."
   },
   "services": {
     "eyebrow": "Was wir tun",

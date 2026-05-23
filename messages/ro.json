@@ -31,8 +31,8 @@
   },
   "thesis": {
     "eyebrow": "Teza",
-    "title": "Stratul de UI este comoditizat. Nucleul, configurația și viteza nu.",
-    "body": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este nucleul auditabil și determinist, configurația de domeniu pe care fiecare partener o construiește deasupra, și viteza cu care cele două pot evolua împreună. Innovia este structurată în jurul acestei teze din ziua unu. Primul whitepaper detaliază unde se mută moat-ul efectiv în lending. Vezi Whitepapers."
+    "title": "Trei proprietăți țin valoare pe măsură ce stratul de UI se comoditizează: izolare verificată, single codebase, AI-native din ziua unu.",
+    "body": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este izolarea multi-tenant verificată prin douăzeci și cinci de teste de integrare în CI, nu promisă în marketing, un singur codebase care compune peste audit, IA, schemă și deployment, și o postură AI-native încorporată de la primul commit (Anthropic vision pe documente, tool-uri apelabile prin MCP, audit log de calitate agent). Innovia este structurată în jurul tuturor trei din ziua unu. Whitepapers detaliază fiecare proprietate la rândul ei."
   },
   "services": {
     "eyebrow": "Ce livrăm",

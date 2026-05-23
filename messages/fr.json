@@ -31,8 +31,8 @@
   },
   "thesis": {
     "eyebrow": "La thèse",
-    "title": "La couche UI devient une commodité. Le cœur, la configuration et la vitesse ne le deviennent pas.",
-    "body": "Les LLM et l'orchestration de workflow dévorent le front-end de chaque application enterprise. Restent défendables : un cœur auditable et déterministe, la configuration métier que chaque partenaire construit dessus, et la vitesse à laquelle les deux peuvent évoluer ensemble. Innovia est structurée autour de cette thèse depuis le premier jour. Le premier whitepaper développe où se déplace réellement le moat dans le lending. Voir Whitepapers."
+    "title": "Trois propriétés tiennent leur valeur quand la couche UI devient commodité : isolation vérifiée, un single codebase, IA-native dès le premier jour.",
+    "body": "Les LLM et l'orchestration de workflow dévorent le front-end de chaque application enterprise. Restent défendables : une isolation multi-tenant vérifiée par vingt-cinq tests d'intégration en CI plutôt que promise en marketing, un single codebase qui compose à travers audit, IA, schéma et déploiement, et une posture IA-native intégrée dès le premier commit (Anthropic vision sur les documents, outils appelables via MCP, journal d'audit de qualité agent). Innovia est structurée autour des trois depuis le premier jour. Les whitepapers développent chaque propriété tour à tour."
   },
   "services": {
     "eyebrow": "Ce que nous faisons",

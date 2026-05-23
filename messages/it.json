@@ -31,8 +31,8 @@
   },
   "thesis": {
     "eyebrow": "La tesi",
-    "title": "Il livello UI sta diventando una commodity. Il nucleo, la configurazione e la velocità no.",
-    "body": "Gli LLM e l'orchestrazione di workflow stanno divorando il front-end di ogni applicazione enterprise. Restano difendibili tre cose: il nucleo auditabile e deterministico, la configurazione di dominio che ogni partner costruisce sopra, e la velocità con cui i due possono muoversi insieme. Innovia è strutturata intorno a questa tesi dal primo giorno. Il primo whitepaper approfondisce dove si sposta davvero il moat nel lending. Vedi Whitepapers."
+    "title": "Tre proprietà tengono valore mentre il livello UI diventa commodity: isolamento verificato, un single codebase, IA-native dal primo giorno.",
+    "body": "Gli LLM e l'orchestrazione di workflow stanno divorando il front-end di ogni applicazione enterprise. Restano difendibili l'isolamento multi-tenant verificato da venticinque test di integrazione in CI invece che promesso nel marketing, un single codebase che si compone tra audit, IA, schema e deployment, e una postura IA-native incorporata dal primo commit (Anthropic vision sui documenti, strumenti chiamabili tramite MCP, audit log di qualità agente). Innovia è strutturata intorno a tutti e tre dal primo giorno. I whitepaper approfondiscono ogni proprietà a turno."
   },
   "services": {
     "eyebrow": "Cosa facciamo",

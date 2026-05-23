@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'single-codebase-as-a-property',
+    date: '2026-05-23',
+    minutes: 9,
+    en: {
+      title: 'Single codebase as a property, not a portal',
+      subtitle: 'A portal that unifies five backends still leaves five backends. Single codebase compounds across audit, AI, schema, and deployment.',
+      lede: 'Sooner or later a vendor that has carried five products through three acquisitions points to a new portal and calls itself unified. The portal is real. The five backends are still five backends. We argue that single codebase is a structural property worth pricing into the decision, and we show what it buys and what it costs us.',
+    },
+    ro: {
+      title: 'Single codebase ca proprietate, nu ca portal',
+      subtitle: 'Un portal care unifică cinci backend-uri lasă tot cinci backend-uri. Single codebase compune peste audit, IA, schemă și deployment.',
+      lede: 'Mai devreme sau mai târziu un furnizor care a purtat cinci produse prin trei achiziții arată spre un portal nou și se autodeclară unificat. Portalul este real. Cele cinci backend-uri rămân cinci backend-uri. Argumentăm că single codebase este o proprietate structurală pe care merită să o iei în calcul, și arătăm ce cumpără și ce ne costă.',
+    },
+    de: {
+      title: 'Single Codebase als Eigenschaft, nicht als Portal',
+      subtitle: 'Ein Portal, das fünf Backends vereinheitlicht, lässt immer noch fünf Backends. Single Codebase zinst auf in Audit, KI, Schema und Deployment.',
+      lede: 'Früher oder später zeigt ein Anbieter, der fünf Produkte durch drei Akquisitionen mitgeschleppt hat, auf ein neues Portal und nennt sich vereinheitlicht. Das Portal ist echt. Die fünf Backends sind immer noch fünf Backends. Wir argumentieren, dass Single Codebase eine strukturelle Eigenschaft ist, die in die Entscheidung eingepreist werden sollte, und zeigen, was sie bringt und was sie uns kostet.',
+    },
+    fr: {
+      title: 'Single codebase comme propriété, pas comme portail',
+      subtitle: 'Un portail qui unifie cinq backends laisse toujours cinq backends. Single codebase compose à travers audit, IA, schéma et déploiement.',
+      lede: 'Tôt ou tard, un fournisseur qui a porté cinq produits à travers trois acquisitions montre un nouveau portail et se déclare unifié. Le portail est réel. Les cinq backends restent cinq backends. Nous soutenons que single codebase est une propriété structurelle à prendre en compte dans la décision, et nous montrons ce qu&apos;elle apporte et ce qu&apos;elle nous coûte.',
+    },
+    it: {
+      title: 'Single codebase come proprietà, non come portale',
+      subtitle: 'Un portale che unifica cinque backend lascia comunque cinque backend. Single codebase si compone tra audit, IA, schema e deployment.',
+      lede: 'Prima o poi un fornitore che ha portato cinque prodotti attraverso tre acquisizioni indica un nuovo portale e si dichiara unificato. Il portale è reale. I cinque backend restano cinque backend. Sosteniamo che single codebase sia una proprietà strutturale da considerare nella decisione, e mostriamo cosa porta e cosa ci costa.',
+    },
+  },
+  {
     slug: 'multi-tenant-isolation-as-a-property',
     date: '2026-05-23',
     minutes: 8,

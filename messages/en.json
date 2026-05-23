@@ -31,8 +31,8 @@
   },
   "thesis": {
     "eyebrow": "The thesis",
-    "title": "The UI layer is being commoditised. The core, the config, and the speed are not.",
-    "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is the auditable, deterministic core, the domain configuration each partner builds on top of it, and the speed at which both can move together. Innovia is structured around that thesis from day one. The first whitepaper expands on where the moat actually moves in lending. See Whitepapers."
+    "title": "Three properties hold value as the UI layer commoditises: verified isolation, a single codebase, AI-native from day one.",
+    "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is multi-tenant isolation verified by twenty-five integration tests in CI rather than promised in marketing, a single codebase that compounds across audit, AI, schema, and deployment, and an AI-native posture built in from the first commit (Anthropic vision over documents, MCP-callable tools, agent-grade audit log). Innovia is structured around all three from day one. The whitepapers expand on each property in turn."
   },
   "services": {
     "eyebrow": "What we do",
