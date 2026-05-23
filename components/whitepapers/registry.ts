@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'multi-tenant-isolation-as-a-property',
+    date: '2026-05-23',
+    minutes: 8,
+    en: {
+      title: 'Multi-tenant isolation as a property, not a promise',
+      subtitle: 'What we pin in CI so the SaaS economics hold up in front of a regulator.',
+      lede: 'In an RFP, the "multi-tenant SaaS" checkbox usually gets a tick without anyone defining what it means. We define it in three concrete things, verify it with twenty-five integration tests, and remain honest about the trade-offs that come with row-level isolation.',
+    },
+    ro: {
+      title: 'Izolarea multi-tenant ca proprietate, nu ca promisiune',
+      subtitle: 'Ce fixăm în CI ca economia SaaS să reziste în fața unui regulator.',
+      lede: 'Într-un RFP, bifa "SaaS multi-tenant" primește în general un da fără ca cineva să definească ce înseamnă. O definim în trei lucruri concrete, o verificăm cu douăzeci și cinci de teste de integrare, și rămânem onești în privința compromisurilor care vin cu izolarea la nivel de rând.',
+    },
+    de: {
+      title: 'Multi-Tenant-Isolation als Eigenschaft, nicht als Versprechen',
+      subtitle: 'Was wir in CI festschreiben, damit die SaaS-Ökonomie vor einem Regulator standhält.',
+      lede: 'In einem RFP bekommt das Kästchen "multi-tenant SaaS" meistens ein Häkchen, ohne dass jemand definiert, was das eigentlich bedeutet. Wir definieren es in drei konkreten Dingen, verifizieren es mit fünfundzwanzig Integrationstests, und bleiben ehrlich über die Kompromisse, die mit Zeilenebene-Isolation einhergehen.',
+    },
+    fr: {
+      title: 'L\'isolation multi-tenant comme propriété, pas comme promesse',
+      subtitle: 'Ce que nous figeons en CI pour que l\'économie SaaS tienne devant un régulateur.',
+      lede: 'Dans un appel d\'offres, la case "SaaS multi-tenant" reçoit en général une coche sans que quiconque définisse ce qu\'elle signifie. Nous la définissons en trois choses concrètes, la vérifions avec vingt-cinq tests d\'intégration, et restons honnêtes sur les compromis qui viennent avec l\'isolation au niveau ligne.',
+    },
+    it: {
+      title: 'L\'isolamento multi-tenant come proprietà, non come promessa',
+      subtitle: 'Cosa fissiamo in CI affinché l\'economia SaaS regga davanti a un regolatore.',
+      lede: 'In una RFP, la casella "SaaS multi-tenant" riceve di solito un sì senza che nessuno definisca cosa significhi. La definiamo in tre cose concrete, la verifichiamo con venticinque test di integrazione, e restiamo onesti sui compromessi che vengono con l\'isolamento a livello riga.',
+    },
+  },
+  {
     slug: 'the-compounding-cost-of-waiting',
     date: '2026-05-22',
     minutes: 11,
