@@ -95,57 +95,75 @@
     "eyebrow": "From the running platform",
     "title": "Ten workflows the Innovia platform runs out of the box.",
     "body": "Screens captured from the live Innovia application, soft-blurred so the structure stays legible but specific data remains private. Each card maps to a real role and a real workflow already operating against demo data.",
-    "note": "Captured from Innovia trunk. Blurred to protect demo data — sharp walkthroughs available on request.",
+    "note": "Captured from Innovia trunk. Blurred to protect demo data. Sharp walkthroughs available on request.",
+    "tabsAria": "Use case categories",
+    "uspLabel": "Why it matters",
+    "tabs": {
+      "origination": "Origination",
+      "servicing": "Servicing",
+      "catalog": "Catalog",
+      "portals": "Portals"
+    },
     "items": {
       "executiveDashboard": {
         "area": "Executive overview",
         "title": "Portfolio command centre",
-        "body": "Group-level KPIs, portfolio mix, time-to-yes and time-to-pay trends, and contract type breakdown — one operating view across brands and channels."
+        "body": "Admins land on a single screen that consolidates originations, the active book, arrears, and tenant-level KPIs across every brand and country. Each tile drills straight into the underlying contracts, partners, or accounting entries without leaving the session. Group COOs get a side-by-side view of subsidiaries that used to take a weekly Excel reconciliation.",
+        "usp": "One pane of glass for the whole group, with full drill-down to the source entry."
       },
       "dealPipeline": {
-        "area": "Sales & origination",
+        "area": "Sales and origination",
         "title": "Deal pipeline",
-        "body": "Sales operators move deals from inquiry to approval in one workspace. Pipeline value, time-to-yes, approval rate and stage breakdowns track on top of every contract type."
+        "body": "Sales operators move a deal from inquiry through analysis to a signed contract in one workspace, without re-keying anything between stages. Pipeline value, time-to-yes, approval rate, and stage breakdowns track on top of every product variant. Direct, dealer-introduced, and broker channels share the same funnel, so commercial teams compare apples to apples.",
+        "usp": "One funnel for every channel, with cycle time visible from the first click."
       },
       "financialScoring": {
-        "area": "Risk & underwriting",
+        "area": "Risk and underwriting",
         "title": "Financial scoring engine",
-        "body": "Five-dimension corporate scoring: revenue, EBITDA margin, leverage, liquidity, equity ratio. Score, store, and audit decisions on the deal record."
+        "body": "Five-dimension corporate scoring (revenue, EBITDA margin, leverage, liquidity, equity ratio) runs against the deal record and stores the score, the inputs, and the model version that produced it. Underwriters get a defensible rationale instead of a black-box answer, and every decision stays auditable months later when the risk committee or the regulator asks.",
+        "usp": "Explainable scores kept on the deal forever, so 'why did we approve this?' has a one-click answer."
       },
       "contractManagement": {
         "area": "Contract servicing",
         "title": "Contract management",
-        "body": "The full leasing book in one searchable list — status, financed value, average interest, and active contracts. Drill in for schedule, services and documents."
+        "body": "The full leasing book lives in one searchable list with status, financed value, average interest, and active contract counts in view at all times. Drilling into a contract opens the schedule, the related services, the documents, and the audit trail in the same workspace. Servicing teams stop swivel-chairing between three systems to answer a single client question.",
+        "usp": "Every contract, every artifact, one workspace, with no swivel-chair between systems."
       },
       "collections": {
-        "area": "Collections & recovery",
-        "title": "Collections & dunning",
-        "body": "Aging buckets, overdue per contract, risk-flagged accounts and an action queue. Direct line from a missed payment to the dunning workflow."
+        "area": "Collections and recovery",
+        "title": "Collections and dunning",
+        "body": "Aging buckets, overdue per contract, risk-flagged accounts, and a daily action queue point collectors at the right cases first thing in the morning. A single click moves from a missed payment to the dunning workflow, the client history, and the contact log. Recoveries shift from spreadsheet triage to a prioritised work list driven by exposure and probability of cure.",
+        "usp": "Collectors start the day on a prioritised queue, not a 9 AM spreadsheet."
       },
       "productCatalog": {
         "area": "Product configuration",
         "title": "Financial product catalogue",
-        "body": "Operating Lease, Finance Lease, Hire Purchase, corporate loans, EV and green variants — currency, schedule type, interest and advance bands per product."
+        "body": "Operating Lease, Finance Lease, Hire Purchase, corporate loans, EV and green variants all sit in one catalogue with currency, schedule type, interest, and advance bands configured per product. New products go live in hours instead of release cycles because parameters are data, not code. Country teams can launch a market-specific variant without waiting for the next sprint.",
+        "usp": "New products in hours, not releases, because the catalogue is data."
       },
       "insuranceCatalog": {
         "area": "Product configuration",
         "title": "Insurance products",
-        "body": "Insurance catalogue (CASCO, GAP, life and asset-specific) wired to financed amount and broker margin. Activate per market, price per asset class."
+        "body": "CASCO, GAP, life, and asset-specific insurance products are wired directly to the financed amount and to broker margin economics. Activation per market and pricing per asset class are configuration, not a code change. Attach rate becomes a lever the commercial team controls, and the impact on yield shows up in the same dashboard as the underlying contracts.",
+        "usp": "Insurance attach is a configuration lever, not a quarterly project."
       },
       "fleetOperations": {
-        "area": "Fleet & operations",
+        "area": "Fleet and operations",
         "title": "Client fleet view",
-        "body": "Fleet size, financed value, residual exposure, contracts expiring, suspended assets — plus a contract-expiry timeline for renewal planning."
+        "body": "Fleet managers see the whole estate in one frame: size, financed value, residual exposure, contracts expiring, suspended assets, and a renewal timeline that highlights what needs attention in the next ninety days. Renewals stop being a fire drill in month thirty-five, and corporate clients gain a self-service surface that replaces the monthly status call with the back office.",
+        "usp": "Renewals planned ninety days out, not chased in the last week of month thirty-five."
       },
       "dealerPortal": {
         "area": "Dealer self-service",
         "title": "Dealer portal",
-        "body": "Dealers quote, apply and track from their own portal. Active campaigns surface with subvented rate, RV uplift and remaining-volume terms."
+        "body": "Dealers quote, apply, and track financing from their own portal, with active campaigns surfacing the subvented rate, RV uplift, and remaining-volume terms in line with the offer. Time-to-yes for a dealer-introduced deal drops from days to minutes because the dealer captures clean data once. Subvention stays under captive control, and the friction at the point of sale goes away.",
+        "usp": "Showroom-speed financing, with subvention economics still owned by the captive."
       },
       "clientPortal": {
         "area": "Borrower self-service",
         "title": "Client portal",
-        "body": "Retail and corporate borrowers see their schedule, paid vs. remaining, upcoming payments, overdue alerts and active services without calling the back office."
+        "body": "Retail and corporate borrowers see their schedule, paid versus remaining, upcoming payments, overdue alerts, and active services without ever opening a ticket. Self-service deflects the routine call volume that fills back-office queues, so agents focus on cases that actually need a human. NPS goes up, cost-to-serve goes down, and the borrower stays in control of their own contract.",
+        "usp": "Borrowers in control, back office freed for cases that actually need a human."
       }
     }
   },

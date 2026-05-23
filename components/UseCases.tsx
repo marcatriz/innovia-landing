@@ -1,26 +1,40 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { useState } from 'react';
 
-const USE_CASES = [
-  { key: 'executiveDashboard', image: '/use-cases/01-dashboard.png' },
-  { key: 'dealPipeline',       image: '/use-cases/02-origination.png' },
-  { key: 'financialScoring',   image: '/use-cases/03-risk-360.png' },
-  { key: 'contractManagement', image: '/use-cases/04-contract-detail.png' },
-  { key: 'collections',        image: '/use-cases/05-portfolio.png' },
-  { key: 'productCatalog',     image: '/use-cases/06-products.png' },
-  { key: 'insuranceCatalog',   image: '/use-cases/07-insurance.png' },
-  { key: 'fleetOperations',    image: '/use-cases/08-fleet.png' },
-  { key: 'dealerPortal',       image: '/use-cases/09-dealer-portal.png' },
-  { key: 'clientPortal',       image: '/use-cases/10-client-portal.png' },
+const IMAGES: Record<string, string> = {
+  executiveDashboard: '/use-cases/01-dashboard.png',
+  dealPipeline:       '/use-cases/02-origination.png',
+  financialScoring:   '/use-cases/03-risk-360.png',
+  contractManagement: '/use-cases/04-contract-detail.png',
+  collections:        '/use-cases/05-portfolio.png',
+  productCatalog:     '/use-cases/06-products.png',
+  insuranceCatalog:   '/use-cases/07-insurance.png',
+  fleetOperations:    '/use-cases/08-fleet.png',
+  dealerPortal:       '/use-cases/09-dealer-portal.png',
+  clientPortal:       '/use-cases/10-client-portal.png',
+};
+
+const TABS = [
+  { key: 'origination', items: ['dealPipeline', 'financialScoring'] },
+  { key: 'servicing',   items: ['executiveDashboard', 'contractManagement', 'collections'] },
+  { key: 'catalog',     items: ['productCatalog', 'insuranceCatalog', 'fleetOperations'] },
+  { key: 'portals',     items: ['dealerPortal', 'clientPortal'] },
 ] as const;
+
+type TabKey = typeof TABS[number]['key'];
 
 export default function UseCases() {
   const t = useTranslations('useCases');
+  const [active, setActive] = useState<TabKey>('origination');
+  const activeTab = TABS.find((tab) => tab.key === active) ?? TABS[0];
 
   return (
     <section id="use-cases" className="bg-paper py-24">
       <div className="container-x">
-        <div className="mb-16 grid gap-8 lg:grid-cols-12">
+        <div className="mb-12 grid gap-8 lg:grid-cols-12">
           <div className="lg:col-span-6">
             <p className="eyebrow mb-4">{t('eyebrow')}</p>
             <h2 className="text-h2 text-ink-700">{t('title')}</h2>
@@ -31,16 +45,45 @@ export default function UseCases() {
           </div>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2">
-          {USE_CASES.map((u) => (
+        <div role="tablist" aria-label={t('tabsAria')} className="mb-10 flex flex-wrap gap-1 border-b border-slate-200">
+          {TABS.map((tab) => {
+            const isActive = tab.key === active;
+            return (
+              <button
+                key={tab.key}
+                role="tab"
+                type="button"
+                aria-selected={isActive}
+                aria-controls={`use-cases-panel-${tab.key}`}
+                id={`use-cases-tab-${tab.key}`}
+                onClick={() => setActive(tab.key)}
+                className={`-mb-px border-b-2 px-5 py-3 text-sm font-medium tracking-wide transition-colors ${
+                  isActive
+                    ? 'border-teal-600 text-teal-700'
+                    : 'border-transparent text-slate-500 hover:text-slate-700'
+                }`}
+              >
+                {t(`tabs.${tab.key}`)}
+              </button>
+            );
+          })}
+        </div>
+
+        <div
+          role="tabpanel"
+          id={`use-cases-panel-${activeTab.key}`}
+          aria-labelledby={`use-cases-tab-${activeTab.key}`}
+          className="grid gap-6 md:grid-cols-2"
+        >
+          {activeTab.items.map((key) => (
             <article
-              key={u.key}
+              key={key}
               className="group flex flex-col overflow-hidden rounded-xl border border-slate-100 bg-paper transition-shadow hover:shadow-lg"
             >
               <div className="relative aspect-[16/10] w-full overflow-hidden bg-tint">
                 <Image
-                  src={u.image}
-                  alt={t(`items.${u.key}.title`)}
+                  src={IMAGES[key]}
+                  alt={t(`items.${key}.title`)}
                   fill
                   sizes="(min-width: 768px) 48vw, 100vw"
                   className="object-cover object-top"
@@ -48,10 +91,16 @@ export default function UseCases() {
               </div>
               <div className="flex flex-col gap-3 p-8">
                 <span className="text-caption font-medium uppercase tracking-wider text-teal-700">
-                  {t(`items.${u.key}.area`)}
+                  {t(`items.${key}.area`)}
                 </span>
-                <h3 className="text-h3 text-ink-700">{t(`items.${u.key}.title`)}</h3>
-                <p className="text-body text-slate-500">{t(`items.${u.key}.body`)}</p>
+                <h3 className="text-h3 text-ink-700">{t(`items.${key}.title`)}</h3>
+                <p className="text-body text-slate-500">{t(`items.${key}.body`)}</p>
+                <div className="mt-2 rounded-lg bg-tint px-4 py-3">
+                  <p className="text-caption font-semibold uppercase tracking-wider text-teal-700">
+                    {t('uspLabel')}
+                  </p>
+                  <p className="mt-1 text-body text-ink-700">{t(`items.${key}.usp`)}</p>
+                </div>
               </div>
             </article>
           ))}

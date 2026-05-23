@@ -95,57 +95,75 @@
     "eyebrow": "Depuis la plateforme en production",
     "title": "Dix workflows que la plateforme Innovia exécute out of the box.",
     "body": "Captures de l'application Innovia en fonctionnement, légèrement floutées : la structure reste lisible, les données spécifiques restent privées. Chaque carte correspond à un rôle réel et à un workflow réel déjà opérationnel sur des données de démonstration.",
-    "note": "Captures issues du trunk Innovia. Floutées pour protéger les données de démonstration — démonstrations nettes disponibles sur demande.",
+    "note": "Captures issues du trunk Innovia. Floutées pour protéger les données de démonstration. Démonstrations nettes disponibles sur demande.",
+    "tabsAria": "Catégories de cas d'usage",
+    "uspLabel": "Pourquoi c'est important",
+    "tabs": {
+      "origination": "Origination",
+      "servicing": "Servicing",
+      "catalog": "Catalogue",
+      "portals": "Portails"
+    },
     "items": {
       "executiveDashboard": {
         "area": "Vue exécutive",
         "title": "Centre de pilotage du portefeuille",
-        "body": "KPI au niveau du groupe, mix de portefeuille, tendances time-to-yes et time-to-pay, répartition par type de contrat — une seule vue opérationnelle sur marques et canaux."
+        "body": "Les administrateurs accèdent à un seul écran qui consolide les originations, le book actif, les arriérés et les KPI par tenant sur toutes les marques et tous les pays. Chaque tuile descend directement dans les contrats, partenaires ou écritures comptables sous-jacents, sans quitter la session. Les Group COO obtiennent une vue side-by-side sur les filiales qui demandait auparavant une réconciliation Excel hebdomadaire.",
+        "usp": "Une seule vue pour tout le groupe, avec drill-down complet jusqu'à l'écriture source."
       },
       "dealPipeline": {
         "area": "Ventes et origination",
         "title": "Pipeline de deals",
-        "body": "Les commerciaux font passer les dossiers de la demande à l'approbation dans un seul workspace. Valeur du pipeline, time-to-yes, taux d'approbation et répartition par étapes suivis sur chaque type de contrat."
+        "body": "Les commerciaux font passer un dossier de la demande à l'analyse puis au contrat signé dans un seul workspace, sans aucune re-saisie entre les étapes. La valeur du pipeline, le time-to-yes, le taux d'approbation et la répartition par étapes se suivent sur chaque variante produit. Les canaux direct, concessionnaire et courtier partagent le même funnel, donc les équipes commerciales comparent ce qui est comparable.",
+        "usp": "Un seul funnel pour chaque canal, avec le cycle time visible dès le premier clic."
       },
       "financialScoring": {
         "area": "Risque et underwriting",
         "title": "Moteur de scoring financier",
-        "body": "Scoring corporate à cinq dimensions : chiffre d'affaires, marge EBITDA, levier, liquidité, ratio de fonds propres. Noter, stocker et auditer les décisions directement sur le dossier deal."
+        "body": "Le scoring corporate à cinq dimensions (chiffre d'affaires, marge EBITDA, levier, liquidité, ratio de fonds propres) tourne sur le dossier deal et stocke le score, les inputs et la version du modèle qui l'a produit. Les underwriters obtiennent une justification défendable plutôt qu'une réponse boîte noire, et chaque décision reste auditable des mois plus tard quand le comité des risques ou le régulateur le demande.",
+        "usp": "Des scores explicables, conservés à vie sur le dossier, pour que 'pourquoi avons-nous approuvé ?' ait une réponse en un clic."
       },
       "contractManagement": {
         "area": "Servicing contrats",
         "title": "Gestion des contrats",
-        "body": "L'ensemble du book de leasing dans une liste filtrable — statut, valeur financée, taux moyen, contrats actifs. Drill-in vers l'échéancier, les services et les documents."
+        "body": "L'ensemble du book de leasing vit dans une seule liste filtrable avec statut, valeur financée, taux moyen et nombre de contrats actifs visibles en permanence. Le drill-in vers un contrat ouvre l'échéancier, les services associés, les documents et la piste d'audit dans le même workspace. Les équipes de servicing arrêtent de jongler entre trois systèmes pour répondre à une seule question client.",
+        "usp": "Chaque contrat, chaque artefact, un workspace, sans aller-retour entre systèmes."
       },
       "collections": {
         "area": "Recouvrement",
         "title": "Collections et relance",
-        "body": "Aging buckets, impayés par contrat, comptes marqués à risque et file d'actions. Lien direct du paiement manqué au workflow de relance."
+        "body": "Aging buckets, impayés par contrat, comptes marqués à risque et file d'actions quotidienne dirigent les recouvreurs vers les bons dossiers dès le matin. Un clic mène d'un paiement manqué au workflow de relance, à l'historique client et au log de contact. Le recouvrement passe du triage Excel à une liste de travail priorisée par exposition et probabilité de guérison.",
+        "usp": "Les recouvreurs démarrent la journée sur une file priorisée, pas sur un Excel de 9h."
       },
       "productCatalog": {
         "area": "Configuration produit",
         "title": "Catalogue de produits financiers",
-        "body": "Operating Lease, Finance Lease, location avec option d'achat, crédits corporate, variantes EV et green — devise, type d'échéancier, plages de taux et d'apport par produit."
+        "body": "Operating Lease, Finance Lease, location avec option d'achat, crédits corporate, variantes EV et green tiennent tous dans un seul catalogue avec devise, type d'échéancier, plages de taux et d'apport configurés par produit. Les nouveaux produits passent en production en heures plutôt qu'en cycles de release parce que les paramètres sont des données, pas du code. Les équipes pays peuvent lancer une variante locale sans attendre le prochain sprint.",
+        "usp": "Nouveaux produits en heures, pas en releases, parce que le catalogue est de la donnée."
       },
       "insuranceCatalog": {
         "area": "Configuration produit",
         "title": "Produits d'assurance",
-        "body": "Catalogue d'assurances (CASCO, GAP, vie et spécifiques à l'actif) câblé à la valeur financée et à la marge courtier. Activable par marché, tarifé par classe d'actif."
+        "body": "Les produits CASCO, GAP, vie et spécifiques à l'actif sont câblés directement à la valeur financée et à l'économie de marge courtier. L'activation par marché et la tarification par classe d'actif sont de la configuration, pas un changement de code. Le taux d'attache devient un levier que l'équipe commerciale contrôle, et l'impact sur le yield apparaît dans le même dashboard que les contrats sous-jacents.",
+        "usp": "L'attache d'assurance est un levier de configuration, pas un projet trimestriel."
       },
       "fleetOperations": {
         "area": "Flotte et opérations",
         "title": "Vue flotte client",
-        "body": "Taille de flotte, valeur financée, exposition résiduelle, contrats arrivant à échéance, actifs suspendus — plus une timeline d'expiration de contrats pour la planification des renouvellements."
+        "body": "Les fleet managers voient l'ensemble du parc dans un seul cadre : taille, valeur financée, exposition résiduelle, contrats arrivant à échéance, actifs suspendus et une timeline de renouvellement qui met en évidence ce qui demande attention dans les quatre-vingt-dix prochains jours. Les renouvellements cessent d'être une urgence du mois 35, et les clients corporate obtiennent une surface self-service qui remplace l'appel de statut mensuel avec le back-office.",
+        "usp": "Renouvellements planifiés à quatre-vingt-dix jours, pas chassés dans la dernière semaine du mois 35."
       },
       "dealerPortal": {
         "area": "Self-service concessionnaire",
         "title": "Portail concessionnaire",
-        "body": "Les concessionnaires cotent, soumettent et suivent depuis leur propre portail. Les campagnes actives apparaissent avec taux subventionné, uplift VR et volume restant."
+        "body": "Les concessionnaires cotent, soumettent et suivent le financement depuis leur propre portail, et les campagnes actives affichent le taux subventionné, l'uplift VR et le volume restant directement alignés sur l'offre. Le time-to-yes pour un deal introduit par un concessionnaire passe de jours à minutes parce que le concessionnaire saisit des données propres une seule fois. La subvention reste sous contrôle captive, et la friction au point de vente disparaît.",
+        "usp": "Financement à la vitesse du showroom, avec l'économie de la subvention toujours pilotée par le captif."
       },
       "clientPortal": {
         "area": "Self-service emprunteur",
         "title": "Portail client",
-        "body": "Les emprunteurs retail et corporate voient leur échéancier, payé vs. restant, prochaines échéances, alertes d'impayé et services actifs sans appeler le back-office."
+        "body": "Les emprunteurs retail et corporate voient leur échéancier, payé versus restant, prochaines échéances, alertes d'impayé et services actifs sans jamais ouvrir de ticket. Le self-service absorbe le volume d'appels routiniers qui remplit les files du back-office, donc les agents se concentrent sur les cas qui demandent vraiment un humain. Le NPS monte, le cost-to-serve baisse, et l'emprunteur reste maître de son propre contrat.",
+        "usp": "Emprunteurs en contrôle, back-office libéré pour les cas qui demandent vraiment un humain."
       }
     }
   },

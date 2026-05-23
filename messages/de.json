@@ -94,58 +94,76 @@
   "useCases": {
     "eyebrow": "Aus der laufenden Plattform",
     "title": "Zehn Workflows, die die Innovia-Plattform out of the box ausführt.",
-    "body": "Aufnahmen aus der laufenden Innovia-Anwendung, leicht verschwommen — die Struktur bleibt lesbar, spezifische Daten bleiben privat. Jede Karte entspricht einer realen Rolle und einem realen Workflow, der bereits auf Demodaten läuft.",
-    "note": "Aufgenommen aus dem Innovia-Trunk. Verschwommen zum Schutz der Demodaten — klare Walkthroughs auf Anfrage.",
+    "body": "Aufnahmen aus der laufenden Innovia-Anwendung, leicht verschwommen, damit die Struktur lesbar bleibt und spezifische Daten privat bleiben. Jede Karte entspricht einer realen Rolle und einem realen Workflow, der bereits auf Demodaten läuft.",
+    "note": "Aufgenommen aus dem Innovia-Trunk. Verschwommen zum Schutz der Demodaten. Klare Walkthroughs auf Anfrage.",
+    "tabsAria": "Use-Case-Kategorien",
+    "uspLabel": "Warum es zählt",
+    "tabs": {
+      "origination": "Origination",
+      "servicing": "Servicing",
+      "catalog": "Katalog",
+      "portals": "Portale"
+    },
     "items": {
       "executiveDashboard": {
         "area": "Executive-Überblick",
         "title": "Portfolio-Kommandozentrale",
-        "body": "Konzern-KPIs, Portfoliomix, Trends bei Time-to-Yes und Time-to-Pay sowie Vertragstyp-Aufschlüsselung — eine operative Sicht über Marken und Kanäle."
+        "body": "Administratoren öffnen einen einzigen Bildschirm, der Originations, das aktive Buch, Außenstände und tenant-bezogene KPIs über alle Marken und Länder hinweg konsolidiert. Jede Kachel führt direkt zu den zugrundeliegenden Verträgen, Partnern oder Buchungssätzen, ohne die Sitzung zu verlassen. Group COOs erhalten eine Side-by-Side-Sicht auf Tochtergesellschaften, die früher eine wöchentliche Excel-Abstimmung erforderte.",
+        "usp": "Ein Bildschirm für die ganze Gruppe, mit voller Drill-down-Tiefe bis zum Quellbeleg."
       },
       "dealPipeline": {
         "area": "Vertrieb und Origination",
         "title": "Deal-Pipeline",
-        "body": "Vertriebsmitarbeiter führen Deals von der Anfrage bis zur Genehmigung in einem Workspace. Pipeline-Wert, Time-to-Yes, Genehmigungsquote und Stufenaufschlüsselung pro Vertragstyp."
+        "body": "Vertriebsmitarbeiter bringen einen Deal von der Anfrage über die Analyse bis zum unterzeichneten Vertrag in einem Workspace, ohne zwischen den Stufen Daten neu eingeben zu müssen. Pipeline-Wert, Time-to-Yes, Genehmigungsquote und Stufenaufschlüsselung werden über jede Produktvariante hinweg verfolgt. Direkt, Händler und Broker teilen sich denselben Funnel, sodass Vertriebsteams Äpfel mit Äpfeln vergleichen.",
+        "usp": "Ein Funnel für jeden Kanal, mit Cycle Time ab dem ersten Klick sichtbar."
       },
       "financialScoring": {
         "area": "Risiko und Underwriting",
         "title": "Finanzscoring-Engine",
-        "body": "Fünfdimensionales Corporate-Scoring: Umsatz, EBITDA-Marge, Leverage, Liquidität, Eigenkapitalquote. Bewerten, speichern und Entscheidungen direkt am Deal-Datensatz auditieren."
+        "body": "Fünfdimensionales Corporate-Scoring (Umsatz, EBITDA-Marge, Leverage, Liquidität, Eigenkapitalquote) läuft auf dem Deal-Datensatz und speichert den Score, die Eingaben und die Modellversion, die ihn erzeugt hat. Underwriter erhalten eine belastbare Begründung statt einer Blackbox-Antwort, und jede Entscheidung bleibt Monate später für Risikokomitee oder Aufsicht auditierbar.",
+        "usp": "Erklärbare Scores, dauerhaft am Deal, sodass 'warum haben wir genehmigt?' eine Ein-Klick-Antwort hat."
       },
       "contractManagement": {
         "area": "Vertragsservicing",
         "title": "Vertragsmanagement",
-        "body": "Das vollständige Leasingbuch in einer durchsuchbaren Liste — Status, finanzierter Wert, durchschnittlicher Zinssatz, aktive Verträge. Drill-in für Zahlungsplan, Services und Dokumente."
+        "body": "Das vollständige Leasingbuch lebt in einer einzigen durchsuchbaren Liste mit Status, finanziertem Wert, durchschnittlichem Zins und Anzahl aktiver Verträge stets im Blick. Der Drill-in zu einem Vertrag öffnet Zahlungsplan, zugehörige Services, Dokumente und Audit Trail im selben Workspace. Servicing-Teams müssen nicht mehr zwischen drei Systemen springen, um eine einzige Kundenfrage zu beantworten.",
+        "usp": "Jeder Vertrag, jedes Artefakt, ein Workspace, ohne Systemwechsel."
       },
       "collections": {
         "area": "Inkasso und Recovery",
         "title": "Collections und Mahnwesen",
-        "body": "Aging-Buckets, Außenstände pro Vertrag, risikomarkierte Konten und eine Aktionswarteschlange. Direkter Weg von der versäumten Zahlung zum Mahnworkflow."
+        "body": "Aging-Buckets, Außenstände pro Vertrag, risikomarkierte Konten und eine tägliche Aktionswarteschlange richten die Inkassoteams gleich morgens auf die richtigen Fälle aus. Ein Klick führt von einer versäumten Zahlung zum Mahnworkflow, zur Kundenhistorie und zum Kontaktprotokoll. Recoveries verschieben sich von Excel-Triage zu einer priorisierten Arbeitsliste nach Exposure und Heilungswahrscheinlichkeit.",
+        "usp": "Inkasso startet den Tag mit einer priorisierten Liste, nicht mit der 9-Uhr-Excel."
       },
       "productCatalog": {
         "area": "Produktkonfiguration",
         "title": "Katalog der Finanzprodukte",
-        "body": "Operating Lease, Finance Lease, Mietkauf, Corporate-Kredite, EV- und Green-Varianten — Währung, Zahlungsplan-Typ, Zins- und Anzahlungsbänder pro Produkt."
+        "body": "Operating Lease, Finance Lease, Mietkauf, Corporate-Kredite, EV- und Green-Varianten liegen alle in einem Katalog mit Währung, Zahlungsplan-Typ, Zins- und Anzahlungsbändern pro Produkt. Neue Produkte gehen in Stunden statt in Release-Zyklen live, weil Parameter Daten sind und kein Code. Länderteams können eine marktspezifische Variante einführen, ohne auf den nächsten Sprint zu warten.",
+        "usp": "Neue Produkte in Stunden statt Releases, weil der Katalog Daten ist."
       },
       "insuranceCatalog": {
         "area": "Produktkonfiguration",
         "title": "Versicherungsprodukte",
-        "body": "Versicherungskatalog (Vollkasko, GAP, Leben und objektspezifisch) verknüpft mit Finanzierungssumme und Maklerprovision. Pro Markt aktivierbar, pro Anlageklasse bepreist."
+        "body": "Vollkasko, GAP, Lebens- und objektspezifische Versicherungen sind direkt mit der Finanzierungssumme und der Maklerprovisionsökonomie verknüpft. Aktivierung pro Markt und Bepreisung pro Anlageklasse sind Konfiguration, nicht Codeänderung. Die Attach Rate wird zum Hebel, den das Vertriebsteam steuert, und die Wirkung auf den Yield erscheint im selben Dashboard wie die zugrundeliegenden Verträge.",
+        "usp": "Versicherungs-Attach ist ein Konfigurationshebel, kein Quartalsprojekt."
       },
       "fleetOperations": {
         "area": "Flotte und Operations",
         "title": "Kundenflotten-Sicht",
-        "body": "Flottengröße, finanzierter Wert, Restwertexposition, auslaufende Verträge, ausgesetzte Objekte — plus eine Vertrags-Auslauf-Timeline für die Verlängerungsplanung."
+        "body": "Fuhrparkmanager sehen den gesamten Bestand in einem Rahmen: Größe, finanzierter Wert, Restwertexposition, auslaufende Verträge, ausgesetzte Objekte und eine Verlängerungs-Timeline, die markiert, was in den nächsten neunzig Tagen Aufmerksamkeit braucht. Verlängerungen sind kein Feueralarm mehr im Monat 35, und Firmenkunden erhalten eine Self-Service-Oberfläche, die den monatlichen Statusanruf mit dem Backoffice ersetzt.",
+        "usp": "Verlängerungen neunzig Tage im Voraus geplant, nicht in der letzten Woche von Monat 35 gejagt."
       },
       "dealerPortal": {
         "area": "Händler-Self-Service",
         "title": "Händlerportal",
-        "body": "Händler kalkulieren, beantragen und verfolgen aus ihrem eigenen Portal. Aktive Kampagnen erscheinen mit subventioniertem Zins, RV-Uplift und verbleibendem Volumen."
+        "body": "Händler kalkulieren, beantragen und verfolgen Finanzierungen aus ihrem eigenen Portal, wobei aktive Kampagnen den subventionierten Zins, den RV-Uplift und das Restvolumen direkt in der Offerte ausweisen. Time-to-Yes für einen händlerinitiierten Deal fällt von Tagen auf Minuten, weil der Händler saubere Daten einmal erfasst. Die Subvention bleibt unter Captive-Kontrolle, und die Reibung am Point of Sale verschwindet.",
+        "usp": "Showroom-Tempo bei der Finanzierung, mit Subventionsökonomie weiter unter Captive-Kontrolle."
       },
       "clientPortal": {
         "area": "Kunden-Self-Service",
         "title": "Kundenportal",
-        "body": "Retail- und Firmenkunden sehen ihren Zahlungsplan, gezahlt vs. verbleibend, anstehende Zahlungen, Verzugswarnungen und aktive Services, ohne Backoffice anzurufen."
+        "body": "Retail- und Firmenkunden sehen Zahlungsplan, gezahlt versus verbleibend, anstehende Zahlungen, Verzugswarnungen und aktive Services, ohne je ein Ticket zu öffnen. Self-Service fängt das Routine-Anrufvolumen ab, das Backoffice-Schlangen füllt, sodass Agenten sich auf Fälle konzentrieren, die wirklich einen Menschen brauchen. NPS steigt, Cost-to-Serve sinkt, und der Kunde bleibt Herr seines Vertrages.",
+        "usp": "Kunden in Kontrolle, Backoffice frei für Fälle, die wirklich einen Menschen brauchen."
       }
     }
   },

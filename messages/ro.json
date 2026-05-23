@@ -95,57 +95,75 @@
     "eyebrow": "Din platforma operațională",
     "title": "Zece fluxuri pe care platforma Innovia le execută out of the box.",
     "body": "Capturi din aplicația Innovia live, blurate ușor astfel încât structura rămâne lizibilă iar datele specifice rămân private. Fiecare card corespunde unui rol real și unui flux real care rulează deja pe date demo.",
-    "note": "Capturi din branch-ul Innovia. Blurate pentru protecția datelor demo — demonstrații clare disponibile la cerere.",
+    "note": "Capturi din branch-ul Innovia. Blurate pentru protecția datelor demo. Demonstrații clare disponibile la cerere.",
+    "tabsAria": "Categorii de use case",
+    "uspLabel": "De ce contează",
+    "tabs": {
+      "origination": "Originare",
+      "servicing": "Servicing",
+      "catalog": "Catalog",
+      "portals": "Portaluri"
+    },
     "items": {
       "executiveDashboard": {
         "area": "Privire executivă",
         "title": "Centru de comandă portofoliu",
-        "body": "KPI la nivel de grup, mix de portofoliu, trend time-to-yes și time-to-pay, distribuție pe tipuri de contract — o singură imagine operațională pe branduri și canale."
+        "body": "Administratorii intră într-un singur ecran care consolidează originările, portofoliul activ, restanțele și KPI-urile per tenant pe toate brandurile și țările. Fiecare tile coboară direct în contractele, partenerii sau înregistrările contabile suport, fără să părăsești sesiunea. Group COO obține o privire side-by-side pe subsidiare, care înlocuiește reconcilierea săptămânală pe Excel.",
+        "usp": "O singură imagine pentru întregul grup, cu drill-down până la înregistrarea sursă."
       },
       "dealPipeline": {
         "area": "Vânzări și originare",
         "title": "Pipeline de deal-uri",
-        "body": "Operatorii de vânzări mută dosarele de la cerere până la aprobare într-un singur workspace. Valoare pipeline, time-to-yes, rata de aprobare și distribuție pe etape urmărite peste fiecare tip de contract."
+        "body": "Operatorii de vânzări duc un dosar de la cerere prin analiză până la contract semnat într-un singur workspace, fără să re-introducă date între etape. Valoarea pipeline-ului, time-to-yes, rata de aprobare și distribuția pe etape se urmăresc peste fiecare variantă de produs. Canalele direct, dealer și broker împart același funnel, așa că echipele comerciale compară mere cu mere.",
+        "usp": "Un singur funnel pentru orice canal, cu cycle time vizibil din primul click."
       },
       "financialScoring": {
         "area": "Risc și underwriting",
         "title": "Motor de scoring financiar",
-        "body": "Scoring corporate pe cinci dimensiuni: venit, marjă EBITDA, levier, lichiditate, rată capital propriu. Scorează, stochează și auditează deciziile chiar pe dosarul deal-ului."
+        "body": "Scoring corporate pe cinci dimensiuni (venit, marjă EBITDA, levier, lichiditate, rată capital propriu) rulează pe dosarul deal-ului și stochează scorul, inputurile și versiunea modelului care l-a produs. Underwriterii primesc o rațiune defensabilă, nu un răspuns black-box, iar fiecare decizie rămâne auditabilă luni mai târziu când întreabă comitetul de risc sau reglementatorul.",
+        "usp": "Scoruri explicabile, păstrate pe dosar pentru totdeauna, ca 'de ce am aprobat?' să aibă răspuns într-un click."
       },
       "contractManagement": {
         "area": "Servicing contracte",
         "title": "Managementul contractelor",
-        "body": "Întregul portofoliu de leasing într-o listă căutabilă — status, valoare finanțată, dobândă medie, contracte active. Detaliu pe schedule, servicii și documente."
+        "body": "Întregul portofoliu de leasing trăiește într-o singură listă căutabilă, cu status, valoare finanțată, dobândă medie și număr de contracte active vizibile tot timpul. Detaliul pe contract deschide eșalonarea, serviciile asociate, documentele și pista de audit în același workspace. Echipa de servicing nu mai face swivel-chair între trei sisteme pentru o singură întrebare a clientului.",
+        "usp": "Fiecare contract, fiecare artefact, un singur workspace, fără swivel-chair între sisteme."
       },
       "collections": {
         "area": "Colectări și recuperare",
         "title": "Collections și dunning",
-        "body": "Aging buckets, restanțe per contract, conturi marcate la risc și o coadă de acțiuni. Linie directă de la o plată ratată la workflow-ul de dunning."
+        "body": "Aging buckets, restanțe per contract, conturi marcate la risc și o coadă zilnică de acțiuni îi pun pe colectori pe cazurile potrivite chiar de la prima cafea. Un singur click duce de la o plată ratată la workflow-ul de dunning, istoricul clientului și log-ul de contact. Recuperările trec de la triaj pe Excel la o listă de lucru prioritizată după expunere și probabilitate de vindecare.",
+        "usp": "Colectorii încep ziua pe o coadă prioritizată, nu pe un Excel de la 9 dimineața."
       },
       "productCatalog": {
         "area": "Configurare produse",
         "title": "Catalog produse financiare",
-        "body": "Operating Lease, Finance Lease, Hire Purchase, credite corporate, variante EV și green — monedă, tip de eșalonare, benzi de dobândă și avans per produs."
+        "body": "Operating Lease, Finance Lease, Hire Purchase, credite corporate, variantele EV și green stau toate într-un singur catalog, cu moneda, tipul de eșalonare, benzile de dobândă și de avans configurate per produs. Produse noi intră în producție în ore, nu în cicluri de release, pentru că parametrii sunt date, nu cod. Echipele de țară pot lansa o variantă pe piață fără să aștepte următorul sprint.",
+        "usp": "Produse noi în ore, nu în release-uri, pentru că catalogul e dată."
       },
       "insuranceCatalog": {
         "area": "Configurare produse",
         "title": "Produse de asigurare",
-        "body": "Catalog asigurări (CASCO, GAP, viață și specifice activului) legat de suma finanțată și marja brokerului. Activabil per piață, prețuit per clasă de activ."
+        "body": "Produsele CASCO, GAP, viață și cele specifice activului sunt legate direct de suma finanțată și de economia marjei de broker. Activarea per piață și prețul per clasă de activ sunt configurație, nu modificare de cod. Rata de atașare devine o pârghie pe care echipa comercială o controlează, iar impactul pe yield apare în același dashboard cu contractele suport.",
+        "usp": "Atașarea asigurărilor e o pârghie de configurație, nu un proiect trimestrial."
       },
       "fleetOperations": {
         "area": "Flotă și operațiuni",
         "title": "Vedere flotă client",
-        "body": "Mărime flotă, valoare finanțată, expunere reziduală, contracte care expiră, active suspendate — plus un timeline de expirare a contractelor pentru planificarea reînnoirilor."
+        "body": "Fleet managerii văd întreaga flotă într-un singur cadru: dimensiune, valoare finanțată, expunere reziduală, contracte care expiră, active suspendate și un timeline de reînnoire care marchează ce trebuie atins în următoarele nouăzeci de zile. Reînnoirile nu mai sunt panică în luna 35, iar clienții corporate primesc o suprafață self-service care înlocuiește apelul lunar de status cu back-office-ul.",
+        "usp": "Reînnoiri planificate cu nouăzeci de zile înainte, nu alergate în ultima săptămână din luna 35."
       },
       "dealerPortal": {
         "area": "Self-service dealer",
         "title": "Portal dealer",
-        "body": "Dealerii cotează, aplică și urmăresc din propriul portal. Campaniile active apar cu rată subvenționată, uplift RV și volumul rămas."
+        "body": "Dealerii cotează, aplică și urmăresc finanțarea din propriul portal, iar campaniile active afișează rata subvenționată, uplift-ul RV și volumul rămas exact în linie cu oferta. Time-to-yes pentru un deal introdus de dealer scade de la zile la minute pentru că dealer-ul captează date curate o singură dată. Subvenția rămâne sub control captive, iar frecarea din showroom dispare.",
+        "usp": "Finanțare la viteza showroom-ului, cu economia subvenției păstrată sub controlul captive."
       },
       "clientPortal": {
         "area": "Self-service împrumutat",
         "title": "Portal client",
-        "body": "Împrumutații retail și corporate își văd eșalonarea, plătit vs. rămas, plățile viitoare, alertele de restanță și serviciile active fără să sune back-office."
+        "body": "Împrumutații retail și corporate își văd eșalonarea, plătit versus rămas, plățile viitoare, alertele de restanță și serviciile active fără să deschidă vreun ticket. Self-service-ul absoarbe volumul de apeluri de rutină care umple cozile back-office-ului, așa că agenții se concentrează pe cazurile care chiar au nevoie de un om. NPS crește, cost-to-serve scade, iar împrumutatul rămâne în control pe propriul contract.",
+        "usp": "Împrumutații în control, back-office-ul liber pentru cazurile care chiar au nevoie de om."
       }
     }
   },
