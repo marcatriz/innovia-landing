@@ -11,7 +11,7 @@
   "hero": {
     "eyebrow": "Innovia Systems",
     "title": "Progettiamo piattaforme di lending AI-first. Dalla diagnostica al prototipo in settimane.",
-    "tagline": "Fit for Digital, Fit for AI.",
+    "tagline": "Fit for Digital. Fit for AI.",
     "body": "Ricostruiamo il nucleo che gli operatori di leasing, credito al consumo e gestione flotte hanno superato. Diagnostica in settimane. Un prototipo configurato che fa girare i vostri prodotti sui vostri dati in un trimestre. Quasi due decenni di gestione di piattaforme europee di leasing stanno dietro ogni decisione.",
     "cta": "Prenota una sessione di lavoro di 45 minuti",
     "ctaSecondary": "Vedi la piattaforma"
@@ -120,7 +120,7 @@
   },
   "diagnostic": {
     "eyebrow": "Diagnostica",
-    "title": "Fit for Digital, Fit for AI.",
+    "title": "Fit for Digital. Fit for AI.",
     "subtitle": "Sette minuti per capire dove si trova davvero la vostra operazione.",
     "intro1": "Venti domande su sette dimensioni: piattaforma core, configurazione e velocità, dati e decisioning, conformità e audit, maturità AI, esperienza cliente ed esperienza dipendente. L'asticella è fissata a livello di operatore, non a baseline enterprise.",
     "intro2": "Nessuna email, nessuna registrazione. Il risultato vive solo nel vostro browser. Se il punteggio sembra onesto, il passo successivo è una conversazione.",
@@ -189,6 +189,6 @@
   },
   "footer": {
     "copyright": "Innovia Systems",
-    "tagline": "Fit for Digital, Fit for AI."
+    "tagline": "Fit for Digital. Fit for AI."
   }
 }

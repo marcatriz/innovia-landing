@@ -1,5 +1,5 @@
 /**
- * Scoring helpers for the Fit for Digital, Fit for AI. diagnostic.
+ * Scoring helpers for the Fit for Digital. Fit for AI. diagnostic.
  *
  * Per-dimension score = arithmetic mean of its question scores.
  * Overall score = arithmetic mean of the 7 dimension scores (NOT mean of all

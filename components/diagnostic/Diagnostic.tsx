@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * Diagnostic: interactive Fit for Digital, Fit for AI. assessment.
+ * Diagnostic: interactive Fit for Digital. Fit for AI. assessment.
  *
  * Single-file UI for simplicity: intro -> quiz -> result. State held in a
  * reducer, persisted to localStorage so accidental tab close does not lose

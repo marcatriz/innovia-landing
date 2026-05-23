@@ -38,7 +38,7 @@ function En() {
     <div className="prose-paper">
       <p>
         Most mid-tier lending operators score between 40 and 65 percent on the{' '}
-        <Link href="/diagnostic">Fit for Digital, Fit for AI. diagnostic</Link>.
+        <Link href="/diagnostic">Fit for Digital. Fit for AI. diagnostic</Link>.
         That spread is not the news. The news is what happens to that score if
         the operator does nothing for twelve more months.
       </p>
@@ -207,7 +207,7 @@ function Ro() {
         Majoritatea operatorilor mid-tier de lending obțin între 40 și 65 la
         sută pe{' '}
         <Link href="/diagnostic">
-          diagnosticul Fit for Digital, Fit for AI.
+          diagnosticul Fit for Digital. Fit for AI.
         </Link>{' '}
         Acel interval nu e știrea. Știrea e ce se întâmplă cu scorul acela dacă
         operatorul nu face nimic în următoarele douăsprezece luni.
@@ -386,7 +386,7 @@ function De() {
         Die meisten Mid-Tier-Lending-Betreiber erzielen zwischen 40 und 65 Prozent
         im{' '}
         <Link href="/diagnostic">
-          Fit for Digital, Fit for AI. Diagnostik
+          Fit for Digital. Fit for AI. Diagnostik
         </Link>
         . Diese Spanne ist nicht die Nachricht. Die Nachricht ist, was mit
         diesem Score passiert, wenn der Betreiber zwölf weitere Monate nichts
@@ -576,7 +576,7 @@ function Fr() {
         La plupart des opérateurs mid-tier du lending obtiennent entre 40 et
         65 pour cent au{' '}
         <Link href="/diagnostic">
-          diagnostic Fit for Digital, Fit for AI.
+          diagnostic Fit for Digital. Fit for AI.
         </Link>
         . Cet écart n&apos;est pas la nouvelle. La nouvelle, c&apos;est ce
         qu&apos;il advient de ce score si l&apos;opérateur ne fait rien
@@ -771,7 +771,7 @@ function It() {
         La maggior parte degli operatori mid-tier del lending ottiene tra il
         40 e il 65 percento nel{' '}
         <Link href="/diagnostic">
-          diagnostico Fit for Digital, Fit for AI.
+          diagnostico Fit for Digital. Fit for AI.
         </Link>
         . Quella forbice non è la notizia. La notizia è cosa succede a quel
         punteggio se l&apos;operatore non fa nulla per altri dodici mesi.
