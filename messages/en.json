@@ -102,7 +102,8 @@
       "origination": "Origination",
       "servicing": "Servicing",
       "catalog": "Catalog",
-      "portals": "Portals"
+      "portals": "Portals",
+      "platform": "Platform"
     },
     "items": {
       "executiveDashboard": {
@@ -164,6 +165,24 @@
         "title": "Client portal",
         "body": "Retail and corporate borrowers see their schedule, paid versus remaining, upcoming payments, overdue alerts, and active services without ever opening a ticket. Self-service deflects the routine call volume that fills back-office queues, so agents focus on cases that actually need a human. NPS goes up, cost-to-serve goes down, and the borrower stays in control of their own contract.",
         "usp": "Borrowers in control, back office freed for cases that actually need a human."
+      },
+      "glPosting": {
+        "area": "Accounting integration",
+        "title": "GL posting and export",
+        "body": "Every contract event (origination, billing, payment, write-off) posts to the general ledger through a deterministic mapping configured per product and per country. Export batches reconcile against the back-end ERP without a parallel finance spreadsheet, and any entry can be traced back to the contract event that produced it. Finance teams close the month from the same workspace they use to investigate exceptions.",
+        "usp": "Every contract event posts to GL with an auditable mapping, no parallel finance spreadsheet."
+      },
+      "corporateCreditLines": {
+        "area": "Corporate banking",
+        "title": "Corporate credit lines",
+        "body": "Revolving facilities, term loans, and uncommitted lines live alongside the leasing book, with drawdowns, repayments, interest accruals, and covenant checks running on the same engine. A relationship manager sees exposure across leasing and lending in one view rather than reconciling between systems. Corporate banking workflows ship native, so a platform that started as a leasing core can carry the full client wallet.",
+        "usp": "Corporate banking workflows native to the same platform that runs your leasing book."
+      },
+      "workflowOrchestration": {
+        "area": "Platform foundation",
+        "title": "Workflow orchestration",
+        "body": "Business processes (origination, KYC, contract activation, document collection, dunning escalation) run as versioned workflows on an embedded orchestrator with full observability, retries, and human-in-the-loop tasks. Changing a step is a workflow edit, not a sprint, and every execution is auditable. Operations and product teams stop arguing with engineers about which path the system actually takes.",
+        "usp": "Business processes as versioned, observable workflows, not buried in code."
       }
     }
   },

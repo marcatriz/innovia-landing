@@ -46,6 +46,9 @@ SHOTS = [
     ("08-fleet",            "fleet",     "/fleet",                              0,   5500),
     ("09-dealer-portal",    "dealer",    "/dealer-portal",                      0,   5000),
     ("10-client-portal",    "client",    "/portal/dashboard",                   0,   5500),
+    ("11-accounting",              "admin", "/accounting",              0, 7000),
+    ("12-corporate-credit-lines",  "admin", "/corporate-credit-lines",  0, 7000),
+    ("13-workflow-orchestration",  "admin", "/workflow-hub",            0, 7000),
 ]
 
 

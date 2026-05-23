@@ -102,7 +102,8 @@
       "origination": "Originare",
       "servicing": "Servicing",
       "catalog": "Catalog",
-      "portals": "Portaluri"
+      "portals": "Portaluri",
+      "platform": "Platformă"
     },
     "items": {
       "executiveDashboard": {
@@ -164,6 +165,24 @@
         "title": "Portal client",
         "body": "Împrumutații retail și corporate își văd eșalonarea, plătit versus rămas, plățile viitoare, alertele de restanță și serviciile active fără să deschidă vreun ticket. Self-service-ul absoarbe volumul de apeluri de rutină care umple cozile back-office-ului, așa că agenții se concentrează pe cazurile care chiar au nevoie de un om. NPS crește, cost-to-serve scade, iar împrumutatul rămâne în control pe propriul contract.",
         "usp": "Împrumutații în control, back-office-ul liber pentru cazurile care chiar au nevoie de om."
+      },
+      "glPosting": {
+        "area": "Integrare contabilitate",
+        "title": "Postare și export GL",
+        "body": "Fiecare eveniment de contract (originare, facturare, plată, write-off) postează în registrul general printr-un mapping determinist, configurat per produs și per țară. Loturile de export se reconciliază cu ERP-ul back-end fără un Excel paralel de finance, iar orice înregistrare se trasează înapoi până la evenimentul de contract care a produs-o. Echipele de finance închid luna din același workspace în care investighează excepțiile.",
+        "usp": "Fiecare eveniment de contract postează în GL cu mapping auditabil, fără Excel paralel de finance."
+      },
+      "corporateCreditLines": {
+        "area": "Corporate banking",
+        "title": "Linii de credit corporate",
+        "body": "Facilități revolving, credite term și linii uncommitted trăiesc lângă portofoliul de leasing, cu drawdown-uri, rambursări, calcul de dobândă și verificări de covenant rulând pe același motor. Un relationship manager vede expunerea pe leasing și lending într-o singură vedere, nu reconciliază între sisteme. Fluxurile de corporate banking sunt native, așa că o platformă pornită ca leasing core poate duce întregul wallet al clientului.",
+        "usp": "Fluxuri de corporate banking native pe aceeași platformă care îți rulează leasing book-ul."
+      },
+      "workflowOrchestration": {
+        "area": "Fundație platformă",
+        "title": "Orchestrare workflow",
+        "body": "Procesele de business (originare, KYC, activare contract, colectare documente, escaladare dunning) rulează ca workflow-uri versionate pe un orchestrator integrat, cu observabilitate completă, retry-uri și task-uri human-in-the-loop. Modificarea unui pas e o editare de workflow, nu un sprint, iar fiecare execuție e auditabilă. Operațiunile și produsul nu mai discută cu inginerii despre ce traseu urmează de fapt sistemul.",
+        "usp": "Procese de business ca workflow-uri versionate și observabile, nu îngropate în cod."
       }
     }
   },

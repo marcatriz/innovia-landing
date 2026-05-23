@@ -5,23 +5,27 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 const IMAGES: Record<string, string> = {
-  executiveDashboard: '/use-cases/01-dashboard.png',
-  dealPipeline:       '/use-cases/02-origination.png',
-  financialScoring:   '/use-cases/03-risk-360.png',
-  contractManagement: '/use-cases/04-contract-detail.png',
-  collections:        '/use-cases/05-portfolio.png',
-  productCatalog:     '/use-cases/06-products.png',
-  insuranceCatalog:   '/use-cases/07-insurance.png',
-  fleetOperations:    '/use-cases/08-fleet.png',
-  dealerPortal:       '/use-cases/09-dealer-portal.png',
-  clientPortal:       '/use-cases/10-client-portal.png',
+  executiveDashboard:      '/use-cases/01-dashboard.png',
+  dealPipeline:            '/use-cases/02-origination.png',
+  financialScoring:        '/use-cases/03-risk-360.png',
+  contractManagement:      '/use-cases/04-contract-detail.png',
+  collections:             '/use-cases/05-portfolio.png',
+  productCatalog:          '/use-cases/06-products.png',
+  insuranceCatalog:        '/use-cases/07-insurance.png',
+  fleetOperations:         '/use-cases/08-fleet.png',
+  dealerPortal:            '/use-cases/09-dealer-portal.png',
+  clientPortal:            '/use-cases/10-client-portal.png',
+  glPosting:               '/use-cases/11-accounting.png',
+  corporateCreditLines:    '/use-cases/12-corporate-credit-lines.png',
+  workflowOrchestration:   '/use-cases/13-workflow-orchestration.png',
 };
 
 const TABS = [
   { key: 'origination', items: ['dealPipeline', 'financialScoring'] },
-  { key: 'servicing',   items: ['executiveDashboard', 'contractManagement', 'collections'] },
-  { key: 'catalog',     items: ['productCatalog', 'insuranceCatalog', 'fleetOperations'] },
+  { key: 'servicing',   items: ['executiveDashboard', 'contractManagement', 'collections', 'glPosting'] },
+  { key: 'catalog',     items: ['productCatalog', 'insuranceCatalog', 'fleetOperations', 'corporateCreditLines'] },
   { key: 'portals',     items: ['dealerPortal', 'clientPortal'] },
+  { key: 'platform',    items: ['workflowOrchestration'] },
 ] as const;
 
 type TabKey = typeof TABS[number]['key'];

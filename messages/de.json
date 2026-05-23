@@ -102,7 +102,8 @@
       "origination": "Origination",
       "servicing": "Servicing",
       "catalog": "Katalog",
-      "portals": "Portale"
+      "portals": "Portale",
+      "platform": "Plattform"
     },
     "items": {
       "executiveDashboard": {
@@ -164,6 +165,24 @@
         "title": "Kundenportal",
         "body": "Retail- und Firmenkunden sehen Zahlungsplan, gezahlt versus verbleibend, anstehende Zahlungen, Verzugswarnungen und aktive Services, ohne je ein Ticket zu öffnen. Self-Service fängt das Routine-Anrufvolumen ab, das Backoffice-Schlangen füllt, sodass Agenten sich auf Fälle konzentrieren, die wirklich einen Menschen brauchen. NPS steigt, Cost-to-Serve sinkt, und der Kunde bleibt Herr seines Vertrages.",
         "usp": "Kunden in Kontrolle, Backoffice frei für Fälle, die wirklich einen Menschen brauchen."
+      },
+      "glPosting": {
+        "area": "Buchhaltungsintegration",
+        "title": "GL-Buchung und Export",
+        "body": "Jedes Vertragsereignis (Origination, Rechnung, Zahlung, Ausbuchung) bucht über ein deterministisches Mapping, das pro Produkt und pro Land konfiguriert ist, in das Hauptbuch. Export-Batches gleichen mit dem Backend-ERP ab, ohne eine parallele Finanz-Tabelle, und jeder Eintrag lässt sich auf das Vertragsereignis zurückverfolgen, das ihn erzeugt hat. Finance-Teams schließen den Monat im selben Workspace ab, in dem sie auch Ausnahmen untersuchen.",
+        "usp": "Jedes Vertragsereignis bucht ins GL mit auditierbarem Mapping, ohne parallele Finanz-Tabelle."
+      },
+      "corporateCreditLines": {
+        "area": "Corporate Banking",
+        "title": "Corporate-Kreditlinien",
+        "body": "Revolvierende Linien, Tilgungskredite und Uncommitted Lines leben neben dem Leasingbuch, mit Drawdowns, Rückzahlungen, Zinsabgrenzungen und Covenant-Prüfungen auf derselben Engine. Ein Relationship Manager sieht das Exposure über Leasing und Lending in einer Sicht, statt zwischen Systemen abzugleichen. Corporate-Banking-Workflows sind nativ, sodass eine Plattform, die als Leasing-Core gestartet ist, die gesamte Kunden-Wallet tragen kann.",
+        "usp": "Corporate-Banking-Workflows nativ auf derselben Plattform, die Ihr Leasingbuch führt."
+      },
+      "workflowOrchestration": {
+        "area": "Plattformfundament",
+        "title": "Workflow-Orchestrierung",
+        "body": "Geschäftsprozesse (Origination, KYC, Vertragsaktivierung, Dokumentenerfassung, Mahn-Eskalation) laufen als versionierte Workflows auf einem eingebetteten Orchestrator mit voller Observability, Retries und Human-in-the-Loop-Tasks. Einen Schritt zu ändern ist eine Workflow-Bearbeitung, kein Sprint, und jede Ausführung ist auditierbar. Operations und Produkt streiten nicht mehr mit Engineering darüber, welchen Pfad das System tatsächlich nimmt.",
+        "usp": "Geschäftsprozesse als versionierte, observable Workflows, nicht im Code vergraben."
       }
     }
   },

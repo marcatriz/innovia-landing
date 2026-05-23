@@ -102,7 +102,8 @@
       "origination": "Origination",
       "servicing": "Servicing",
       "catalog": "Catalogo",
-      "portals": "Portali"
+      "portals": "Portali",
+      "platform": "Piattaforma"
     },
     "items": {
       "executiveDashboard": {
@@ -164,6 +165,24 @@
         "title": "Portale cliente",
         "body": "Mutuatari retail e corporate vedono il loro piano, pagato versus residuo, prossimi pagamenti, alert di scaduto e servizi attivi senza mai aprire un ticket. Il self-service assorbe il volume di chiamate di routine che riempie le code del back-office, così gli agenti si concentrano sui casi che hanno davvero bisogno di una persona. NPS sale, cost-to-serve scende, e il mutuatario resta padrone del proprio contratto.",
         "usp": "Mutuatari in controllo, back-office libero per i casi che davvero richiedono una persona."
+      },
+      "glPosting": {
+        "area": "Integrazione contabile",
+        "title": "Contabilizzazione ed export GL",
+        "body": "Ogni evento di contratto (origination, fatturazione, pagamento, write-off) viene contabilizzato nel libro mastro tramite un mapping deterministico configurato per prodotto e per paese. I batch di export si riconciliano con l'ERP back-end senza un foglio finance parallelo, e ogni scrittura risale all'evento di contratto che l'ha generata. I team finance chiudono il mese dallo stesso workspace in cui investigano le eccezioni.",
+        "usp": "Ogni evento di contratto contabilizzato in GL con mapping auditabile, senza foglio finance parallelo."
+      },
+      "corporateCreditLines": {
+        "area": "Corporate banking",
+        "title": "Linee di credito corporate",
+        "body": "Facility revolving, prestiti term e linee uncommitted vivono accanto al book di leasing, con drawdown, rimborsi, calcolo interessi e verifica covenant sullo stesso motore. Un relationship manager vede l'esposizione su leasing e lending in un'unica vista, senza riconciliare tra sistemi. I workflow di corporate banking sono nativi, così una piattaforma nata come core di leasing può portare l'intero wallet del cliente.",
+        "usp": "Workflow di corporate banking nativi sulla stessa piattaforma che gestisce il tuo book di leasing."
+      },
+      "workflowOrchestration": {
+        "area": "Fondazione di piattaforma",
+        "title": "Orchestrazione di workflow",
+        "body": "I processi di business (origination, KYC, attivazione contratto, raccolta documenti, escalation di sollecito) girano come workflow versionati su un orchestratore integrato, con osservabilità completa, retry e task human-in-the-loop. Modificare uno step è una edit di workflow, non uno sprint, e ogni esecuzione è auditabile. Operations e prodotto smettono di discutere con engineering su quale percorso il sistema prenda davvero.",
+        "usp": "Processi di business come workflow versionati e osservabili, non sepolti nel codice."
       }
     }
   },
