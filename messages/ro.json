@@ -12,14 +12,14 @@
     "eyebrow": "Innovia Systems",
     "title": "Proiectăm platforme de lending AI-first. De la diagnostic la prototip în săptămâni.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "Reconstruim nucleul pe care l-au depășit operatorii de leasing, finanțare de consum și flote. Diagnostic în săptămâni. Un prototip configurat care rulează produsele tale pe datele tale într-un trimestru. Aproape două decenii de operare a platformelor europene de leasing stau în spatele fiecărei decizii.",
+    "body": "Reconstruim nucleul pe care l-au depășit operatorii de leasing, finanțare de consum și flote. Diagnostic în săptămâni. Prototipuri Asset Finance sau Fleet configurate pe datele tale într-un trimestru; Working Capital, Consumer Credit și Secured Microcredit urmează un parcurs mai lung de engagement. Aproape două decenii de operare a platformelor europene de leasing stau în spatele fiecărei decizii.",
     "cta": "Programează o sesiune de lucru de 45 de minute",
     "ctaSecondary": "Vezi platforma"
   },
   "stats": {
     "items": {
       "verticals": { "value": "5", "label": "Verticale pe un singur motor" },
-      "ready": { "value": "2", "label": "Module la nivel de producție" },
+      "ready": { "value": "2", "label": "Module la calitate de producție" },
       "codev": { "value": "3", "label": "Pre-producție pentru H2 2026" },
       "operator": { "value": "~20 ani", "label": "Profunzime de operator în leasing european" }
     }
@@ -64,8 +64,8 @@
   "modules": {
     "eyebrow": "Platforma din spatele prototipului",
     "title": "Cinci verticale, un singur motor.",
-    "body": "Engagement-urile de prototipare și implementare rulează pe platforma Innovia. Cinci module împart același motor, același model de date și același orchestrator de workflow. Asset Finance și Fleet sunt la nivel de producție astăzi. Working Capital, Consumer Credit și Secured Microcredit sunt pre-producție pentru H2 2026.",
-    "statusReady": "Nivel de producție",
+    "body": "Engagement-urile de prototipare și implementare rulează pe platforma Innovia. Cinci module împart același motor, același model de date și același orchestrator de workflow. Asset Finance și Fleet sunt la calitate de producție, în așteptarea primului go-live cu design partner. Working Capital, Consumer Credit și Secured Microcredit sunt pre-producție pentru H2 2026.",
+    "statusReady": "Calitate de producție",
     "statusCoDev": "Pre-producție",
     "items": {
       "assetFinance": {
@@ -74,7 +74,7 @@
       },
       "fleet": {
         "title": "Fleet",
-        "body": "Gestiunea vehiculelor și a serviciilor pentru flote captive și independente. Pregătit pentru telematică, cu analitici cost-per-km și valoare reziduală."
+        "body": "Gestiunea vehiculelor și a serviciilor pentru flote captive și independente. Pregătit pentru telematică, cu adaptoare live configurabile per client, analitici cost-per-km și valoare reziduală."
       },
       "workingCapital": {
         "title": "Working Capital",
@@ -82,7 +82,7 @@
       },
       "consumerCredit": {
         "title": "Consumer Credit",
-        "body": "Creditare la punctul de vânzare și direct-to-consumer. Decizionare sub 15 minute, integrare cu merchanți, KYC și AML încorporate."
+        "body": "Creditare la punctul de vânzare și direct-to-consumer. Decizionare proiectată pentru minute, onboarding de merchanți și workflow KYC + AML încorporate (furnizorii de bureau și screening cablați per engagement)."
       },
       "securedMicrocredit": {
         "title": "Secured Microcredit",
