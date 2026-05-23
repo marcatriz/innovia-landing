@@ -98,6 +98,8 @@
     "note": "Captures issues du trunk Innovia. Floutées pour protéger les données de démonstration. Démonstrations nettes disponibles sur demande.",
     "tabsAria": "Catégories de cas d'usage",
     "uspLabel": "Pourquoi c'est important",
+    "cardSingular": "carte",
+    "cardPlural": "cartes",
     "tabs": {
       "origination": "Origination",
       "servicing": "Servicing",

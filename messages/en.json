@@ -98,6 +98,8 @@
     "note": "Captured from Innovia trunk. Blurred to protect demo data. Sharp walkthroughs available on request.",
     "tabsAria": "Use case categories",
     "uspLabel": "Why it matters",
+    "cardSingular": "card",
+    "cardPlural": "cards",
     "tabs": {
       "origination": "Origination",
       "servicing": "Servicing",

@@ -98,6 +98,8 @@
     "note": "Catture dal trunk Innovia. Sfocate per proteggere i dati demo. Walkthrough nitidi disponibili su richiesta.",
     "tabsAria": "Categorie di use case",
     "uspLabel": "Perché conta",
+    "cardSingular": "carta",
+    "cardPlural": "carte",
     "tabs": {
       "origination": "Origination",
       "servicing": "Servicing",

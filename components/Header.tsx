@@ -26,6 +26,9 @@ export default function Header() {
           <Link href="/#modules" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('modules')}
           </Link>
+          <Link href="/#use-cases" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+            {t('useCases')}
+          </Link>
           <Link href="/#partnership" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('partnership')}
           </Link>

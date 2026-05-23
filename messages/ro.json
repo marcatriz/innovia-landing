@@ -98,6 +98,8 @@
     "note": "Capturi din branch-ul Innovia. Blurate pentru protecția datelor demo. Demonstrații clare disponibile la cerere.",
     "tabsAria": "Categorii de use case",
     "uspLabel": "De ce contează",
+    "cardSingular": "card",
+    "cardPlural": "carduri",
     "tabs": {
       "origination": "Originare",
       "servicing": "Servicing",

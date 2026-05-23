@@ -98,6 +98,8 @@
     "note": "Aufgenommen aus dem Innovia-Trunk. Verschwommen zum Schutz der Demodaten. Klare Walkthroughs auf Anfrage.",
     "tabsAria": "Use-Case-Kategorien",
     "uspLabel": "Warum es zählt",
+    "cardSingular": "Karte",
+    "cardPlural": "Karten",
     "tabs": {
       "origination": "Origination",
       "servicing": "Servicing",
