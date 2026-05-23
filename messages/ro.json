@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "Din platforma operațională",
-    "title": "Zece fluxuri pe care platforma Innovia le execută out of the box.",
+    "title": "Cincisprezece fluxuri pe care platforma Innovia le execută out of the box.",
     "body": "Capturi din aplicația Innovia live, blurate ușor astfel încât structura rămâne lizibilă iar datele specifice rămân private. Fiecare card corespunde unui rol real și unui flux real care rulează deja pe date demo.",
     "note": "Capturi din branch-ul Innovia. Blurate pentru protecția datelor demo. Demonstrații clare disponibile la cerere.",
     "tabsAria": "Categorii de use case",
@@ -185,6 +185,18 @@
         "title": "Orchestrare workflow",
         "body": "Procesele de business (originare, KYC, activare contract, colectare documente, escaladare dunning) rulează ca workflow-uri versionate pe un orchestrator integrat, cu observabilitate completă, retry-uri și task-uri human-in-the-loop. Modificarea unui pas e o editare de workflow, nu un sprint, iar fiecare execuție e auditabilă. Operațiunile și produsul nu mai discută cu inginerii despre ce traseu urmează de fapt sistemul.",
         "usp": "Procese de business ca workflow-uri versionate și observabile, nu îngropate în cod."
+      },
+      "kycOnboarding": {
+        "area": "KYC și onboarding",
+        "title": "Onboarding client și beneficiari reali",
+        "body": "Clienții corporate sunt modelați cu întregul lanț de beneficiari reali: directori, acționari și ultimate beneficial owners pe structuri de proprietate imbricate. Onboarding-ul captează identitate, rezidență, indicatori PEP și sancțiuni într-un singur workflow, iar graful rezultat călătorește cu fiecare deal pe toată durata relației. Gata cu fișa de client plată care ascunde cine deține de fapt cash flow-ul.",
+        "usp": "Lanț complet de beneficiari reali modelat la onboarding, nu o fișă de client plată."
+      },
+      "modelMonitoring": {
+        "area": "Fundație platformă",
+        "title": "ML risk advisory și monitorizare model",
+        "body": "Scoring-ul de risc este augmentat de un strat ML explicabil care rulează alături de motorul de reguli, cu importanță feature, calibrare și drift urmărite pe o pagină dedicată de monitorizare. Underwriterii văd acordul și dezacordul modelului pe fiecare deal, iar conducerea de risc vede când un model are nevoie de retrain înainte să se degradeze performanța. Augmentarea e advisory, niciodată autonomă, deci omul semnează.",
+        "usp": "Scoring augmentat de ML explicabil, cu drift și calibrare monitorizate la vedere."
       }
     }
   },

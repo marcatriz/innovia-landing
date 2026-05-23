@@ -49,6 +49,8 @@ SHOTS = [
     ("11-accounting",              "admin", "/accounting",              0, 7000),
     ("12-corporate-credit-lines",  "admin", "/corporate-credit-lines",  0, 7000),
     ("13-workflow-orchestration",  "admin", "/workflow-hub",            0, 7000),
+    ("14-kyc-onboarding",          "admin", "/partners/onboard",        0, 7000),
+    ("15-model-monitoring",        "admin", "/config/model-monitoring", 0, 7000),
 ]
 
 

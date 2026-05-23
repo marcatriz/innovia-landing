@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "Dalla piattaforma operativa",
-    "title": "Dieci workflow che la piattaforma Innovia esegue out of the box.",
+    "title": "Quindici workflow che la piattaforma Innovia esegue out of the box.",
     "body": "Catture dall'applicazione Innovia in esecuzione, leggermente sfocate così che la struttura resti leggibile ma i dati specifici restino privati. Ogni card corrisponde a un ruolo reale e a un workflow reale già operativo su dati demo.",
     "note": "Catture dal trunk Innovia. Sfocate per proteggere i dati demo. Walkthrough nitidi disponibili su richiesta.",
     "tabsAria": "Categorie di use case",
@@ -185,6 +185,18 @@
         "title": "Orchestrazione di workflow",
         "body": "I processi di business (origination, KYC, attivazione contratto, raccolta documenti, escalation di sollecito) girano come workflow versionati su un orchestratore integrato, con osservabilità completa, retry e task human-in-the-loop. Modificare uno step è una edit di workflow, non uno sprint, e ogni esecuzione è auditabile. Operations e prodotto smettono di discutere con engineering su quale percorso il sistema prenda davvero.",
         "usp": "Processi di business come workflow versionati e osservabili, non sepolti nel codice."
+      },
+      "kycOnboarding": {
+        "area": "KYC e onboarding",
+        "title": "Onboarding cliente e titolari effettivi",
+        "body": "I clienti corporate sono modellati con l'intera catena dei titolari effettivi: amministratori, azionisti e Ultimate Beneficial Owners su strutture proprietarie annidate. L'onboarding cattura identità, residenza, indicatori PEP e sanzioni in un unico workflow, e il grafo risultante accompagna ogni pratica per tutta la durata della relazione. Basta anagrafiche piatte che nascondono chi possiede davvero il cash flow.",
+        "usp": "Catena completa dei titolari effettivi modellata in onboarding, non un'anagrafica piatta."
+      },
+      "modelMonitoring": {
+        "area": "Fondazione di piattaforma",
+        "title": "ML risk advisory e monitoraggio modello",
+        "body": "Lo scoring di rischio è arricchito da uno strato ML spiegabile che gira accanto al motore di regole, con feature importance, calibrazione e drift tracciati su una pagina di monitoraggio dedicata. Gli underwriter vedono accordo e disaccordo del modello su ogni pratica, e la direzione rischi vede quando un modello deve essere ri-addestrato prima che la performance degradi. L'aumento è consultivo, mai autonomo, l'umano firma.",
+        "usp": "Scoring arricchito da ML spiegabile, con drift e calibrazione monitorati a vista."
       }
     }
   },

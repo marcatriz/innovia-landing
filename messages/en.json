@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "From the running platform",
-    "title": "Ten workflows the Innovia platform runs out of the box.",
+    "title": "Fifteen workflows the Innovia platform runs out of the box.",
     "body": "Screens captured from the live Innovia application, soft-blurred so the structure stays legible but specific data remains private. Each card maps to a real role and a real workflow already operating against demo data.",
     "note": "Captured from Innovia trunk. Blurred to protect demo data. Sharp walkthroughs available on request.",
     "tabsAria": "Use case categories",
@@ -185,6 +185,18 @@
         "title": "Workflow orchestration",
         "body": "Business processes (origination, KYC, contract activation, document collection, dunning escalation) run as versioned workflows on an embedded orchestrator with full observability, retries, and human-in-the-loop tasks. Changing a step is a workflow edit, not a sprint, and every execution is auditable. Operations and product teams stop arguing with engineers about which path the system actually takes.",
         "usp": "Business processes as versioned, observable workflows, not buried in code."
+      },
+      "kycOnboarding": {
+        "area": "KYC and onboarding",
+        "title": "Client onboarding and beneficial owners",
+        "body": "Corporate clients are modeled with the full beneficial-owner chain: directors, shareholders, and ultimate beneficial owners across nested ownership structures. Onboarding captures identity, residency, PEP and sanctions flags in one workflow, and the resulting graph travels with every deal for the life of the relationship. No more flat customer records that hide who actually owns the cash flow.",
+        "usp": "Full beneficial-owner chain modeled at onboarding, not a flat customer record."
+      },
+      "modelMonitoring": {
+        "area": "Platform foundation",
+        "title": "ML risk advisory and model monitoring",
+        "body": "Risk scoring is augmented by an explainable ML layer that runs alongside the rules engine, with feature importance, calibration, and drift tracked on a dedicated monitoring page. Underwriters see model agreement and disagreement on every deal, and risk leadership sees when a model needs retraining before performance degrades. The augmentation is advisory, never autonomous, so the human signs off.",
+        "usp": "Scoring augmented by explainable ML, with drift and calibration monitored in plain sight."
       }
     }
   },

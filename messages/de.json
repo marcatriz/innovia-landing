@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "Aus der laufenden Plattform",
-    "title": "Zehn Workflows, die die Innovia-Plattform out of the box ausführt.",
+    "title": "Fünfzehn Workflows, die die Innovia-Plattform out of the box ausführt.",
     "body": "Aufnahmen aus der laufenden Innovia-Anwendung, leicht verschwommen, damit die Struktur lesbar bleibt und spezifische Daten privat bleiben. Jede Karte entspricht einer realen Rolle und einem realen Workflow, der bereits auf Demodaten läuft.",
     "note": "Aufgenommen aus dem Innovia-Trunk. Verschwommen zum Schutz der Demodaten. Klare Walkthroughs auf Anfrage.",
     "tabsAria": "Use-Case-Kategorien",
@@ -185,6 +185,18 @@
         "title": "Workflow-Orchestrierung",
         "body": "Geschäftsprozesse (Origination, KYC, Vertragsaktivierung, Dokumentenerfassung, Mahn-Eskalation) laufen als versionierte Workflows auf einem eingebetteten Orchestrator mit voller Observability, Retries und Human-in-the-Loop-Tasks. Einen Schritt zu ändern ist eine Workflow-Bearbeitung, kein Sprint, und jede Ausführung ist auditierbar. Operations und Produkt streiten nicht mehr mit Engineering darüber, welchen Pfad das System tatsächlich nimmt.",
         "usp": "Geschäftsprozesse als versionierte, observable Workflows, nicht im Code vergraben."
+      },
+      "kycOnboarding": {
+        "area": "KYC und Onboarding",
+        "title": "Kunden-Onboarding und wirtschaftlich Berechtigte",
+        "body": "Firmenkunden werden mit der vollständigen Kette der wirtschaftlich Berechtigten modelliert: Direktoren, Anteilseigner und Ultimate Beneficial Owners über verschachtelte Eigentümerstrukturen. Das Onboarding erfasst Identität, Ansässigkeit, PEP- und Sanktions-Flags in einem Workflow, und der entstehende Graph begleitet jeden Deal über die gesamte Geschäftsbeziehung. Schluss mit flachen Kundenstammsätzen, die verbergen, wem der Cashflow tatsächlich gehört.",
+        "usp": "Vollständige UBO-Kette beim Onboarding modelliert, kein flacher Kundenstamm."
+      },
+      "modelMonitoring": {
+        "area": "Plattformfundament",
+        "title": "ML-Risikoberatung und Modellüberwachung",
+        "body": "Das Risikoscoring wird von einer erklärbaren ML-Schicht ergänzt, die parallel zur Regel-Engine läuft, mit Feature Importance, Kalibrierung und Drift auf einer eigenen Monitoring-Seite. Underwriter sehen Modell-Übereinstimmung und -Widerspruch auf jedem Deal, und die Risikoleitung sieht, wann ein Modell neu trainiert werden muss, bevor die Performance abfällt. Die Augmentierung ist beratend, niemals autonom, der Mensch zeichnet ab.",
+        "usp": "Scoring durch erklärbares ML ergänzt, mit Drift und Kalibrierung sichtbar überwacht."
       }
     }
   },

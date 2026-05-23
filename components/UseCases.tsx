@@ -15,14 +15,16 @@ const IMAGES: Record<string, string> = {
   glPosting:               '/use-cases/11-accounting.png',
   corporateCreditLines:    '/use-cases/12-corporate-credit-lines.png',
   workflowOrchestration:   '/use-cases/13-workflow-orchestration.png',
+  kycOnboarding:           '/use-cases/14-kyc-onboarding.png',
+  modelMonitoring:         '/use-cases/15-model-monitoring.png',
 };
 
 const GROUPS = [
-  { key: 'origination', items: ['dealPipeline', 'financialScoring'] },
+  { key: 'origination', items: ['dealPipeline', 'financialScoring', 'kycOnboarding'] },
   { key: 'servicing',   items: ['executiveDashboard', 'contractManagement', 'collections', 'glPosting'] },
   { key: 'catalog',     items: ['productCatalog', 'insuranceCatalog', 'fleetOperations', 'corporateCreditLines'] },
   { key: 'portals',     items: ['dealerPortal', 'clientPortal'] },
-  { key: 'platform',    items: ['workflowOrchestration'] },
+  { key: 'platform',    items: ['workflowOrchestration', 'modelMonitoring'] },
 ] as const;
 
 export default function UseCases() {
@@ -60,7 +62,7 @@ export default function UseCases() {
               <div className="mb-6 flex items-baseline gap-4 border-l-4 border-teal-600 pl-4">
                 <h3 className="text-h3 text-ink-700">{t(`tabs.${group.key}`)}</h3>
                 <span className="text-caption text-slate-400">
-                  {group.items.length} {group.items.length === 1 ? t('cardSingular') : t('cardPlural')}
+                  {group.items.length} {t('cardPlural')}
                 </span>
               </div>
 

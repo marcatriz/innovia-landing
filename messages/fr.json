@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "Depuis la plateforme en production",
-    "title": "Dix workflows que la plateforme Innovia exécute out of the box.",
+    "title": "Quinze workflows que la plateforme Innovia exécute out of the box.",
     "body": "Captures de l'application Innovia en fonctionnement, légèrement floutées : la structure reste lisible, les données spécifiques restent privées. Chaque carte correspond à un rôle réel et à un workflow réel déjà opérationnel sur des données de démonstration.",
     "note": "Captures issues du trunk Innovia. Floutées pour protéger les données de démonstration. Démonstrations nettes disponibles sur demande.",
     "tabsAria": "Catégories de cas d'usage",
@@ -185,6 +185,18 @@
         "title": "Orchestration de workflows",
         "body": "Les processus métier (origination, KYC, activation de contrat, collecte de documents, escalade de relance) tournent comme workflows versionnés sur un orchestrateur embarqué, avec observabilité complète, retries et tâches human-in-the-loop. Modifier une étape est une édition de workflow, pas un sprint, et chaque exécution est auditable. Les équipes opérations et produit cessent de discuter avec l'ingénierie pour savoir quel chemin emprunte réellement le système.",
         "usp": "Processus métier comme workflows versionnés et observables, pas enfouis dans le code."
+      },
+      "kycOnboarding": {
+        "area": "KYC et onboarding",
+        "title": "Onboarding client et bénéficiaires effectifs",
+        "body": "Les clients corporate sont modélisés avec toute la chaîne des bénéficiaires effectifs : dirigeants, actionnaires et Ultimate Beneficial Owners à travers des structures de propriété imbriquées. L'onboarding capture identité, résidence, indicateurs PEP et sanctions dans un seul workflow, et le graphe obtenu accompagne chaque dossier pendant toute la durée de la relation. Fini les fiches client plates qui cachent qui détient vraiment le cash flow.",
+        "usp": "Chaîne complète des bénéficiaires effectifs modélisée dès l'onboarding, pas une fiche client plate."
+      },
+      "modelMonitoring": {
+        "area": "Fondation plateforme",
+        "title": "Conseil risque ML et monitoring de modèle",
+        "body": "Le scoring de risque est augmenté par une couche ML explicable qui tourne à côté du moteur de règles, avec feature importance, calibration et drift suivis sur une page de monitoring dédiée. Les underwriters voient l'accord et le désaccord du modèle sur chaque dossier, et la direction des risques voit quand un modèle doit être ré-entraîné avant que la performance ne se dégrade. L'augmentation est consultative, jamais autonome, l'humain valide.",
+        "usp": "Scoring augmenté par ML explicable, drift et calibration sous surveillance visible."
       }
     }
   },
