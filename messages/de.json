@@ -2,6 +2,7 @@
   "nav": {
     "services": "Leistungen",
     "modules": "Plattform",
+    "useCases": "Anwendungsfälle",
     "partnership": "Partnerschaft",
     "thesis": "These",
     "diagnostic": "Diagnostik",
@@ -87,6 +88,64 @@
       "securedMicrocredit": {
         "title": "Secured Microcredit",
         "body": "Pfand-, Partnerkanal- und Händler-gebündelte Kreditvergabe. Sicherheitenverwaltung, schnelle Auszahlung, vollständige Compliance über den Zyklus."
+      }
+    }
+  },
+  "useCases": {
+    "eyebrow": "Aus der laufenden Plattform",
+    "title": "Zehn Workflows, die die Innovia-Plattform out of the box ausführt.",
+    "body": "Aufnahmen aus der laufenden Innovia-Anwendung, leicht verschwommen — die Struktur bleibt lesbar, spezifische Daten bleiben privat. Jede Karte entspricht einer realen Rolle und einem realen Workflow, der bereits auf Demodaten läuft.",
+    "note": "Aufgenommen aus dem Innovia-Trunk. Verschwommen zum Schutz der Demodaten — klare Walkthroughs auf Anfrage.",
+    "items": {
+      "executiveDashboard": {
+        "area": "Executive-Überblick",
+        "title": "Portfolio-Kommandozentrale",
+        "body": "Konzern-KPIs, Portfoliomix, Trends bei Time-to-Yes und Time-to-Pay sowie Vertragstyp-Aufschlüsselung — eine operative Sicht über Marken und Kanäle."
+      },
+      "dealPipeline": {
+        "area": "Vertrieb und Origination",
+        "title": "Deal-Pipeline",
+        "body": "Vertriebsmitarbeiter führen Deals von der Anfrage bis zur Genehmigung in einem Workspace. Pipeline-Wert, Time-to-Yes, Genehmigungsquote und Stufenaufschlüsselung pro Vertragstyp."
+      },
+      "financialScoring": {
+        "area": "Risiko und Underwriting",
+        "title": "Finanzscoring-Engine",
+        "body": "Fünfdimensionales Corporate-Scoring: Umsatz, EBITDA-Marge, Leverage, Liquidität, Eigenkapitalquote. Bewerten, speichern und Entscheidungen direkt am Deal-Datensatz auditieren."
+      },
+      "contractManagement": {
+        "area": "Vertragsservicing",
+        "title": "Vertragsmanagement",
+        "body": "Das vollständige Leasingbuch in einer durchsuchbaren Liste — Status, finanzierter Wert, durchschnittlicher Zinssatz, aktive Verträge. Drill-in für Zahlungsplan, Services und Dokumente."
+      },
+      "collections": {
+        "area": "Inkasso und Recovery",
+        "title": "Collections und Mahnwesen",
+        "body": "Aging-Buckets, Außenstände pro Vertrag, risikomarkierte Konten und eine Aktionswarteschlange. Direkter Weg von der versäumten Zahlung zum Mahnworkflow."
+      },
+      "productCatalog": {
+        "area": "Produktkonfiguration",
+        "title": "Katalog der Finanzprodukte",
+        "body": "Operating Lease, Finance Lease, Mietkauf, Corporate-Kredite, EV- und Green-Varianten — Währung, Zahlungsplan-Typ, Zins- und Anzahlungsbänder pro Produkt."
+      },
+      "insuranceCatalog": {
+        "area": "Produktkonfiguration",
+        "title": "Versicherungsprodukte",
+        "body": "Versicherungskatalog (Vollkasko, GAP, Leben und objektspezifisch) verknüpft mit Finanzierungssumme und Maklerprovision. Pro Markt aktivierbar, pro Anlageklasse bepreist."
+      },
+      "fleetOperations": {
+        "area": "Flotte und Operations",
+        "title": "Kundenflotten-Sicht",
+        "body": "Flottengröße, finanzierter Wert, Restwertexposition, auslaufende Verträge, ausgesetzte Objekte — plus eine Vertrags-Auslauf-Timeline für die Verlängerungsplanung."
+      },
+      "dealerPortal": {
+        "area": "Händler-Self-Service",
+        "title": "Händlerportal",
+        "body": "Händler kalkulieren, beantragen und verfolgen aus ihrem eigenen Portal. Aktive Kampagnen erscheinen mit subventioniertem Zins, RV-Uplift und verbleibendem Volumen."
+      },
+      "clientPortal": {
+        "area": "Kunden-Self-Service",
+        "title": "Kundenportal",
+        "body": "Retail- und Firmenkunden sehen ihren Zahlungsplan, gezahlt vs. verbleibend, anstehende Zahlungen, Verzugswarnungen und aktive Services, ohne Backoffice anzurufen."
       }
     }
   },

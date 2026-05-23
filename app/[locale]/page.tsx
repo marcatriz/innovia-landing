@@ -6,6 +6,7 @@ import Problem from '@/components/Problem';
 import Thesis from '@/components/Thesis';
 import Services from '@/components/Services';
 import Modules from '@/components/Modules';
+import UseCases from '@/components/UseCases';
 import Partnership from '@/components/Partnership';
 import Operator from '@/components/Operator';
 import Contact from '@/components/Contact';
@@ -29,6 +30,7 @@ export default async function HomePage({
         <Thesis />
         <Services />
         <Modules />
+        <UseCases />
         <Partnership />
         <Operator />
         <Contact />

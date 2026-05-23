@@ -2,6 +2,7 @@
   "nav": {
     "services": "Services",
     "modules": "Platform",
+    "useCases": "Use cases",
     "partnership": "Partnership",
     "thesis": "Thesis",
     "diagnostic": "Diagnostic",
@@ -87,6 +88,64 @@
       "securedMicrocredit": {
         "title": "Secured Microcredit",
         "body": "Pawn-style, partner-channel, and merchant-bundled lending. Collateral tracking, rapid disbursement, full-cycle compliance."
+      }
+    }
+  },
+  "useCases": {
+    "eyebrow": "From the running platform",
+    "title": "Ten workflows the Innovia platform runs out of the box.",
+    "body": "Screens captured from the live Innovia application, soft-blurred so the structure stays legible but specific data remains private. Each card maps to a real role and a real workflow already operating against demo data.",
+    "note": "Captured from Innovia trunk. Blurred to protect demo data — sharp walkthroughs available on request.",
+    "items": {
+      "executiveDashboard": {
+        "area": "Executive overview",
+        "title": "Portfolio command centre",
+        "body": "Group-level KPIs, portfolio mix, time-to-yes and time-to-pay trends, and contract type breakdown — one operating view across brands and channels."
+      },
+      "dealPipeline": {
+        "area": "Sales & origination",
+        "title": "Deal pipeline",
+        "body": "Sales operators move deals from inquiry to approval in one workspace. Pipeline value, time-to-yes, approval rate and stage breakdowns track on top of every contract type."
+      },
+      "financialScoring": {
+        "area": "Risk & underwriting",
+        "title": "Financial scoring engine",
+        "body": "Five-dimension corporate scoring: revenue, EBITDA margin, leverage, liquidity, equity ratio. Score, store, and audit decisions on the deal record."
+      },
+      "contractManagement": {
+        "area": "Contract servicing",
+        "title": "Contract management",
+        "body": "The full leasing book in one searchable list — status, financed value, average interest, and active contracts. Drill in for schedule, services and documents."
+      },
+      "collections": {
+        "area": "Collections & recovery",
+        "title": "Collections & dunning",
+        "body": "Aging buckets, overdue per contract, risk-flagged accounts and an action queue. Direct line from a missed payment to the dunning workflow."
+      },
+      "productCatalog": {
+        "area": "Product configuration",
+        "title": "Financial product catalogue",
+        "body": "Operating Lease, Finance Lease, Hire Purchase, corporate loans, EV and green variants — currency, schedule type, interest and advance bands per product."
+      },
+      "insuranceCatalog": {
+        "area": "Product configuration",
+        "title": "Insurance products",
+        "body": "Insurance catalogue (CASCO, GAP, life and asset-specific) wired to financed amount and broker margin. Activate per market, price per asset class."
+      },
+      "fleetOperations": {
+        "area": "Fleet & operations",
+        "title": "Client fleet view",
+        "body": "Fleet size, financed value, residual exposure, contracts expiring, suspended assets — plus a contract-expiry timeline for renewal planning."
+      },
+      "dealerPortal": {
+        "area": "Dealer self-service",
+        "title": "Dealer portal",
+        "body": "Dealers quote, apply and track from their own portal. Active campaigns surface with subvented rate, RV uplift and remaining-volume terms."
+      },
+      "clientPortal": {
+        "area": "Borrower self-service",
+        "title": "Client portal",
+        "body": "Retail and corporate borrowers see their schedule, paid vs. remaining, upcoming payments, overdue alerts and active services without calling the back office."
       }
     }
   },
