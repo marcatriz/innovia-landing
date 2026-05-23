@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "From the running platform",
-    "title": "Fifteen workflows the Innovia platform runs out of the box.",
+    "title": "Just a few of the workflows the platform runs. Plenty more behind them.",
     "body": "Screens captured from the live Innovia application, soft-blurred so the structure stays legible but specific data remains private. Each card maps to a real role and a real workflow already operating against demo data.",
     "note": "Captured from Innovia trunk. Blurred to protect demo data. Sharp walkthroughs available on request.",
     "tabsAria": "Use case categories",

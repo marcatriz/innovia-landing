@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "Din platforma operațională",
-    "title": "Cincisprezece fluxuri pe care platforma Innovia le execută out of the box.",
+    "title": "Doar câteva dintre fluxurile pe care le rulează platforma. Mai sunt destule în spatele lor.",
     "body": "Capturi din aplicația Innovia live, blurate ușor astfel încât structura rămâne lizibilă iar datele specifice rămân private. Fiecare card corespunde unui rol real și unui flux real care rulează deja pe date demo.",
     "note": "Capturi din branch-ul Innovia. Blurate pentru protecția datelor demo. Demonstrații clare disponibile la cerere.",
     "tabsAria": "Categorii de use case",

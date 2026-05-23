@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "Dalla piattaforma operativa",
-    "title": "Quindici workflow che la piattaforma Innovia esegue out of the box.",
+    "title": "Solo alcuni dei workflow che la piattaforma esegue. Molti altri dietro le quinte.",
     "body": "Catture dall'applicazione Innovia in esecuzione, leggermente sfocate così che la struttura resti leggibile ma i dati specifici restino privati. Ogni card corrisponde a un ruolo reale e a un workflow reale già operativo su dati demo.",
     "note": "Catture dal trunk Innovia. Sfocate per proteggere i dati demo. Walkthrough nitidi disponibili su richiesta.",
     "tabsAria": "Categorie di use case",

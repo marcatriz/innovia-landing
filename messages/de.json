@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "Aus der laufenden Plattform",
-    "title": "Fünfzehn Workflows, die die Innovia-Plattform out of the box ausführt.",
+    "title": "Nur ein paar der Workflows, die die Plattform ausführt. Dahinter stehen noch viele mehr.",
     "body": "Aufnahmen aus der laufenden Innovia-Anwendung, leicht verschwommen, damit die Struktur lesbar bleibt und spezifische Daten privat bleiben. Jede Karte entspricht einer realen Rolle und einem realen Workflow, der bereits auf Demodaten läuft.",
     "note": "Aufgenommen aus dem Innovia-Trunk. Verschwommen zum Schutz der Demodaten. Klare Walkthroughs auf Anfrage.",
     "tabsAria": "Use-Case-Kategorien",

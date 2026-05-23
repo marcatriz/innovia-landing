@@ -93,7 +93,7 @@
   },
   "useCases": {
     "eyebrow": "Depuis la plateforme en production",
-    "title": "Quinze workflows que la plateforme Innovia exécute out of the box.",
+    "title": "Juste quelques-uns des workflows que la plateforme exécute. Bien d'autres derrière.",
     "body": "Captures de l'application Innovia en fonctionnement, légèrement floutées : la structure reste lisible, les données spécifiques restent privées. Chaque carte correspond à un rôle réel et à un workflow réel déjà opérationnel sur des données de démonstration.",
     "note": "Captures issues du trunk Innovia. Floutées pour protéger les données de démonstration. Démonstrations nettes disponibles sur demande.",
     "tabsAria": "Catégories de cas d'usage",
