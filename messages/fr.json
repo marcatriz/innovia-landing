@@ -169,6 +169,14 @@
       }
     }
   },
+  "changelog": {
+    "eyebrow": "Changelog",
+    "title": "Ce qui sort sur la plateforme.",
+    "subtitle": "Entrées datées de changements de capacités pertinents pour un acheteur. Refactorings internes et fixes mineurs restent hors de cette page.",
+    "cadence": "Nous mettons à jour le jour où le changement est en production. Pas de résumé trimestriel, pas de surprises.",
+    "whitepapersFooter": "Pourquoi ces capacités, dans l'ordre où elles sortent, suivent notre thèse de positionnement :",
+    "whitepapersLink": "voir les whitepapers"
+  },
   "whitepapersIndex": {
     "eyebrow": "Whitepapers",
     "title": "Le point de vue Innovia.",

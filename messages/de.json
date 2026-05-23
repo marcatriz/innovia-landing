@@ -169,6 +169,14 @@
       }
     }
   },
+  "changelog": {
+    "eyebrow": "Changelog",
+    "title": "Was die Plattform ausliefert.",
+    "subtitle": "Datierte Einträge zu Capability-Änderungen, die für einen Käufer relevant sind. Interne Refactorings und kleinere Fixes bleiben außerhalb dieser Seite.",
+    "cadence": "Wir aktualisieren am Tag, an dem die Änderung in Produktion ist. Keine Quartalszusammenfassung, keine Überraschungen.",
+    "whitepapersFooter": "Warum diese Capabilities, in der Reihenfolge, in der sie ausgeliefert werden, unserer Positionierungsthese folgen:",
+    "whitepapersLink": "siehe die Whitepapers"
+  },
   "whitepapersIndex": {
     "eyebrow": "Whitepapers",
     "title": "Die Innovia-Sicht.",

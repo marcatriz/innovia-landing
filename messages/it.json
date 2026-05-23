@@ -169,6 +169,14 @@
       }
     }
   },
+  "changelog": {
+    "eyebrow": "Changelog",
+    "title": "Cosa esce sulla piattaforma.",
+    "subtitle": "Voci datate di cambiamenti di capability rilevanti per un acquirente. Refactoring interni e fix minori restano fuori da questa pagina.",
+    "cadence": "Aggiorniamo il giorno in cui il cambiamento è in produzione. Nessun riassunto trimestrale, nessuna sorpresa.",
+    "whitepapersFooter": "Perché queste capability, nell'ordine in cui escono, seguono la nostra tesi di posizionamento:",
+    "whitepapersLink": "vedi i whitepaper"
+  },
   "whitepapersIndex": {
     "eyebrow": "Whitepapers",
     "title": "Il punto di vista Innovia.",

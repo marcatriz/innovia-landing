@@ -169,6 +169,14 @@
       }
     }
   },
+  "changelog": {
+    "eyebrow": "Changelog",
+    "title": "Ce iese pe platformă.",
+    "subtitle": "Intrări datate cu schimbări de capability care contează pentru un cumpărător. Refactorings interne și fix-uri minore rămân în afara acestei pagini.",
+    "cadence": "Actualizăm în ziua în care schimbarea este în producție. Fără sumar trimestrial, fără surprize.",
+    "whitepapersFooter": "De ce aceste capability-uri, în ordinea în care ies, urmează teza noastră de poziționare:",
+    "whitepapersLink": "vezi whitepapers"
+  },
   "whitepapersIndex": {
     "eyebrow": "Whitepapers",
     "title": "Punctul de vedere Innovia.",

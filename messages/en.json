@@ -176,6 +176,14 @@
     "readMore": "Read the paper",
     "minutes": "min read"
   },
+  "changelog": {
+    "eyebrow": "Changelog",
+    "title": "What ships on the platform.",
+    "subtitle": "Dated entries of capability changes that matter to a buyer. Internal refactors and minor fixes stay out of this page.",
+    "cadence": "We update on the day the change is in production. No quarterly summary, no surprises.",
+    "whitepapersFooter": "Why these capabilities, in the order they ship, follow our positioning thesis:",
+    "whitepapersLink": "see the whitepapers"
+  },
   "whitepaper": {
     "backToList": "Back to all whitepapers",
     "backToHome": "Back to home"
