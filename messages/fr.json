@@ -4,6 +4,7 @@
     "modules": "Plateforme",
     "useCases": "Cas d'usage",
     "partnership": "Partenariat",
+    "fitSprint": "Fit Sprint",
     "thesis": "Thèse",
     "diagnostic": "Diagnostic",
     "whitepapers": "Whitepapers",
@@ -130,7 +131,7 @@
         "area": "Servicing contrats",
         "title": "Gestion des contrats",
         "body": "L'ensemble du book de leasing vit dans une seule liste filtrable avec statut, valeur financée, taux moyen et nombre de contrats actifs visibles en permanence. Le drill-in vers un contrat ouvre l'échéancier, les services associés, les documents et la piste d'audit dans le même workspace. Les équipes de servicing arrêtent de jongler entre trois systèmes pour répondre à une seule question client.",
-        "usp": "Chaque contrat, chaque artefact, un workspace, sans aller-retour entre systèmes."
+        "usp": "Chaque contrat, chaque document, un workspace, sans aller-retour entre systèmes."
       },
       "collections": {
         "area": "Recouvrement",
@@ -227,6 +228,180 @@
     "eyebrow": "Track record",
     "title": "Construit par un opérateur.",
     "body": "Près de deux décennies à exploiter des plateformes européennes de leasing sur les segments automotive, equipment et captive finance, dans des contextes mid-tier et groupe. Le travail a couvert des migrations, des déploiements multi-pays, des refontes de politique de crédit, des changements réglementaires et le firefighting de fin de mois sans gloire qui transforme une plateforme de théorique à fiable. La roadmap produit et la pratique d'advisory reflètent toutes deux ce qui casse réellement en production."
+  },
+  "fitSprint": {
+    "hero": {
+      "eyebrow": "Innovia Fit Sprint",
+      "title": "Quatre semaines pour votre prochaine décision défendable au conseil.",
+      "tagline": "Fit for Digital. Fit for AI.",
+      "bodyPara1": "Un mandat d'advisory productisé, vendu à prix et périmètre fixes, qui livre un résultat unique : un sponsor capable de prendre une décision défendable au niveau du conseil, qu'il n'aurait pas pu prendre avant le sprint.",
+      "bodyPara2": "Ce qui le rend différent, c'est la combinaison. Discipline consulting top-tier (structure MECE, chiffres sourcés, principe de la pyramide, aucune affirmation rhétorique) sur chaque livrable reçu. Logiciel fonctionnel dans lequel vous vous connectez en semaine deux, configuré à vos couleurs avec un échantillon de vos données. Prix fixe, périmètre fixe, calendrier fixe de quatre semaines, aucun scope creep déguisé en discovery. Mené par un opérateur ayant près de deux décennies passées à construire, soutenir et faire passer à l'échelle des plateformes européennes de leasing.",
+      "bodyPara3": "Entre douze et quinze livrables qui vous reviennent, en anglais, prêts pour le conseil. Un moment de décision au readout, trois états seulement : oui, non ou une échéance nommée. L'Innovation Partnership est annoncée tout au long, prête si vous décidez de poursuivre.",
+      "cta": "Réserver un appel de discovery"
+    },
+    "product": {
+      "eyebrow": "Qu'est-ce que c'est",
+      "title": "Quatre semaines. Prix fixe. Une décision que le conseil peut défendre.",
+      "pillars": {
+        "operator": {
+          "title": "Profondeur d'opérateur, pas de théorie.",
+          "body": "Mené par un fondateur ayant près de deux décennies d'expérience d'exploitation de plateformes européennes de leasing. Chaque recommandation est informée par l'expérience réelle d'avoir construit, soutenu et fait passer à l'échelle les systèmes dont nous parlons."
+        },
+        "software": {
+          "title": "Logiciel fonctionnel, pas seulement des slides.",
+          "body": "Dès la deuxième semaine, vous vous connectez à une plateforme fonctionnelle configurée à vos couleurs, avec vos produits et un échantillon de vos données. Le readout la parcourt en direct, pas via des captures d'écran."
+        },
+        "fixed": {
+          "title": "Prix fixe, périmètre fixe, durée fixe.",
+          "body": "Un mandat productisé, pas une consultance ouverte. Vous savez exactement ce que vous payez, ce que vous recevez et quand. Le périmètre est verrouillé dans le Statement of Work. Les change orders sont facturés de manière transparente au tarif journalier."
+        }
+      }
+    },
+    "phases": {
+      "eyebrow": "Comment ça marche",
+      "title": "Cinq phases. Un readout.",
+      "items": {
+        "intake": {
+          "label": "Intake",
+          "week": "Semaine 0",
+          "body": "Statement of Work et NDA mutuel signés. Sponsor et sponsor suppléant confirmés. Périmètre verrouillé. Cinq à huit créneaux d'entretien planifiés. Transfert de données confirmé."
+        },
+        "discovery": {
+          "label": "Discovery",
+          "week": "Semaine 1",
+          "body": "Cinq à huit entretiens, évaluation des capabilities, cartographie des processus, gap report avec chiffres sourcés. Sync mi-sprint avec le sponsor en fin de semaine."
+        },
+        "design": {
+          "label": "Design",
+          "week": "Semaines 2-3",
+          "body": "Target operating model, future-state journeys, capability roadmap priorisée en vagues. Branded working tenant configuré avec vos produits et un échantillon de vos données."
+        },
+        "decide": {
+          "label": "Decide",
+          "week": "Semaine 3",
+          "body": "Executive memo, board deck, business case avec sensibilité sur les trois variables qui comptent le plus. Pre-read de décision avec le sponsor trois jours avant le readout."
+        },
+        "readout": {
+          "label": "Readout",
+          "week": "Semaine 4",
+          "body": "Deux heures sur site. Walkthrough en direct sur le branded tenant. Proposition d'Innovation Partnership présentée. Moment de décision explicite : oui, non ou échéance nommée."
+        }
+      }
+    },
+    "deliverables": {
+      "eyebrow": "Ce que vous emportez",
+      "title": "Six livrables, prêts pour le conseil, tous à vous.",
+      "items": {
+        "memo": {
+          "tag": "Prêt pour le conseil",
+          "title": "Executive memo",
+          "body": "Une à deux pages. Situation, complication, recommandation, demande. Conçu pour un dirigeant qui lit sur son téléphone."
+        },
+        "deck": {
+          "tag": "Prêt pour la décision",
+          "title": "Board deck",
+          "body": "Quinze à vingt-cinq slides, chaque titre est un takeaway. Utilisé comme base pour votre prochain support de conseil."
+        },
+        "businessCase": {
+          "tag": "CFO-grade",
+          "title": "Business case",
+          "body": "Narratif plus tableur. NPV, payback, sensibilité sur les trois principales variables, scénarios ajustés au risque."
+        },
+        "tom": {
+          "tag": "Cross-fonctionnel",
+          "title": "Target operating model",
+          "body": "Personnes, processus, technologie, données, gouvernance. Droits de décision nommés, schéma de transition inclus."
+        },
+        "roadmap": {
+          "tag": "Vagues priorisées",
+          "title": "Capability roadmap",
+          "body": "Douze à trente-six mois. Chaque initiative avec effort, impact, dépendances et owner."
+        },
+        "tenant": {
+          "tag": "Connecté en semaine deux",
+          "title": "Branded working tenant",
+          "body": "Une instance configurée de la plateforme Innovia à vos couleurs, avec vos produits, dans laquelle vous pouvez vous connecter pendant le readout et continuer à explorer pendant 90 jours après."
+        }
+      }
+    },
+    "tiers": {
+      "eyebrow": "Investissement",
+      "title": "Trois tiers. Standard est le défaut.",
+      "footnote": "Le prix est verrouillé au scoping, jamais ajusté en cours de sprint. Les change orders sont facturés de manière transparente à 2 000 € par jour. Conditions de paiement : 50 % à la signature, 50 % au readout. Déplacements dans l'UE inclus.",
+      "items": {
+        "lite": {
+          "tag": "Tier 1",
+          "title": "Lite",
+          "price": "8k – 12k €",
+          "body": "Deux semaines. Diagnostic et executive memo uniquement. Pour les prospects qui ont besoin d'une lecture rapide avant de s'engager sur un sprint complet.",
+          "includes": [
+            "Capability assessment",
+            "Gap report",
+            "Executive memo",
+            "Readout virtuel"
+          ]
+        },
+        "standard": {
+          "tag": "Tier 2 · Recommandé",
+          "title": "Standard",
+          "price": "18k – 25k €",
+          "body": "Trois à quatre semaines. Le diagnostic, le design et le pack de décision complets. Le tier par défaut pour la plupart des mandats.",
+          "includes": [
+            "Tout ce qui est dans Lite, plus",
+            "Target operating model",
+            "Capability roadmap",
+            "Board deck et business case",
+            "Branded working tenant",
+            "Readout sur site"
+          ]
+        },
+        "premium": {
+          "tag": "Tier 3",
+          "title": "Premium",
+          "price": "35k – 50k €",
+          "body": "Six semaines. Standard plus un travail plus profond de processus et d'intégration. Pour les mandats qui anticipent une exécution immédiate.",
+          "includes": [
+            "Tout ce qui est dans Standard, plus",
+            "Deux process redesigns",
+            "Spécification d'integration spike",
+            "Cadre d'évaluation des vendeurs",
+            "Plan d'implémentation détaillé"
+          ]
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Questions fréquentes",
+      "title": "Ce que l'on demande avant de signer.",
+      "items": {
+        "who": {
+          "q": "À qui cela s'adresse-t-il ?",
+          "a": "Aux chief operating, information ou risk officers d'institutions financières indépendantes, sociétés de leasing, opérateurs de flotte, consumer finance et corporate credit en Europe. Le sweet spot est un opérateur mid-tier confronté aux mêmes questions que les banques Tier 1, mais avec moins de marge pour y répondre."
+        },
+        "outcome": {
+          "q": "Et si la décision est non ?",
+          "a": "Un non clair est un résultat parfaitement valable du mandat, et les livrables vous reviennent. Le sprint est payé pour l'exécution et un pack de décision défendable, pas pour une direction spécifique. Nous traitons un non clair avec le même respect qu'un oui clair."
+        },
+        "scope": {
+          "q": "Et si nous avons besoin de plus ou moins de quatre semaines ?",
+          "a": "Lite, c'est deux semaines pour les prospects qui ont besoin d'un diagnostic rapide. Standard, c'est trois à quatre semaines et couvre la majorité des mandats. Premium, c'est six semaines lorsque l'exécution immédiate est anticipée. Le périmètre est fixé à la signature et ne peut être étendu que par change orders écrits à 2 000 € par jour."
+        },
+        "data": {
+          "q": "Qu'en est-il de la confidentialité et des données ?",
+          "a": "Chaque mandat est lié par un NDA mutuel signé avant le démarrage du sprint. Nous travaillons avec des échantillons de données anonymisés ; nous n'avons pas besoin d'accès à des données personnelles ou à des systèmes en production. Les enregistrements d'entretien sont conservés 30 jours après la fin du mandat, puis supprimés."
+        },
+        "after": {
+          "q": "Que se passe-t-il après le readout ?",
+          "a": "Si la décision est oui, le scoping de l'Innovation Partnership commence sous cinq jours ouvrés. La Partnership est un mandat plus long qui porte la recommandation jusqu'à l'exécution, dimensionné entre 60k et 150k € selon le périmètre. Si la décision est non ou une échéance nommée, le mandat se clôt proprement, sans relance sauf si vous reprenez contact."
+        }
+      }
+    },
+    "cta": {
+      "title": "Voyons si un sprint est la bonne étape suivante.",
+      "body": "Un appel de discovery de trente minutes est gratuit, sans engagement. Nous confirmons si un Fit Sprint correspond à votre situation et à votre calendrier de décision. Si ce n'est pas le cas, nous vous le disons directement.",
+      "primary": "Réserver un appel de discovery",
+      "secondary": "Retour à la plateforme"
+    }
   },
   "diagnostic": {
     "eyebrow": "Diagnostic",

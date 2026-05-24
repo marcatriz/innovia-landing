@@ -4,6 +4,7 @@
     "modules": "Platform",
     "useCases": "Use cases",
     "partnership": "Partnership",
+    "fitSprint": "Fit Sprint",
     "thesis": "Thesis",
     "diagnostic": "Diagnostic",
     "whitepapers": "Whitepapers",
@@ -130,7 +131,7 @@
         "area": "Contract servicing",
         "title": "Contract management",
         "body": "The full leasing book lives in one searchable list with status, financed value, average interest, and active contract counts in view at all times. Drilling into a contract opens the schedule, the related services, the documents, and the audit trail in the same workspace. Servicing teams stop swivel-chairing between three systems to answer a single client question.",
-        "usp": "Every contract, every artifact, one workspace, with no swivel-chair between systems."
+        "usp": "Every contract, every document, one workspace, with no swivel-chair between systems."
       },
       "collections": {
         "area": "Collections and recovery",
@@ -227,6 +228,180 @@
     "eyebrow": "Track record",
     "title": "Built by an operator.",
     "body": "Nearly two decades operating European leasing platforms across automotive, equipment, and captive finance, in mid-tier and group settings. The work covered migrations, multi-country rollouts, credit-policy redesign, regulatory change, and the unglamorous month-end firefighting that turns a platform from theoretical to trusted. The product roadmap and the advisory practice both reflect what actually breaks in production."
+  },
+  "fitSprint": {
+    "hero": {
+      "eyebrow": "Innovia Fit Sprint",
+      "title": "A four-week path to your next board-grade decision.",
+      "tagline": "Fit for Digital. Fit for AI.",
+      "bodyPara1": "A productized advisory engagement, sold at fixed price and fixed scope, that delivers a single outcome: a sponsor who can make a defensible, board-grade decision they could not have made before the sprint.",
+      "bodyPara2": "What makes it different is the combination. Top-tier consulting discipline (MECE structure, sourced numbers, pyramid principle, no rhetorical claims) on every deliverable you receive. Working software you log into in week two, configured in your colors with a sample of your data. Fixed price, fixed scope, fixed four-week calendar, no scope creep dressed up as discovery. Led by an operator with nearly two decades shipping, supporting, and scaling European leasing platforms.",
+      "bodyPara3": "Twelve to fifteen deliverables you keep, in English, board-ready. One decision moment at the readout, three states only: yes, no, or a named deadline. The Innovation Partnership is pre-teased throughout, ready if you decide to proceed.",
+      "cta": "Book a discovery call"
+    },
+    "product": {
+      "eyebrow": "What it is",
+      "title": "Four weeks. Fixed price. One decision the board can defend.",
+      "pillars": {
+        "operator": {
+          "title": "Operator depth, not theory.",
+          "body": "Led by a founder with nearly two decades operating European leasing platforms. Every recommendation is informed by having shipped, supported, and scaled the systems we discuss."
+        },
+        "software": {
+          "title": "Working software, not just slides.",
+          "body": "By week two you log into a working platform configured in your colors, with your products and a sample of your data. The readout walks through it live, not from screenshots."
+        },
+        "fixed": {
+          "title": "Fixed price, fixed scope, fixed time.",
+          "body": "A productized engagement, not an open-ended consultancy. You know exactly what you pay, what you get, and when you get it. Scope is locked in the Statement of Work. Change orders are billed transparently at a day rate."
+        }
+      }
+    },
+    "phases": {
+      "eyebrow": "How it works",
+      "title": "Five phases. One readout.",
+      "items": {
+        "intake": {
+          "label": "Intake",
+          "week": "Week 0",
+          "body": "Statement of Work and mutual NDA signed. Sponsor and alternate sponsor confirmed. Scope locked. Five to eight stakeholder interview slots booked. Data drop confirmed."
+        },
+        "discovery": {
+          "label": "Discovery",
+          "week": "Week 1",
+          "body": "Five to eight interviews, capability assessment, process maps, gap report with sourced numbers. Mid-sprint synchronization with the sponsor at the end of the week."
+        },
+        "design": {
+          "label": "Design",
+          "week": "Weeks 2-3",
+          "body": "Target operating model, future-state journeys, capability roadmap prioritized in waves. Branded working tenant configured with your products and a sample of your data."
+        },
+        "decide": {
+          "label": "Decide",
+          "week": "Week 3",
+          "body": "Executive memo, board deck, business case with sensitivity on the three variables that matter most. Decision pre-read with the sponsor three days before the readout."
+        },
+        "readout": {
+          "label": "Readout",
+          "week": "Week 4",
+          "body": "Two hours on-site. Live walkthrough on the branded tenant. Innovation Partnership proposal presented. Explicit decision moment: yes, no, or named deadline."
+        }
+      }
+    },
+    "deliverables": {
+      "eyebrow": "What you walk away with",
+      "title": "Six deliverables, board-ready, all yours.",
+      "items": {
+        "memo": {
+          "tag": "Board-ready",
+          "title": "Executive memo",
+          "body": "One to two pages. Situation, complication, recommendation, ask. Designed for a chief executive to read on a phone."
+        },
+        "deck": {
+          "tag": "Decision-ready",
+          "title": "Board deck",
+          "body": "Fifteen to twenty-five slides, every title a takeaway. Used as the basis for your next board paper."
+        },
+        "businessCase": {
+          "tag": "CFO-grade",
+          "title": "Business case",
+          "body": "Narrative plus spreadsheet. NPV, payback, sensitivity on the top three variables, risk-adjusted scenarios."
+        },
+        "tom": {
+          "tag": "Cross-functional",
+          "title": "Target operating model",
+          "body": "People, process, technology, data, governance. Decision rights named, transition outline included."
+        },
+        "roadmap": {
+          "tag": "Prioritized waves",
+          "title": "Capability roadmap",
+          "body": "Twelve to thirty-six months. Each initiative with effort, impact, dependencies, and owner."
+        },
+        "tenant": {
+          "tag": "Logged in by week two",
+          "title": "Branded working tenant",
+          "body": "A configured instance of the Innovia platform in your colors, with your products, that you can log into during the readout and keep exploring for 90 days after."
+        }
+      }
+    },
+    "tiers": {
+      "eyebrow": "Investment",
+      "title": "Three tiers. Standard is the default.",
+      "footnote": "Pricing is locked at scoping, never adjusted mid-sprint. Change orders are billed transparently at €2,000 per day. Payment terms: 50% on signature, 50% on readout. Travel within the EU included.",
+      "items": {
+        "lite": {
+          "tag": "Tier 1",
+          "title": "Lite",
+          "price": "€8k to €12k",
+          "body": "Two weeks. Diagnostic and executive memo only. For prospects who need a fast read before committing to a full sprint.",
+          "includes": [
+            "Capability assessment",
+            "Gap report",
+            "Executive memo",
+            "Virtual readout"
+          ]
+        },
+        "standard": {
+          "tag": "Tier 2 · Recommended",
+          "title": "Standard",
+          "price": "€18k to €25k",
+          "body": "Three to four weeks. The full diagnostic, design, and decision pack. The default tier for most engagements.",
+          "includes": [
+            "Everything in Lite, plus",
+            "Target operating model",
+            "Capability roadmap",
+            "Board deck and business case",
+            "Branded working tenant",
+            "On-site readout"
+          ]
+        },
+        "premium": {
+          "tag": "Tier 3",
+          "title": "Premium",
+          "price": "€35k to €50k",
+          "body": "Six weeks. Standard plus deeper process and integration work. For engagements that anticipate immediate execution.",
+          "includes": [
+            "Everything in Standard, plus",
+            "Two process redesigns",
+            "Integration spike specification",
+            "Vendor evaluation framework",
+            "Detailed implementation plan"
+          ]
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Common questions",
+      "title": "What people ask before signing.",
+      "items": {
+        "who": {
+          "q": "Who is this for?",
+          "a": "Chief operating, information, or risk officers at independent financial institutions, leasing companies, fleet operators, consumer finance and corporate credit firms across Europe. The sweet spot is a mid-tier operator facing the same questions as the Tier 1 banks, with less runway to answer them."
+        },
+        "outcome": {
+          "q": "What if the decision is no?",
+          "a": "A clear no is a perfectly valid outcome of the engagement, and the deliverables are still yours. The sprint is paid for execution and a defensible decision pack, not for a specific direction. We treat a clear no with the same respect as a clear yes."
+        },
+        "scope": {
+          "q": "What if we need more or less than four weeks?",
+          "a": "Lite is two weeks for prospects who need a fast diagnostic. Standard is three to four weeks and covers most engagements. Premium is six weeks when immediate execution is expected. Scope is fixed at signature and can only be expanded via written change orders at €2,000 per day."
+        },
+        "data": {
+          "q": "What about confidentiality and data?",
+          "a": "Every engagement is bound by a mutual non-disclosure agreement signed before the sprint begins. We work with anonymized data samples; we do not require access to personal data or live systems. Interview recordings are retained for thirty days after engagement close, then deleted."
+        },
+        "after": {
+          "q": "What happens after the readout?",
+          "a": "If the decision is yes, the Innovation Partnership scoping starts within five business days. The Partnership is a longer engagement that takes the recommendation into execution, sized between €60k and €150k depending on scope. If the decision is no or a named deadline, the engagement closes cleanly with no further outreach unless you reinitiate."
+        }
+      }
+    },
+    "cta": {
+      "title": "Let us see if a sprint is the right next move.",
+      "body": "A thirty-minute discovery call is free, with no obligation. We confirm whether a Fit Sprint fits your situation and your decision timeline. If it does not, we say so directly.",
+      "primary": "Book a discovery call",
+      "secondary": "Back to the platform"
+    }
   },
   "diagnostic": {
     "eyebrow": "Diagnostic",

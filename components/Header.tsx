@@ -19,29 +19,32 @@ export default function Header() {
             className="h-24 w-auto"
           />
         </Link>
-        <nav className="hidden items-center gap-8 md:flex">
-          <Link href="/#services" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+        <nav className="hidden items-center gap-5 md:flex">
+          <Link href="/#services" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('services')}
           </Link>
-          <Link href="/#modules" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <Link href="/#modules" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('modules')}
           </Link>
-          <Link href="/#use-cases" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <Link href="/#use-cases" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('useCases')}
           </Link>
-          <Link href="/#partnership" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <Link href="/fit-sprint" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
+            {t('fitSprint')}
+          </Link>
+          <Link href="/#partnership" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('partnership')}
           </Link>
-          <Link href="/#thesis" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <Link href="/#thesis" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('thesis')}
           </Link>
-          <Link href="/diagnostic" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
-            {t('diagnostic')}
-          </Link>
-          <Link href="/whitepapers" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <Link href="/whitepapers" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('whitepapers')}
           </Link>
-          <Link href="/#contact" className="text-body-sm font-medium text-ink-700 hover:text-teal-700">
+          <Link href="/diagnostic" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
+            {t('diagnostic')}
+          </Link>
+          <Link href="/#contact" className="whitespace-nowrap text-body-sm font-medium text-ink-700 hover:text-teal-700">
             {t('contact')}
           </Link>
         </nav>

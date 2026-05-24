@@ -4,6 +4,7 @@
     "modules": "Platformă",
     "useCases": "Cazuri de utilizare",
     "partnership": "Parteneriat",
+    "fitSprint": "Fit Sprint",
     "thesis": "Teza",
     "diagnostic": "Diagnostic",
     "whitepapers": "Whitepapers",
@@ -130,7 +131,7 @@
         "area": "Servicing contracte",
         "title": "Managementul contractelor",
         "body": "Întregul portofoliu de leasing trăiește într-o singură listă căutabilă, cu status, valoare finanțată, dobândă medie și număr de contracte active vizibile tot timpul. Detaliul pe contract deschide eșalonarea, serviciile asociate, documentele și pista de audit în același workspace. Echipa de servicing nu mai face swivel-chair între trei sisteme pentru o singură întrebare a clientului.",
-        "usp": "Fiecare contract, fiecare artefact, un singur workspace, fără swivel-chair între sisteme."
+        "usp": "Fiecare contract, fiecare document, un singur workspace, fără swivel-chair între sisteme."
       },
       "collections": {
         "area": "Colectări și recuperare",
@@ -227,6 +228,180 @@
     "eyebrow": "Track record",
     "title": "Construit de un operator.",
     "body": "Aproape două decenii de operare a platformelor europene de leasing, în auto, echipamente și captive finance, în setări mid-tier și de grup. Munca a acoperit migrări, roll-out-uri multi-țară, redesign de politică de credit, schimbări de reglementare, și luptele nesexy de month-end care transformă o platformă din teoretică în una de încredere. Roadmap-ul produsului și practica de advisory reflectă amândouă ce se sparge efectiv în producție."
+  },
+  "fitSprint": {
+    "hero": {
+      "eyebrow": "Innovia Fit Sprint",
+      "title": "Patru săptămâni până la următoarea decizie pregătită pentru board.",
+      "tagline": "Fit for Digital. Fit for AI.",
+      "bodyPara1": "Un angajament de advisory productizat, vândut la preț fix și scope fix, care livrează un singur rezultat: un sponsor care poate lua o decizie defensabilă, pregătită pentru board, pe care nu ar fi putut-o lua înainte de sprint.",
+      "bodyPara2": "Ce îl face diferit e combinația. Disciplină de consulting top-tier (structură MECE, cifre sursate, principiul piramidei, fără afirmații retorice) pe fiecare livrabil pe care îl primești. Software funcțional în care te loghezi în săptămâna a doua, configurat în culorile tale cu un eșantion din datele tale. Preț fix, scope fix, calendar de patru săptămâni fix, fără scope creep deghizat în discovery. Condus de un operator cu aproape două decenii de livrat, susținut și scalat platforme europene de leasing.",
+      "bodyPara3": "Între douăsprezece și cincisprezece livrabile care rămân ale tale, în engleză, gata pentru board. Un singur moment de decizie la readout, doar trei stări: da, nu sau un termen numit. Innovation Partnership este anunțat în avans pe tot parcursul, gata dacă decizi să continui.",
+      "cta": "Programează o sesiune de discovery"
+    },
+    "product": {
+      "eyebrow": "Ce este",
+      "title": "Patru săptămâni. Preț fix. O decizie pe care board-ul o poate apăra.",
+      "pillars": {
+        "operator": {
+          "title": "Profunzime de operator, nu teorie.",
+          "body": "Condus de un fondator cu aproape două decenii de operare a platformelor europene de leasing. Fiecare recomandare e informată de experiența reală de a fi livrat, susținut și scalat sistemele despre care vorbim."
+        },
+        "software": {
+          "title": "Software funcțional, nu doar slide-uri.",
+          "body": "Până în săptămâna a doua te loghezi într-o platformă funcțională configurată în culorile tale, cu produsele tale și un eșantion din datele tale. Readout-ul o parcurge live, nu prin screenshot-uri."
+        },
+        "fixed": {
+          "title": "Preț fix, scope fix, timp fix.",
+          "body": "Un angajament productizat, nu o consultanță deschisă. Știi exact cât plătești, ce primești și când. Scope-ul e blocat în Statement of Work. Modificările se facturează transparent la tarif zilnic."
+        }
+      }
+    },
+    "phases": {
+      "eyebrow": "Cum funcționează",
+      "title": "Cinci faze. Un readout.",
+      "items": {
+        "intake": {
+          "label": "Intake",
+          "week": "Săptămâna 0",
+          "body": "Statement of Work și NDA mutual semnate. Sponsor și sponsor alternativ confirmați. Scope blocat. Cinci până la opt sloturi de interviu programate. Drop-ul de date confirmat."
+        },
+        "discovery": {
+          "label": "Discovery",
+          "week": "Săptămâna 1",
+          "body": "Cinci până la opt interviuri, evaluare de capability, hărți de proces, gap report cu cifre sursate. Sincronizare mid-sprint cu sponsor-ul la finalul săptămânii."
+        },
+        "design": {
+          "label": "Design",
+          "week": "Săptămânile 2-3",
+          "body": "Target operating model, future-state journeys, capability roadmap prioritizat în valuri. Tenant funcțional în brand-ul tău configurat cu produsele tale și un eșantion din date."
+        },
+        "decide": {
+          "label": "Decide",
+          "week": "Săptămâna 3",
+          "body": "Executive memo, board deck, business case cu sensitivity pe cele trei variabile care contează cel mai mult. Pre-read de decizie cu sponsor-ul, cu trei zile înainte de readout."
+        },
+        "readout": {
+          "label": "Readout",
+          "week": "Săptămâna 4",
+          "body": "Două ore la sediu. Walkthrough live pe tenant-ul în brand. Propunerea de Innovation Partnership prezentată. Moment de decizie explicit: da, nu sau termen numit."
+        }
+      }
+    },
+    "deliverables": {
+      "eyebrow": "Ce iei cu tine",
+      "title": "Șase livrabile, gata pentru board, toate ale tale.",
+      "items": {
+        "memo": {
+          "tag": "Board-ready",
+          "title": "Executive memo",
+          "body": "Una până la două pagini. Situație, complicație, recomandare, cerere. Conceput pentru un CEO care citește pe telefon."
+        },
+        "deck": {
+          "tag": "Decision-ready",
+          "title": "Board deck",
+          "body": "Cincisprezece până la douăzeci și cinci de slide-uri, fiecare titlu un takeaway. Folosit ca bază pentru următorul material de board."
+        },
+        "businessCase": {
+          "tag": "CFO-grade",
+          "title": "Business case",
+          "body": "Narativ plus spreadsheet. NPV, payback, sensitivity pe primele trei variabile, scenarii risk-adjusted."
+        },
+        "tom": {
+          "tag": "Cross-funcțional",
+          "title": "Target operating model",
+          "body": "Oameni, proces, tehnologie, date, guvernanță. Drepturile de decizie numite, schiță de tranziție inclusă."
+        },
+        "roadmap": {
+          "tag": "Valuri prioritizate",
+          "title": "Capability roadmap",
+          "body": "Douăsprezece până la treizeci și șase de luni. Fiecare inițiativă cu efort, impact, dependențe și owner."
+        },
+        "tenant": {
+          "tag": "Logat în săptămâna a doua",
+          "title": "Tenant funcțional în brand",
+          "body": "O instanță configurată a platformei Innovia în culorile tale, cu produsele tale, în care te poți loga la readout și o poți explora încă 90 de zile după."
+        }
+      }
+    },
+    "tiers": {
+      "eyebrow": "Investiția",
+      "title": "Trei tier-uri. Standard este default.",
+      "footnote": "Prețul e blocat la scoping, nu se ajustează mid-sprint. Modificările se facturează transparent la 2.000 € pe zi. Termeni de plată: 50% la semnătură, 50% la readout. Transportul în UE inclus.",
+      "items": {
+        "lite": {
+          "tag": "Tier 1",
+          "title": "Lite",
+          "price": "8k – 12k €",
+          "body": "Două săptămâni. Doar diagnostic și executive memo. Pentru prospecți care au nevoie de o citire rapidă înainte de a se angaja la un sprint complet.",
+          "includes": [
+            "Capability assessment",
+            "Gap report",
+            "Executive memo",
+            "Readout virtual"
+          ]
+        },
+        "standard": {
+          "tag": "Tier 2 · Recomandat",
+          "title": "Standard",
+          "price": "18k – 25k €",
+          "body": "Trei până la patru săptămâni. Diagnostic, design și pachet de decizie complet. Tier-ul default pentru majoritatea angajamentelor.",
+          "includes": [
+            "Tot ce e în Lite, plus",
+            "Target operating model",
+            "Capability roadmap",
+            "Board deck și business case",
+            "Tenant funcțional în brand",
+            "Readout la sediu"
+          ]
+        },
+        "premium": {
+          "tag": "Tier 3",
+          "title": "Premium",
+          "price": "35k – 50k €",
+          "body": "Șase săptămâni. Standard plus muncă mai profundă de proces și integrare. Pentru angajamente care anticipează execuție imediată.",
+          "includes": [
+            "Tot ce e în Standard, plus",
+            "Două procese redesignate",
+            "Specificație de integration spike",
+            "Cadru de evaluare a vendorilor",
+            "Plan detaliat de implementare"
+          ]
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Întrebări frecvente",
+      "title": "Ce se întreabă înainte de semnătură.",
+      "items": {
+        "who": {
+          "q": "Pentru cine este?",
+          "a": "Pentru chief operating, information sau risk officers la instituții financiare independente, companii de leasing, operatori de flotă, consumer finance și corporate credit din Europa. Sweet spot-ul e un operator mid-tier care se confruntă cu aceleași întrebări ca băncile Tier 1, dar cu mai puțin runway pentru a răspunde."
+        },
+        "outcome": {
+          "q": "Ce se întâmplă dacă decizia e nu?",
+          "a": "Un nu clar e un rezultat perfect valid al angajamentului, iar deliverable-urile rămân ale tale. Sprint-ul e plătit pentru execuție și un pachet de decizie defensabil, nu pentru o direcție specifică. Tratăm un nu clar cu același respect ca un da clar."
+        },
+        "scope": {
+          "q": "Ce facem dacă avem nevoie de mai mult sau mai puțin de patru săptămâni?",
+          "a": "Lite e două săptămâni pentru prospecți care au nevoie de un diagnostic rapid. Standard e trei până la patru săptămâni și acoperă majoritatea angajamentelor. Premium e șase săptămâni când execuția imediată e așteptată. Scope-ul e fix la semnătură și poate fi extins doar prin change orders scrise la 2.000 € pe zi."
+        },
+        "data": {
+          "q": "Cum stăm cu confidențialitatea și datele?",
+          "a": "Fiecare angajament e legat de un NDA mutual semnat înainte de începerea sprint-ului. Lucrăm cu eșantioane de date anonimizate; nu cerem acces la date personale sau sisteme live. Înregistrările interviurilor se păstrează 30 de zile după închiderea angajamentului, apoi sunt șterse."
+        },
+        "after": {
+          "q": "Ce se întâmplă după readout?",
+          "a": "Dacă decizia e da, scoping-ul Innovation Partnership începe în cinci zile lucrătoare. Partnership-ul e un angajament mai lung care duce recomandarea în execuție, dimensionat între 60k și 150k € în funcție de scope. Dacă decizia e nu sau un termen numit, angajamentul se închide curat, fără follow-up suplimentar dacă nu reiei tu contactul."
+        }
+      }
+    },
+    "cta": {
+      "title": "Hai să vedem dacă un sprint e următorul pas potrivit.",
+      "body": "O sesiune de discovery de treizeci de minute e gratuită, fără obligație. Confirmăm dacă un Fit Sprint se potrivește situației și calendarului tău de decizie. Dacă nu, ți-o spunem direct.",
+      "primary": "Programează o sesiune de discovery",
+      "secondary": "Înapoi la platformă"
+    }
   },
   "diagnostic": {
     "eyebrow": "Diagnostic",

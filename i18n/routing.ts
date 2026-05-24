@@ -2,7 +2,7 @@ import { defineRouting } from 'next-intl/routing';
 import { createNavigation } from 'next-intl/navigation';
 
 /**
- * Locale set is the canonical list referenced by every locale-aware artifact
+ * Locale set is the canonical list referenced by every locale-aware file
  * on the site (messages JSON, whitepaper components, diagnostic questions,
  * registry metadata). Keep this list and the JSON files in `messages/` in sync.
  *

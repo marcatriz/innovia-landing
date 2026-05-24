@@ -4,6 +4,7 @@
     "modules": "Plattform",
     "useCases": "Anwendungsfälle",
     "partnership": "Partnerschaft",
+    "fitSprint": "Fit Sprint",
     "thesis": "These",
     "diagnostic": "Diagnostik",
     "whitepapers": "Whitepapers",
@@ -130,7 +131,7 @@
         "area": "Vertragsservicing",
         "title": "Vertragsmanagement",
         "body": "Das vollständige Leasingbuch lebt in einer einzigen durchsuchbaren Liste mit Status, finanziertem Wert, durchschnittlichem Zins und Anzahl aktiver Verträge stets im Blick. Der Drill-in zu einem Vertrag öffnet Zahlungsplan, zugehörige Services, Dokumente und Audit Trail im selben Workspace. Servicing-Teams müssen nicht mehr zwischen drei Systemen springen, um eine einzige Kundenfrage zu beantworten.",
-        "usp": "Jeder Vertrag, jedes Artefakt, ein Workspace, ohne Systemwechsel."
+        "usp": "Jeder Vertrag, jedes Dokument, ein Workspace, ohne Systemwechsel."
       },
       "collections": {
         "area": "Inkasso und Recovery",
@@ -227,6 +228,180 @@
     "eyebrow": "Track Record",
     "title": "Gebaut von einem Betreiber.",
     "body": "Knapp zwei Jahrzehnte Betrieb europäischer Leasingplattformen über Automotive, Equipment und Captive Finance, in Mid-Tier- und Konzernkontexten. Die Arbeit umfasste Migrationen, Multi-Country-Rollouts, Redesigns der Kreditpolitik, regulatorische Veränderungen und das unspektakuläre Monatsende-Firefighting, das eine Plattform von theoretisch zu verlässlich macht. Die Produkt-Roadmap und die Beratungspraxis spiegeln beide wider, was in der Produktion tatsächlich bricht."
+  },
+  "fitSprint": {
+    "hero": {
+      "eyebrow": "Innovia Fit Sprint",
+      "title": "Vier Wochen bis zur nächsten boardreifen Entscheidung.",
+      "tagline": "Fit for Digital. Fit for AI.",
+      "bodyPara1": "Ein produktisiertes Advisory-Mandat zu fixem Preis und fixem Scope, das ein einziges Ergebnis liefert: einen Sponsor, der eine belastbare, boardreife Entscheidung treffen kann, die vor dem Sprint nicht möglich gewesen wäre.",
+      "bodyPara2": "Was es unterscheidet, ist die Kombination. Top-Tier-Consulting-Disziplin (MECE-Struktur, belegte Zahlen, Pyramidenprinzip, keine rhetorischen Behauptungen) auf jedem Deliverable, das Sie erhalten. Funktionierende Software, in die Sie sich in Woche zwei einloggen, konfiguriert in Ihren Farben mit einer Stichprobe Ihrer Daten. Fixer Preis, fixer Scope, fixer Vier-Wochen-Kalender, kein als Discovery getarnter Scope Creep. Geleitet von einem Betreiber mit knapp zwei Jahrzehnten Erfahrung im Bauen, Betreiben und Skalieren europäischer Leasingplattformen.",
+      "bodyPara3": "Zwölf bis fünfzehn Deliverables, die Ihnen gehören, in Englisch, boardreif. Ein Entscheidungsmoment beim Readout, nur drei Zustände: Ja, Nein oder eine genannte Frist. Die Innovation Partnership wird durchgängig vorbereitet, bereit, falls Sie sich für die Fortsetzung entscheiden.",
+      "cta": "Discovery-Call vereinbaren"
+    },
+    "product": {
+      "eyebrow": "Was es ist",
+      "title": "Vier Wochen. Fixer Preis. Eine Entscheidung, die das Board verteidigen kann.",
+      "pillars": {
+        "operator": {
+          "title": "Betreiber-Tiefe, keine Theorie.",
+          "body": "Geleitet von einem Gründer mit knapp zwei Jahrzehnten Betrieb europäischer Leasingplattformen. Jede Empfehlung gründet auf der Erfahrung, die diskutierten Systeme tatsächlich gebaut, betrieben und skaliert zu haben."
+        },
+        "software": {
+          "title": "Funktionierende Software, nicht nur Folien.",
+          "body": "Bis zur zweiten Woche loggen Sie sich in eine funktionierende Plattform in Ihren Markenfarben ein, mit Ihren Produkten und einer Stichprobe Ihrer Daten. Der Readout läuft live durch, nicht über Screenshots."
+        },
+        "fixed": {
+          "title": "Fixer Preis, fixer Scope, fixe Zeit.",
+          "body": "Ein produktisiertes Mandat, keine offene Beratung. Sie wissen genau, was Sie zahlen, was Sie erhalten und wann. Der Scope ist im Statement of Work fixiert. Änderungsanträge werden transparent zum Tagessatz abgerechnet."
+        }
+      }
+    },
+    "phases": {
+      "eyebrow": "So läuft es ab",
+      "title": "Fünf Phasen. Ein Readout.",
+      "items": {
+        "intake": {
+          "label": "Intake",
+          "week": "Woche 0",
+          "body": "Statement of Work und gegenseitiges NDA unterzeichnet. Sponsor und stellvertretender Sponsor bestätigt. Scope fixiert. Fünf bis acht Interviewtermine vereinbart. Datenübergabe bestätigt."
+        },
+        "discovery": {
+          "label": "Discovery",
+          "week": "Woche 1",
+          "body": "Fünf bis acht Interviews, Capability Assessment, Prozesskarten, Gap Report mit belegten Zahlen. Mid-Sprint-Sync mit dem Sponsor am Wochenende."
+        },
+        "design": {
+          "label": "Design",
+          "week": "Wochen 2-3",
+          "body": "Target Operating Model, Future-State Journeys, in Wellen priorisierte Capability Roadmap. Branded Working Tenant mit Ihren Produkten und einer Datenstichprobe konfiguriert."
+        },
+        "decide": {
+          "label": "Decide",
+          "week": "Woche 3",
+          "body": "Executive Memo, Board Deck, Business Case mit Sensitivität auf den drei wichtigsten Variablen. Decision Pre-Read mit dem Sponsor drei Tage vor dem Readout."
+        },
+        "readout": {
+          "label": "Readout",
+          "week": "Woche 4",
+          "body": "Zwei Stunden vor Ort. Live-Walkthrough auf dem Branded Tenant. Innovation-Partnership-Vorschlag präsentiert. Expliziter Entscheidungsmoment: Ja, Nein oder genannte Frist."
+        }
+      }
+    },
+    "deliverables": {
+      "eyebrow": "Was Sie mitnehmen",
+      "title": "Sechs Deliverables, boardreif, alle Ihre.",
+      "items": {
+        "memo": {
+          "tag": "Boardreif",
+          "title": "Executive Memo",
+          "body": "Ein bis zwei Seiten. Situation, Komplikation, Empfehlung, Frage. Konzipiert für einen Geschäftsführer, der auf dem Smartphone liest."
+        },
+        "deck": {
+          "tag": "Entscheidungsreif",
+          "title": "Board Deck",
+          "body": "Fünfzehn bis fünfundzwanzig Folien, jeder Titel ein Takeaway. Grundlage für Ihr nächstes Board-Papier."
+        },
+        "businessCase": {
+          "tag": "CFO-tauglich",
+          "title": "Business Case",
+          "body": "Narrativ plus Tabellenkalkulation. NPV, Payback, Sensitivität der drei wichtigsten Variablen, risikobereinigte Szenarien."
+        },
+        "tom": {
+          "tag": "Cross-funktional",
+          "title": "Target Operating Model",
+          "body": "Menschen, Prozess, Technologie, Daten, Governance. Entscheidungsrechte benannt, Übergangsskizze enthalten."
+        },
+        "roadmap": {
+          "tag": "Priorisierte Wellen",
+          "title": "Capability Roadmap",
+          "body": "Zwölf bis sechsunddreißig Monate. Jede Initiative mit Aufwand, Wirkung, Abhängigkeiten und Verantwortlichem."
+        },
+        "tenant": {
+          "tag": "Eingeloggt in Woche zwei",
+          "title": "Branded Working Tenant",
+          "body": "Eine konfigurierte Instanz der Innovia-Plattform in Ihren Farben, mit Ihren Produkten, in die Sie sich beim Readout einloggen und die Sie 90 Tage danach weiter erkunden können."
+        }
+      }
+    },
+    "tiers": {
+      "eyebrow": "Investition",
+      "title": "Drei Tiers. Standard ist der Default.",
+      "footnote": "Der Preis wird beim Scoping fixiert und nicht mid-sprint angepasst. Änderungsanträge werden transparent zu 2.000 € pro Tag abgerechnet. Zahlungsbedingungen: 50% bei Unterzeichnung, 50% beim Readout. Reisekosten innerhalb der EU enthalten.",
+      "items": {
+        "lite": {
+          "tag": "Tier 1",
+          "title": "Lite",
+          "price": "8k – 12k €",
+          "body": "Zwei Wochen. Nur Diagnostik und Executive Memo. Für Interessenten, die vor einem vollen Sprint eine schnelle Einschätzung brauchen.",
+          "includes": [
+            "Capability Assessment",
+            "Gap Report",
+            "Executive Memo",
+            "Virtueller Readout"
+          ]
+        },
+        "standard": {
+          "tag": "Tier 2 · Empfohlen",
+          "title": "Standard",
+          "price": "18k – 25k €",
+          "body": "Drei bis vier Wochen. Volle Diagnostik, Design und Entscheidungspaket. Der Default-Tier für die meisten Mandate.",
+          "includes": [
+            "Alles aus Lite, plus",
+            "Target Operating Model",
+            "Capability Roadmap",
+            "Board Deck und Business Case",
+            "Branded Working Tenant",
+            "Readout vor Ort"
+          ]
+        },
+        "premium": {
+          "tag": "Tier 3",
+          "title": "Premium",
+          "price": "35k – 50k €",
+          "body": "Sechs Wochen. Standard plus tiefere Prozess- und Integrationsarbeit. Für Mandate, die unmittelbare Umsetzung antizipieren.",
+          "includes": [
+            "Alles aus Standard, plus",
+            "Zwei Prozess-Redesigns",
+            "Integration-Spike-Spezifikation",
+            "Vendor-Bewertungsrahmen",
+            "Detaillierter Umsetzungsplan"
+          ]
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Häufige Fragen",
+      "title": "Was vor der Unterschrift gefragt wird.",
+      "items": {
+        "who": {
+          "q": "Für wen ist das?",
+          "a": "Für Chief Operating, Information oder Risk Officers bei unabhängigen Finanzinstituten, Leasinggesellschaften, Flottenbetreibern, Consumer-Finance- und Corporate-Credit-Häusern in Europa. Der Sweet Spot ist ein Mid-Tier-Betreiber, der vor denselben Fragen steht wie Tier-1-Banken, aber mit weniger Spielraum für die Antwort."
+        },
+        "outcome": {
+          "q": "Was, wenn die Entscheidung Nein ist?",
+          "a": "Ein klares Nein ist ein vollständig gültiges Ergebnis des Mandats, und die Lieferobjekte bleiben Ihre. Der Sprint wird für Ausführung und ein belastbares Entscheidungspaket bezahlt, nicht für eine bestimmte Richtung. Wir behandeln ein klares Nein mit demselben Respekt wie ein klares Ja."
+        },
+        "scope": {
+          "q": "Was, wenn wir mehr oder weniger als vier Wochen brauchen?",
+          "a": "Lite umfasst zwei Wochen für Interessenten, die eine schnelle Diagnostik benötigen. Standard umfasst drei bis vier Wochen und deckt die meisten Mandate ab. Premium umfasst sechs Wochen, wenn unmittelbare Umsetzung erwartet wird. Der Scope ist bei Unterzeichnung fixiert und kann nur durch schriftliche Change Orders zu 2.000 € pro Tag erweitert werden."
+        },
+        "data": {
+          "q": "Wie sieht es mit Vertraulichkeit und Daten aus?",
+          "a": "Jedes Mandat ist durch ein gegenseitiges NDA gebunden, das vor Sprint-Beginn unterzeichnet wird. Wir arbeiten mit anonymisierten Datenstichproben; wir benötigen keinen Zugriff auf personenbezogene Daten oder Produktivsysteme. Interview-Aufzeichnungen werden 30 Tage nach Mandatsende aufbewahrt und dann gelöscht."
+        },
+        "after": {
+          "q": "Was passiert nach dem Readout?",
+          "a": "Bei einem Ja beginnt das Innovation-Partnership-Scoping innerhalb von fünf Geschäftstagen. Die Partnership ist ein längeres Mandat, das die Empfehlung in die Umsetzung trägt, dimensioniert zwischen 60k und 150k € je nach Scope. Bei einem Nein oder einer genannten Frist schließt das Mandat sauber, ohne weiteres Nachfassen, sofern Sie nicht selbst wieder Kontakt aufnehmen."
+        }
+      }
+    },
+    "cta": {
+      "title": "Lassen Sie uns prüfen, ob ein Sprint der richtige nächste Schritt ist.",
+      "body": "Ein 30-minütiger Discovery-Call ist kostenlos und unverbindlich. Wir prüfen, ob ein Fit Sprint zu Ihrer Situation und Ihrem Entscheidungszeitplan passt. Falls nicht, sagen wir es Ihnen direkt.",
+      "primary": "Discovery-Call vereinbaren",
+      "secondary": "Zurück zur Plattform"
+    }
   },
   "diagnostic": {
     "eyebrow": "Diagnostik",

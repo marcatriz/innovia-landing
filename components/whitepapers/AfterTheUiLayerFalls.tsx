@@ -132,7 +132,7 @@ function En() {
           <strong>Who owns the configuration?</strong> If your risk policy lives in a Word
           document and is replicated into three different platforms by three different teams,
           you do not have a configuration layer. You have a coordination tax. The defensible
-          version of this layer is a small, versioned, testable artifact that the business and
+          version of this layer is a small, versioned, testable building block that the business and
           the platform team co-own.
         </li>
         <li>
@@ -263,8 +263,8 @@ function Ro() {
           <strong>Cine deține configurația?</strong> Dacă politica ta de risc trăiește într-un
           document Word și e replicată în trei platforme diferite de trei echipe diferite, nu ai
           un strat de configurație. Ai o taxă de coordonare. Versiunea defensibilă a acestui
-          strat e un artefact mic, versionat și testabil pe care business-ul și echipa de
-          platformă îl dețin împreună.
+          strat e o componentă mică, versionată și testabilă pe care business-ul și echipa de
+          platformă o dețin împreună.
         </li>
         <li>
           <strong>Cât de repede poți schimba un produs?</strong> Nu cât de repede poate vendor-ul
@@ -405,7 +405,7 @@ function De() {
           Word-Dokument lebt und von drei verschiedenen Teams in drei verschiedene Plattformen
           repliziert wird, haben Sie keine Konfigurationsschicht. Sie haben eine
           Koordinationssteuer. Die verteidigungsfähige Version dieser Schicht ist ein kleines,
-          versioniertes, testbares Artefakt, das Business und Plattform-Team gemeinsam besitzen.
+          versionierter, testbarer Baustein, den Business und Plattform-Team gemeinsam besitzen.
         </li>
         <li>
           <strong>Wie schnell können Sie ein Produkt ändern?</strong> Nicht wie schnell Ihr
@@ -548,8 +548,8 @@ function Fr() {
           <strong>Qui détient la configuration ?</strong> Si votre politique de risque vit dans
           un document Word et est répliquée dans trois plateformes différentes par trois
           équipes différentes, vous n&apos;avez pas de couche configuration. Vous avez une taxe
-          de coordination. La version défendable de cette couche est un artefact petit,
-          versionné, testable, co-détenu par le business et l&apos;équipe plateforme.
+          de coordination. La version défendable de cette couche est une brique petite,
+          versionnée, testable, co-détenue par le business et l&apos;équipe plateforme.
         </li>
         <li>
           <strong>À quelle vitesse pouvez-vous changer un produit ?</strong> Pas à quelle
@@ -689,8 +689,8 @@ function It() {
           <strong>Chi possiede la configurazione?</strong> Se la vostra politica di rischio
           vive in un documento Word e viene replicata in tre piattaforme diverse da tre team
           diversi, non avete un livello di configurazione. Avete una tassa di coordinamento.
-          La versione difendibile di questo livello è un artefatto piccolo, versionato,
-          testabile, co-posseduto da business e team di piattaforma.
+          La versione difendibile di questo livello è una componente piccola, versionata,
+          testabile, co-posseduta da business e team di piattaforma.
         </li>
         <li>
           <strong>Quanto velocemente potete cambiare un prodotto?</strong> Non quanto può il

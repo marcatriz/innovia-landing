@@ -366,11 +366,11 @@ export const QUESTIONS: Question[] = [
       {
         value: 100,
         label: {
-          en: 'A small, versioned, testable artifact co-owned by business and platform team.',
-          ro: 'Un artefact mic, versionat, testabil, co-deținut de business și echipa de platformă.',
-          de: 'Ein kleines, versioniertes, testbares Artefakt, co-owned von Business und Plattform-Team.',
-          fr: 'Un artefact petit, versionné, testable, co-détenu par le business et l\'équipe plateforme.',
-          it: 'Un artefatto piccolo, versionato, testabile, co-posseduto da business e team di piattaforma.',
+          en: 'A small, versioned, testable building block co-owned by business and platform team.',
+          ro: 'O componentă mică, versionată, testabilă, co-deținută de business și echipa de platformă.',
+          de: 'Ein kleiner, versionierter, testbarer Baustein, co-owned von Business und Plattform-Team.',
+          fr: 'Une brique petite, versionnée, testable, co-détenue par le business et l\'équipe plateforme.',
+          it: 'Una componente piccola, versionata, testabile, co-posseduta da business e team di piattaforma.',
         },
       },
       {
@@ -688,11 +688,11 @@ export const QUESTIONS: Question[] = [
       {
         value: 100,
         label: {
-          en: 'As versioned, testable code-like artifacts that drive decisions directly.',
-          ro: 'Ca artefacte versionate, testabile, gen cod, care conduc deciziile direct.',
-          de: 'Als versionierte, testbare, code-ähnliche Artefakte, die Entscheidungen direkt steuern.',
-          fr: 'Comme des artefacts versionnés, testables, façon code, qui pilotent directement les décisions.',
-          it: 'Come artefatti versionati, testabili, simili a codice, che guidano direttamente le decisioni.',
+          en: 'As versioned, testable code-like building blocks that drive decisions directly.',
+          ro: 'Ca componente versionate, testabile, gen cod, care conduc deciziile direct.',
+          de: 'Als versionierte, testbare, code-ähnliche Bausteine, die Entscheidungen direkt steuern.',
+          fr: 'Comme des briques versionnées, testables, façon code, qui pilotent directement les décisions.',
+          it: 'Come componenti versionate, testabili, simili a codice, che guidano direttamente le decisioni.',
         },
       },
       {

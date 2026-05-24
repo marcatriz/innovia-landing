@@ -84,7 +84,7 @@ function En() {
         rule ships as a single migration with one set of integration tests.
         We do not coordinate across teams that own different codebases. The
         twenty-nine numbered migrations in our history are one cumulative
-        artefact, not five overlapping ones.
+        chain, not five overlapping ones.
       </p>
       <p>
         <strong>One deployment unit.</strong> The platform ships as one
@@ -183,7 +183,7 @@ function Ro() {
         nouă de raportare iese ca o singură migrare cu un singur set de
         teste de integrare. Nu coordonăm între echipe care dețin codebase-uri
         diferite. Cele douăzeci și nouă de migrări numerotate din istoricul
-        nostru sunt un artefact cumulativ unic, nu cinci suprapuse.
+        nostru sunt un lanț cumulativ unic, nu cinci suprapuse.
       </p>
       <p>
         <strong>O singură unitate de deployment.</strong> Platforma iese
@@ -282,7 +282,7 @@ function De() {
         wird als eine Migration mit einem Satz Integrationstests
         ausgeliefert. Wir koordinieren nicht zwischen Teams, die
         verschiedene Codebases besitzen. Die neunundzwanzig nummerierten
-        Migrationen in unserer Historie sind ein kumulatives Artefakt,
+        Migrationen in unserer Historie sind eine kumulative Kette,
         nicht fünf überlappende.
       </p>
       <p>
@@ -384,8 +384,8 @@ function Fr() {
         nouvelle règle de reporting sort comme une migration avec un seul
         jeu de tests d&apos;intégration. Nous ne coordonnons pas entre
         équipes possédant des codebases différents. Les vingt-neuf
-        migrations numérotées de notre historique sont un artefact
-        cumulatif unique, non cinq qui se chevauchent.
+        migrations numérotées de notre historique sont une chaîne
+        cumulative unique, non cinq qui se chevauchent.
       </p>
       <p>
         <strong>Une unité de déploiement.</strong> La plateforme se livre
@@ -486,7 +486,7 @@ function It() {
         regola di reporting esce come una migrazione con un solo set di
         test di integrazione. Non coordiniamo tra squadre che possiedono
         codebase diversi. Le ventinove migrazioni numerate nella nostra
-        storia sono un artefatto cumulativo unico, non cinque
+        storia sono una catena cumulativa unica, non cinque
         sovrapposte.
       </p>
       <p>
