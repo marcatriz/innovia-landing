@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'built-for-ownership-failing-the-lifecycle',
+    date: '2026-05-24',
+    minutes: 22,
+    en: {
+      title: 'Built for ownership, failing the lifecycle',
+      subtitle: 'A platform reckoning for European equipment finance.',
+      lede: 'European equipment finance has spent decades optimising platforms for one job: financing the acquisition of an asset. The demand-side data has moved. 87 percent of European leaders now say capital lock-up has constrained growth. 68 percent say the ease of end-of-life management drives procurement. The financing-event-centric platform cannot serve those concerns without a costly rebuild. Five capability areas separate platforms ready for the next decade from those that are not.',
+    },
+    ro: {
+      title: 'Construit pentru proprietate, eșuând pe ciclul de viață',
+      subtitle: 'O recalibrare de platformă pentru finanțarea de echipamente în Europa.',
+      lede: 'Finanțarea de echipamente din Europa a petrecut decenii optimizând platforme pentru o singură sarcină: finanțarea achiziției unui activ. Cererea s-a mutat. 87 la sută din liderii europeni spun acum că imobilizarea capitalului le-a constrâns creșterea. 68 la sută spun că ușurința gestionării end-of-life decide procurement-ul. Platforma centrată pe evenimentul de finanțare nu poate răspunde acestor preocupări fără o reconstrucție costisitoare. Cinci zone de capabilitate separă platformele pregătite pentru următorul deceniu de cele care nu sunt.',
+    },
+    de: {
+      title: 'Gebaut für Eigentum, gescheitert am Lebenszyklus',
+      subtitle: 'Eine Plattform-Abrechnung für die europäische Equipment Finance.',
+      lede: 'Die europäische Equipment Finance hat jahrzehntelang Plattformen für eine Aufgabe optimiert: die Finanzierung des Erwerbs eines Vermögenswerts. Die Nachfrageseite hat sich bewegt. 87 Prozent der europäischen Führungskräfte sagen jetzt, dass gebundenes Kapital das Wachstum eingeschränkt hat. 68 Prozent sagen, dass die Einfachheit des End-of-Life-Managements die Beschaffung steuert. Die finanzierungsereignis-zentrierte Plattform kann diese Anliegen nicht ohne kostspieligen Umbau bedienen. Fünf Fähigkeitsbereiche trennen Plattformen, die für das nächste Jahrzehnt bereit sind, von denen, die es nicht sind.',
+    },
+    fr: {
+      title: 'Conçues pour la propriété, en échec sur le cycle de vie',
+      subtitle: 'Une remise à plat des plateformes pour la finance d’équipement européenne.',
+      lede: 'La finance d’équipement européenne a passé des décennies à optimiser des plateformes pour une seule tâche : financer l’acquisition d’un actif. La demande a bougé. 87 pour cent des dirigeants européens disent désormais que l’immobilisation du capital a contraint la croissance. 68 pour cent disent que la facilité de gestion en fin de vie pilote les achats. La plateforme centrée sur l’événement de financement ne peut pas répondre à ces préoccupations sans une refonte coûteuse. Cinq domaines de capacité séparent les plateformes prêtes pour la prochaine décennie de celles qui ne le sont pas.',
+    },
+    it: {
+      title: 'Costruite per la proprietà, in fallimento sul ciclo di vita',
+      subtitle: 'Una resa dei conti di piattaforma per la finanza di equipment europea.',
+      lede: 'La finanza di equipment europea ha trascorso decenni a ottimizzare piattaforme per un solo compito: finanziare l’acquisizione di un asset. La domanda si è spostata. L’87 percento dei leader europei dice ora che il capitale immobilizzato ha vincolato la crescita. Il 68 percento dice che la facilità di gestione del fine vita guida il procurement. La piattaforma centrata sull’evento di finanziamento non può servire queste preoccupazioni senza una ricostruzione costosa. Cinque aree di capacità separano le piattaforme pronte per il prossimo decennio da quelle che non lo sono.',
+    },
+  },
+  {
     slug: 'single-codebase-as-a-property',
     date: '2026-05-23',
     minutes: 9,

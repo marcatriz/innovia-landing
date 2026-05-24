@@ -10,6 +10,7 @@ import AfterTheUiLayerFalls from '@/components/whitepapers/AfterTheUiLayerFalls'
 import TheCompoundingCostOfWaiting from '@/components/whitepapers/TheCompoundingCostOfWaiting';
 import MultiTenantIsolationAsAProperty from '@/components/whitepapers/MultiTenantIsolationAsAProperty';
 import SingleCodebaseAsAProperty from '@/components/whitepapers/SingleCodebaseAsAProperty';
+import BuiltForOwnershipFailingTheLifecycle from '@/components/whitepapers/BuiltForOwnershipFailingTheLifecycle';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -28,6 +29,8 @@ function renderContent(slug: string, locale: AppLocale) {
       return <MultiTenantIsolationAsAProperty locale={locale} />;
     case 'single-codebase-as-a-property':
       return <SingleCodebaseAsAProperty locale={locale} />;
+    case 'built-for-ownership-failing-the-lifecycle':
+      return <BuiltForOwnershipFailingTheLifecycle locale={locale} />;
     default:
       return null;
   }
