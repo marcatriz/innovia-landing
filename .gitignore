@@ -3,6 +3,7 @@ node_modules/
 out/
 .env*
 scripts/_captures/
+scripts/_smoke/
 scripts/_preview-*.png
 scripts/_debug-*.png
 !.env.example
