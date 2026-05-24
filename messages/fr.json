@@ -33,8 +33,23 @@
   },
   "thesis": {
     "eyebrow": "La thèse",
-    "title": "Trois propriétés tiennent leur valeur quand la couche UI devient commodité : isolation vérifiée, un single codebase, IA-native dès le premier jour.",
-    "body": "Les LLM et l'orchestration de workflow dévorent le front-end de chaque application enterprise. Restent défendables : une isolation multi-tenant vérifiée par vingt-cinq tests d'intégration en CI plutôt que promise en marketing, un single codebase qui compose à travers audit, IA, schéma et déploiement, et une posture IA-native intégrée dès le premier commit (Anthropic vision sur les documents, outils appelables via MCP, journal d'audit de qualité agent). Innovia est structurée autour des trois depuis le premier jour. Les whitepapers développent chaque propriété tour à tour."
+    "title": "Trois propriétés tiennent leur valeur quand la couche UI devient commodité.",
+    "intro": "Les LLM et l'orchestration de workflow dévorent le front-end de chaque application enterprise. Ce qui reste défendable est structurel, pas cosmétique. Nous avons construit Innovia autour de ces trois dès le premier commit.",
+    "readPaper": "Lire le whitepaper",
+    "properties": {
+      "isolation": {
+        "title": "Isolation vérifiée",
+        "body": "Vingt-cinq tests d'intégration en CI prouvent les frontières de tenant à chaque build. Pas une promesse dans le contrat, pas un diagramme dans le deck d'architecture."
+      },
+      "codebase": {
+        "title": "Single codebase",
+        "body": "Un seul stack qui compose à travers audit, IA, schéma et déploiement. Un portail qui unifie cinq backends laisse toujours cinq backends."
+      },
+      "aiNative": {
+        "title": "IA-native dès le premier jour",
+        "body": "Anthropic vision sur les documents, outils appelables via MCP, journal d'audit de qualité agent. Intégré dès le premier commit, pas rajouté après un mémo au conseil."
+      }
+    }
   },
   "services": {
     "eyebrow": "Ce que nous faisons",

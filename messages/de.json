@@ -33,8 +33,23 @@
   },
   "thesis": {
     "eyebrow": "Die These",
-    "title": "Drei Eigenschaften halten ihren Wert, wenn die UI-Schicht zur Commodity wird: verifizierte Isolation, ein Single Codebase, KI-nativ ab Tag eins.",
-    "body": "LLMs und Workflow-Orchestrierung fressen das Frontend jeder Enterprise-Anwendung. Verteidigungsfähig bleibt Multi-Tenant-Isolation, die durch fünfundzwanzig Integrationstests in CI verifiziert und nicht im Marketing versprochen wird, ein Single Codebase, der sich über Audit, KI, Schema und Deployment aufzinst, und eine KI-native Haltung, die vom ersten Commit an eingebaut ist (Anthropic Vision über Dokumenten, MCP-aufrufbare Tools, agententaugliches Audit-Log). Innovia ist von Tag eins um alle drei herum aufgebaut. Die Whitepapers vertiefen jede Eigenschaft."
+    "title": "Drei Eigenschaften halten ihren Wert, wenn die UI-Schicht zur Commodity wird.",
+    "intro": "LLMs und Workflow-Orchestrierung fressen das Frontend jeder Enterprise-Anwendung. Was verteidigungsfähig bleibt, ist strukturell, nicht kosmetisch. Wir haben Innovia ab dem ersten Commit um diese drei herum aufgebaut.",
+    "readPaper": "Whitepaper lesen",
+    "properties": {
+      "isolation": {
+        "title": "Verifizierte Isolation",
+        "body": "Fünfundzwanzig Integrationstests in CI beweisen die Tenant-Grenzen bei jedem Build. Kein Versprechen im Vertrag, kein Diagramm im Architektur-Deck."
+      },
+      "codebase": {
+        "title": "Single Codebase",
+        "body": "Ein Stack, der sich über Audit, KI, Schema und Deployment aufzinst. Ein Portal, das fünf Backends vereinheitlicht, lässt immer noch fünf Backends."
+      },
+      "aiNative": {
+        "title": "KI-nativ ab Tag eins",
+        "body": "Anthropic Vision über Dokumenten, MCP-aufrufbare Tools, agententaugliches Audit-Log. Eingebaut ab dem ersten Commit, nicht nach einem Vorstandsmemo nachgerüstet."
+      }
+    }
   },
   "services": {
     "eyebrow": "Was wir tun",

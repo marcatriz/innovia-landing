@@ -33,8 +33,23 @@
   },
   "thesis": {
     "eyebrow": "The thesis",
-    "title": "Three properties hold value as the UI layer commoditises: verified isolation, a single codebase, AI-native from day one.",
-    "body": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is multi-tenant isolation verified by twenty-five integration tests in CI rather than promised in marketing, a single codebase that compounds across audit, AI, schema, and deployment, and an AI-native posture built in from the first commit (Anthropic vision over documents, MCP-callable tools, agent-grade audit log). Innovia is structured around all three from day one. The whitepapers expand on each property in turn."
+    "title": "Three properties hold value as the UI layer commoditises.",
+    "intro": "LLMs and workflow orchestration are eating the front end of every enterprise application. What stays defensible is structural, not cosmetic. We built Innovia around these three from the first commit.",
+    "readPaper": "Read the paper",
+    "properties": {
+      "isolation": {
+        "title": "Verified isolation",
+        "body": "Twenty-five integration tests in CI prove tenant boundaries on every build. Not a promise in the contract, not a diagram in the architecture deck."
+      },
+      "codebase": {
+        "title": "Single codebase",
+        "body": "One stack that compounds across audit, AI, schema, and deployment. A portal that unifies five backends still leaves five backends."
+      },
+      "aiNative": {
+        "title": "AI-native from day one",
+        "body": "Anthropic vision over documents, MCP-callable tools, agent-grade audit log. Built in from the first commit, not bolted on after a board memo."
+      }
+    }
   },
   "services": {
     "eyebrow": "What we do",

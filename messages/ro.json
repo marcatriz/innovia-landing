@@ -33,8 +33,23 @@
   },
   "thesis": {
     "eyebrow": "Teza",
-    "title": "Trei proprietăți țin valoare pe măsură ce stratul de UI se comoditizează: izolare verificată, single codebase, AI-native din ziua unu.",
-    "body": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este izolarea multi-tenant verificată prin douăzeci și cinci de teste de integrare în CI, nu promisă în marketing, un singur codebase care compune peste audit, IA, schemă și deployment, și o postură AI-native încorporată de la primul commit (Anthropic vision pe documente, tool-uri apelabile prin MCP, audit log de calitate agent). Innovia este structurată în jurul tuturor trei din ziua unu. Whitepapers detaliază fiecare proprietate la rândul ei."
+    "title": "Trei proprietăți țin valoare pe măsură ce stratul de UI se comoditizează.",
+    "intro": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este structural, nu cosmetic. Am construit Innovia în jurul celor trei de la primul commit.",
+    "readPaper": "Citește paperul",
+    "properties": {
+      "isolation": {
+        "title": "Izolare verificată",
+        "body": "Douăzeci și cinci de teste de integrare în CI demonstrează granițele de tenant la fiecare build. Nu o promisiune în contract, nu o diagramă în deck-ul de arhitectură."
+      },
+      "codebase": {
+        "title": "Single codebase",
+        "body": "Un singur stack care compune peste audit, IA, schemă și deployment. Un portal care unifică cinci backend-uri lasă tot cinci backend-uri."
+      },
+      "aiNative": {
+        "title": "AI-native din ziua unu",
+        "body": "Anthropic vision pe documente, tool-uri apelabile prin MCP, audit log de calitate agent. Încorporat de la primul commit, nu lipit ulterior peste un memo de board."
+      }
+    }
   },
   "services": {
     "eyebrow": "Ce livrăm",
