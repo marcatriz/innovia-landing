@@ -11,3 +11,4 @@ scripts/_debug-*.png
 *.log
 .vercel
 next-env.d.ts
+tsconfig.tsbuildinfo
