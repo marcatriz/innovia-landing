@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'pricing-ev-residual-value-risk',
+    date: '2026-05-25',
+    minutes: 8,
+    en: {
+      title: 'Pricing residual value risk in the electric transition',
+      subtitle: 'A toolkit for European asset-finance lenders.',
+      lede: 'UK three-year EV residual values dropped to 38 percent in April 2026, against more than 46 percent for the same vehicles in Germany, Spain and France. The gap is the leading edge of a structural shift that has unmoored the residual-value paradigm European motor finance has run on for two decades. The constructive response is not better forecasting, which the data does not yet support, but a four-instrument toolkit and a new underwriting input the industry has never had to price before, brand survival.',
+    },
+    ro: {
+      title: 'Cum stabilim prețul riscului de valoare reziduală în tranziția electrică',
+      subtitle: 'Un toolkit pentru finanțatorii europeni de asset-finance.',
+      lede: 'Valorile reziduale la trei ani pentru EV-urile din Marea Britanie au scăzut la 38 la sută în aprilie 2026, față de peste 46 la sută pentru aceleași vehicule în Germania, Spania și Franța. Diferența este marginea de avans a unei schimbări structurale care a destabilizat paradigma valorii reziduale pe care finanțarea auto europeană a funcționat două decenii. Răspunsul constructiv nu este o prognoză mai bună, pe care datele nu o susțin încă, ci un toolkit cu patru instrumente și un input nou de underwriting pe care industria nu a trebuit să îl prețuiască niciodată, supraviețuirea brandului.',
+    },
+    de: {
+      title: 'Restwertrisiko in der Elektromobilitätswende bepreisen',
+      subtitle: 'Ein Toolkit für europäische Asset-Finance-Anbieter.',
+      lede: 'Die Drei-Jahres-Restwerte britischer EVs fielen im April 2026 auf 38 Prozent, gegenüber über 46 Prozent für dieselben Fahrzeuge in Deutschland, Spanien und Frankreich. Die Lücke ist die Vorderkante einer strukturellen Verschiebung, die das Restwertparadigma, auf dem die europäische Autofinanzierung zwei Jahrzehnte lief, ins Wanken gebracht hat. Die konstruktive Antwort ist nicht eine bessere Prognose, die die Datenlage noch nicht trägt, sondern ein Toolkit aus vier Instrumenten und ein neuer Underwriting-Input, den die Branche nie bepreisen musste, das Überleben der Marke.',
+    },
+    fr: {
+      title: 'Tarifer le risque de valeur résiduelle dans la transition électrique',
+      subtitle: 'Un toolkit pour les financeurs européens en asset-finance.',
+      lede: 'Les valeurs résiduelles à trois ans des EV britanniques sont tombées à 38 pour cent en avril 2026, contre plus de 46 pour cent pour les mêmes véhicules en Allemagne, Espagne et France. L\'écart est le bord d\'attaque d\'un déplacement structurel qui a déstabilisé le paradigme de valeur résiduelle sur lequel le financement automobile européen a fonctionné pendant deux décennies. La réponse constructive n\'est pas une meilleure prévision, que les données ne soutiennent pas encore, mais un toolkit à quatre instruments et un nouvel input de souscription que l\'industrie n\'a jamais eu à tarifer, la survie de la marque.',
+    },
+    it: {
+      title: 'Tariffare il rischio di valore residuo nella transizione elettrica',
+      subtitle: 'Un toolkit per i finanziatori europei di asset-finance.',
+      lede: 'I valori residui a tre anni degli EV britannici sono scesi al 38 percento ad aprile 2026, contro oltre il 46 percento per gli stessi veicoli in Germania, Spagna e Francia. Il divario è il margine anteriore di uno spostamento strutturale che ha destabilizzato il paradigma di valore residuo su cui la finanza auto europea ha operato per due decenni. La risposta costruttiva non è una previsione migliore, che i dati non sostengono ancora, ma un toolkit a quattro strumenti e un nuovo input di sottoscrizione che l\'industria non ha mai dovuto tariffare, la sopravvivenza del brand.',
+    },
+  },
+  {
     slug: 'built-for-ownership-failing-the-lifecycle',
     date: '2026-05-24',
     minutes: 22,

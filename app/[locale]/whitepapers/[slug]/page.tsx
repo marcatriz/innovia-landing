@@ -11,6 +11,7 @@ import TheCompoundingCostOfWaiting from '@/components/whitepapers/TheCompounding
 import MultiTenantIsolationAsAProperty from '@/components/whitepapers/MultiTenantIsolationAsAProperty';
 import SingleCodebaseAsAProperty from '@/components/whitepapers/SingleCodebaseAsAProperty';
 import BuiltForOwnershipFailingTheLifecycle from '@/components/whitepapers/BuiltForOwnershipFailingTheLifecycle';
+import PricingEvResidualValueRisk from '@/components/whitepapers/PricingEvResidualValueRisk';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -21,6 +22,8 @@ export function generateStaticParams() {
 
 function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
+    case 'pricing-ev-residual-value-risk':
+      return <PricingEvResidualValueRisk locale={locale} />;
     case 'after-the-ui-layer-falls':
       return <AfterTheUiLayerFalls locale={locale} />;
     case 'the-compounding-cost-of-waiting':
