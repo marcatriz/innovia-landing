@@ -12,6 +12,8 @@ import MultiTenantIsolationAsAProperty from '@/components/whitepapers/MultiTenan
 import SingleCodebaseAsAProperty from '@/components/whitepapers/SingleCodebaseAsAProperty';
 import BuiltForOwnershipFailingTheLifecycle from '@/components/whitepapers/BuiltForOwnershipFailingTheLifecycle';
 import PricingEvResidualValueRisk from '@/components/whitepapers/PricingEvResidualValueRisk';
+import MigrationPlaybook from '@/components/whitepapers/MigrationPlaybook';
+import MigratingIntoMultiTenant from '@/components/whitepapers/MigratingIntoMultiTenant';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -22,6 +24,10 @@ export function generateStaticParams() {
 
 function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
+    case 'migrating-into-multi-tenant':
+      return <MigratingIntoMultiTenant locale={locale} />;
+    case 'migration-playbook':
+      return <MigrationPlaybook locale={locale} />;
     case 'pricing-ev-residual-value-risk':
       return <PricingEvResidualValueRisk locale={locale} />;
     case 'after-the-ui-layer-falls':
