@@ -128,11 +128,11 @@ function En() {
         not the segment we serve.
       </p>
       <p>
-        Mid-tier operators of twenty thousand to five hundred thousand
-        contracts almost never need a private cloud account. They need
-        a fast migration, a transparent recon, and an audit trail that
-        survives a regulator query. Multi-tenant target shape is the
-        property that delivers those three.
+        Operators of a few thousand up to five hundred thousand contracts
+        almost never need a private cloud account. They need a fast
+        migration, a transparent recon, and an audit trail that survives
+        a regulator query. Multi-tenant target shape is the property
+        that delivers those three.
       </p>
 
       <h2>What the operator sees</h2>
@@ -269,8 +269,8 @@ function Ro() {
         servim.
       </p>
       <p>
-        Operatorii mid-tier de douăzeci de mii până la cinci sute de mii
-        de contracte aproape niciodată nu au nevoie de un cont cloud
+        Operatorii de la câteva mii până la cinci sute de mii de
+        contracte aproape niciodată nu au nevoie de un cont cloud
         privat. Au nevoie de o migrare rapidă, de o reconciliere
         transparentă, și de un audit trail care rezistă la o
         interogare de regulator. Forma de țintă multi-tenant este
@@ -414,10 +414,10 @@ function De() {
         nicht das Segment, dem wir dienen.
       </p>
       <p>
-        Mid-Tier-Betreiber von zwanzigtausend bis fünfhunderttausend
-        Verträgen brauchen fast nie einen privaten Cloud-Account. Sie
-        brauchen eine schnelle Migration, einen transparenten Abgleich
-        und eine Audit-Spur, die eine Regulator-Abfrage überlebt.
+        Betreiber von einigen tausend bis fünfhunderttausend Verträgen
+        brauchen fast nie einen privaten Cloud-Account. Sie brauchen
+        eine schnelle Migration, einen transparenten Abgleich und eine
+        Audit-Spur, die eine Regulator-Abfrage überlebt.
         Multi-Tenant-Zielform ist die Eigenschaft, die diese drei
         liefert.
       </p>
@@ -563,12 +563,12 @@ function Fr() {
         servons.
       </p>
       <p>
-        Les opérateurs mid-tier de vingt mille à cinq cent mille
-        contrats n&apos;ont presque jamais besoin d&apos;un compte
-        cloud privé. Ils ont besoin d&apos;une migration rapide,
-        d&apos;un rapprochement transparent, et d&apos;une piste
-        d&apos;audit qui survit à une requête de régulateur. La forme
-        cible multi-tenant est la propriété qui livre ces trois.
+        Les opérateurs de quelques milliers jusqu&apos;à cinq cent mille
+        contrats n&apos;ont presque jamais besoin d&apos;un compte cloud
+        privé. Ils ont besoin d&apos;une migration rapide, d&apos;un
+        rapprochement transparent, et d&apos;une piste d&apos;audit qui
+        survit à une requête de régulateur. La forme cible multi-tenant
+        est la propriété qui livre ces trois.
       </p>
 
       <h2>Ce que voit l&apos;opérateur</h2>
@@ -710,7 +710,7 @@ function It() {
         segmento che serviamo.
       </p>
       <p>
-        Operatori mid-tier da ventimila a cinquecentomila contratti
+        Operatori da qualche migliaio fino a cinquecentomila contratti
         non hanno quasi mai bisogno di un account cloud privato. Hanno
         bisogno di una migrazione veloce, di una riconciliazione
         trasparente, e di una traccia d&apos;audit che sopravvive a

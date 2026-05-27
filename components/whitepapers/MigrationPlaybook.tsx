@@ -48,14 +48,18 @@ function En() {
 
       <h2>Scope</h2>
       <p>
-        This playbook is designed for portfolios of twenty thousand to five
-        hundred thousand contracts. It is not the right method for
-        five-million-contract consolidations of multiple legacy systems, where
-        a dedicated migration product with twenty-five years of tooling is the
-        right answer. The audience we wrote this for is the mid-tier operator
-        who is moving off one in-house or off-the-shelf system into a
-        multi-tenant target, with one source of truth, one cutover window,
-        and an audit trail that needs to survive a regulator query.
+        This playbook is designed for portfolios from a few thousand
+        contracts up to five hundred thousand. The lower end covers a small
+        captive book, a niche IFN, or a single product line carved out of a
+        larger institution. The upper end is the comfortable ceiling for a
+        single-weekend cutover under the method we describe. It is not the
+        right method for five-million-contract consolidations of multiple
+        legacy systems, where a dedicated migration product with twenty-five
+        years of tooling is the right answer. The audience we wrote this for
+        is the operator who is moving off one in-house or off-the-shelf
+        system into a multi-tenant target, with one source of truth, one
+        cutover window, and an audit trail that needs to survive a regulator
+        query.
       </p>
 
       <h2>Phase 1: Assess</h2>
@@ -221,15 +225,19 @@ function Ro() {
 
       <h2>Scop</h2>
       <p>
-        Acest playbook este proiectat pentru portofolii între douăzeci de mii
-        și cinci sute de mii de contracte. Nu este metoda potrivită pentru
-        consolidări de cinci milioane de contracte din mai multe sisteme
-        legacy, unde un produs de migrare dedicat cu douăzeci și cinci de
-        ani de tooling este răspunsul corect. Audiența pentru care am scris
-        este operatorul mid-tier care iese de pe un sistem in-house sau
-        off-the-shelf către o țintă multi-tenant, cu o singură sursă de
-        adevăr, o singură fereastră de cutover și un audit trail care
-        trebuie să reziste la o interogare de regulator.
+        Acest playbook este proiectat pentru portofolii de la câteva mii
+        de contracte până la cinci sute de mii. Limita de jos acoperă un
+        portofoliu captiv mic, un IFN de nișă sau o singură linie de
+        produs decupată dintr-o instituție mai mare. Limita de sus este
+        plafonul confortabil pentru un cutover de un weekend cu metoda pe
+        care o descriem. Nu este metoda potrivită pentru consolidări de
+        cinci milioane de contracte din mai multe sisteme legacy, unde un
+        produs de migrare dedicat cu douăzeci și cinci de ani de tooling
+        este răspunsul corect. Audiența pentru care am scris este
+        operatorul care iese de pe un sistem in-house sau off-the-shelf
+        către o țintă multi-tenant, cu o singură sursă de adevăr, o
+        singură fereastră de cutover și un audit trail care trebuie să
+        reziste la o interogare de regulator.
       </p>
 
       <h2>Faza 1: Evaluare</h2>
@@ -399,16 +407,20 @@ function De() {
 
       <h2>Umfang</h2>
       <p>
-        Dieses Playbook ist für Portfolios von zwanzigtausend bis
-        fünfhunderttausend Verträgen ausgelegt. Es ist nicht die richtige
-        Methode für Fünf-Millionen-Vertrags-Konsolidierungen mehrerer
-        Legacy-Systeme, bei denen ein dediziertes Migrationsprodukt mit
-        fünfundzwanzig Jahren Tooling die richtige Antwort ist. Die
-        Zielgruppe, für die wir das geschrieben haben, ist der Mid-Tier-
-        Betreiber, der von einem in-house oder Standard-System auf ein
-        Multi-Tenant-Ziel wechselt, mit einer einzigen Wahrheitsquelle,
-        einem einzigen Cutover-Fenster und einer Audit-Spur, die eine
-        Regulator-Abfrage überstehen muss.
+        Dieses Playbook ist für Portfolios von einigen tausend Verträgen
+        bis fünfhunderttausend ausgelegt. Die Untergrenze deckt einen
+        kleinen Captive-Bestand, einen Nischen-IFN oder eine einzelne
+        Produktlinie ab, die aus einem größeren Institut herausgelöst
+        wird. Die Obergrenze ist die komfortable Decke für einen
+        Wochenend-Cutover unter der von uns beschriebenen Methode. Es ist
+        nicht die richtige Methode für Fünf-Millionen-Vertrags-Konsolidierungen
+        mehrerer Legacy-Systeme, bei denen ein dediziertes Migrationsprodukt
+        mit fünfundzwanzig Jahren Tooling die richtige Antwort ist. Die
+        Zielgruppe, für die wir das geschrieben haben, ist der Betreiber,
+        der von einem in-house oder Standard-System auf ein Multi-Tenant-Ziel
+        wechselt, mit einer einzigen Wahrheitsquelle, einem einzigen
+        Cutover-Fenster und einer Audit-Spur, die eine Regulator-Abfrage
+        überstehen muss.
       </p>
 
       <h2>Phase 1: Bewertung</h2>
@@ -587,16 +599,20 @@ function Fr() {
 
       <h2>Périmètre</h2>
       <p>
-        Ce playbook est conçu pour des portefeuilles de vingt mille à cinq
-        cent mille contrats. Ce n&apos;est pas la bonne méthode pour des
-        consolidations de cinq millions de contrats issus de plusieurs
-        systèmes legacy, où un produit de migration dédié avec vingt-cinq
-        ans d&apos;outillage est la bonne réponse. Le public pour lequel
-        nous avons écrit est l&apos;opérateur mid-tier qui sort d&apos;un
-        système interne ou prêt-à-l&apos;emploi vers une cible
-        multi-tenant, avec une seule source de vérité, une seule fenêtre
-        de bascule, et une piste d&apos;audit qui doit survivre à une
-        requête de régulateur.
+        Ce playbook est conçu pour des portefeuilles de quelques milliers
+        de contrats jusqu&apos;à cinq cent mille. Le bas de l&apos;échelle
+        couvre un petit portefeuille captif, un IFN de niche, ou une seule
+        ligne de produit détachée d&apos;une institution plus grande. Le
+        haut est le plafond confortable pour une bascule en un week-end
+        sous la méthode que nous décrivons. Ce n&apos;est pas la bonne
+        méthode pour des consolidations de cinq millions de contrats
+        issus de plusieurs systèmes legacy, où un produit de migration
+        dédié avec vingt-cinq ans d&apos;outillage est la bonne réponse.
+        Le public pour lequel nous avons écrit est l&apos;opérateur qui
+        sort d&apos;un système interne ou prêt-à-l&apos;emploi vers une
+        cible multi-tenant, avec une seule source de vérité, une seule
+        fenêtre de bascule, et une piste d&apos;audit qui doit survivre à
+        une requête de régulateur.
       </p>
 
       <h2>Phase 1 : Évaluation</h2>
@@ -783,16 +799,20 @@ function It() {
 
       <h2>Ambito</h2>
       <p>
-        Questo playbook è progettato per portafogli da ventimila a
-        cinquecentomila contratti. Non è il metodo giusto per
+        Questo playbook è progettato per portafogli da qualche migliaio
+        di contratti fino a cinquecentomila. La fascia bassa copre un
+        piccolo portafoglio captive, un IFN di nicchia, o una singola
+        linea di prodotto scorporata da un&apos;istituzione più grande.
+        La fascia alta è il tetto comodo per un cutover di un weekend
+        con il metodo che descriviamo. Non è il metodo giusto per
         consolidamenti di cinque milioni di contratti da più sistemi
         legacy, dove un prodotto di migrazione dedicato con venticinque
         anni di tooling è la risposta corretta. Il pubblico per cui
-        abbiamo scritto è l&apos;operatore mid-tier che sta uscendo da un
-        sistema in-house o off-the-shelf verso un target multi-tenant,
-        con una singola fonte di verità, una singola finestra di
-        cutover, e una traccia d&apos;audit che deve sopravvivere a una
-        richiesta del regolatore.
+        abbiamo scritto è l&apos;operatore che sta uscendo da un sistema
+        in-house o off-the-shelf verso un target multi-tenant, con una
+        singola fonte di verità, una singola finestra di cutover, e una
+        traccia d&apos;audit che deve sopravvivere a una richiesta del
+        regolatore.
       </p>
 
       <h2>Fase 1: Valutazione</h2>
