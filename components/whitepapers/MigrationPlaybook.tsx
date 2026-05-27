@@ -179,6 +179,22 @@ function En() {
         tenant.
       </p>
 
+      <h2>First internal benchmark</h2>
+      <p>
+        On the first end-to-end run of the staging-and-recon path, we put a
+        mid-tier captive demo dataset through the API: 160 partners, 44
+        financial products, 101 vehicles, 2,329 invoices. Two thousand six
+        hundred and thirty four rows staged and reconciled in 2.66 seconds,
+        chunked at 500 rows per call, against a tenant-isolated staging
+        schema in the same database as the production tables. That is
+        roughly 1 millisecond per row end to end, including HTTP, JSON
+        serialization, tenant filter, and database insert. We publish this
+        number honestly. It is a mid-tier benchmark, not an enterprise
+        consolidation. The mapping-to-target step (Phase 4 dry-run) is a
+        follow-on; it lands the rows from staging into the production
+        tables and flips recon status from staged to loaded.
+      </p>
+
       <p>
         The method works because the target is multi-tenant. We are not
         provisioning a cloud account before we can stage data. We are not
@@ -337,6 +353,24 @@ function Ro() {
         "de unde a venit acest contract" primește un răspuns într-o
         interogare. Documentul de mapare și fiecare raport de reconciliere
         sunt versionate și stocate alături de audit log-ul tenantului.
+      </p>
+
+      <h2>Primul benchmark intern</h2>
+      <p>
+        La prima rulare end-to-end a căii de staging și reconciliere, am
+        trecut un set de date demo captiv mid-tier prin API: 160 de
+        parteneri, 44 de produse financiare, 101 vehicule, 2.329 de
+        facturi. Două mii șase sute treizeci și patru de rânduri puse în
+        staging și reconciliate în 2,66 secunde, fragmentate în loturi de
+        500 de rânduri per apel, contra unei scheme de staging izolată per
+        tenant în aceeași bază de date ca tabelele de producție. Asta
+        înseamnă aproximativ 1 milisecundă per rând end-to-end, incluzând
+        HTTP, serializare JSON, filtrul de tenant și insertul în baza de
+        date. Publicăm acest număr onest. Este un benchmark mid-tier, nu o
+        consolidare enterprise. Pasul de mapping-spre-țintă (Faza 4
+        dry-run) este o continuare; mută rândurile din staging în
+        tabelele de producție și comută statusul de reconciliere din
+        staged în loaded.
       </p>
 
       <p>
@@ -506,6 +540,24 @@ function De() {
         "woher kommt dieser Vertrag", bekommt eine Antwort in einer
         Abfrage. Das Mapping-Dokument und jeder Abgleichsbericht sind
         versioniert und neben dem Audit-Log des Tenants gespeichert.
+      </p>
+
+      <h2>Erster interner Benchmark</h2>
+      <p>
+        Beim ersten End-to-End-Lauf des Staging-und-Abgleich-Pfads haben
+        wir einen mid-tier-Captive-Demo-Datensatz durch die API geschickt:
+        160 Partner, 44 Finanzprodukte, 101 Fahrzeuge, 2.329 Rechnungen.
+        Zweitausendsechshundertvierunddreißig Zeilen in Staging gebracht
+        und abgeglichen in 2,66 Sekunden, gechunkt zu 500 Zeilen pro
+        Aufruf, gegen ein tenant-isoliertes Staging-Schema in derselben
+        Datenbank wie die Produktionstabellen. Das sind etwa 1
+        Millisekunde pro Zeile End-to-End, einschließlich HTTP,
+        JSON-Serialisierung, Tenant-Filter und Datenbank-Insert. Wir
+        veröffentlichen diese Zahl ehrlich. Es ist ein Mid-Tier-Benchmark,
+        keine Enterprise-Konsolidierung. Der Mapping-zum-Ziel-Schritt
+        (Phase 4 Probelauf) ist ein Follow-on; er landet die Zeilen aus
+        dem Staging in den Produktionstabellen und flippt den
+        Abgleichsstatus von gestaged zu geladen.
       </p>
 
       <p>
@@ -685,6 +737,25 @@ function Fr() {
         d&apos;audit du tenant.
       </p>
 
+      <h2>Premier benchmark interne</h2>
+      <p>
+        Lors du premier passage end-to-end du chemin staging-et-rapprochement,
+        nous avons fait passer un jeu de données démo captif mid-tier dans
+        l&apos;API : 160 partenaires, 44 produits financiers, 101 véhicules,
+        2 329 factures. Deux mille six cent trente-quatre lignes mises en
+        staging et rapprochées en 2,66 secondes, segmentées en lots de
+        500 lignes par appel, contre un schéma de staging isolé par
+        tenant dans la même base de données que les tables de
+        production. Cela représente environ 1 milliseconde par ligne
+        end-to-end, en incluant HTTP, sérialisation JSON, filtre tenant
+        et insertion en base. Nous publions ce chiffre honnêtement.
+        C&apos;est un benchmark mid-tier, pas une consolidation
+        enterprise. L&apos;étape mapping-vers-cible (Phase 4 dry-run) est
+        une suite ; elle pose les lignes du staging dans les tables de
+        production et bascule le statut de rapprochement de staged à
+        loaded.
+      </p>
+
       <p>
         La méthode fonctionne parce que la cible est multi-tenant. Nous
         ne provisionnons pas de compte cloud avant de pouvoir staquer
@@ -855,6 +926,24 @@ function It() {
         in una query. Il documento di mapping e ogni report di
         riconciliazione sono versionati e archiviati accanto al log di
         audit del tenant.
+      </p>
+
+      <h2>Primo benchmark interno</h2>
+      <p>
+        Al primo passaggio end-to-end del percorso staging-e-riconciliazione,
+        abbiamo fatto passare un dataset demo captive mid-tier attraverso
+        l&apos;API: 160 partner, 44 prodotti finanziari, 101 veicoli, 2.329
+        fatture. Duemilaseicentotrentaquattro righe messe in staging e
+        riconciliate in 2,66 secondi, suddivise in blocchi di 500 righe
+        per chiamata, contro uno schema di staging isolato per tenant
+        nello stesso database delle tabelle di produzione. Sono circa 1
+        millisecondo per riga end-to-end, includendo HTTP, serializzazione
+        JSON, filtro per tenant e insert su database. Pubblichiamo questo
+        numero onestamente. È un benchmark mid-tier, non un consolidamento
+        enterprise. Il passo mapping-verso-target (Fase 4 dry-run) è un
+        seguito; porta le righe dallo staging nelle tabelle di
+        produzione e fa passare lo stato di riconciliazione da staged a
+        loaded.
       </p>
 
       <p>
