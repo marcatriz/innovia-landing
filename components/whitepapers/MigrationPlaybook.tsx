@@ -200,11 +200,11 @@ function En() {
       </p>
 
       <p>
-        The method works because the target is multi-tenant. We are not
-        provisioning a cloud account before we can stage data. We are not
-        coordinating five backends. The portfolio lands into one tenant, in
-        one engine, with one audit log. That is the property the next
-        whitepaper covers.
+        The method works whether the target is a tenant in our multi-tenant
+        stack or a dedicated deployment for one operator. Both shapes
+        share the same staging schema, the same recon report, the same
+        seven phases. The differences are downstream of the method, not
+        upstream of it.
       </p>
     </div>
   );
@@ -382,11 +382,11 @@ function Ro() {
       </p>
 
       <p>
-        Metoda funcționează pentru că ținta este multi-tenant. Nu
-        provizionăm un cont de cloud înainte de a putea face staging la
-        date. Nu coordonăm cinci backend-uri. Portofoliul aterizează într-un
-        tenant, într-un motor, cu un audit log. Aceasta este proprietatea pe
-        care o acoperă următoarea hârtie albă.
+        Metoda funcționează indiferent dacă ținta este un tenant în
+        stack-ul nostru multi-tenant sau un deployment dedicat pentru un
+        singur operator. Ambele forme împart aceeași schemă de staging,
+        același raport de reconciliere, aceleași șapte faze. Diferențele
+        sunt în aval de metodă, nu în amonte.
       </p>
     </div>
   );
@@ -573,11 +573,12 @@ function De() {
       </p>
 
       <p>
-        Die Methode funktioniert, weil das Ziel Multi-Tenant ist. Wir
-        provisionieren keinen Cloud-Account, bevor wir Daten staggen
-        können. Wir koordinieren keine fünf Backends. Das Portfolio
-        landet in einem Tenant, in einer Engine, mit einem Audit-Log. Das
-        ist die Eigenschaft, die das nächste Whitepaper behandelt.
+        Die Methode funktioniert, ob das Ziel ein Tenant in unserem
+        Multi-Tenant-Stack oder ein dediziertes Deployment für einen
+        einzelnen Betreiber ist. Beide Formen teilen sich dasselbe
+        Staging-Schema, denselben Abgleichsbericht, dieselben sieben
+        Phasen. Die Unterschiede liegen stromabwärts der Methode, nicht
+        stromaufwärts.
       </p>
     </div>
   );
@@ -773,12 +774,11 @@ function Fr() {
       </p>
 
       <p>
-        La méthode fonctionne parce que la cible est multi-tenant. Nous
-        ne provisionnons pas de compte cloud avant de pouvoir staquer
-        des données. Nous ne coordonnons pas cinq backends. Le
-        portefeuille atterrit dans un tenant, dans un moteur, avec un
-        journal d&apos;audit. C&apos;est la propriété que couvre le
-        prochain whitepaper.
+        La méthode fonctionne que la cible soit un tenant dans notre
+        stack multi-tenant ou un déploiement dédié à un seul opérateur.
+        Les deux formes partagent le même schéma de staging, le même
+        rapport de rapprochement, les sept mêmes phases. Les différences
+        sont en aval de la méthode, pas en amont.
       </p>
     </div>
   );
@@ -967,11 +967,12 @@ function It() {
       </p>
 
       <p>
-        Il metodo funziona perché il target è multi-tenant. Non
-        provisioniamo un account cloud prima di poter mettere in
-        staging i dati. Non coordiniamo cinque backend. Il portafoglio
-        atterra in un tenant, in un motore, con un log di audit. È la
-        proprietà che copre il prossimo whitepaper.
+        Il metodo funziona sia che il target sia un tenant nel nostro
+        stack multi-tenant, sia che sia un deployment dedicato per un
+        singolo operatore. Entrambe le forme condividono lo stesso
+        schema di staging, lo stesso report di riconciliazione, le
+        stesse sette fasi. Le differenze sono a valle del metodo, non a
+        monte.
       </p>
     </div>
   );

@@ -38,36 +38,6 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
-    slug: 'migrating-into-multi-tenant',
-    date: '2026-05-26',
-    minutes: 9,
-    en: {
-      title: 'Migrating into multi-tenant',
-      subtitle: 'Why the target shape decides the first ninety days.',
-      lede: 'Migration conversations focus on the source system. The target shape gets less attention, which is a mistake. The target decides what the first ninety days of the project look like. We argue that for mid-tier lending operators, a row-isolated multi-tenant target is the structural property that compounds across staging speed, recon transparency, and post-cutover support cost.',
-    },
-    ro: {
-      title: 'Migrarea într-o țintă multi-tenant',
-      subtitle: 'De ce forma țintei decide primele nouăzeci de zile.',
-      lede: 'Conversațiile despre migrare se concentrează pe sistemul sursă. Forma țintei primește mai puțină atenție, ceea ce este o greșeală. Ținta decide cum arată primele nouăzeci de zile ale proiectului. Argumentăm că pentru operatorii mid-tier de lending, o țintă multi-tenant cu izolare la nivel de rând este proprietatea structurală care compune peste viteza de staging, transparența reconcilierii și costul de suport post-cutover.',
-    },
-    de: {
-      title: 'Migration in ein Multi-Tenant-Ziel',
-      subtitle: 'Warum die Zielform die ersten neunzig Tage entscheidet.',
-      lede: 'Migrationsgespräche konzentrieren sich auf das Quellsystem. Die Form des Ziels bekommt weniger Aufmerksamkeit, was ein Fehler ist. Das Ziel entscheidet, wie die ersten neunzig Tage des Projekts aussehen. Wir argumentieren, dass für Mid-Tier-Lending-Betreiber eine Multi-Tenant-Zielform mit Zeilenebenen-Isolation die strukturelle Eigenschaft ist, die sich über Staging-Geschwindigkeit, Abgleichstransparenz und Post-Cutover-Supportkosten zinsanhäuft.',
-    },
-    fr: {
-      title: 'Migrer dans une cible multi-tenant',
-      subtitle: 'Pourquoi la forme cible décide des quatre-vingt-dix premiers jours.',
-      lede: 'Les conversations sur la migration se concentrent sur le système source. La forme de la cible reçoit moins d\'attention, ce qui est une erreur. La cible décide à quoi ressemblent les premiers quatre-vingt-dix jours du projet. Nous soutenons que pour les opérateurs mid-tier du lending, une cible multi-tenant avec isolation au niveau ligne est la propriété structurelle qui compose sur la vitesse de staging, la transparence du rapprochement et le coût de support post-bascule.',
-    },
-    it: {
-      title: 'Migrare in un target multi-tenant',
-      subtitle: 'Perché la forma del target decide i primi novanta giorni.',
-      lede: 'Le conversazioni sulla migrazione si concentrano sul sistema sorgente. La forma del target riceve meno attenzione, il che è un errore. Il target decide come appaiono i primi novanta giorni del progetto. Sosteniamo che per gli operatori mid-tier del lending, un target multi-tenant con isolamento a livello riga è la proprietà strutturale che si compone su velocità di staging, trasparenza di riconciliazione e costo di supporto post-cutover.',
-    },
-  },
-  {
     slug: 'migration-playbook',
     date: '2026-05-26',
     minutes: 10,
