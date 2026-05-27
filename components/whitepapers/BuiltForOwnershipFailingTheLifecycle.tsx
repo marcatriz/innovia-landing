@@ -71,7 +71,7 @@ function En() {
           citizens, with return options designed at origination.
         </li>
         <li>
-          <strong>End-of-term automation</strong> that turns the highest-leverage retention moment
+          <strong>End-of-term automation</strong> that turns the highest-impact retention moment
           from a manual liability into a structured retention event.
         </li>
         <li>
@@ -295,7 +295,7 @@ function En() {
       </p>
       <p>
         Five capability areas, presented in the order in which we believe they create the most
-        leverage. Each gets explicit so-what guidance and an explicit falsifying condition.
+        impact. Each gets explicit so-what guidance and an explicit falsifying condition.
       </p>
 
       <h3>Contract architecture: ownership and access as first-class citizens</h3>
@@ -344,7 +344,7 @@ function En() {
         operator&apos;s addressable market.
       </p>
       <p>
-        The end-of-term moment is also the single highest-leverage retention moment in the contract
+        The end-of-term moment is also the single highest-impact retention moment in the contract
         lifecycle. Cross-sell and renewal decisions concentrate there. A platform that automates
         the decision workflow (90-day, 60-day, 30-day automated prompts; structured digital
         decision capture; pre-priced renewal and buyout offers; settlement automation) turns
@@ -555,6 +555,13 @@ function En() {
         European leasing volumes, cited via the BNP publication.
       </p>
       <p>
+        The BNP panel covered Belgium, Denmark, France, Germany, Italy, the Netherlands, Poland,
+        Spain, Sweden, Switzerland and the United Kingdom. Romania and the broader Central and
+        Eastern European markets were not included. Where the analysis in this paper extrapolates
+        from European averages to RO/CEE conditions, readers in those markets should treat the
+        direction of travel as indicative and the magnitudes as awaiting local validation.
+      </p>
+      <p>
         Source confidence: BNP&apos;s publication is a vendor-commissioned report and its framing
         tilts positively toward usage-based models. We have read with that bias acknowledged. The
         underlying survey methodology (sample size, geographic breadth, sector mix,
@@ -583,7 +590,7 @@ function En() {
           cross-operator market-share data not in our corpus.
         </li>
         <li>
-          <strong>H2.</strong> Contract architecture is the single highest-leverage platform
+          <strong>H2.</strong> Contract architecture is the single highest-impact platform
           capability for the next 24 months. <em>Verdict: inconclusive.</em> We argue for it on
           first-principles grounds; RFP-level evidence not in our corpus.
         </li>
@@ -1176,6 +1183,13 @@ function Ro() {
         volumul european de leasing în S1 2025 al Leaseurope, citat prin publicația BNP.
       </p>
       <p>
+        Panelul BNP a acoperit Belgia, Danemarca, Franța, Germania, Italia, Olanda, Polonia,
+        Spania, Suedia, Elveția și Regatul Unit. România și piețele mai largi din Europa Centrală
+        și de Est nu au fost incluse. Acolo unde analiza din acest paper extrapolează de la medii
+        europene la condiții RO/ECE, cititorii din acele piețe ar trebui să trateze direcția de
+        mișcare ca orientativă și magnitudinile ca în așteptarea validării locale.
+      </p>
+      <p>
         Încrederea în sursă: publicația BNP este un raport comandat de vendor, iar framing-ul ei
         înclină pozitiv către modelele bazate pe utilizare. Am citit cu acea părtinire recunoscută.
         Metodologia de sondaj subiacentă (mărimea eșantionului, lățimea geografică, mixul de
@@ -1279,7 +1293,7 @@ function De() {
           behandelt, mit Rückgabeoptionen, die bereits bei Origination angelegt sind.
         </li>
         <li>
-          <strong>End-of-Term-Automatisierung</strong>, die den hebelstärksten Moment der
+          <strong>End-of-Term-Automatisierung</strong>, die den wirkungsstärksten Moment der
           Kundenbindung von einer manuellen Belastung in ein strukturiertes Retention-Ereignis
           verwandelt.
         </li>
@@ -1531,7 +1545,7 @@ function De() {
       </p>
       <p>
         Fünf Fähigkeitsfelder, in der Reihenfolge präsentiert, in der sie unserer Überzeugung
-        nach den größten Hebel erzeugen. Jedes erhält eine explizite So-was-Anleitung und eine
+        nach die größte Wirkung erzeugen. Jedes erhält eine explizite So-was-Anleitung und eine
         explizite falsifizierende Bedingung.
       </p>
 
@@ -1589,7 +1603,7 @@ function De() {
         adressierbaren Markt des Betreibers.
       </p>
       <p>
-        Der End-of-Term-Moment ist auch der einzelne hebelstärkste Retention-Moment im
+        Der End-of-Term-Moment ist auch der einzelne wirkungsstärkste Retention-Moment im
         Vertragslebenszyklus. Cross-Sell- und Verlängerungsentscheidungen konzentrieren sich
         dort. Eine Plattform, die den Entscheidungs-Workflow automatisiert (automatisierte
         90-, 60-, 30-Tage-Hinweise; strukturierte digitale Entscheidungsaufnahme;
@@ -1833,6 +1847,15 @@ function De() {
         die BNP-Publikation.
       </p>
       <p>
+        Das BNP-Panel umfasste Belgien, Dänemark, Frankreich, Deutschland, Italien, die
+        Niederlande, Polen, Spanien, Schweden, die Schweiz und das Vereinigte Königreich.
+        Rumänien und die breiteren mittel- und osteuropäischen Märkte waren nicht
+        enthalten. Wo die Analyse in diesem Papier von europäischen Durchschnittswerten
+        auf RO/MOE-Bedingungen extrapoliert, sollten Leser in diesen Märkten die Richtung
+        als indikativ und die Größenordnungen als auf lokale Validierung wartend
+        behandeln.
+      </p>
+      <p>
         Quellenvertrauen: die BNP-Publikation ist ein vom Anbieter beauftragter Bericht
         und ihre Rahmung neigt positiv zu nutzungsbasierten Modellen. Wir haben sie mit
         anerkannter Verzerrung gelesen. Die zugrundeliegende Umfragemethodik
@@ -1867,7 +1890,7 @@ function De() {
           betreiberübergreifende Marktanteilsdaten nicht in unserem Korpus.
         </li>
         <li>
-          <strong>H2.</strong> Vertragsarchitektur ist die hebelstärkste einzelne
+          <strong>H2.</strong> Vertragsarchitektur ist die wirkungsstärkste einzelne
           Plattform-Fähigkeit für die nächsten 24 Monate. <em>Urteil: nicht abschließend.</em>{' '}
           Wir argumentieren dafür aus Grundprinzipien; RFP-spezifische Evidenz nicht
           in unserem Korpus.
@@ -1944,7 +1967,7 @@ function Fr() {
         </li>
         <li>
           <strong>Une automatisation de fin de terme</strong> qui transforme le moment de rétention
-          à plus fort levier d&apos;une dette manuelle en un événement de rétention structuré.
+          à plus fort impact d&apos;une dette manuelle en un événement de rétention structuré.
         </li>
         <li>
           <strong>Une colonne de données centrée sur l&apos;actif</strong> qui suit une seule
@@ -2200,7 +2223,7 @@ function Fr() {
       </p>
       <p>
         Cinq domaines de capacité, présentés dans l&apos;ordre où nous croyons qu&apos;ils créent
-        le plus de levier. Chacun reçoit une guidance so-what explicite et une condition de
+        le plus d&apos;impact. Chacun reçoit une guidance so-what explicite et une condition de
         falsification explicite.
       </p>
 
@@ -2256,7 +2279,7 @@ function Fr() {
         de l&apos;usage. Réduire cette barrière élargit le marché adressable de l&apos;opérateur.
       </p>
       <p>
-        Le moment de fin de terme est aussi le moment de rétention à plus fort levier du cycle de
+        Le moment de fin de terme est aussi le moment de rétention à plus fort impact du cycle de
         vie du contrat. Les décisions de cross-sell et de renouvellement s&apos;y concentrent. Une
         plateforme qui automatise le workflow de décision (prompts automatisés à 90 jours, 60
         jours, 30 jours ; capture de décision digitale structurée ; offres de renouvellement et
@@ -2498,6 +2521,14 @@ function Fr() {
         publication BNP.
       </p>
       <p>
+        Le panel BNP couvrait la Belgique, le Danemark, la France, l&apos;Allemagne,
+        l&apos;Italie, les Pays-Bas, la Pologne, l&apos;Espagne, la Suède, la Suisse et le
+        Royaume-Uni. La Roumanie et les marchés d&apos;Europe centrale et orientale au sens large
+        n&apos;étaient pas inclus. Là où l&apos;analyse de ce papier extrapole des moyennes
+        européennes vers les conditions RO/PECO, les lecteurs de ces marchés devraient traiter la
+        direction comme indicative et les magnitudes comme en attente de validation locale.
+      </p>
+      <p>
         Confiance dans les sources : la publication BNP est un rapport commandité par le vendeur
         et son cadrage penche positivement vers les modèles basés sur l&apos;usage. Nous avons lu
         avec ce biais reconnu. La méthodologie d&apos;enquête sous-jacente (taille
@@ -2532,7 +2563,7 @@ function Fr() {
         </li>
         <li>
           <strong>H2.</strong> L&apos;architecture de contrat est la capacité de plateforme à plus
-          fort levier pour les 24 prochains mois. <em>Verdict : non concluant.</em> Nous
+          fort impact pour les 24 prochains mois. <em>Verdict : non concluant.</em> Nous
           argumentons sur des bases de premiers principes ; évidence au niveau RFP absente de
           notre corpus.
         </li>
@@ -2604,7 +2635,7 @@ function It() {
         </li>
         <li>
           <strong>Automazione di fine termine</strong> che trasforma il momento di retention a più
-          alto leverage da passività manuale a evento strutturato di retention.
+          alto impatto da passività manuale a evento strutturato di retention.
         </li>
         <li>
           <strong>Una spina dorsale dati asset-centrica</strong> che segue una singola macchina
@@ -2849,8 +2880,8 @@ function It() {
         strutturale.
       </p>
       <p>
-        Cinque aree di capability, presentate nell&apos;ordine in cui crediamo creino il maggiore
-        leverage. Ciascuna ottiene una guida esplicita sul cosa-significa e una condizione esplicita
+        Cinque aree di capability, presentate nell&apos;ordine in cui crediamo creino il maggior
+        impatto. Ciascuna ottiene una guida esplicita sul cosa-significa e una condizione esplicita
         di falsificazione.
       </p>
 
@@ -2906,7 +2937,7 @@ function It() {
         dell&apos;operatore.
       </p>
       <p>
-        Il momento di fine termine è anche il singolo momento di retention a più alto leverage nel
+        Il momento di fine termine è anche il singolo momento di retention a più alto impatto nel
         lifecycle del contratto. Le decisioni di cross-sell e di rinnovo si concentrano lì. Una
         piattaforma che automatizza il workflow di decisione (prompt automatizzati a 90, 60 e 30
         giorni; cattura digitale strutturata della decisione; offerte di rinnovo e riscatto
@@ -3138,6 +3169,13 @@ function It() {
         leasing europeo H1 2025 di Leaseurope, citati attraverso la pubblicazione BNP.
       </p>
       <p>
+        Il panel BNP ha coperto Belgio, Danimarca, Francia, Germania, Italia, Paesi Bassi, Polonia,
+        Spagna, Svezia, Svizzera e Regno Unito. La Romania e i mercati più ampi dell&apos;Europa
+        centrale e orientale non sono stati inclusi. Dove l&apos;analisi in questo paper estrapola
+        dalle medie europee verso condizioni RO/CEE, i lettori in quei mercati dovrebbero trattare
+        la direzione come indicativa e le magnitudini come in attesa di validazione locale.
+      </p>
+      <p>
         Confidenza sulla fonte: la pubblicazione BNP è un report commissionato da un vendor e il
         suo framing è positivamente inclinato verso i modelli usage-based. L&apos;abbiamo letta con
         quel bias riconosciuto. La metodologia di survey sottostante (dimensione campione, ampiezza
@@ -3168,7 +3206,7 @@ function It() {
         </li>
         <li>
           <strong>H2.</strong> L&apos;architettura contrattuale è la singola capability di
-          piattaforma a più alto leverage per i prossimi 24 mesi. <em>Verdetto: inconclusivo.</em>{' '}
+          piattaforma a più alto impatto per i prossimi 24 mesi. <em>Verdetto: inconclusivo.</em>{' '}
           La argomentiamo su basi di principi primi; evidenza a livello RFP non nel nostro
           corpus.
         </li>
