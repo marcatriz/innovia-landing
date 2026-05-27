@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'residual-value-data-object',
+    date: '2026-05-27',
+    minutes: 14,
+    en: {
+      title: 'The residual value data object',
+      subtitle: 'A builder\'s specification for European motor finance in 2026.',
+      lede: 'European motor finance is investing heavily in better residual value forecasting. AI, machine learning, VIN-level modelling, scenario engines: the rhetoric is now industry-wide. The investment is broadly right. The framing is incomplete. A residual value model in 2026 is bounded above by the residual value data object beneath it. Most operators are running a 2014 object against a 2026 problem. We publish here a reference object for European motor finance: nine field groups, two non-negotiable conventions, and typed attachments for the instruments that distribute residual value risk today.',
+    },
+    ro: {
+      title: 'Obiectul de date al valorii reziduale',
+      subtitle: 'O specificație de constructor pentru finanțarea auto europeană în 2026.',
+      lede: 'Finanțarea auto europeană investește masiv în prognoze mai bune ale valorii reziduale. IA, machine learning, modelare la nivel VIN, motoare de scenarii: retorica este acum la nivel de industrie. Investiția este în mare parte corectă. Cadrul este incomplet. Un model de valoare reziduală în 2026 este plafonat de obiectul de date al valorii reziduale de sub el. Majoritatea operatorilor rulează un obiect din 2014 împotriva unei probleme din 2026. Publicăm aici un obiect de referință pentru finanțarea auto europeană: nouă grupuri de câmpuri, două convenții non-negociabile și atașamente tipizate pentru instrumentele care distribuie riscul valorii reziduale astăzi.'
+    },
+    de: {
+      title: 'Das Restwert-Datenobjekt',
+      subtitle: 'Eine Builder-Spezifikation für die europäische Autofinanzierung 2026.',
+      lede: 'Die europäische Autofinanzierung investiert massiv in bessere Restwertprognosen. KI, maschinelles Lernen, VIN-Level-Modellierung, Szenario-Engines: Die Rhetorik ist nun branchenweit. Die Investition ist im Großen und Ganzen richtig. Der Rahmen ist unvollständig. Ein Restwertmodell im Jahr 2026 ist nach oben begrenzt durch das Restwert-Datenobjekt darunter. Die meisten Betreiber führen ein Objekt von 2014 gegen ein Problem von 2026 aus. Wir veröffentlichen hier ein Referenzobjekt für die europäische Autofinanzierung: neun Feldgruppen, zwei nicht verhandelbare Konventionen und typisierte Anhänge für die Instrumente, die heute Restwertrisiko verteilen.',
+    },
+    fr: {
+      title: 'L\'objet de données de valeur résiduelle',
+      subtitle: 'Une spécification de constructeur pour le financement auto européen en 2026.',
+      lede: 'Le financement auto européen investit massivement dans de meilleures prévisions de valeur résiduelle. IA, machine learning, modélisation au niveau VIN, moteurs de scénarios : la rhétorique est désormais à l\'échelle de l\'industrie. L\'investissement est largement juste. Le cadre est incomplet. Un modèle de valeur résiduelle en 2026 est borné supérieurement par l\'objet de données de valeur résiduelle qui le sous-tend. La plupart des opérateurs font tourner un objet de 2014 contre un problème de 2026. Nous publions ici un objet de référence pour le financement auto européen : neuf groupes de champs, deux conventions non négociables, et des attachements typés pour les instruments qui distribuent aujourd\'hui le risque de valeur résiduelle.',
+    },
+    it: {
+      title: 'L\'oggetto dati del valore residuo',
+      subtitle: 'Una specifica da costruttore per la finanza auto europea nel 2026.',
+      lede: 'La finanza auto europea sta investendo massicciamente in migliori previsioni del valore residuo. IA, machine learning, modellazione a livello VIN, motori di scenario: la retorica è ora a livello di settore. L\'investimento è in gran parte corretto. L\'inquadramento è incompleto. Un modello di valore residuo nel 2026 è limitato superiormente dall\'oggetto dati del valore residuo che gli sta sotto. La maggior parte degli operatori fa girare un oggetto del 2014 contro un problema del 2026. Pubblichiamo qui un oggetto di riferimento per la finanza auto europea: nove gruppi di campi, due convenzioni non negoziabili e allegati tipizzati per gli strumenti che oggi distribuiscono il rischio del valore residuo.',
+    },
+  },
+  {
     slug: 'migration-playbook',
     date: '2026-05-26',
     minutes: 10,

@@ -13,6 +13,7 @@ import SingleCodebaseAsAProperty from '@/components/whitepapers/SingleCodebaseAs
 import BuiltForOwnershipFailingTheLifecycle from '@/components/whitepapers/BuiltForOwnershipFailingTheLifecycle';
 import PricingEvResidualValueRisk from '@/components/whitepapers/PricingEvResidualValueRisk';
 import MigrationPlaybook from '@/components/whitepapers/MigrationPlaybook';
+import ResidualValueDataObject from '@/components/whitepapers/ResidualValueDataObject';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -23,6 +24,8 @@ export function generateStaticParams() {
 
 function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
+    case 'residual-value-data-object':
+      return <ResidualValueDataObject locale={locale} />;
     case 'migration-playbook':
       return <MigrationPlaybook locale={locale} />;
     case 'pricing-ev-residual-value-risk':
