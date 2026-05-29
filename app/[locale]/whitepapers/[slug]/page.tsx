@@ -14,6 +14,8 @@ import BuiltForOwnershipFailingTheLifecycle from '@/components/whitepapers/Built
 import PricingEvResidualValueRisk from '@/components/whitepapers/PricingEvResidualValueRisk';
 import MigrationPlaybook from '@/components/whitepapers/MigrationPlaybook';
 import ResidualValueDataObject from '@/components/whitepapers/ResidualValueDataObject';
+import ResilienceAndSecurityAsProperties from '@/components/whitepapers/ResilienceAndSecurityAsProperties';
+import ApiAndMcpByDesign from '@/components/whitepapers/ApiAndMcpByDesign';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -24,6 +26,10 @@ export function generateStaticParams() {
 
 function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
+    case 'resilience-and-security-as-properties':
+      return <ResilienceAndSecurityAsProperties locale={locale} />;
+    case 'api-and-mcp-by-design':
+      return <ApiAndMcpByDesign locale={locale} />;
     case 'residual-value-data-object':
       return <ResidualValueDataObject locale={locale} />;
     case 'migration-playbook':
