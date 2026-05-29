@@ -33,6 +33,10 @@ export default async function LocaleLayout({
           rel="stylesheet"
         />
         <link rel="icon" href="/innovia-profile.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Innovia" />
+        <link rel="manifest" href="/manifest.webmanifest" />
+        <meta name="theme-color" content="#17202A" />
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
