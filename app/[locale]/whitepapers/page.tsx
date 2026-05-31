@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BackLink from '@/components/BackLink';
 import { Link, type AppLocale } from '@/i18n/routing';
 import { WHITEPAPERS } from '@/components/whitepapers/registry';
 
@@ -17,6 +18,7 @@ export default async function WhitepapersIndexPage({
     <>
       <Header />
       <main>
+        <BackLink href="/" labelKey="backToHome" />
         <WhitepapersIndex locale={locale} />
       </main>
       <Footer />

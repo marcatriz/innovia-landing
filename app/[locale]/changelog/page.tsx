@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BackLink from '@/components/BackLink';
 import { Link, type AppLocale } from '@/i18n/routing';
 
 export default async function ChangelogPage({
@@ -16,6 +17,7 @@ export default async function ChangelogPage({
     <>
       <Header />
       <main>
+        <BackLink href="/" labelKey="backToHome" />
         <ChangelogHero locale={locale} />
         <ChangelogEntries locale={locale as AppLocale} />
         <Footer />

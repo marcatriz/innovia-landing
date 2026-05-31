@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BackLink from '@/components/BackLink';
 import FitSprint from '@/components/FitSprint';
 
 export default async function FitSprintPage({
@@ -15,6 +16,7 @@ export default async function FitSprintPage({
     <>
       <Header />
       <main>
+        <BackLink href="/" labelKey="backToHome" />
         <FitSprint />
       </main>
       <Footer />

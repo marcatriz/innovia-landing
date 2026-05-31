@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'five-disruptions-already-shipped',
+    date: '2026-05-31',
+    minutes: 10,
+    en: {
+      title: 'All five disruptions, already shipped by Innovia Systems',
+      subtitle: 'McKinsey maps the AI-native platform as a future. In regulated lending, the substrate that captures the EBIT is the one we already run.',
+      lede: 'In its January 2026 analysis "The end of ERP as we know it? Five ways AI is disrupting ERP", McKinsey is right about all five, and it reports the catch in the same breath: only around 40 percent of organisations capture any enterprise-level EBIT impact from AI. We take each in turn, agree with it, and show why the difference between capturing the value and booking nothing is the substrate underneath, configuration-native, deterministic, and auditable, the one we built first.',
+    },
+    ro: {
+      title: 'Toate cele cinci disrupții, deja livrate de Innovia Systems',
+      subtitle: 'McKinsey descrie platforma nativă pe IA ca viitor. În creditarea reglementată, substratul care captează EBIT-ul este cel pe care îl rulăm deja.',
+      lede: 'În analiza sa din ianuarie 2026 „The end of ERP as we know it? Five ways AI is disrupting ERP”, McKinsey are dreptate cu toate cele cinci, și raportează capcana în aceeași frază: doar în jur de 40% dintre organizații obțin vreun impact asupra EBIT la nivel de companie. Luăm fiecare disrupție pe rând, suntem de acord cu ea, și arătăm de ce diferența dintre a capta valoarea și a nu înregistra nimic este substratul de dedesubt, nativ pe configurare, determinist și auditabil, cel pe care l-am construit primii.',
+    },
+    de: {
+      title: 'Alle fünf Umwälzungen, von Innovia Systems bereits ausgeliefert',
+      subtitle: 'McKinsey beschreibt die KI-native Plattform als Zukunft. Im regulierten Kreditgeschäft ist das Substrat, das EBIT erfasst, jenes, das wir bereits betreiben.',
+      lede: 'In seiner Analyse vom Januar 2026 „The end of ERP as we know it? Five ways AI is disrupting ERP“ hat McKinsey mit allen fünf recht, und nennt im selben Atemzug den Haken: nur rund 40% der Organisationen erfassen überhaupt einen EBIT-Effekt auf Unternehmensebene. Wir nehmen jede der Reihe nach auf, stimmen ihr zu und zeigen, warum der Unterschied zwischen dem Erfassen des Wertes und dem Verbuchen von nichts das Substrat darunter ist, konfigurationsnativ, deterministisch und auditierbar, jenes, das wir zuerst gebaut haben.',
+    },
+    fr: {
+      title: 'Les cinq ruptures, déjà livrées par Innovia Systems',
+      subtitle: 'McKinsey décrit la plateforme native de l\'IA comme un avenir. Dans le crédit réglementé, le substrat qui capte l\'EBIT est celui que nous exploitons déjà.',
+      lede: 'Dans son analyse de janvier 2026 « The end of ERP as we know it? Five ways AI is disrupting ERP », McKinsey a raison sur les cinq, et signale le bémol dans la même phrase: seules 40% des organisations environ captent un quelconque impact sur l\'EBIT au niveau de l\'entreprise. Nous les reprenons l\'une après l\'autre, nous y souscrivons, et nous montrons pourquoi la différence entre capter la valeur et ne rien enregistrer tient au substrat en dessous, nativement configurable, déterministe et auditable, celui que nous avons construit d\'abord.',
+    },
+    it: {
+      title: 'Tutte e cinque le rotture, già consegnate da Innovia Systems',
+      subtitle: 'McKinsey descrive la piattaforma nativa per l\'IA come un futuro. Nel credito regolamentato, il substrato che cattura l\'EBIT è quello che già gestiamo.',
+      lede: 'Nella sua analisi del gennaio 2026 « The end of ERP as we know it? Five ways AI is disrupting ERP », McKinsey ha ragione su tutti e cinque, e segnala il punto critico nella stessa frase: solo circa il 40% delle organizzazioni cattura un qualche impatto sull\'EBIT a livello aziendale. Li affrontiamo a turno, li condividiamo, e mostriamo perché la differenza tra catturare il valore e non registrare nulla è il substrato sottostante, nativo per configurazione, deterministico e verificabile, quello che abbiamo costruito per primi.',
+    },
+  },
+  {
     slug: 'resilience-and-security-as-properties',
     date: '2026-05-29',
     minutes: 14,

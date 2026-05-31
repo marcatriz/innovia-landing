@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import BackLink from '@/components/BackLink';
 import { Link, type AppLocale } from '@/i18n/routing';
 import { WHITEPAPERS, getWhitepaper } from '@/components/whitepapers/registry';
 import { routing } from '@/i18n/routing';
@@ -16,6 +17,7 @@ import MigrationPlaybook from '@/components/whitepapers/MigrationPlaybook';
 import ResidualValueDataObject from '@/components/whitepapers/ResidualValueDataObject';
 import ResilienceAndSecurityAsProperties from '@/components/whitepapers/ResilienceAndSecurityAsProperties';
 import ApiAndMcpByDesign from '@/components/whitepapers/ApiAndMcpByDesign';
+import FiveDisruptionsAlreadyShipped from '@/components/whitepapers/FiveDisruptionsAlreadyShipped';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -26,6 +28,8 @@ export function generateStaticParams() {
 
 function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
+    case 'five-disruptions-already-shipped':
+      return <FiveDisruptionsAlreadyShipped locale={locale} />;
     case 'resilience-and-security-as-properties':
       return <ResilienceAndSecurityAsProperties locale={locale} />;
     case 'api-and-mcp-by-design':
@@ -68,6 +72,7 @@ export default async function WhitepaperPage({
     <>
       <Header />
       <main>
+        <BackLink href="/whitepapers" labelKey="backToList" />
         <WhitepaperHero
           title={localized.title}
           subtitle={localized.subtitle}
