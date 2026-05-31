@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import LanguageToggle from './LanguageToggle';
+import MobileMenu from './MobileMenu';
 
 export default function Header() {
   const t = useTranslations('nav');
@@ -51,8 +52,9 @@ export default function Header() {
             {t('contact')}
           </Link>
         </nav>
-        <div className="ml-auto shrink-0 xl:ml-0">
+        <div className="ml-auto flex shrink-0 items-center gap-1 xl:ml-0">
           <LanguageToggle />
+          <MobileMenu />
         </div>
       </div>
     </header>
