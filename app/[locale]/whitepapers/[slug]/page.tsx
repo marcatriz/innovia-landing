@@ -18,6 +18,7 @@ import ResidualValueDataObject from '@/components/whitepapers/ResidualValueDataO
 import ResilienceAndSecurityAsProperties from '@/components/whitepapers/ResilienceAndSecurityAsProperties';
 import ApiAndMcpByDesign from '@/components/whitepapers/ApiAndMcpByDesign';
 import FiveDisruptionsAlreadyShipped from '@/components/whitepapers/FiveDisruptionsAlreadyShipped';
+import VerifiableAiGovernance from '@/components/whitepapers/VerifiableAiGovernance';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -28,6 +29,8 @@ export function generateStaticParams() {
 
 function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
+    case 'verifiable-ai-governance':
+      return <VerifiableAiGovernance locale={locale} />;
     case 'five-disruptions-already-shipped':
       return <FiveDisruptionsAlreadyShipped locale={locale} />;
     case 'resilience-and-security-as-properties':

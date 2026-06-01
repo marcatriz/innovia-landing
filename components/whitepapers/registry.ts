@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'verifiable-ai-governance',
+    date: '2026-06-01',
+    minutes: 8,
+    en: {
+      title: 'Verifiable AI governance: an audit you can recompute',
+      subtitle: 'The difference between an audit you trust and an audit a supervisor can recompute, extended to every action a model takes.',
+      lede: 'Auditable is the easiest box to tick in a tender and the hardest to mean. Most platforms log what happened and ask you to trust the log was not edited afterward. We seal the audit log into a SHA-256 hash chain and expose one endpoint that recomputes it from the live rows, so anyone with the right to ask can prove the log was not altered, and name the exact row if it was. Every AI action, a tool call over the Model Context Protocol, a write from the in-app assistant, a decision from the scoring model, lands in that same chain and inherits the same proof.',
+    },
+    ro: {
+      title: 'Guvernanță AI verificabilă: un audit pe care îl poți recalcula',
+      subtitle: 'Diferența dintre un audit în care ai încredere și un audit pe care un supervizor îl poate recalcula, extinsă la fiecare acțiune pe care o ia un model.',
+      lede: 'Auditabil este cea mai ușoară bifă într-o licitație și cel mai greu de susținut. Majoritatea platformelor înregistrează ce s-a întâmplat și îți cer să ai încredere că jurnalul nu a fost editat după aceea. Noi sigilăm jurnalul de audit într-un lanț de hash SHA-256 și expunem un singur endpoint care îl recalculează din rândurile vii, astfel încât oricine are dreptul să întrebe poate dovedi că jurnalul nu a fost alterat, și poate numi rândul exact dacă a fost. Fiecare acțiune AI, un apel de unealtă prin Model Context Protocol, o scriere din asistentul în aplicație, o decizie din modelul de scoring, ajunge în același lanț și moștenește aceeași dovadă.',
+    },
+    de: {
+      title: 'Verifizierbare KI-Governance: ein Audit, das Sie nachrechnen können',
+      subtitle: 'Der Unterschied zwischen einem Audit, dem Sie vertrauen, und einem Audit, das ein Aufseher nachrechnen kann, ausgeweitet auf jede Aktion, die ein Modell ausführt.',
+      lede: 'Auditierbar ist das einfachste Kästchen in einer Ausschreibung und das am schwersten einzulösende. Die meisten Plattformen protokollieren, was geschah, und bitten Sie zu vertrauen, dass das Protokoll danach nicht bearbeitet wurde. Wir versiegeln das Audit-Log in einer SHA-256-Hash-Kette und stellen einen Endpunkt bereit, der sie aus den Live-Zeilen nachrechnet, sodass jeder mit dem Recht zu fragen beweisen kann, dass das Log nicht verändert wurde, und die genaue Zeile benennen kann, falls doch. Jede KI-Aktion, ein Werkzeugaufruf über das Model Context Protocol, ein Schreibvorgang des In-App-Assistenten, eine Entscheidung des Scoring-Modells, landet in derselben Kette und erbt denselben Beweis.',
+    },
+    fr: {
+      title: 'Gouvernance IA vérifiable : un audit que vous pouvez recalculer',
+      subtitle: 'La différence entre un audit auquel vous faites confiance et un audit qu\'un superviseur peut recalculer, étendue à chaque action que prend un modèle.',
+      lede: 'Auditable est la case la plus facile à cocher dans un appel d\'offres et la plus difficile à tenir. La plupart des plateformes journalisent ce qui s\'est passé et vous demandent de croire que le journal n\'a pas été édité ensuite. Nous scellons le journal d\'audit dans une chaîne de hachage SHA-256 et exposons un endpoint qui la recalcule à partir des lignes vivantes, de sorte que quiconque a le droit de demander peut prouver que le journal n\'a pas été altéré, et nommer la ligne exacte s\'il l\'a été. Chaque action IA, un appel d\'outil via le Model Context Protocol, une écriture de l\'assistant dans l\'application, une décision du modèle de scoring, atterrit dans cette même chaîne et hérite de la même preuve.',
+    },
+    it: {
+      title: 'Governance IA verificabile: un audit che puoi ricalcolare',
+      subtitle: 'La differenza tra un audit di cui ti fidi e un audit che un supervisore può ricalcolare, estesa a ogni azione che un modello compie.',
+      lede: 'Auditabile è la casella più facile da spuntare in una gara e la più difficile da mantenere. La maggior parte delle piattaforme registra cosa è accaduto e ti chiede di fidarti che il log non sia stato modificato dopo. Noi sigilliamo il log di audit in una catena di hash SHA-256 ed esponiamo un endpoint che la ricalcola dalle righe vive, così chiunque abbia il diritto di chiedere può provare che il log non è stato alterato, e nominare la riga esatta se lo è stato. Ogni azione IA, una chiamata di strumento via Model Context Protocol, una scrittura dall\'assistente in-app, una decisione dal modello di scoring, finisce nella stessa catena ed eredita la stessa prova.',
+    },
+  },
+  {
     slug: 'five-disruptions-already-shipped',
     date: '2026-05-31',
     minutes: 10,
