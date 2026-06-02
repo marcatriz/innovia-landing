@@ -22,10 +22,22 @@
   },
   "stats": {
     "items": {
-      "verticals": { "value": "5", "label": "Verticals on one engine" },
-      "ready": { "value": "2", "label": "Modules at production quality" },
-      "codev": { "value": "3", "label": "Pre-production for H2 2026" },
-      "operator": { "value": "~20y", "label": "European leasing operator depth" }
+      "verticals": {
+        "value": "5",
+        "label": "Verticals on one engine"
+      },
+      "ready": {
+        "value": "2",
+        "label": "Modules at production quality"
+      },
+      "codev": {
+        "value": "3",
+        "label": "Pre-production for H2 2026"
+      },
+      "operator": {
+        "value": "~20y",
+        "label": "European leasing operator depth"
+      }
     }
   },
   "problem": {
@@ -500,5 +512,32 @@
   "footer": {
     "copyright": "Innovia Systems",
     "tagline": "Fit for Digital. Fit for AI."
+  },
+  "foundation": {
+    "eyebrow": "The platform under the hood",
+    "title": "Built on a modern, open foundation",
+    "body": "A current, well-instrumented stack, chosen so the platform stays fast to evolve, safe to audit, and ready for AI from day one.",
+    "caps": {
+      "aiNative": {
+        "title": "AI-native, not bolted on",
+        "body": "In-app copilot, Model Context Protocol and ML risk signals built into the platform."
+      },
+      "auditable": {
+        "title": "Auditable by design",
+        "body": "Every action, human or AI, recorded on a tamper-evident chain you can re-verify."
+      },
+      "multiTenant": {
+        "title": "Verifiably multi-tenant",
+        "body": "Strict tenant isolation, proven continuously by an automated test suite."
+      },
+      "observable": {
+        "title": "Observable end-to-end",
+        "body": "Open telemetry and metrics across every layer, nothing runs in the dark."
+      },
+      "cloudAgnostic": {
+        "title": "Cloud-agnostic",
+        "body": "Container-native; runs on any major cloud or on-prem, no lock-in."
+      }
+    }
   }
 }

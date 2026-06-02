@@ -22,10 +22,22 @@
   },
   "stats": {
     "items": {
-      "verticals": { "value": "5", "label": "Verticali su un unico motore" },
-      "ready": { "value": "2", "label": "Moduli a qualità di produzione" },
-      "codev": { "value": "3", "label": "Pre-produzione per H2 2026" },
-      "operator": { "value": "~20 anni", "label": "Profondità da operatore nel leasing europeo" }
+      "verticals": {
+        "value": "5",
+        "label": "Verticali su un unico motore"
+      },
+      "ready": {
+        "value": "2",
+        "label": "Moduli a qualità di produzione"
+      },
+      "codev": {
+        "value": "3",
+        "label": "Pre-produzione per H2 2026"
+      },
+      "operator": {
+        "value": "~20 anni",
+        "label": "Profondità da operatore nel leasing europeo"
+      }
     }
   },
   "problem": {
@@ -500,5 +512,32 @@
   "footer": {
     "copyright": "Innovia Systems",
     "tagline": "Fit for Digital. Fit for AI."
+  },
+  "foundation": {
+    "eyebrow": "La piattaforma, sotto il cofano",
+    "title": "Costruita su fondamenta moderne e aperte",
+    "body": "Uno stack attuale e ben strumentato, scelto perché la piattaforma evolva in fretta, sia sicura da auditare e pronta per l'IA fin dal primo giorno.",
+    "caps": {
+      "aiNative": {
+        "title": "IA nativa, non aggiunta dopo",
+        "body": "Copilot in-app, Model Context Protocol e segnali di rischio ML, integrati nella piattaforma."
+      },
+      "auditable": {
+        "title": "Auditabile per progettazione",
+        "body": "Ogni azione, umana o IA, registrata in una catena a prova di manomissione che puoi riverificare."
+      },
+      "multiTenant": {
+        "title": "Multi-tenant verificabile",
+        "body": "Isolamento rigoroso dei tenant, dimostrato di continuo da una suite di test automatici."
+      },
+      "observable": {
+        "title": "Osservabile end-to-end",
+        "body": "Telemetria e metriche aperte su ogni livello, nulla gira al buio."
+      },
+      "cloudAgnostic": {
+        "title": "Indipendente dal cloud",
+        "body": "Nativa nei container; gira su qualsiasi cloud principale o on-premise, senza lock-in."
+      }
+    }
   }
 }

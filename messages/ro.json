@@ -22,10 +22,22 @@
   },
   "stats": {
     "items": {
-      "verticals": { "value": "5", "label": "Verticale pe un singur motor" },
-      "ready": { "value": "2", "label": "Module la calitate de producție" },
-      "codev": { "value": "3", "label": "Pre-producție pentru H2 2026" },
-      "operator": { "value": "~20 ani", "label": "Profunzime de operator în leasing european" }
+      "verticals": {
+        "value": "5",
+        "label": "Verticale pe un singur motor"
+      },
+      "ready": {
+        "value": "2",
+        "label": "Module la calitate de producție"
+      },
+      "codev": {
+        "value": "3",
+        "label": "Pre-producție pentru H2 2026"
+      },
+      "operator": {
+        "value": "~20 ani",
+        "label": "Profunzime de operator în leasing european"
+      }
     }
   },
   "problem": {
@@ -500,5 +512,32 @@
   "footer": {
     "copyright": "Innovia Systems",
     "tagline": "Fit for Digital. Fit for AI."
+  },
+  "foundation": {
+    "eyebrow": "Platforma, pe dinăuntru",
+    "title": "Construită pe o fundație modernă și deschisă",
+    "body": "Un stack actual și bine instrumentat, ales astfel încât platforma să evolueze rapid, să fie ușor de auditat și pregătită pentru AI din prima zi.",
+    "caps": {
+      "aiNative": {
+        "title": "AI nativ, nu adăugat ulterior",
+        "body": "Copilot în aplicație, Model Context Protocol și semnale de risc ML, integrate în platformă."
+      },
+      "auditable": {
+        "title": "Auditabilă prin design",
+        "body": "Fiecare acțiune, umană sau AI, înregistrată într-un lanț inviolabil pe care îl poți reverifica."
+      },
+      "multiTenant": {
+        "title": "Multi-tenant verificabil",
+        "body": "Izolare strictă între tenanți, demonstrată continuu de o suită de teste automate."
+      },
+      "observable": {
+        "title": "Observabilă cap la cap",
+        "body": "Telemetrie și metrici deschise pe fiecare strat, nimic nu rulează în întuneric."
+      },
+      "cloudAgnostic": {
+        "title": "Independentă de cloud",
+        "body": "Nativ în containere; rulează pe orice cloud major sau on-premises, fără dependență de furnizor."
+      }
+    }
   }
 }
