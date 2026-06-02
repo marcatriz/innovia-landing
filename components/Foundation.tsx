@@ -23,13 +23,17 @@ export default function Foundation() {
   return (
     <section id="foundation" className="bg-tint py-24">
       <div className="container-x">
-        <div className="mx-auto max-w-2xl text-center">
-          <p className="eyebrow mb-4">{t('eyebrow')}</p>
-          <h2 className="text-h2 text-ink-700">{t('title')}</h2>
-          <p className="mt-4 text-body-lg text-slate-500">{t('body')}</p>
+        <div className="grid gap-8 lg:grid-cols-12">
+          <div className="lg:col-span-6">
+            <p className="eyebrow mb-4">{t('eyebrow')}</p>
+            <h2 className="text-h2 text-ink-700">{t('title')}</h2>
+          </div>
+          <div className="lg:col-span-5 lg:col-start-8">
+            <p className="text-body-lg text-slate-500">{t('body')}</p>
+          </div>
         </div>
 
-        <ul className="mx-auto mt-14 flex max-w-4xl flex-wrap items-center justify-center gap-x-10 gap-y-8">
+        <ul className="mt-14 flex flex-wrap items-center gap-x-10 gap-y-8">
           {LOGOS.map(([name, slug]) => (
             <li key={slug} className="flex w-24 flex-col items-center gap-2">
               <div className="relative h-11 w-16">
@@ -51,7 +55,7 @@ export default function Foundation() {
           ))}
         </div>
 
-        <p className="mt-12 text-center text-caption uppercase tracking-wider text-slate-500">
+        <p className="mt-12 text-caption uppercase tracking-wider text-slate-500">
           Fit for Digital. <span className="text-ink-700">Fit for AI.</span>
         </p>
       </div>
