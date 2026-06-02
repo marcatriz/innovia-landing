@@ -32,7 +32,7 @@ export default function Hero() {
               {t('cta')}
               <span aria-hidden>→</span>
             </Link>
-            <Link href="/#modules" className="btn-secondary">
+            <Link href="/#foundation" className="btn-secondary">
               {t('ctaSecondary')}
             </Link>
           </div>
