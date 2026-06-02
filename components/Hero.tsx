@@ -35,6 +35,9 @@ export default function Hero() {
             <Link href="/#foundation" className="btn-secondary">
               {t('ctaSecondary')}
             </Link>
+            <Link href="/#modules" className="btn-secondary">
+              {t('ctaModules')}
+            </Link>
           </div>
         </div>
         <div className="hidden lg:col-span-5 lg:block">
