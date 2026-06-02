@@ -2,16 +2,31 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 const LOGOS = [
-  ['.NET 9', 'dotnet'],
+  // Frontend
   ['React', 'react'],
   ['TypeScript', 'typescript'],
+  ['Vite', 'vite'],
+  ['MUI', 'mui'],
+  // Backend
+  ['.NET 9', 'dotnet'],
+  ['C#', 'csharp'],
+  ['FastAPI', 'fastapi'],
+  ['OpenAPI', 'swagger'],
+  // Data & AI
   ['SQL Server', 'sqlserver'],
   ['Python', 'python'],
-  ['FastAPI', 'fastapi'],
-  ['Docker', 'docker'],
-  ['OpenTelemetry', 'opentelemetry'],
+  ['scikit-learn', 'scikitlearn'],
+  ['pandas', 'pandas'],
+  ['XGBoost', 'xgboost'],
   ['Anthropic · Claude', 'anthropic'],
   ['MCP', 'mcp'],
+  // Ops & infra
+  ['Docker', 'docker'],
+  ['GitHub Actions', 'githubactions'],
+  ['OpenTelemetry', 'opentelemetry'],
+  ['Prometheus', 'prometheus'],
+  ['Node.js', 'nodejs'],
+  ['Next.js', 'nextjs'],
   ['Cloudflare', 'cloudflare'],
 ] as const;
 
