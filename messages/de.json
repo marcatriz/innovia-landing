@@ -22,10 +22,22 @@
   },
   "stats": {
     "items": {
-      "verticals": { "value": "5", "label": "Vertikalen auf einer Engine" },
-      "ready": { "value": "2", "label": "Module in Produktionsqualität" },
-      "codev": { "value": "3", "label": "Pre-Produktion für H2 2026" },
-      "operator": { "value": "~20 J.", "label": "Erfahrungstiefe im europäischen Leasing" }
+      "verticals": {
+        "value": "5",
+        "label": "Vertikalen auf einer Engine"
+      },
+      "ready": {
+        "value": "2",
+        "label": "Module in Produktionsqualität"
+      },
+      "codev": {
+        "value": "3",
+        "label": "Pre-Produktion für H2 2026"
+      },
+      "operator": {
+        "value": "~20 J.",
+        "label": "Erfahrungstiefe im europäischen Leasing"
+      }
     }
   },
   "problem": {
@@ -500,5 +512,32 @@
   "footer": {
     "copyright": "Innovia Systems",
     "tagline": "Fit for Digital. Fit for AI."
+  },
+  "foundation": {
+    "eyebrow": "Die Plattform unter der Haube",
+    "title": "Auf einem modernen, offenen Fundament gebaut",
+    "body": "Ein aktueller, gut instrumentierter Stack, gewählt, damit die Plattform schnell weiterzuentwickeln, sicher zu auditieren und von Tag eins an bereit für KI ist.",
+    "caps": {
+      "aiNative": {
+        "title": "KI-nativ, nicht nachträglich angebaut",
+        "body": "In-App-Copilot, Model Context Protocol und ML-Risikosignale, fest in die Plattform integriert."
+      },
+      "auditable": {
+        "title": "Auditierbar by Design",
+        "body": "Jede Aktion, ob Mensch oder KI, in einer manipulationssicheren Kette festgehalten, die sich nachprüfen lässt."
+      },
+      "multiTenant": {
+        "title": "Nachweisbar mandantenfähig",
+        "body": "Strikte Mandantentrennung, kontinuierlich durch eine automatisierte Testsuite belegt."
+      },
+      "observable": {
+        "title": "Durchgängig beobachtbar",
+        "body": "Offene Telemetrie und Metriken über alle Schichten, nichts läuft im Verborgenen."
+      },
+      "cloudAgnostic": {
+        "title": "Cloud-agnostisch",
+        "body": "Container-nativ; läuft auf jeder großen Cloud oder on-premises, ohne Anbieterbindung."
+      }
+    }
   }
 }

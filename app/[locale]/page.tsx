@@ -9,6 +9,7 @@ import Modules from '@/components/Modules';
 import UseCases from '@/components/UseCases';
 import Partnership from '@/components/Partnership';
 import Operator from '@/components/Operator';
+import Foundation from '@/components/Foundation';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -33,6 +34,7 @@ export default async function HomePage({
         <Partnership />
         <Thesis />
         <Operator />
+        <Foundation />
         <Contact />
       </main>
       <Footer />
