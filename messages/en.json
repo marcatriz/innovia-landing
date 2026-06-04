@@ -96,7 +96,7 @@
   "modules": {
     "eyebrow": "The platform behind the prototype",
     "title": "Five verticals, one engine.",
-    "body": "Prototyping and implementation engagements run on the Innovia platform. Five modules share the same engine, data model, and workflow orchestrator. Asset Finance and Fleet are production-quality engineering, awaiting first design-partner go-live. Working Capital, Consumer Credit, and Secured Microcredit are pre-production for H2 2026.",
+    "body": "Prototyping and implementation engagements run on the Innovia platform. Five modules share the same engine, data model, and workflow orchestrator. Asset Finance and Fleet are production-quality engineering, awaiting first design-partner go-live. Working Capital, Consumer Credit, and Secured Microcredit are pre-production for H2 2026. Because it is one engine, a single borrower's exposure rolls up across every line against one enforced limit, instead of being reconciled between systems.",
     "statusReady": "Production quality",
     "statusCoDev": "Pre-production",
     "items": {
@@ -139,6 +139,12 @@
       "platform": "Platform"
     },
     "items": {
+      "obligor360": {
+        "area": "Cross-line risk",
+        "title": "Obligor 360",
+        "body": "Every facility a single borrower holds, across asset finance, consumer, pawn, and SME, rolls up on one screen with the aggregate exposure, the partner credit ceiling, and the live headroom. The same limit is enforced as a hard stop at decision time, so a borrower cannot quietly accumulate limit-breaching exposure by spreading it over product lines. Underwriters see the whole obligor before approving the next deal, not one line at a time.",
+        "usp": "One borrower, every line, one enforced limit, seen before the next approval."
+      },
       "executiveDashboard": {
         "area": "Executive overview",
         "title": "Portfolio command centre",

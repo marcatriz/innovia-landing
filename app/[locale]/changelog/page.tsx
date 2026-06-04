@@ -48,6 +48,68 @@ interface ChangelogEntry {
 
 const ENTRIES: ChangelogEntry[] = [
   {
+    date: '2026-06-03',
+    headline: {
+      en: 'Cross-line obligor exposure, origination governance hardened, regulatory analytics, and a verifiable audit seal.',
+      ro: 'Expunere cross-line a obligorului, guvernanță de originare întărită, analitică regulatorie și un sigiliu de audit verificabil.',
+      de: 'Cross-line-Obligor-Exposure, gehärtete Origination-Governance, regulatorische Analytik und ein verifizierbares Audit-Siegel.',
+      fr: 'Exposition de l\'obligé sur toutes les lignes, gouvernance d\'origination renforcée, analytique réglementaire et un sceau d\'audit vérifiable.',
+      it: 'Esposizione dell\'obbligato su tutte le linee, governance di origination rafforzata, analitica regolamentare e un sigillo di audit verificabile.',
+    },
+    highlights: {
+      en: [
+        'Obligor 360: a single borrower\'s full lending footprint on one screen, aggregating exposure across asset finance, consumer, pawn, and SME against the partner ceiling with live headroom.',
+        'The single-obligor limit is enforced as a hard stop at decision time, so exposure cannot be spread past the ceiling across product lines.',
+        'Origination governance hardened: four-eyes approval with mandate checks, decision hard-stops, pricing guardrails, exposure and sector-concentration limits, and an automated offer-expiry job.',
+        'Tamper-evident audit seal: the audit log sealed into a SHA-256 hash chain, with an endpoint that recomputes it from the live rows and names the exact row if anything was altered.',
+        'Regulatory analytics: IFRS 9 staging and expected credit loss, a stress-testing engine, and COREP, FINREP, AnaCredit, and EBA NPL report scaffolds, with pawn portfolio-at-risk and origination funnels.',
+        'Governance extended to the newer lines: SME scoring on entry to analysis, a pawn collateral catalogue with an AML gate and four-eyes on high-value activation, and consumer decisioning controls.',
+        'Tenant isolation deepened: a schema migration to direct tenant columns on downstream tables, a group-level cross-tenant overview for a group COO, and twenty-five isolation tests on every build.',
+        'Proven under load: 226,000 requests at zero failures with no cross-tenant audit leakage, plus a seven-phase portfolio migration path for mid-tier replatform projects.',
+      ],
+      ro: [
+        'Obligor 360: întreaga amprentă de creditare a unui singur debitor pe un singur ecran, agregând expunerea pe asset finance, consumer, amanet și SME față de plafonul partenerului, cu headroom în timp real.',
+        'Limita pe debitor unic este impusă ca hard-stop la momentul deciziei, astfel încât expunerea să nu poată fi împrăștiată peste plafon pe linii de produs.',
+        'Guvernanța originării întărită: aprobare în patru ochi cu verificarea mandatului, hard-stops la decizie, limite de preț, limite de expunere și de concentrare pe sector, și un job automat de expirare a ofertei.',
+        'Sigiliu de audit rezistent la falsificare: jurnalul de audit sigilat într-un lanț de hash SHA-256, cu un endpoint care îl recalculează din rândurile vii și numește rândul exact dacă ceva a fost alterat.',
+        'Analitică regulatorie: încadrare IFRS 9 și pierdere de credit așteptată, un motor de stress-testing, și schele de raportare COREP, FINREP, AnaCredit și EBA NPL, cu portfolio-at-risk pe amanet și pâlnii de originare.',
+        'Guvernanță extinsă la liniile noi: scoring SME la intrarea în analiză, un catalog de colateral pentru amanet cu poartă AML și patru ochi la activarea de valoare mare, și controale de decizie pe consumer.',
+        'Izolare pe tenant adâncită: o migrare de schemă către coloane de tenant directe pe tabelele din aval, o vedere de grup cross-tenant pentru un Group COO, și douăzeci și cinci de teste de izolare la fiecare build.',
+        'Dovedit sub sarcină: 226.000 de request-uri cu zero eșecuri și fără scurgeri de audit cross-tenant, plus o cale de migrare a portofoliului în șapte faze pentru proiecte mid-tier de replatform.',
+      ],
+      de: [
+        'Obligor 360: die gesamte Kreditbeziehung eines einzelnen Kreditnehmers auf einem Bildschirm, mit Aggregation der Exposure über Asset Finance, Consumer, Pfand und SME gegen das Partnerlimit, mit Echtzeit-Spielraum.',
+        'Das Einzelobligor-Limit wird als Hard-Stop zum Entscheidungszeitpunkt durchgesetzt, sodass Exposure nicht über Produktlinien hinweg über das Limit hinaus verteilt werden kann.',
+        'Origination-Governance gehärtet: Vier-Augen-Freigabe mit Mandatsprüfung, Entscheidungs-Hard-Stops, Preisleitplanken, Exposure- und Sektorkonzentrationslimits und ein automatischer Angebotsablauf-Job.',
+        'Manipulationssicheres Audit-Siegel: das Audit-Log in einer SHA-256-Hash-Kette versiegelt, mit einem Endpunkt, der es aus den Live-Zeilen nachrechnet und die genaue Zeile benennt, falls etwas verändert wurde.',
+        'Regulatorische Analytik: IFRS-9-Stufenzuordnung und erwarteter Kreditverlust, eine Stresstest-Engine sowie COREP-, FINREP-, AnaCredit- und EBA-NPL-Berichtsgerüste, mit Portfolio-at-Risk für Pfand und Origination-Funnels.',
+        'Governance auf die neueren Linien ausgeweitet: SME-Scoring beim Eintritt in die Analyse, ein Pfand-Sicherheitenkatalog mit AML-Gate und Vier-Augen-Prinzip bei hochwertiger Aktivierung, und Consumer-Entscheidungskontrollen.',
+        'Tenant-Isolation vertieft: eine Schema-Migration zu direkten Tenant-Spalten auf nachgelagerten Tabellen, eine gruppenweite Cross-Tenant-Übersicht für einen Group COO, und fünfundzwanzig Isolationstests bei jedem Build.',
+        'Unter Last bewiesen: 226.000 Anfragen bei null Fehlern ohne Cross-Tenant-Audit-Leck, plus ein siebenphasiger Portfolio-Migrationspfad für Mid-Tier-Replatform-Projekte.',
+      ],
+      fr: [
+        'Obligor 360 : toute l\'empreinte de crédit d\'un même emprunteur sur un seul écran, agrégeant l\'exposition sur asset finance, consumer, prêt sur gage et SME face au plafond du partenaire, avec marge en temps réel.',
+        'La limite par obligé unique est imposée comme arrêt strict au moment de la décision, de sorte que l\'exposition ne puisse pas être répartie au-delà du plafond entre les lignes de produit.',
+        'Gouvernance d\'origination renforcée : approbation à quatre yeux avec vérification du mandat, arrêts stricts à la décision, garde-fous de prix, limites d\'exposition et de concentration sectorielle, et une tâche automatique d\'expiration des offres.',
+        'Sceau d\'audit infalsifiable : le journal d\'audit scellé dans une chaîne de hachage SHA-256, avec un endpoint qui le recalcule à partir des lignes vivantes et nomme la ligne exacte si quelque chose a été altéré.',
+        'Analytique réglementaire : classement IFRS 9 et perte de crédit attendue, un moteur de stress-test, et des échafaudages de reporting COREP, FINREP, AnaCredit et EBA NPL, avec portfolio-at-risk sur le prêt sur gage et entonnoirs d\'origination.',
+        'Gouvernance étendue aux lignes plus récentes : scoring SME à l\'entrée en analyse, un catalogue de collatéral pour le prêt sur gage avec porte AML et quatre yeux à l\'activation de valeur élevée, et contrôles de décision consumer.',
+        'Isolation par tenant approfondie : une migration de schéma vers des colonnes de tenant directes sur les tables en aval, une vue de groupe cross-tenant pour un Group COO, et vingt-cinq tests d\'isolation à chaque build.',
+        'Prouvé sous charge : 226 000 requêtes à zéro échec sans fuite d\'audit cross-tenant, plus une méthode de migration de portefeuille en sept phases pour les projets de replatform mid-tier.',
+      ],
+      it: [
+        'Obligor 360: l\'intera impronta creditizia di un singolo mutuatario su una sola schermata, con aggregazione dell\'esposizione su asset finance, consumer, pegno e SME a fronte del plafond del partner, con margine in tempo reale.',
+        'Il limite per singolo obbligato è imposto come hard-stop al momento della decisione, così che l\'esposizione non possa essere distribuita oltre il plafond tra le linee di prodotto.',
+        'Governance di origination rafforzata: approvazione a quattro occhi con verifica del mandato, hard-stop alla decisione, guardrail di prezzo, limiti di esposizione e di concentrazione settoriale, e un job automatico di scadenza dell\'offerta.',
+        'Sigillo di audit a prova di manomissione: il log di audit sigillato in una catena di hash SHA-256, con un endpoint che lo ricalcola dalle righe vive e nomina la riga esatta se qualcosa è stato alterato.',
+        'Analitica regolamentare: staging IFRS 9 e perdita attesa su crediti, un motore di stress test, e scaffold di reporting COREP, FINREP, AnaCredit ed EBA NPL, con portfolio-at-risk sul pegno e funnel di origination.',
+        'Governance estesa alle linee più recenti: scoring SME all\'ingresso in analisi, un catalogo di collaterale per il pegno con gate AML e quattro occhi all\'attivazione di valore elevato, e controlli di decisione consumer.',
+        'Isolamento per tenant approfondito: una migrazione di schema verso colonne tenant dirette sulle tabelle a valle, una vista di gruppo cross-tenant per un Group COO, e venticinque test di isolamento a ogni build.',
+        'Provato sotto carico: 226.000 richieste a zero fallimenti senza fughe di audit cross-tenant, più un percorso di migrazione del portafoglio in sette fasi per progetti di replatform mid-tier.',
+      ],
+    },
+  },
+  {
     date: '2026-05-23',
     headline: {
       en: 'Bureau adapter chain, AI document extraction, MCP server, GDPR DSAR, outbound webhooks, process mining, tax engine.',

@@ -96,7 +96,7 @@
   "modules": {
     "eyebrow": "La piattaforma dietro il prototipo",
     "title": "Cinque verticali, un solo motore.",
-    "body": "Gli engagement di prototipazione e implementazione girano sulla piattaforma Innovia. Cinque moduli condividono lo stesso motore, lo stesso modello dati e lo stesso orchestratore di workflow. Asset Finance e Fleet sono a qualità di produzione, in attesa del primo go-live con design partner. Working Capital, Consumer Credit e Secured Microcredit sono in pre-produzione per H2 2026.",
+    "body": "Gli engagement di prototipazione e implementazione girano sulla piattaforma Innovia. Cinque moduli condividono lo stesso motore, lo stesso modello dati e lo stesso orchestratore di workflow. Asset Finance e Fleet sono a qualità di produzione, in attesa del primo go-live con design partner. Working Capital, Consumer Credit e Secured Microcredit sono in pre-produzione per H2 2026. Poiché è un solo motore, l'esposizione di un singolo mutuatario si aggrega su tutte le linee a fronte di un unico limite imposto, invece di essere riconciliata tra sistemi.",
     "statusReady": "Qualità di produzione",
     "statusCoDev": "Pre-produzione",
     "items": {
@@ -139,6 +139,12 @@
       "platform": "Piattaforma"
     },
     "items": {
+      "obligor360": {
+        "area": "Rischio cross-line",
+        "title": "Obligor 360",
+        "body": "Ogni facilitazione che un singolo mutuatario detiene, su asset finance, consumer, pegno e SME, si raccoglie su una sola schermata con l'esposizione aggregata, il plafond di credito del partner e il margine in tempo reale. Lo stesso limite è imposto come hard-stop al momento della decisione, così che un mutuatario non possa accumulare in silenzio un'esposizione oltre il plafond distribuendola tra le linee di prodotto. I sottoscrittori vedono l'intero obbligato prima di approvare la transazione successiva, non una linea alla volta.",
+        "usp": "Un mutuatario, tutte le linee, un unico limite imposto, visto prima della prossima approvazione."
+      },
       "executiveDashboard": {
         "area": "Vista esecutiva",
         "title": "Centro di comando del portafoglio",

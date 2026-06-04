@@ -51,6 +51,7 @@ SHOTS = [
     ("13-workflow-orchestration",  "admin", "/workflow-hub",            0, 7000),
     ("14-kyc-onboarding",          "admin", "/partners/onboard",        0, 7000),
     ("15-model-monitoring",        "admin", "/config/model-monitoring", 0, 7000),
+    ("16-obligor-360",             "admin", "/obligors/93042",          0, 7000),
 ]
 
 
@@ -72,7 +73,9 @@ async def login(page: Page, creds: dict, role: str) -> bool:
 
     # Tenant chip: click "RO" if present (multi-tenant lobby)
     try:
-        chip = page.get_by_role("button", name=creds["tenantCode"], exact=True)
+        # Tenant chips render as "<flag> RO", so an exact "RO" match misses and the
+        # login falls back to the default tenant (EU). Match the code as a substring.
+        chip = page.get_by_role("button", name=creds["tenantCode"], exact=False)
         if await chip.count() > 0:
             await chip.first.click()
             await page.wait_for_timeout(500)

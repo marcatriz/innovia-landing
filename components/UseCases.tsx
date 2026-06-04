@@ -17,10 +17,11 @@ const IMAGES: Record<string, string> = {
   workflowOrchestration:   '/use-cases/13-workflow-orchestration.png',
   kycOnboarding:           '/use-cases/14-kyc-onboarding.png',
   modelMonitoring:         '/use-cases/15-model-monitoring.png',
+  obligor360:              '/use-cases/16-obligor-360.png',
 };
 
 const GROUPS = [
-  { key: 'origination', items: ['dealPipeline', 'financialScoring', 'kycOnboarding'] },
+  { key: 'origination', items: ['dealPipeline', 'financialScoring', 'obligor360', 'kycOnboarding'] },
   { key: 'servicing',   items: ['executiveDashboard', 'contractManagement', 'collections', 'glPosting'] },
   { key: 'catalog',     items: ['productCatalog', 'insuranceCatalog', 'fleetOperations', 'corporateCreditLines'] },
   { key: 'portals',     items: ['dealerPortal', 'clientPortal'] },

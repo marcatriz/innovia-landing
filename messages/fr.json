@@ -96,7 +96,7 @@
   "modules": {
     "eyebrow": "La plateforme derrière le prototype",
     "title": "Cinq verticaux, un seul moteur.",
-    "body": "Les engagements de prototypage et d'implémentation tournent sur la plateforme Innovia. Cinq modules partagent le même moteur, le même modèle de données et le même orchestrateur de workflow. Asset Finance et Fleet sont en qualité de production, en attente du premier go-live design partner. Working Capital, Consumer Credit et Secured Microcredit sont en pré-production pour H2 2026.",
+    "body": "Les engagements de prototypage et d'implémentation tournent sur la plateforme Innovia. Cinq modules partagent le même moteur, le même modèle de données et le même orchestrateur de workflow. Asset Finance et Fleet sont en qualité de production, en attente du premier go-live design partner. Working Capital, Consumer Credit et Secured Microcredit sont en pré-production pour H2 2026. Parce que c'est un seul moteur, l'exposition d'un même emprunteur s'agrège sur toutes les lignes face à une seule limite imposée, au lieu d'être réconciliée entre systèmes.",
     "statusReady": "Qualité production",
     "statusCoDev": "Pré-production",
     "items": {
@@ -139,6 +139,12 @@
       "platform": "Plateforme"
     },
     "items": {
+      "obligor360": {
+        "area": "Risque cross-line",
+        "title": "Obligor 360",
+        "body": "Chaque facilité que détient un même emprunteur, sur asset finance, consumer, prêt sur gage et SME, se regroupe sur un seul écran avec l'exposition agrégée, le plafond de crédit du partenaire et la marge en temps réel. La même limite est imposée comme arrêt strict au moment de la décision, de sorte qu'un emprunteur ne puisse pas accumuler discrètement une exposition dépassant le plafond en la répartissant sur les lignes de produit. Les souscripteurs voient l'obligé entier avant d'approuver la transaction suivante, pas une ligne à la fois.",
+        "usp": "Un emprunteur, toutes les lignes, une seule limite imposée, vue avant la prochaine approbation."
+      },
       "executiveDashboard": {
         "area": "Vue exécutive",
         "title": "Centre de pilotage du portefeuille",

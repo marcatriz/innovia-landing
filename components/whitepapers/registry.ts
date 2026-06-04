@@ -194,27 +194,27 @@ export const WHITEPAPERS: WhitepaperMeta[] = [
     en: {
       title: 'How we migrate a portfolio into Innovia',
       subtitle: 'A seven-phase method for mid-tier replatform projects.',
-      lede: 'The hardest part of replacing a lending platform is not running the new one. It is moving the portfolio of an operator that has been running for fifteen years on a legacy system. We publish here the seven-phase method we use, the artefacts we ship at each phase, and the honest scope where this method works: portfolios from a few thousand contracts up to five hundred thousand.',
+      lede: 'The hardest part of replacing a lending platform is not running the new one. It is moving the portfolio of an operator that has been running for fifteen years on a legacy system. We publish here the seven-phase method we use, the deliverables we ship at each phase, and the honest scope where this method works: portfolios from a few thousand contracts up to five hundred thousand.',
     },
     ro: {
       title: 'Cum migrăm un portofoliu în Innovia',
       subtitle: 'O metodă în șapte faze pentru proiecte mid-tier de replatform.',
-      lede: 'Partea cea mai grea a înlocuirii unei platforme de lending nu este să o rulezi pe cea nouă. Este să muți portofoliul unui operator care a funcționat cincisprezece ani pe un sistem legacy. Publicăm aici metoda în șapte faze pe care o folosim, artefactele pe care le livrăm la fiecare fază și scopul onest în care această metodă funcționează: portofolii de la câteva mii de contracte până la cinci sute de mii.',
+      lede: 'Partea cea mai grea a înlocuirii unei platforme de lending nu este să o rulezi pe cea nouă. Este să muți portofoliul unui operator care a funcționat cincisprezece ani pe un sistem legacy. Publicăm aici metoda în șapte faze pe care o folosim, documentele pe care le livrăm la fiecare fază și scopul onest în care această metodă funcționează: portofolii de la câteva mii de contracte până la cinci sute de mii.',
     },
     de: {
       title: 'Wie wir ein Portfolio nach Innovia migrieren',
       subtitle: 'Eine Sieben-Phasen-Methode für Mid-Tier-Replatform-Projekte.',
-      lede: 'Der schwierigste Teil beim Ersetzen einer Lending-Plattform ist nicht, die neue zu betreiben. Es ist, das Portfolio eines Betreibers zu verschieben, der fünfzehn Jahre auf einem Legacy-System läuft. Wir veröffentlichen hier die Sieben-Phasen-Methode, die wir verwenden, die Artefakte, die wir in jeder Phase liefern, und den ehrlichen Umfang, in dem diese Methode funktioniert: Portfolios von einigen tausend Verträgen bis fünfhunderttausend.',
+      lede: 'Der schwierigste Teil beim Ersetzen einer Lending-Plattform ist nicht, die neue zu betreiben. Es ist, das Portfolio eines Betreibers zu verschieben, der fünfzehn Jahre auf einem Legacy-System läuft. Wir veröffentlichen hier die Sieben-Phasen-Methode, die wir verwenden, die Dokumente, die wir in jeder Phase liefern, und den ehrlichen Umfang, in dem diese Methode funktioniert: Portfolios von einigen tausend Verträgen bis fünfhunderttausend.',
     },
     fr: {
       title: 'Comment nous migrons un portefeuille vers Innovia',
       subtitle: 'Une méthode en sept phases pour les projets de replatform mid-tier.',
-      lede: 'La partie la plus difficile du remplacement d\'une plateforme de lending n\'est pas de faire tourner la nouvelle. C\'est de déplacer le portefeuille d\'un opérateur qui tourne depuis quinze ans sur un système legacy. Nous publions ici la méthode en sept phases que nous utilisons, les artefacts que nous livrons à chaque phase, et le périmètre honnête dans lequel cette méthode fonctionne: des portefeuilles de quelques milliers de contrats jusqu\'à cinq cent mille.',
+      lede: 'La partie la plus difficile du remplacement d\'une plateforme de lending n\'est pas de faire tourner la nouvelle. C\'est de déplacer le portefeuille d\'un opérateur qui tourne depuis quinze ans sur un système legacy. Nous publions ici la méthode en sept phases que nous utilisons, les documents que nous livrons à chaque phase, et le périmètre honnête dans lequel cette méthode fonctionne: des portefeuilles de quelques milliers de contrats jusqu\'à cinq cent mille.',
     },
     it: {
       title: 'Come migriamo un portafoglio in Innovia',
       subtitle: 'Un metodo a sette fasi per progetti di replatform mid-tier.',
-      lede: 'La parte più difficile della sostituzione di una piattaforma di lending non è far girare quella nuova. È spostare il portafoglio di un operatore che gira da quindici anni su un sistema legacy. Pubblichiamo qui il metodo a sette fasi che usiamo, gli artefatti che consegniamo a ogni fase, e l\'ambito onesto in cui questo metodo funziona: portafogli da qualche migliaio di contratti fino a cinquecentomila.',
+      lede: 'La parte più difficile della sostituzione di una piattaforma di lending non è far girare quella nuova. È spostare il portafoglio di un operatore che gira da quindici anni su un sistema legacy. Pubblichiamo qui il metodo a sette fasi che usiamo, i documenti che consegniamo a ogni fase, e l\'ambito onesto in cui questo metodo funziona: portafogli da qualche migliaio di contratti fino a cinquecentomila.',
     },
   },
   {
