@@ -110,15 +110,15 @@
       },
       "workingCapital": {
         "title": "Working Capital",
-        "body": "Corporate credit lines, drawdowns, interest runs, covenant tracking. Revolving, term, and uncommitted facilities, distinct from dealer floorplan."
+        "body": "Corporate credit lines, drawdowns, interest runs, covenant tracking, alongside SME microloans. Revolving, term, and uncommitted facilities, distinct from dealer floorplan. Scored on entry and rolled into the borrower's cross-line obligor exposure."
       },
       "consumerCredit": {
         "title": "Consumer Credit",
-        "body": "Point-of-sale and direct-to-consumer lending. Decisioning built for minutes, merchant onboarding and KYC + AML workflow built in (bureau and screening providers wired per engagement)."
+        "body": "Point-of-sale and direct-to-consumer lending. Decisioning built for minutes, merchant onboarding and KYC + AML workflow built in (bureau and screening providers wired per engagement). Scored on entry, with the statutory withdrawal window and four-eyes governance on the decision, and every loan rolls into the borrower's cross-line obligor exposure."
       },
       "securedMicrocredit": {
         "title": "Secured Microcredit",
-        "body": "Pawn-style, partner-channel, and merchant-bundled lending. Collateral tracking, rapid disbursement, full-cycle compliance."
+        "body": "Pawn-style, partner-channel, and merchant-bundled lending. Collateral catalogue, rapid disbursement, full-cycle compliance. An AML gate and four-eyes on high-value activation, a tamper-evident audit trail, and principal that rolls into the borrower's cross-line obligor exposure."
       }
     }
   },
