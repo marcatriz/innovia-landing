@@ -52,6 +52,7 @@ SHOTS = [
     ("14-kyc-onboarding",          "admin", "/partners/onboard",        0, 7000),
     ("15-model-monitoring",        "admin", "/config/model-monitoring", 0, 7000),
     ("16-obligor-360",             "admin", "/obligors/93042",          0, 7000),
+    ("17-regulatory-reporting",    "admin", "/portfolio/ifrs9-report",   0, 8000),
 ]
 
 

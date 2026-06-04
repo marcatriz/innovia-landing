@@ -145,6 +145,12 @@
         "body": "Every facility a single borrower holds, across asset finance, consumer, pawn, and SME, rolls up on one screen with the aggregate exposure, the partner credit ceiling, and the live headroom. The same limit is enforced as a hard stop at decision time, so a borrower cannot quietly accumulate limit-breaching exposure by spreading it over product lines. Underwriters see the whole obligor before approving the next deal, not one line at a time.",
         "usp": "One borrower, every line, one enforced limit, seen before the next approval."
       },
+      "regulatoryReporting": {
+        "area": "Regulatory analytics",
+        "title": "IFRS 9 staging and regulatory reporting",
+        "body": "Expected credit loss runs on the live book with stage allocation, alongside a stress-testing engine and report scaffolds for COREP, FINREP, AnaCredit, and EBA non-performing exposures. Provisioning, portfolio-at-risk, and origination funnels read from the same engine that runs origination and servicing, so the regulatory view reconciles to the operational one by construction. Risk and finance stop rebuilding the numbers in a spreadsheet for every submission.",
+        "usp": "IFRS 9, ECL, and supervisory reports off the same engine that books the contracts."
+      },
       "executiveDashboard": {
         "area": "Executive overview",
         "title": "Portfolio command centre",

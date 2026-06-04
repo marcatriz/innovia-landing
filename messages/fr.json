@@ -145,6 +145,12 @@
         "body": "Chaque facilité que détient un même emprunteur, sur asset finance, consumer, prêt sur gage et SME, se regroupe sur un seul écran avec l'exposition agrégée, le plafond de crédit du partenaire et la marge en temps réel. La même limite est imposée comme arrêt strict au moment de la décision, de sorte qu'un emprunteur ne puisse pas accumuler discrètement une exposition dépassant le plafond en la répartissant sur les lignes de produit. Les souscripteurs voient l'obligé entier avant d'approuver la transaction suivante, pas une ligne à la fois.",
         "usp": "Un emprunteur, toutes les lignes, une seule limite imposée, vue avant la prochaine approbation."
       },
+      "regulatoryReporting": {
+        "area": "Analytique réglementaire",
+        "title": "Classement IFRS 9 et reporting réglementaire",
+        "body": "La perte de crédit attendue tourne sur le portefeuille vivant avec allocation par étape, aux côtés d'un moteur de stress-test et d'échafaudages de reporting pour COREP, FINREP, AnaCredit et les expositions non performantes EBA. Le provisionnement, le portfolio-at-risk et les entonnoirs d'origination lisent depuis le même moteur qui fait tourner l'origination et le servicing, de sorte que la vue réglementaire se réconcilie avec l'opérationnelle par construction. Le risque et la finance cessent de reconstruire les chiffres dans un tableur à chaque soumission.",
+        "usp": "IFRS 9, ECL et rapports prudentiels depuis le même moteur qui comptabilise les contrats."
+      },
       "executiveDashboard": {
         "area": "Vue exécutive",
         "title": "Centre de pilotage du portefeuille",
