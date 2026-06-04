@@ -145,6 +145,12 @@
         "body": "Jede Fazilität eines einzelnen Kreditnehmers, über Asset Finance, Consumer, Pfand und SME, läuft auf einem Bildschirm zusammen, mit der aggregierten Exposure, dem Kreditlimit des Partners und dem Echtzeit-Spielraum. Dasselbe Limit wird als Hard-Stop zum Entscheidungszeitpunkt durchgesetzt, sodass ein Kreditnehmer nicht still limitüberschreitende Exposure ansammeln kann, indem er sie über Produktlinien verteilt. Underwriter sehen den ganzen Obligor vor der nächsten Freigabe, nicht eine Linie nach der anderen.",
         "usp": "Ein Kreditnehmer, jede Linie, ein durchgesetztes Limit, gesehen vor der nächsten Freigabe."
       },
+      "regulatoryReporting": {
+        "area": "Regulatorische Analytik",
+        "title": "IFRS-9-Stufenzuordnung und regulatorisches Reporting",
+        "body": "Der erwartete Kreditverlust läuft auf dem lebenden Buch mit Stufenzuordnung, neben einer Stresstest-Engine und Berichtsgerüsten für COREP, FINREP, AnaCredit und notleidende EBA-Engagements. Risikovorsorge, Portfolio-at-Risk und Origination-Funnels lesen aus derselben Engine, die Origination und Servicing betreibt, sodass die regulatorische Sicht sich konstruktionsbedingt mit der operativen abstimmt. Risiko und Finanzen bauen die Zahlen nicht mehr für jede Meldung in einer Tabelle neu auf.",
+        "usp": "IFRS 9, ECL und Aufsichtsberichte aus derselben Engine, die die Verträge bucht."
+      },
       "executiveDashboard": {
         "area": "Executive-Überblick",
         "title": "Portfolio-Kommandozentrale",

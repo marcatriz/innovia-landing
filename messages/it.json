@@ -145,6 +145,12 @@
         "body": "Ogni facilitazione che un singolo mutuatario detiene, su asset finance, consumer, pegno e SME, si raccoglie su una sola schermata con l'esposizione aggregata, il plafond di credito del partner e il margine in tempo reale. Lo stesso limite è imposto come hard-stop al momento della decisione, così che un mutuatario non possa accumulare in silenzio un'esposizione oltre il plafond distribuendola tra le linee di prodotto. I sottoscrittori vedono l'intero obbligato prima di approvare la transazione successiva, non una linea alla volta.",
         "usp": "Un mutuatario, tutte le linee, un unico limite imposto, visto prima della prossima approvazione."
       },
+      "regulatoryReporting": {
+        "area": "Analitica regolamentare",
+        "title": "Staging IFRS 9 e reporting regolamentare",
+        "body": "La perdita attesa su crediti gira sul portafoglio vivo con allocazione per stage, accanto a un motore di stress test e scaffold di reporting per COREP, FINREP, AnaCredit ed esposizioni deteriorate EBA. Accantonamenti, portfolio-at-risk e funnel di origination leggono dallo stesso motore che fa girare origination e servicing, così la vista regolamentare si riconcilia con quella operativa per costruzione. Rischio e finanza smettono di ricostruire i numeri in un foglio di calcolo a ogni invio.",
+        "usp": "IFRS 9, ECL e report di vigilanza dallo stesso motore che contabilizza i contratti."
+      },
       "executiveDashboard": {
         "area": "Vista esecutiva",
         "title": "Centro di comando del portafoglio",
