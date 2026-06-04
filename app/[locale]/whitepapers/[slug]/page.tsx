@@ -21,6 +21,7 @@ import FiveDisruptionsAlreadyShipped from '@/components/whitepapers/FiveDisrupti
 import VerifiableAiGovernance from '@/components/whitepapers/VerifiableAiGovernance';
 import SingleObligorExposureAsAProperty from '@/components/whitepapers/SingleObligorExposureAsAProperty';
 import RegulatoryReportingOffTheBookingEngine from '@/components/whitepapers/RegulatoryReportingOffTheBookingEngine';
+import ShowYourWork from '@/components/whitepapers/ShowYourWork';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -31,6 +32,8 @@ export function generateStaticParams() {
 
 function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
+    case 'show-your-work-ai-in-lending':
+      return <ShowYourWork locale={locale} />;
     case 'regulatory-reporting-off-the-booking-engine':
       return <RegulatoryReportingOffTheBookingEngine locale={locale} />;
     case 'single-obligor-exposure-as-a-property':

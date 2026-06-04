@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'show-your-work-ai-in-lending',
+    date: '2026-06-04',
+    minutes: 7,
+    en: {
+      title: 'AI Act ready by design',
+      subtitle: 'On 2 August 2026 the EU AI Act makes credit scoring a high-risk system. We are ready: we built to those requirements before the deadline asked us to, the controls are already in the platform, and the decision is architected so the high-risk burden does not even bind us yet.',
+      lede: 'The headlines say AI is taking over lending. The surveys say something quieter: most lenders are still stuck in pilots. And on 2 August 2026, European credit scoring becomes a high-risk system under the EU AI Act, with a short list of things every automated decision has to be able to show. The pilots that reach production will not be the cleverest. They will be the ones that can show their work. We built to be one of them.',
+    },
+    ro: {
+      title: 'Pregătiți pentru AI Act, din proiectare',
+      subtitle: 'La 2 august 2026, AI Act-ul UE transformă scoringul de credit într-un sistem cu risc ridicat. Noi suntem pregătiți: am construit conform acelor cerințe înainte ca termenul să ne-o ceară, controalele sunt deja în platformă, iar decizia este proiectată astfel încât povara riscului ridicat nici măcar nu ne obligă încă.',
+      lede: 'Titlurile spun că inteligența artificială preia creditarea. Sondajele spun ceva mai discret: majoritatea creditorilor sunt încă blocați în proiecte-pilot. Iar la 2 august 2026, scoringul de credit european devine un sistem cu risc ridicat sub AI Act-ul UE, cu o listă scurtă de lucruri pe care fiecare decizie automată trebuie să le poată arăta. Piloții care ajung în producție nu vor fi cei mai inteligenți. Vor fi cei care își pot dovedi munca. Noi am construit ca să fim unul dintre ei.',
+    },
+    de: {
+      title: 'Auf den AI Act ausgelegt',
+      subtitle: 'Am 2. August 2026 macht der EU AI Act das Kreditscoring zu einem Hochrisikosystem. Wir sind bereit: Wir haben nach diesen Anforderungen gebaut, bevor die Frist es verlangte, die Kontrollen sind bereits in der Plattform, und die Entscheidung ist so konzipiert, dass die Hochrisiko-Last uns noch nicht einmal bindet.',
+      lede: 'Die Schlagzeilen sagen, KI übernimmt das Kreditgeschäft. Die Umfragen sagen etwas Leiseres: Die meisten Kreditgeber stecken noch in Pilotprojekten fest. Und am 2. August 2026 wird europäisches Kreditscoring unter dem EU AI Act zu einem Hochrisikosystem, mit einer kurzen Liste von Dingen, die jede automatisierte Entscheidung belegen können muss. Die Piloten, die in Produktion gehen, werden nicht die klügsten sein. Es werden die sein, die ihre Arbeit belegen können. Wir haben gebaut, um einer von ihnen zu sein.',
+    },
+    fr: {
+      title: "Prêts pour l'AI Act, par conception",
+      subtitle: "Le 2 août 2026, l'AI Act de l'UE fait du scoring de crédit un système à haut risque. Nous sommes prêts : nous avons construit selon ces exigences avant que l'échéance ne l'impose, les contrôles sont déjà dans la plateforme, et la décision est conçue de sorte que la charge du haut risque ne nous lie même pas encore.",
+      lede: "Les gros titres disent que l'IA s'empare du crédit. Les enquêtes disent quelque chose de plus discret : la plupart des prêteurs en sont encore au stade des pilotes. Et le 2 août 2026, le scoring de crédit européen devient un système à haut risque au titre de l'AI Act de l'UE, avec une courte liste de choses que chaque décision automatisée doit pouvoir montrer. Les pilotes qui atteignent la production ne seront pas les plus intelligents. Ce seront ceux qui peuvent prouver leur travail. Nous avons construit pour en être un.",
+    },
+    it: {
+      title: "Pronti per l'AI Act, by design",
+      subtitle: "Il 2 agosto 2026 l'AI Act dell'UE rende il credit scoring un sistema ad alto rischio. Noi siamo pronti: abbiamo costruito secondo quei requisiti prima che la scadenza lo chiedesse, i controlli sono già nella piattaforma e la decisione è progettata in modo che l'onere dell'alto rischio non ci vincoli nemmeno ancora.",
+      lede: "I titoli dicono che l'IA sta conquistando il credito. I sondaggi dicono qualcosa di più sommesso: la maggior parte dei finanziatori è ancora ferma ai progetti pilota. E il 2 agosto 2026 il credit scoring europeo diventa un sistema ad alto rischio ai sensi dell'AI Act dell'UE, con un breve elenco di cose che ogni decisione automatizzata deve poter mostrare. I piloti che arrivano in produzione non saranno i più intelligenti. Saranno quelli che sanno documentare il proprio lavoro. Noi abbiamo costruito per essere uno di loro.",
+    },
+  },
+  {
     slug: 'regulatory-reporting-off-the-booking-engine',
     date: '2026-06-04',
     minutes: 10,
