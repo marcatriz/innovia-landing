@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'regulatory-reporting-off-the-booking-engine',
+    date: '2026-06-04',
+    minutes: 10,
+    en: {
+      title: 'Regulatory reporting off the booking engine',
+      subtitle: 'IFRS 9 provisions and supervisory returns that reconcile to the book by construction, because they read the same rows the business runs on, not a copy in a warehouse.',
+      lede: 'Most lenders produce their regulatory numbers in a stack downstream of the systems that run the business: the platform books the contracts, a separate warehouse turns them into IFRS 9 provisions and supervisory returns, and the two are reconciled on a clock. The gap between what the book says and what was reported is exactly where findings live. We took the other route. The regulatory view runs on the same engine that books the contract, so it reconciles by construction, not by a quarterly tie-out.',
+    },
+    ro: {
+      title: 'Raportare regulatorie din motorul care inregistreaza contractele',
+      subtitle: 'Provizioane IFRS 9 si raportari de supraveghere care se reconciliaza cu cartea prin constructie, fiindca citesc aceleasi randuri pe care ruleaza business-ul, nu o copie dintr-un warehouse.',
+      lede: 'Majoritatea creditorilor isi produc cifrele regulatorii intr-un stack situat in aval de sistemele care ruleaza business-ul: platforma inregistreaza contractele, un warehouse separat le transforma in provizioane IFRS 9 si raportari de supraveghere, iar cele doua se reconciliaza pe un ceas. Diferenta dintre ce spune cartea si ce s-a raportat e exact locul unde traiesc constatarile. Noi am ales cealalta cale. Vederea regulatorie ruleaza pe acelasi motor care inregistreaza contractul, deci se reconciliaza prin constructie, nu printr-un tie-out trimestrial.',
+    },
+    de: {
+      title: 'Regulatorisches Reporting aus der Buchungs-Engine',
+      subtitle: 'IFRS-9-Risikovorsorge und Aufsichtsmeldungen, die sich konstruktionsbedingt mit dem Buch abstimmen, weil sie dieselben Zeilen lesen, auf denen das Geschaeft laeuft, keine Kopie in einem Warehouse.',
+      lede: 'Die meisten Kreditgeber erzeugen ihre regulatorischen Zahlen in einem Stack, der den Systemen nachgelagert ist, die das Geschaeft betreiben: die Plattform bucht die Vertraege, ein separates Warehouse macht daraus IFRS-9-Risikovorsorge und Aufsichtsmeldungen, und beide werden auf einer Uhr abgestimmt. Die Luecke zwischen dem, was das Buch sagt, und dem, was gemeldet wurde, ist genau dort, wo Beanstandungen leben. Wir gingen den anderen Weg. Die regulatorische Sicht laeuft auf derselben Engine, die den Vertrag bucht, also stimmt sie sich konstruktionsbedingt ab, nicht durch eine vierteljaehrliche Abstimmung.',
+    },
+    fr: {
+      title: "Reporting réglementaire depuis le moteur de comptabilisation",
+      subtitle: "Provisions IFRS 9 et états prudentiels qui se réconcilient au livre par construction, parce qu'ils lisent les mêmes lignes sur lesquelles tourne l'activité, pas une copie dans un entrepôt.",
+      lede: "La plupart des prêteurs produisent leurs chiffres réglementaires dans une stack en aval des systèmes qui font tourner l'activité : la plateforme comptabilise les contrats, un entrepôt séparé les transforme en provisions IFRS 9 et états prudentiels, et les deux sont réconciliés sur une horloge. L'écart entre ce que dit le livre et ce qui a été déclaré est exactement là où vivent les constats. Nous avons pris l'autre route. La vue réglementaire tourne sur le même moteur qui comptabilise le contrat, donc elle se réconcilie par construction, pas par un rapprochement trimestriel.",
+    },
+    it: {
+      title: "Reporting regolamentare dal motore di contabilizzazione",
+      subtitle: "Accantonamenti IFRS 9 e segnalazioni di vigilanza che si riconciliano al libro per costruzione, perché leggono le stesse righe su cui gira l'attività, non una copia in un warehouse.",
+      lede: "La maggior parte dei prestatori produce i propri numeri regolamentari in uno stack a valle dei sistemi che fanno girare l'attività: la piattaforma contabilizza i contratti, un warehouse separato li trasforma in accantonamenti IFRS 9 e segnalazioni di vigilanza, e i due vengono riconciliati su un orologio. Il divario tra ciò che dice il libro e ciò che è stato segnalato è esattamente dove vivono i rilievi. Noi abbiamo preso l'altra strada. La vista regolamentare gira sullo stesso motore che contabilizza il contratto, quindi si riconcilia per costruzione, non con una quadratura trimestrale.",
+    },
+  },
+  {
     slug: 'single-obligor-exposure-as-a-property',
     date: '2026-06-04',
     minutes: 9,
