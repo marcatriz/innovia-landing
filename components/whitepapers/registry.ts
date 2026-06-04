@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'single-obligor-exposure-as-a-property',
+    date: '2026-06-04',
+    minutes: 9,
+    en: {
+      title: 'Single-obligor exposure as a property, not a report',
+      subtitle: 'A borrower is one obligor whatever product they hold. Total exposure to a name should be one number the platform enforces, not a spreadsheet rebuilt the week the credit committee asks.',
+      lede: 'Ask a mid-tier lender what their total exposure to a borrower is, and the answer usually takes a day: asset finance in one system, consumer in another, the secured book in a third, the corporate facilities in a fourth, and a spreadsheet to add them up. We treat that sum as a property of the platform, computed the same way every time it is needed and enforced as a hard stop before the next deal is approved, not assembled after the fact in a report nobody can fully trust.',
+    },
+    ro: {
+      title: 'Expunerea pe debitor unic ca proprietate, nu ca raport',
+      subtitle: 'Un debitor este un singur obligor, indiferent ce produs are. Expunerea totala fata de un nume ar trebui sa fie un numar pe care platforma il impune, nu un spreadsheet refacut in saptamana in care intreaba comitetul de credit.',
+      lede: 'Intreaba un creditor mid-tier care e expunerea totala fata de un debitor, iar raspunsul dureaza de obicei o zi: asset finance intr-un sistem, consumer in altul, cartea garantata in al treilea, facilitatile corporate in al patrulea, si un spreadsheet care le aduna. Noi tratam acea suma ca o proprietate a platformei, calculata la fel de fiecare data cand e nevoie de ea si impusa ca hard-stop inainte de aprobarea urmatoarei tranzactii, nu asamblata ulterior intr-un raport in care nimeni nu are incredere deplina.',
+    },
+    de: {
+      title: 'Einzelobligor-Exposure als Eigenschaft, nicht als Bericht',
+      subtitle: 'Ein Kreditnehmer ist ein Obligor, welches Produkt er auch hat. Das Gesamtengagement gegenueber einem Namen sollte eine Zahl sein, die die Plattform durchsetzt, keine Tabelle, die in der Woche neu gebaut wird, in der das Kreditkomitee fragt.',
+      lede: 'Fragen Sie einen Mid-Tier-Kreditgeber nach seinem Gesamtengagement gegenueber einem Kreditnehmer, und die Antwort dauert meist einen Tag: Asset Finance in einem System, Consumer in einem anderen, das besicherte Buch in einem dritten, die Unternehmensfazilitaeten in einem vierten, und eine Tabelle zum Aufsummieren. Wir behandeln diese Summe als Eigenschaft der Plattform, jedes Mal gleich berechnet, wenn sie gebraucht wird, und als Hard-Stop durchgesetzt, bevor das naechste Geschaeft genehmigt wird, statt sie nachtraeglich in einem Bericht zusammenzusetzen, dem niemand ganz vertraut.',
+    },
+    fr: {
+      title: "L'exposition par obligé unique comme propriété, pas comme rapport",
+      subtitle: "Un emprunteur est un seul obligé quel que soit le produit qu'il détient. L'exposition totale à un nom devrait être un chiffre que la plateforme impose, pas un tableur reconstruit la semaine où le comité de crédit le demande.",
+      lede: "Demandez à un prêteur mid-tier quelle est son exposition totale à un emprunteur, et la réponse prend en général une journée : asset finance dans un système, consumer dans un autre, le portefeuille garanti dans un troisième, les facilités corporate dans un quatrième, et un tableur pour les additionner. Nous traitons cette somme comme une propriété de la plateforme, calculée de la même façon à chaque fois qu'elle est requise et imposée comme arrêt strict avant l'approbation de la transaction suivante, plutôt qu'assemblée après coup dans un rapport auquel personne ne se fie entièrement.",
+    },
+    it: {
+      title: "L'esposizione per singolo obbligato come proprietà, non come report",
+      subtitle: "Un mutuatario è un solo obbligato qualunque prodotto detenga. L'esposizione totale verso un nome dovrebbe essere un numero che la piattaforma impone, non un foglio di calcolo ricostruito la settimana in cui lo chiede il comitato crediti.",
+      lede: "Chiedete a un prestatore mid-tier quale sia la sua esposizione totale verso un mutuatario, e la risposta di solito richiede un giorno: asset finance in un sistema, consumer in un altro, il portafoglio garantito in un terzo, le facilitazioni corporate in un quarto, e un foglio di calcolo per sommarli. Noi trattiamo quella somma come una proprietà della piattaforma, calcolata allo stesso modo ogni volta che serve e imposta come hard-stop prima dell'approvazione della transazione successiva, invece di assemblarla a posteriori in un report di cui nessuno si fida del tutto.",
+    },
+  },
+  {
     slug: 'verifiable-ai-governance',
     date: '2026-06-01',
     minutes: 8,

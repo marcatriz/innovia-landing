@@ -19,6 +19,7 @@ import ResilienceAndSecurityAsProperties from '@/components/whitepapers/Resilien
 import ApiAndMcpByDesign from '@/components/whitepapers/ApiAndMcpByDesign';
 import FiveDisruptionsAlreadyShipped from '@/components/whitepapers/FiveDisruptionsAlreadyShipped';
 import VerifiableAiGovernance from '@/components/whitepapers/VerifiableAiGovernance';
+import SingleObligorExposureAsAProperty from '@/components/whitepapers/SingleObligorExposureAsAProperty';
 
 export function generateStaticParams() {
   // Cross product of locale x slug, required for `output: 'export'`.
@@ -29,6 +30,8 @@ export function generateStaticParams() {
 
 function renderContent(slug: string, locale: AppLocale) {
   switch (slug) {
+    case 'single-obligor-exposure-as-a-property':
+      return <SingleObligorExposureAsAProperty locale={locale} />;
     case 'verifiable-ai-governance':
       return <VerifiableAiGovernance locale={locale} />;
     case 'five-disruptions-already-shipped':
