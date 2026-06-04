@@ -139,6 +139,12 @@
       "platform": "Platformă"
     },
     "items": {
+      "obligor360": {
+        "area": "Risc cross-line",
+        "title": "Obligor 360",
+        "body": "Fiecare facilitate a unui singur debitor, pe asset finance, consumer, amanet și SME, se adună pe un singur ecran cu expunerea agregată, plafonul de credit al partenerului și headroom-ul în timp real. Aceeași limită este impusă ca hard-stop la momentul deciziei, astfel încât un debitor să nu poată acumula discret expunere care încalcă plafonul împrăștiind-o pe linii de produs. Analiștii văd întregul obligor înainte de a aproba următoarea tranzacție, nu o linie pe rând.",
+        "usp": "Un debitor, toate liniile, o singură limită impusă, văzute înainte de următoarea aprobare."
+      },
       "executiveDashboard": {
         "area": "Privire executivă",
         "title": "Centru de comandă portofoliu",

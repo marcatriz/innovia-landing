@@ -139,6 +139,12 @@
       "platform": "Plattform"
     },
     "items": {
+      "obligor360": {
+        "area": "Cross-line-Risiko",
+        "title": "Obligor 360",
+        "body": "Jede Fazilität eines einzelnen Kreditnehmers, über Asset Finance, Consumer, Pfand und SME, läuft auf einem Bildschirm zusammen, mit der aggregierten Exposure, dem Kreditlimit des Partners und dem Echtzeit-Spielraum. Dasselbe Limit wird als Hard-Stop zum Entscheidungszeitpunkt durchgesetzt, sodass ein Kreditnehmer nicht still limitüberschreitende Exposure ansammeln kann, indem er sie über Produktlinien verteilt. Underwriter sehen den ganzen Obligor vor der nächsten Freigabe, nicht eine Linie nach der anderen.",
+        "usp": "Ein Kreditnehmer, jede Linie, ein durchgesetztes Limit, gesehen vor der nächsten Freigabe."
+      },
       "executiveDashboard": {
         "area": "Executive-Überblick",
         "title": "Portfolio-Kommandozentrale",

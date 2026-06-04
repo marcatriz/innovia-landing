@@ -139,6 +139,12 @@
       "platform": "Platform"
     },
     "items": {
+      "obligor360": {
+        "area": "Cross-line risk",
+        "title": "Obligor 360",
+        "body": "Every facility a single borrower holds, across asset finance, consumer, pawn, and SME, rolls up on one screen with the aggregate exposure, the partner credit ceiling, and the live headroom. The same limit is enforced as a hard stop at decision time, so a borrower cannot quietly accumulate limit-breaching exposure by spreading it over product lines. Underwriters see the whole obligor before approving the next deal, not one line at a time.",
+        "usp": "One borrower, every line, one enforced limit, seen before the next approval."
+      },
       "executiveDashboard": {
         "area": "Executive overview",
         "title": "Portfolio command centre",

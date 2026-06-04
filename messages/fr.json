@@ -139,6 +139,12 @@
       "platform": "Plateforme"
     },
     "items": {
+      "obligor360": {
+        "area": "Risque cross-line",
+        "title": "Obligor 360",
+        "body": "Chaque facilité que détient un même emprunteur, sur asset finance, consumer, prêt sur gage et SME, se regroupe sur un seul écran avec l'exposition agrégée, le plafond de crédit du partenaire et la marge en temps réel. La même limite est imposée comme arrêt strict au moment de la décision, de sorte qu'un emprunteur ne puisse pas accumuler discrètement une exposition dépassant le plafond en la répartissant sur les lignes de produit. Les souscripteurs voient l'obligé entier avant d'approuver la transaction suivante, pas une ligne à la fois.",
+        "usp": "Un emprunteur, toutes les lignes, une seule limite imposée, vue avant la prochaine approbation."
+      },
       "executiveDashboard": {
         "area": "Vue exécutive",
         "title": "Centre de pilotage du portefeuille",
