@@ -110,15 +110,15 @@
       },
       "workingCapital": {
         "title": "Working Capital",
-        "body": "Lignes de crédit corporate, tirages, calculs d'intérêts, suivi des covenants. Facilités revolving, term et uncommitted, distinctes du floorplan dealer."
+        "body": "Lignes de crédit corporate, tirages, calculs d'intérêts, suivi des covenants, aux côtés de microcrédits SME. Facilités revolving, term et uncommitted, distinctes du floorplan dealer. Notées à l'entrée et intégrées à l'exposition cross-line de l'obligé."
       },
       "consumerCredit": {
         "title": "Consumer Credit",
-        "body": "Crédit point-of-sale et direct-to-consumer. Decisioning conçu pour des minutes, onboarding marchand et workflow KYC + AML intégrés (fournisseurs bureau et screening branchés par engagement)."
+        "body": "Crédit point-of-sale et direct-to-consumer. Decisioning conçu pour des minutes, onboarding marchand et workflow KYC + AML intégrés (fournisseurs bureau et screening branchés par engagement). Noté à l'entrée, avec la fenêtre légale de rétractation et une gouvernance à quatre yeux sur la décision, et chaque crédit s'intègre à l'exposition cross-line de l'obligé."
       },
       "securedMicrocredit": {
         "title": "Secured Microcredit",
-        "body": "Crédit gagé, en canal partenaire et intégré au retail marchand. Suivi du collatéral, déboursement rapide, conformité sur tout le cycle."
+        "body": "Crédit gagé, en canal partenaire et intégré au retail marchand. Suivi du collatéral, déboursement rapide, conformité sur tout le cycle. Une porte AML et quatre yeux à l'activation de valeur élevée, une piste d'audit infalsifiable, et un principal qui s'intègre à l'exposition cross-line de l'obligé."
       }
     }
   },

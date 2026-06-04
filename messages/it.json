@@ -110,15 +110,15 @@
       },
       "workingCapital": {
         "title": "Working Capital",
-        "body": "Linee di credito corporate, tiraggi, calcolo interessi, monitoraggio covenant. Facilities revolving, term e uncommitted, distinte dal floorplan dealer."
+        "body": "Linee di credito corporate, tiraggi, calcolo interessi, monitoraggio covenant, accanto a microcrediti SME. Facilities revolving, term e uncommitted, distinte dal floorplan dealer. Valutate all'ingresso e integrate nell'esposizione cross-line dell'obbligato."
       },
       "consumerCredit": {
         "title": "Consumer Credit",
-        "body": "Credito point-of-sale e direct-to-consumer. Decisioning progettato per pochi minuti, onboarding merchant e workflow KYC + AML integrati (provider bureau e screening collegati per engagement)."
+        "body": "Credito point-of-sale e direct-to-consumer. Decisioning progettato per pochi minuti, onboarding merchant e workflow KYC + AML integrati (provider bureau e screening collegati per engagement). Valutato all'ingresso, con la finestra legale di recesso e una governance a quattro occhi sulla decisione, e ogni credito confluisce nell'esposizione cross-line dell'obbligato."
       },
       "securedMicrocredit": {
         "title": "Secured Microcredit",
-        "body": "Pegno, canale partner e credito integrato nel retail. Tracciamento collaterale, erogazione rapida, conformità su tutto il ciclo."
+        "body": "Pegno, canale partner e credito integrato nel retail. Tracciamento collaterale, erogazione rapida, conformità su tutto il ciclo. Un gate AML e quattro occhi all'attivazione di valore elevato, una traccia di audit a prova di manomissione, e un capitale che confluisce nell'esposizione cross-line dell'obbligato."
       }
     }
   },

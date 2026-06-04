@@ -110,15 +110,15 @@
       },
       "workingCapital": {
         "title": "Working Capital",
-        "body": "Linii corporate de credit, trageri, calcul de dobândă, monitorizare de covenante. Facilități revolving, term și uncommitted, distincte de dealer floorplan."
+        "body": "Linii corporate de credit, trageri, calcul de dobândă, monitorizare de covenante, alături de microcredite SME. Facilități revolving, term și uncommitted, distincte de dealer floorplan. Scorate la intrare și incluse în expunerea cross-line a debitorului."
       },
       "consumerCredit": {
         "title": "Consumer Credit",
-        "body": "Creditare la punctul de vânzare și direct-to-consumer. Decizionare proiectată pentru minute, onboarding de merchanți și workflow KYC + AML încorporate (furnizorii de bureau și screening cablați per engagement)."
+        "body": "Creditare la punctul de vânzare și direct-to-consumer. Decizionare proiectată pentru minute, onboarding de merchanți și workflow KYC + AML încorporate (furnizorii de bureau și screening cablați per engagement). Scorată la intrare, cu fereastra legală de retragere și guvernanță four-eyes pe decizie, iar fiecare credit intră în expunerea cross-line a debitorului."
       },
       "securedMicrocredit": {
         "title": "Secured Microcredit",
-        "body": "Amanet, canal de parteneri și creditare integrată în retail. Monitorizare colateral, disbursement rapid, full-cycle compliance."
+        "body": "Amanet, canal de parteneri și creditare integrată în retail. Monitorizare colateral, disbursement rapid, full-cycle compliance. Poartă AML și four-eyes la activarea de valoare mare, un traseu de audit rezistent la falsificare, iar principalul intră în expunerea cross-line a debitorului."
       }
     }
   },

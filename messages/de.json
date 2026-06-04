@@ -110,15 +110,15 @@
       },
       "workingCapital": {
         "title": "Working Capital",
-        "body": "Unternehmenskreditlinien, Ziehungen, Zinsläufe, Covenant-Monitoring. Revolvierende, befristete und uncommittete Fazilitäten, getrennt vom Händler-Floorplan."
+        "body": "Unternehmenskreditlinien, Ziehungen, Zinsläufe, Covenant-Monitoring, dazu SME-Mikrokredite. Revolvierende, befristete und uncommittete Fazilitäten, getrennt vom Händler-Floorplan. Bei Eintritt bewertet und in das linienübergreifende Obligor-Engagement des Kreditnehmers eingerechnet."
       },
       "consumerCredit": {
         "title": "Consumer Credit",
-        "body": "Point-of-Sale- und Direct-to-Consumer-Kreditvergabe. Decisioning auf Minuten ausgelegt, Händler-Onboarding und KYC- und AML-Workflow eingebaut (Bureau- und Screening-Anbieter pro Engagement angebunden)."
+        "body": "Point-of-Sale- und Direct-to-Consumer-Kreditvergabe. Decisioning auf Minuten ausgelegt, Händler-Onboarding und KYC- und AML-Workflow eingebaut (Bureau- und Screening-Anbieter pro Engagement angebunden). Bei Eintritt bewertet, mit gesetzlichem Widerrufsfenster und Vier-Augen-Governance auf der Entscheidung, und jeder Kredit fließt in das linienübergreifende Obligor-Engagement des Kreditnehmers ein."
       },
       "securedMicrocredit": {
         "title": "Secured Microcredit",
-        "body": "Pfand-, Partnerkanal- und Händler-gebündelte Kreditvergabe. Sicherheitenverwaltung, schnelle Auszahlung, vollständige Compliance über den Zyklus."
+        "body": "Pfand-, Partnerkanal- und Händler-gebündelte Kreditvergabe. Sicherheitenverwaltung, schnelle Auszahlung, vollständige Compliance über den Zyklus. Ein AML-Gate und Vier-Augen-Prinzip bei hochwertiger Aktivierung, eine manipulationssichere Audit-Spur, und Kapital, das in das linienübergreifende Obligor-Engagement des Kreditnehmers einfließt."
       }
     }
   },
