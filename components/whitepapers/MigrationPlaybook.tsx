@@ -2,7 +2,7 @@
  * Whitepaper #6: How we migrate a portfolio into Innovia.
  *
  * The methodology piece. Seven phases (assess, stage, map, dry-run, recon,
- * cutover, hypercare) with concrete artefacts at each step. Honest scope:
+ * cutover, hypercare) with concrete deliverables at each step. Honest scope:
  * 20k-500k contracts, mid-tier, not 5M+.
  *
  * Style rules (enforced):
@@ -42,7 +42,7 @@ function En() {
         one. It is moving the portfolio of an operator that has been running
         for fifteen years on a legacy system, with conventions, edge cases,
         and a paper trail nobody quite owns. We publish here the seven-phase
-        method we use to do that, the artefacts we ship at each phase, and the
+        method we use to do that, the deliverables we ship at each phase, and the
         honest scope where this method works.
       </p>
 
@@ -219,7 +219,7 @@ function Ro() {
         funcționat cincisprezece ani pe un sistem legacy, cu convenții,
         excepții și un istoric de hârtii pe care nimeni nu îl deține în
         totalitate. Publicăm aici metoda în șapte faze pe care o folosim,
-        artefactele pe care le livrăm la fiecare fază și scopul onest în care
+        documentele pe care le livrăm la fiecare fază și scopul onest în care
         această metodă funcționează.
       </p>
 
@@ -401,7 +401,7 @@ function De() {
         zu verschieben, der fünfzehn Jahre auf einem Legacy-System läuft,
         mit Konventionen, Sonderfällen und einer Aktenspur, die niemand
         ganz besitzt. Wir veröffentlichen hier die Sieben-Phasen-Methode,
-        die wir dafür verwenden, die Artefakte, die wir in jeder Phase
+        die wir dafür verwenden, die Dokumente, die wir in jeder Phase
         liefern, und den ehrlichen Umfang, in dem diese Methode funktioniert.
       </p>
 
@@ -594,7 +594,7 @@ function Fr() {
         quinze ans sur un système legacy, avec ses conventions, ses cas
         limites, et un dossier que personne ne possède tout à fait. Nous
         publions ici la méthode en sept phases que nous utilisons, les
-        artefacts que nous livrons à chaque phase, et le périmètre honnête
+        documents que nous livrons à chaque phase, et le périmètre honnête
         dans lequel cette méthode fonctionne.
       </p>
 
@@ -793,7 +793,7 @@ function It() {
         di un operatore che gira da quindici anni su un sistema legacy,
         con convenzioni, casi limite, e una traccia documentale che
         nessuno possiede del tutto. Pubblichiamo qui il metodo a sette
-        fasi che usiamo, gli artefatti che consegniamo a ogni fase, e
+        fasi che usiamo, i documenti che consegniamo a ogni fase, e
         l&apos;ambito onesto in cui questo metodo funziona.
       </p>
 

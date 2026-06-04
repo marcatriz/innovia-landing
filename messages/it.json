@@ -96,7 +96,7 @@
   "modules": {
     "eyebrow": "La piattaforma dietro il prototipo",
     "title": "Cinque verticali, un solo motore.",
-    "body": "Gli engagement di prototipazione e implementazione girano sulla piattaforma Innovia. Cinque moduli condividono lo stesso motore, lo stesso modello dati e lo stesso orchestratore di workflow. Asset Finance e Fleet sono a qualità di produzione, in attesa del primo go-live con design partner. Working Capital, Consumer Credit e Secured Microcredit sono in pre-produzione per H2 2026.",
+    "body": "Gli engagement di prototipazione e implementazione girano sulla piattaforma Innovia. Cinque moduli condividono lo stesso motore, lo stesso modello dati e lo stesso orchestratore di workflow. Asset Finance e Fleet sono a qualità di produzione, in attesa del primo go-live con design partner. Working Capital, Consumer Credit e Secured Microcredit sono in pre-produzione per H2 2026. Poiché è un solo motore, l'esposizione di un singolo mutuatario si aggrega su tutte le linee a fronte di un unico limite imposto, invece di essere riconciliata tra sistemi.",
     "statusReady": "Qualità di produzione",
     "statusCoDev": "Pre-produzione",
     "items": {

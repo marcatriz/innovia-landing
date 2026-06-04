@@ -96,7 +96,7 @@
   "modules": {
     "eyebrow": "Die Plattform hinter dem Prototyp",
     "title": "Fünf Vertikalen, eine Engine.",
-    "body": "Prototyping- und Implementierungs-Engagements laufen auf der Innovia-Plattform. Fünf Module teilen sich dieselbe Engine, dasselbe Datenmodell und denselben Workflow-Orchestrator. Asset Finance und Fleet sind in Produktionsqualität entwickelt, mit erstem Design-Partner-Go-Live ausstehend. Working Capital, Consumer Credit und Secured Microcredit sind Pre-Produktion für H2 2026.",
+    "body": "Prototyping- und Implementierungs-Engagements laufen auf der Innovia-Plattform. Fünf Module teilen sich dieselbe Engine, dasselbe Datenmodell und denselben Workflow-Orchestrator. Asset Finance und Fleet sind in Produktionsqualität entwickelt, mit erstem Design-Partner-Go-Live ausstehend. Working Capital, Consumer Credit und Secured Microcredit sind Pre-Produktion für H2 2026. Weil es eine Engine ist, summiert sich das Engagement eines einzelnen Kreditnehmers über alle Linien gegen ein einziges durchgesetztes Limit, statt zwischen Systemen abgestimmt zu werden.",
     "statusReady": "Produktionsqualität",
     "statusCoDev": "Pre-Produktion",
     "items": {

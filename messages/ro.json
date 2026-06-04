@@ -96,7 +96,7 @@
   "modules": {
     "eyebrow": "Platforma din spatele prototipului",
     "title": "Cinci verticale, un singur motor.",
-    "body": "Engagement-urile de prototipare și implementare rulează pe platforma Innovia. Cinci module împart același motor, același model de date și același orchestrator de workflow. Asset Finance și Fleet sunt la calitate de producție, în așteptarea primului go-live cu design partner. Working Capital, Consumer Credit și Secured Microcredit sunt pre-producție pentru H2 2026.",
+    "body": "Engagement-urile de prototipare și implementare rulează pe platforma Innovia. Cinci module împart același motor, același model de date și același orchestrator de workflow. Asset Finance și Fleet sunt la calitate de producție, în așteptarea primului go-live cu design partner. Working Capital, Consumer Credit și Secured Microcredit sunt pre-producție pentru H2 2026. Fiindcă este un singur motor, expunerea unui singur debitor se adună pe toate liniile față de o singură limită impusă, în loc să fie reconciliată între sisteme.",
     "statusReady": "Calitate de producție",
     "statusCoDev": "Pre-producție",
     "items": {
