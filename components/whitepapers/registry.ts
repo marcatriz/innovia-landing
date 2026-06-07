@@ -38,6 +38,36 @@ export function localeMeta(paper: WhitepaperMeta, locale: AppLocale): Whitepaper
 
 export const WHITEPAPERS: WhitepaperMeta[] = [
   {
+    slug: 'security-tested-not-asserted',
+    date: '2026-06-07',
+    minutes: 7,
+    en: {
+      title: 'Security that is tested, not asserted',
+      subtitle: 'The practice that keeps the properties true: continuous adversarial review, white-box and black-box, on every build.',
+      lede: 'A certificate describes a system on the day it was examined. A penetration-test report describes the attacks someone tried during a fixed window. Both are necessary. Neither answers the question a regulator presses under DORA or NIS2: not whether you were secure once, but what keeps you secure while you ship. We treat security as a standing practice that assumes properties decay and is built to catch the decay early, the discipline that sits underneath the controls.',
+    },
+    ro: {
+      title: 'Securitate testată, nu afirmată',
+      subtitle: 'Practica ce ține proprietățile adevărate: review adversarial continuu, white-box și black-box, pe fiecare build.',
+      lede: 'Un certificat descrie un sistem în ziua în care a fost examinat. Un raport de penetration test descrie atacurile pe care cineva le-a încercat într-o fereastră fixă. Ambele sunt necesare. Niciunul nu răspunde la întrebarea pe care un regulator o apasă sub DORA sau NIS2: nu dacă ai fost sigur o dată, ci ce te ține sigur în timp ce livrezi. Tratăm securitatea ca o practică permanentă care presupune că proprietățile se degradează și e construită ca să prindă degradarea devreme, disciplina care stă sub controale.',
+    },
+    de: {
+      title: 'Sicherheit, die getestet, nicht behauptet wird',
+      subtitle: 'Die Praxis, die die Eigenschaften wahr hält: kontinuierliche adversarielle Überprüfung, White-Box und Black-Box, bei jedem Build.',
+      lede: 'Ein Zertifikat beschreibt ein System an dem Tag, an dem es geprüft wurde. Ein Penetration-Test-Bericht beschreibt die Angriffe, die jemand in einem festen Fenster versucht hat. Beide sind notwendig. Keiner beantwortet die Frage, die ein Regulator unter DORA oder NIS2 stellt: nicht ob Sie einmal sicher waren, sondern was Sie sicher hält, während Sie ausliefern. Wir behandeln Sicherheit als eine stehende Praxis, die annimmt, dass Eigenschaften verfallen, und so gebaut ist, dass sie den Verfall früh fängt, die Disziplin, die unter den Kontrollen liegt.',
+    },
+    fr: {
+      title: 'Une sécurité testée, pas affirmée',
+      subtitle: 'La pratique qui garde les propriétés vraies : revue adverse continue, white-box et black-box, à chaque build.',
+      lede: 'Un certificat décrit un système le jour où il a été examiné. Un rapport de test d\'intrusion décrit les attaques que quelqu\'un a tentées pendant une fenêtre fixe. Les deux sont nécessaires. Aucun ne répond à la question qu\'un régulateur presse sous DORA ou NIS2 : non pas si vous étiez sûr une fois, mais ce qui vous garde sûr pendant que vous livrez. Nous traitons la sécurité comme une pratique permanente qui suppose que les propriétés se dégradent et qui est bâtie pour attraper la dégradation tôt, la discipline qui se trouve sous les contrôles.',
+    },
+    it: {
+      title: 'Sicurezza testata, non affermata',
+      subtitle: 'La pratica che mantiene vere le proprietà: revisione avversariale continua, white-box e black-box, a ogni build.',
+      lede: 'Un certificato descrive un sistema nel giorno in cui è stato esaminato. Un rapporto di penetration test descrive gli attacchi che qualcuno ha tentato durante una finestra fissa. Entrambi sono necessari. Nessuno risponde alla domanda che un regolatore preme sotto DORA o NIS2: non se eri sicuro una volta, ma cosa ti mantiene sicuro mentre rilasci. Trattiamo la sicurezza come una pratica permanente che presume che le proprietà si degradino ed è costruita per cogliere il degrado presto, la disciplina che sta sotto i controlli.',
+    },
+  },
+  {
     slug: 'show-your-work-ai-in-lending',
     date: '2026-06-04',
     minutes: 7,
