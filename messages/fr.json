@@ -13,7 +13,7 @@
     "eyebrow": "Innovia Systems",
     "title": "Nous vous aidons à passer de la stratégie à la mise en œuvre. Du diagnostic au prototype en quelques semaines.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "Innovia Systems est un cabinet de conseil spécialisé pour les organisations qui font tourner des workflows opérationnels et clients complexes. Nous vous aidons à comprendre où vous en êtes aujourd'hui, où le numérique et l'IA peuvent créer une valeur concrète, et comment passer de la stratégie à la mise en œuvre. Près de deux décennies à faire tourner des workflows opérationnels et clients complexes dans les services financiers européens soutiennent chaque recommandation.",
+    "body": "Innovia Systems est un cabinet de conseil spécialisé pour les organisations qui font tourner des workflows opérationnels et clients complexes. Nous vous aidons à comprendre où vous en êtes aujourd'hui, où le numérique et l'IA peuvent créer une valeur concrète, et comment passer de la stratégie à la mise en œuvre.",
     "cta": "Réserver une session de travail de 45 minutes",
     "ctaSecondary": "Voir comment nous travaillons",
     "ctaModules": "Explorer nos domaines de focus"
@@ -84,7 +84,7 @@
   "partnership": {
     "eyebrow": "Comment l'engagement est structuré",
     "title": "Innovation Partnership.",
-    "body": "Au-delà d'un seul engagement, l'Innovation Partnership est une relation de co-création plus longue qui amène la stratégie en exécution. Vous obtenez une équipe qui travaille aux côtés de la vôtre, des droits de décision sur la roadmap et la profondeur d'opérateur issue de près de deux décennies à faire tourner des workflows opérationnels et clients complexes.",
+    "body": "Au-delà d'un seul engagement, l'Innovation Partnership est une relation de co-création plus longue qui amène la stratégie en exécution. Vous obtenez une équipe qui travaille aux côtés de la vôtre, des droits de décision sur la roadmap et la profondeur d'opérateur de quelqu'un qui a fait tourner lui-même des workflows opérationnels et clients complexes.",
     "pillars": {
       "configured": {
         "title": "Construit autour de votre opération",
@@ -96,7 +96,7 @@
       },
       "operator": {
         "title": "Profondeur d'opérateur",
-        "body": "Près de deux décennies à faire tourner des workflows opérationnels et clients complexes. Les engagements partent d'un contexte au niveau opérateur, pas d'une page blanche."
+        "body": "Une véritable expérience d'opérateur à faire tourner des workflows opérationnels et clients complexes. Les engagements partent d'un contexte au niveau opérateur, pas d'une page blanche."
       },
       "outcome": {
         "title": "Résultat concret",
@@ -110,7 +110,7 @@
       "title": "Quatre semaines pour votre prochaine décision défendable au conseil.",
       "tagline": "Fit for Digital. Fit for AI.",
       "bodyPara1": "Un mandat d'advisory productisé, vendu à prix et périmètre fixes, qui livre un résultat unique : un sponsor capable de prendre une décision défendable au niveau du conseil, qu'il n'aurait pas pu prendre avant le sprint.",
-      "bodyPara2": "Ce qui le rend différent, c'est la combinaison. Discipline consulting top-tier (structure MECE, chiffres sourcés, principe de la pyramide, aucune affirmation rhétorique) sur chaque livrable reçu. Logiciel fonctionnel dans lequel vous vous connectez en semaine deux, configuré à vos couleurs avec un échantillon de vos données. Prix fixe, périmètre fixe, calendrier fixe de quatre semaines, aucun scope creep déguisé en discovery. Mené par un opérateur ayant près de deux décennies passées à construire, soutenir et faire passer à l'échelle des workflows opérationnels et clients complexes dans les services financiers européens.",
+      "bodyPara2": "Ce qui le rend différent, c'est la combinaison. Discipline consulting top-tier (structure MECE, chiffres sourcés, principe de la pyramide, aucune affirmation rhétorique) sur chaque livrable reçu. Logiciel fonctionnel dans lequel vous vous connectez en semaine deux, configuré à vos couleurs avec un échantillon de vos données. Prix fixe, périmètre fixe, calendrier fixe de quatre semaines, aucun scope creep déguisé en discovery. Mené par un opérateur qui a lui-même construit, soutenu et fait passer à l'échelle des workflows opérationnels et clients complexes.",
       "bodyPara3": "Entre douze et quinze livrables qui vous reviennent, en anglais, prêts pour le conseil. Un moment de décision au readout, trois états seulement : oui, non ou une échéance nommée. L'Innovation Partnership est annoncée tout au long, prête si vous décidez de poursuivre.",
       "cta": "Réserver un appel de discovery"
     },
@@ -120,7 +120,7 @@
       "pillars": {
         "operator": {
           "title": "Profondeur d'opérateur, pas de théorie.",
-          "body": "Mené par un fondateur ayant près de deux décennies à faire tourner des workflows opérationnels et clients complexes dans les services financiers européens. Chaque recommandation est informée par l'expérience réelle d'avoir construit, soutenu et fait passer à l'échelle les systèmes dont nous parlons."
+          "body": "Mené par un fondateur qui a lui-même fait tourner des workflows opérationnels et clients complexes. Chaque recommandation est informée par l'expérience réelle d'avoir construit, soutenu et fait passer à l'échelle les systèmes dont nous parlons."
         },
         "software": {
           "title": "Logiciel fonctionnel, pas seulement des slides.",

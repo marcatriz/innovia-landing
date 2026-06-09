@@ -13,7 +13,7 @@
     "eyebrow": "Innovia Systems",
     "title": "We help you move from strategy to implementation. Diagnostic to prototype in weeks.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "Innovia Systems is a specialist consultancy for organizations that run complex operational and customer workflows. We help you understand where you stand today, where digital and AI can create practical value, and how to move from strategy to implementation. Nearly two decades running complex operational and customer workflows across European financial services behind every recommendation.",
+    "body": "Innovia Systems is a specialist consultancy for organizations that run complex operational and customer workflows. We help you understand where you stand today, where digital and AI can create practical value, and how to move from strategy to implementation.",
     "cta": "Book a 45-minute working session",
     "ctaSecondary": "See how we work",
     "ctaModules": "Explore our focus areas"
@@ -84,7 +84,7 @@
   "partnership": {
     "eyebrow": "How the engagement is structured",
     "title": "Innovation Partnership.",
-    "body": "Beyond a single engagement, the Innovation Partnership is a longer co-creation relationship that takes the strategy into execution. You get a team working alongside yours, decision rights over the roadmap, and operator depth from nearly two decades running complex operational and customer workflows.",
+    "body": "Beyond a single engagement, the Innovation Partnership is a longer co-creation relationship that takes the strategy into execution. You get a team working alongside yours, decision rights over the roadmap, and the operator depth of someone who has run complex operational and customer workflows firsthand.",
     "pillars": {
       "configured": {
         "title": "Built around your operation",
@@ -96,7 +96,7 @@
       },
       "operator": {
         "title": "Operator depth",
-        "body": "Nearly two decades running complex operational and customer workflows. Engagements start from operator-grade context, not a blank page."
+        "body": "Real operator experience running complex operational and customer workflows. Engagements start from operator-grade context, not a blank page."
       },
       "outcome": {
         "title": "Concrete outcome",
@@ -110,7 +110,7 @@
       "title": "A four-week path to your next board-grade decision.",
       "tagline": "Fit for Digital. Fit for AI.",
       "bodyPara1": "A productized advisory engagement, sold at fixed price and fixed scope, that delivers a single outcome: a sponsor who can make a defensible, board-grade decision they could not have made before the sprint.",
-      "bodyPara2": "What makes it different is the combination. Top-tier consulting discipline (MECE structure, sourced numbers, pyramid principle, no rhetorical claims) on every deliverable you receive. Working software you log into in week two, configured in your colors with a sample of your data. Fixed price, fixed scope, fixed four-week calendar, no scope creep dressed up as discovery. Led by an operator with nearly two decades shipping, supporting, and scaling complex operational and customer workflows across European financial services.",
+      "bodyPara2": "What makes it different is the combination. Top-tier consulting discipline (MECE structure, sourced numbers, pyramid principle, no rhetorical claims) on every deliverable you receive. Working software you log into in week two, configured in your colors with a sample of your data. Fixed price, fixed scope, fixed four-week calendar, no scope creep dressed up as discovery. Led by an operator who has shipped, supported, and scaled complex operational and customer workflows firsthand.",
       "bodyPara3": "Twelve to fifteen deliverables you keep, in English, board-ready. One decision moment at the readout, three states only: yes, no, or a named deadline. The Innovation Partnership is pre-teased throughout, ready if you decide to proceed.",
       "cta": "Book a discovery call"
     },
@@ -120,7 +120,7 @@
       "pillars": {
         "operator": {
           "title": "Operator depth, not theory.",
-          "body": "Led by a founder with nearly two decades running complex operational and customer workflows across European financial services. Every recommendation is informed by having shipped, supported, and scaled the systems we discuss."
+          "body": "Led by a founder who has run complex operational and customer workflows firsthand. Every recommendation is informed by having shipped, supported, and scaled the systems we discuss."
         },
         "software": {
           "title": "Working software, not just slides.",
