@@ -228,11 +228,11 @@ export const QUESTIONS: Question[] = [
     id: 'core-2',
     dimension: 'core',
     prompt: {
-      en: 'How auditable is your records, ledger, and accounting layer when an auditor or regulator requests data?',
-      ro: 'Cât de auditabil este stratul tău de înregistrări, registru și contabilitate când un auditor sau regulator cere date?',
-      de: 'Wie auditierbar ist Ihre Datensatz-, Ledger- und Buchhaltungs-Schicht, wenn ein Auditor oder Regulator Daten anfordert?',
-      fr: 'À quel point votre couche enregistrements, ledger et comptabilité est-elle auditable quand un auditeur ou régulateur demande des données ?',
-      it: 'Quanto è auditabile il vostro livello record, ledger e contabilità quando un auditor o regolatore richiede dati?',
+      en: 'How auditable is your records and operational data layer when an auditor or regulator requests data?',
+      ro: 'Cât de auditabil este stratul tău de înregistrări și date operaționale când un auditor sau regulator cere date?',
+      de: 'Wie auditierbar ist Ihre Datensatz- und Betriebsdaten-Schicht, wenn ein Auditor oder Regulator Daten anfordert?',
+      fr: 'À quel point votre couche enregistrements et données opérationnelles est-elle auditable quand un auditeur ou régulateur demande des données ?',
+      it: 'Quanto è auditabile il vostro livello record e dati operativi quando un auditor o regolatore richiede dati?',
     },
     options: [
       {
@@ -619,11 +619,11 @@ export const QUESTIONS: Question[] = [
     id: 'data-3',
     dimension: 'data',
     prompt: {
-      en: 'Can someone in finance or operations pull lifetime profitability of any account in minutes?',
-      ro: 'Poate cineva din finance sau operațiuni să tragă profitabilitatea pe viață a unui cont în minute?',
-      de: 'Kann jemand aus Finance oder Operations die Lifetime-Profitabilität eines Kontos in Minuten abrufen?',
-      fr: 'Quelqu\'un de finance ou opérations peut-il sortir la profitabilité lifetime d\'un compte en quelques minutes ?',
-      it: 'Qualcuno di finance o operations può estrarre la profittabilità lifetime di un conto in minuti?',
+      en: 'Can someone in business or operations pull lifetime profitability of any account in minutes?',
+      ro: 'Poate cineva din business sau operațiuni să tragă profitabilitatea pe viață a unui cont în minute?',
+      de: 'Kann jemand aus Business oder Operations die Lifetime-Profitabilität eines Kontos in Minuten abrufen?',
+      fr: 'Quelqu\'un de business ou opérations peut-il sortir la profitabilité lifetime d\'un compte en quelques minutes ?',
+      it: 'Qualcuno di business o operations può estrarre la profittabilità lifetime di un conto in minuti?',
     },
     options: [
       {
