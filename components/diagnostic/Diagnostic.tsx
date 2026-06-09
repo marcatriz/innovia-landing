@@ -426,9 +426,6 @@ function Result({
               {t('result.ctaPrimary')}
               <span aria-hidden>→</span>
             </Link>
-            <Link href="/whitepapers" className="btn-secondary">
-              {t('result.ctaSecondary')}
-            </Link>
             <button onClick={onReset} className="text-body-sm font-medium text-slate-200 underline decoration-slate-300 underline-offset-4 hover:text-paper">
               {t('cta.reset')}
             </button>

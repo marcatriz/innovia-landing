@@ -27,23 +27,14 @@ export default function Header() {
           <Link href="/#services" className={linkClass}>
             {t('services')}
           </Link>
-          <Link href="/#modules" className={linkClass}>
+          <Link href="/#focus" className={linkClass}>
             {t('modules')}
-          </Link>
-          <Link href="/#use-cases" className={linkClass}>
-            {t('useCases')}
           </Link>
           <Link href="/fit-sprint" className={linkClass}>
             {t('fitSprint')}
           </Link>
           <Link href="/#partnership" className={linkClass}>
             {t('partnership')}
-          </Link>
-          <Link href="/#thesis" className={linkClass}>
-            {t('thesis')}
-          </Link>
-          <Link href="/whitepapers" className={linkClass}>
-            {t('whitepapers')}
           </Link>
           <Link href="/diagnostic" className={linkClass}>
             {t('diagnostic')}

@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Innovia Systems. Fit for Digital. Fit for AI.',
   description:
-    'Helping leasing, consumer finance, and fleet management firms become fit for digital and AI. Diagnostics, operating-model redesign, software prototyping, and implementation support.',
+    'A specialist consultancy for organizations that run complex operational and customer workflows. Fit to Digital and Fit to AI diagnostics, operating-model and process design, software prototyping, co-design, and implementation support.',
 };
 
 export default function RootLayout({

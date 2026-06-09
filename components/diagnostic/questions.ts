@@ -4,11 +4,11 @@
  * 7 dimensions, 20 questions, 5 options each. Each option scores 0/25/50/75/100.
  * Dimension score = mean of its questions. Overall = mean of 7 dimensions.
  *
- * The bar is set at operator-grade on purpose: most mid-tier non-bank lenders,
- * captives, and fleets will land in 40-65% on first run because that reflects
- * the actual market state, not because the scoring is rigged. Each question
- * is written so the high-score answer corresponds to a capability Innovia can
- * credibly deliver in a partnership.
+ * The bar is set high on purpose: most organizations running complex
+ * operational and customer workflows will land in 40-65% on first run because
+ * that reflects the actual market state, not because the scoring is rigged.
+ * Each question is written so the high-score answer corresponds to a
+ * capability Innovia can credibly help deliver in a partnership.
  *
  * Style rules (enforced):
  *  - No em dashes anywhere. Substitute with comma, colon, parens, sentence split.
@@ -165,11 +165,11 @@ export const QUESTIONS: Question[] = [
     id: 'core-1',
     dimension: 'core',
     prompt: {
-      en: 'Where does your core lending platform live, in terms of ownership?',
-      ro: 'Unde trăiește platforma de lending de bază, din punct de vedere al ownership-ului?',
-      de: 'Wo lebt Ihre Kern-Lending-Plattform aus Ownership-Sicht?',
-      fr: 'Où vit votre plateforme de lending cœur, en termes de propriété ?',
-      it: 'Dove vive la vostra piattaforma di lending core, in termini di ownership?',
+      en: 'Where does your core operational platform live, in terms of ownership?',
+      ro: 'Unde trăiește platforma operațională de bază, din punct de vedere al ownership-ului?',
+      de: 'Wo lebt Ihre operative Kernplattform aus Ownership-Sicht?',
+      fr: 'Où vit votre plateforme opérationnelle cœur, en termes de propriété ?',
+      it: 'Dove vive la vostra piattaforma operativa core, in termini di ownership?',
     },
     options: [
       {
@@ -228,11 +228,11 @@ export const QUESTIONS: Question[] = [
     id: 'core-2',
     dimension: 'core',
     prompt: {
-      en: 'How auditable is your contract, ledger, and accounting layer when a regulator requests data?',
-      ro: 'Cât de auditabil este stratul tău de contract, registru și contabilitate când regulatorul cere date?',
-      de: 'Wie auditierbar ist Ihre Vertrags-, Ledger- und Buchhaltungs-Schicht, wenn ein Regulator Daten anfordert?',
-      fr: 'À quel point votre couche contrat, ledger et comptabilité est-elle auditable quand un régulateur demande des données ?',
-      it: 'Quanto è auditabile il vostro livello contratto, ledger e contabilità quando un regolatore richiede dati?',
+      en: 'How auditable is your records, ledger, and accounting layer when an auditor or regulator requests data?',
+      ro: 'Cât de auditabil este stratul tău de înregistrări, registru și contabilitate când un auditor sau regulator cere date?',
+      de: 'Wie auditierbar ist Ihre Datensatz-, Ledger- und Buchhaltungs-Schicht, wenn ein Auditor oder Regulator Daten anfordert?',
+      fr: 'À quel point votre couche enregistrements, ledger et comptabilité est-elle auditable quand un auditeur ou régulateur demande des données ?',
+      it: 'Quanto è auditabile il vostro livello record, ledger e contabilità quando un auditor o regolatore richiede dati?',
     },
     options: [
       {
@@ -291,11 +291,11 @@ export const QUESTIONS: Question[] = [
     id: 'core-3',
     dimension: 'core',
     prompt: {
-      en: 'If asked why a specific contract is in a specific state, what can you produce?',
-      ro: 'Dacă ești întrebat de ce un anumit contract este într-o anumită stare, ce poți produce?',
-      de: 'Wenn gefragt wird, warum ein bestimmter Vertrag in einem bestimmten Zustand ist, was können Sie liefern?',
-      fr: 'Si on demande pourquoi un contrat précis est dans un état précis, que pouvez-vous produire ?',
-      it: 'Se vi chiedono perché uno specifico contratto è in uno specifico stato, cosa potete produrre?',
+      en: 'If asked why a specific case or record is in a specific state, what can you produce?',
+      ro: 'Dacă ești întrebat de ce un anumit caz sau înregistrare este într-o anumită stare, ce poți produce?',
+      de: 'Wenn gefragt wird, warum ein bestimmter Vorgang in einem bestimmten Zustand ist, was können Sie liefern?',
+      fr: 'Si on demande pourquoi un dossier précis est dans un état précis, que pouvez-vous produire ?',
+      it: 'Se vi chiedono perché uno specifico caso o record è in uno specifico stato, cosa potete produrre?',
     },
     options: [
       {
@@ -356,11 +356,11 @@ export const QUESTIONS: Question[] = [
     id: 'config-1',
     dimension: 'config',
     prompt: {
-      en: 'Where does product configuration live (rates, policies, approval matrix)?',
-      ro: 'Unde trăiește configurația de produs (rate, politici, matrice de aprobare)?',
-      de: 'Wo lebt die Produktkonfiguration (Konditionen, Richtlinien, Genehmigungsmatrix)?',
-      fr: 'Où vit la configuration produit (taux, politiques, matrice d\'approbation) ?',
-      it: 'Dove vive la configurazione di prodotto (tassi, politiche, matrice di approvazione)?',
+      en: 'Where does product and process configuration live (pricing, policies, approval matrix)?',
+      ro: 'Unde trăiește configurația de produs și proces (prețuri, politici, matrice de aprobare)?',
+      de: 'Wo lebt die Produkt- und Prozesskonfiguration (Preise, Richtlinien, Genehmigungsmatrix)?',
+      fr: 'Où vit la configuration produit et processus (tarification, politiques, matrice d\'approbation) ?',
+      it: 'Dove vive la configurazione di prodotto e processo (prezzi, politiche, matrice di approvazione)?',
     },
     options: [
       {
@@ -514,11 +514,11 @@ export const QUESTIONS: Question[] = [
     id: 'data-1',
     dimension: 'data',
     prompt: {
-      en: 'What percentage of credit decisions happen without human touch on the happy path?',
-      ro: 'Ce procent din decizii de credit se iau fără intervenție umană pe happy path?',
-      de: 'Welcher Prozentsatz der Kreditentscheidungen läuft auf dem Happy Path ohne menschliches Eingreifen?',
-      fr: 'Quel pourcentage des décisions de crédit se font sans intervention humaine sur le happy path ?',
-      it: 'Quale percentuale di decisioni di credito avviene senza intervento umano sull\'happy path?',
+      en: 'What percentage of key operational decisions happen without human touch on the happy path?',
+      ro: 'Ce procent din deciziile operaționale cheie se iau fără intervenție umană pe happy path?',
+      de: 'Welcher Prozentsatz der operativen Kernentscheidungen läuft auf dem Happy Path ohne menschliches Eingreifen?',
+      fr: 'Quel pourcentage des décisions opérationnelles clés se font sans intervention humaine sur le happy path ?',
+      it: 'Quale percentuale di decisioni operative chiave avviene senza intervento umano sull\'happy path?',
     },
     options: [
       {
@@ -577,9 +577,9 @@ export const QUESTIONS: Question[] = [
     id: 'data-2',
     dimension: 'data',
     prompt: {
-      en: 'Time-to-decision on a clean application, from submission to communicated decision?',
-      ro: 'Timp până la decizie pe o aplicație curată, de la submit la comunicarea deciziei?',
-      de: 'Time-to-Decision auf einem sauberen Antrag, von Einreichung bis kommunizierter Entscheidung?',
+      en: 'Time-to-decision on a clean request, from submission to communicated decision?',
+      ro: 'Timp până la decizie pe o cerere curată, de la submit la comunicarea deciziei?',
+      de: 'Time-to-Decision auf einer sauberen Anfrage, von Einreichung bis kommunizierter Entscheidung?',
       fr: 'Time-to-decision sur une demande clean, de la soumission à la décision communiquée ?',
       it: 'Time-to-decision su una richiesta pulita, dall\'invio alla decisione comunicata?',
     },
@@ -619,11 +619,11 @@ export const QUESTIONS: Question[] = [
     id: 'data-3',
     dimension: 'data',
     prompt: {
-      en: 'Can someone in finance or risk pull lifetime profitability of any contract in minutes?',
-      ro: 'Poate cineva din finance sau risk să tragă profitabilitatea pe viață a unui contract în minute?',
-      de: 'Kann jemand aus Finance oder Risk die Lifetime-Profitabilität eines Vertrags in Minuten abrufen?',
-      fr: 'Quelqu\'un de finance ou risk peut-il sortir la profitabilité lifetime d\'un contrat en quelques minutes ?',
-      it: 'Qualcuno di finance o risk può estrarre la profittabilità lifetime di un contratto in minuti?',
+      en: 'Can someone in finance or operations pull lifetime profitability of any account in minutes?',
+      ro: 'Poate cineva din finance sau operațiuni să tragă profitabilitatea pe viață a unui cont în minute?',
+      de: 'Kann jemand aus Finance oder Operations die Lifetime-Profitabilität eines Kontos in Minuten abrufen?',
+      fr: 'Quelqu\'un de finance ou opérations peut-il sortir la profitabilité lifetime d\'un compte en quelques minutes ?',
+      it: 'Qualcuno di finance o operations può estrarre la profittabilità lifetime di un conto in minuti?',
     },
     options: [
       {
@@ -678,11 +678,11 @@ export const QUESTIONS: Question[] = [
     id: 'compliance-1',
     dimension: 'compliance',
     prompt: {
-      en: 'How are risk and credit policies represented in the system?',
-      ro: 'Cum sunt reprezentate politicile de risc și credit în sistem?',
-      de: 'Wie sind Risiko- und Kreditrichtlinien im System abgebildet?',
-      fr: 'Comment les politiques de risque et de crédit sont-elles représentées dans le système ?',
-      it: 'Come sono rappresentate le politiche di rischio e credito nel sistema?',
+      en: 'How are risk and operational policies represented in the system?',
+      ro: 'Cum sunt reprezentate politicile de risc și operaționale în sistem?',
+      de: 'Wie sind Risiko- und Betriebsrichtlinien im System abgebildet?',
+      fr: 'Comment les politiques de risque et opérationnelles sont-elles représentées dans le système ?',
+      it: 'Come sono rappresentate le politiche di rischio e operative nel sistema?',
     },
     options: [
       {
@@ -741,11 +741,11 @@ export const QUESTIONS: Question[] = [
     id: 'compliance-2',
     dimension: 'compliance',
     prompt: {
-      en: 'When the regulator requests data for a thematic review, how long to produce it?',
-      ro: 'Când regulatorul cere date pentru un thematic review, cât durează să le produci?',
-      de: 'Wenn der Regulator Daten für einen thematischen Review anfordert, wie lange dauert die Bereitstellung?',
-      fr: 'Quand le régulateur demande des données pour une revue thématique, combien de temps pour les produire ?',
-      it: 'Quando il regolatore richiede dati per una thematic review, quanto tempo per produrli?',
+      en: 'When an auditor or regulator requests data for a review, how long to produce it?',
+      ro: 'Când un auditor sau regulator cere date pentru o evaluare, cât durează să le produci?',
+      de: 'Wenn ein Auditor oder Regulator Daten für eine Prüfung anfordert, wie lange dauert die Bereitstellung?',
+      fr: 'Quand un auditeur ou régulateur demande des données pour une revue, combien de temps pour les produire ?',
+      it: 'Quando un auditor o regolatore richiede dati per una revisione, quanto tempo per produrli?',
     },
     options: [
       {
@@ -995,11 +995,11 @@ export const QUESTIONS: Question[] = [
       {
         value: 100,
         label: {
-          en: 'Origination, contract view, service requests, payments, document download, the full lifecycle.',
-          ro: 'Originare, vizualizare contract, cereri de servicii, plăți, descărcare documente, întregul ciclu de viață.',
-          de: 'Origination, Vertragsansicht, Serviceanfragen, Zahlungen, Dokumenten-Download, der gesamte Lebenszyklus.',
-          fr: 'Origination, vue contrat, demandes de service, paiements, téléchargement de documents, tout le cycle de vie.',
-          it: 'Origination, vista contratto, richieste di servizio, pagamenti, download documenti, l\'intero ciclo di vita.',
+          en: 'Onboarding, account view, service requests, payments, document download, the full lifecycle.',
+          ro: 'Onboarding, vizualizare cont, cereri de servicii, plăți, descărcare documente, întregul ciclu de viață.',
+          de: 'Onboarding, Kontoansicht, Serviceanfragen, Zahlungen, Dokumenten-Download, der gesamte Lebenszyklus.',
+          fr: 'Onboarding, vue compte, demandes de service, paiements, téléchargement de documents, tout le cycle de vie.',
+          it: 'Onboarding, vista conto, richieste di servizio, pagamenti, download documenti, l\'intero ciclo di vita.',
         },
       },
       {
@@ -1048,11 +1048,11 @@ export const QUESTIONS: Question[] = [
     id: 'customer-2',
     dimension: 'customer',
     prompt: {
-      en: 'From application submission to active contract on a typical clean deal, how long?',
-      ro: 'De la submit-ul aplicației până la contract activ pe un deal curat, cât durează?',
-      de: 'Von der Antragseinreichung bis zum aktiven Vertrag auf einem typischen sauberen Deal: wie lange?',
-      fr: 'De la soumission de la demande au contrat actif sur un deal clean typique, combien de temps ?',
-      it: 'Dall\'invio della richiesta al contratto attivo su un deal pulito tipico, quanto tempo?',
+      en: 'From request submission to active account on a typical clean case, how long?',
+      ro: 'De la submit-ul cererii până la cont activ pe un caz curat tipic, cât durează?',
+      de: 'Von der Anfrageeinreichung bis zum aktiven Konto auf einem typischen sauberen Vorgang: wie lange?',
+      fr: 'De la soumission de la demande au compte actif sur un cas clean typique, combien de temps ?',
+      it: 'Dall\'invio della richiesta al conto attivo su un caso pulito tipico, quanto tempo?',
     },
     options: [
       {
@@ -1242,11 +1242,11 @@ export const QUESTIONS: Question[] = [
     id: 'employee-3',
     dimension: 'employee',
     prompt: {
-      en: 'What does an underwriter get from the system when deciding on a non-trivial deal?',
-      ro: 'Ce primește un underwriter de la sistem când decide pe un deal non-trivial?',
-      de: 'Was bekommt ein Underwriter vom System, wenn er über einen nicht-trivialen Deal entscheidet?',
-      fr: 'Que reçoit un underwriter du système quand il décide d\'un deal non-trivial ?',
-      it: 'Cosa riceve un underwriter dal sistema quando decide su un deal non banale?',
+      en: 'What does a decision-maker get from the system when deciding on a non-trivial case?',
+      ro: 'Ce primește un decident de la sistem când decide pe un caz non-trivial?',
+      de: 'Was bekommt ein Entscheider vom System, wenn er über einen nicht-trivialen Vorgang entscheidet?',
+      fr: 'Que reçoit un décideur du système quand il décide d\'un cas non-trivial ?',
+      it: 'Cosa riceve un decisore dal sistema quando decide su un caso non banale?',
     },
     options: [
       {
@@ -1292,11 +1292,11 @@ export const QUESTIONS: Question[] = [
       {
         value: 0,
         label: {
-          en: 'The underwriter starts from scratch each time.',
-          ro: 'Underwriter-ul pornește de la zero de fiecare dată.',
-          de: 'Der Underwriter beginnt jedes Mal bei null.',
-          fr: 'L\'underwriter repart de zéro à chaque fois.',
-          it: 'L\'underwriter parte da zero ogni volta.',
+          en: 'The decision-maker starts from scratch each time.',
+          ro: 'Decidentul pornește de la zero de fiecare dată.',
+          de: 'Der Entscheider beginnt jedes Mal bei null.',
+          fr: 'Le décideur repart de zéro à chaque fois.',
+          it: 'Il decisore parte da zero ogni volta.',
         },
       },
     ],

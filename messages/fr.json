@@ -1,275 +1,108 @@
 {
   "nav": {
     "services": "Services",
-    "modules": "Plateforme",
-    "useCases": "Cas d'usage",
+    "modules": "Focus",
     "partnership": "Partenariat",
     "fitSprint": "Fit Sprint",
-    "thesis": "Thèse",
     "diagnostic": "Diagnostic",
-    "whitepapers": "Whitepapers",
     "contact": "Contact",
     "backToTop": "Retour en haut",
     "menu": "Menu"
   },
   "hero": {
     "eyebrow": "Innovia Systems",
-    "title": "Nous concevons des plateformes de lending AI-first. Du diagnostic au prototype en semaines.",
+    "title": "Nous vous aidons à passer de la stratégie à la mise en œuvre. Du diagnostic au prototype en quelques semaines.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "Nous reconstruisons le cœur que les opérateurs de leasing, de crédit à la consommation et de gestion de flotte ont dépassé. Diagnostic en semaines. Prototypes Asset Finance ou Fleet configurés sur vos données en un trimestre ; Working Capital, Consumer Credit et Secured Microcredit suivent un parcours d'engagement plus long. Près de deux décennies d'exploitation de plateformes européennes de leasing, Europe centrale et orientale comprise, soutiennent chaque décision.",
+    "body": "Innovia Systems est un cabinet de conseil spécialisé pour les organisations qui font tourner des workflows opérationnels et clients complexes. Nous vous aidons à comprendre où vous en êtes aujourd'hui, où le numérique et l'IA peuvent créer une valeur concrète, et comment passer de la stratégie à la mise en œuvre. Près de deux décennies à faire tourner des workflows opérationnels et clients complexes dans les services financiers européens soutiennent chaque recommandation.",
     "cta": "Réserver une session de travail de 45 minutes",
-    "ctaSecondary": "Voir la plateforme",
-    "ctaModules": "Explorer les modules"
-  },
-  "stats": {
-    "items": {
-      "verticals": {
-        "value": "5",
-        "label": "Verticaux sur un seul moteur"
-      },
-      "ready": {
-        "value": "2",
-        "label": "Modules en qualité de production"
-      },
-      "codev": {
-        "value": "3",
-        "label": "Pré-production pour H2 2026"
-      },
-      "operator": {
-        "value": "~20 ans",
-        "label": "Profondeur d'opérateur en leasing européen"
-      }
-    }
+    "ctaSecondary": "Voir comment nous travaillons",
+    "ctaModules": "Explorer nos domaines de focus"
   },
   "problem": {
     "eyebrow": "L'écart",
-    "title": "Les opérateurs mid-tier tournent sur des stacks qu'ils ont dépassés.",
-    "body": "Les sociétés de leasing, les captives, les prêteurs non bancaires et les opérateurs de flotte atteignent un point où les systèmes existants ne suivent plus la cadence des nouveaux produits, des nouveaux canaux et des nouvelles exigences de conformité. Le temps que le rapport de rebuild soit validé par le board, le prochain cycle produit est déjà perdu et les challengers AI-natifs ont livré deux fois. Innovia comble cet écart en tant que cabinet spécialisé avec une plateforme fonctionnelle derrière, pas une présentation et une recherche de partenaire."
-  },
-  "thesis": {
-    "eyebrow": "La thèse",
-    "title": "Trois propriétés tiennent leur valeur quand la couche UI devient commodité.",
-    "intro": "Les LLM et l'orchestration de workflow dévorent le front-end de chaque application enterprise. Ce qui reste défendable est structurel, pas cosmétique. Nous avons construit Innovia autour de ces trois dès le premier commit.",
-    "readPaper": "Lire le whitepaper",
-    "properties": {
-      "isolation": {
-        "title": "Isolation vérifiée",
-        "body": "Vingt-cinq tests d'intégration en CI prouvent les frontières de tenant à chaque build. Pas une promesse dans le contrat, pas un diagramme dans le deck d'architecture."
-      },
-      "codebase": {
-        "title": "Single codebase",
-        "body": "Un seul stack qui compose à travers audit, IA, schéma et déploiement. Un portail qui unifie cinq backends laisse toujours cinq backends."
-      },
-      "aiNative": {
-        "title": "IA-native dès le premier jour",
-        "body": "Anthropic vision sur les documents, outils appelables via MCP, journal d'audit de qualité agent. Intégré dès le premier commit, pas rajouté après un mémo au conseil."
-      }
-    }
+    "title": "Une transformation pragmatique, pas un conseil technologique générique.",
+    "body": "Les organisations qui font tourner des workflows opérationnels et clients complexes atteignent un point où les présentations stratégiques s'accumulent mais où peu de choses arrivent en production. Le conseil technologique générique ne comble pas cet écart. Nous nous concentrons sur le travail réel : workflows opérationnels, préparation des données, decisioning, processus cœur, parcours clients, automatisation et les modèles d'affaires qui les sous-tendent. Et nous restons jusqu'à ce que le changement fonctionne, pas seulement qu'il soit conçu."
   },
   "services": {
     "eyebrow": "Ce que nous faisons",
-    "title": "Diagnostic, redesign, prototype, implémentation.",
-    "body": "Innovia opère comme un cabinet spécialisé avec livraison technologique intégrée. Les quatre types d'engagement s'enchaînent : la plupart des partenaires commencent par un diagnostic et avancent par le redesign, le déploiement de prototype et le support d'implémentation.",
+    "title": "Diagnostic, redesign, prototype, mise en œuvre.",
+    "body": "Nous opérons comme un cabinet de conseil spécialisé avec livraison technologique intégrée. Les quatre types d'engagement s'enchaînent : la plupart des clients commencent par un diagnostic et avancent par le redesign vers le prototypage et le support de mise en œuvre.",
     "items": {
       "diagnostics": {
-        "title": "Diagnostic",
-        "body": "Une lecture structurée de la position de votre stack en origination, decisioning, cycle de vie du contrat et reporting, comparée aux benchmarks actuels d'opérateurs. Livrable décisionnel exploitable par l'équipe de direction.",
+        "title": "Diagnostics Fit to Digital / Fit to AI",
+        "body": "Une lecture structurée de la position actuelle de votre opération et des endroits où le numérique et l'IA peuvent créer une valeur concrète. Un livrable décisionnel sur lequel l'équipe de direction peut agir.",
         "duration": "2-4 semaines"
       },
       "redesign": {
-        "title": "Redesign du modèle opérationnel",
-        "body": "Target operating model pour les segments que vous servez : organisation, processus, données, technologie. Séquencé selon ce que l'entreprise peut réellement absorber.",
+        "title": "Conception du modèle opérationnel et des processus",
+        "body": "Target operating model et processus cœur repensés pour les workflows que vous opérez : organisation, processus, données, technologie. Séquencé selon ce que l'entreprise peut réellement absorber.",
         "duration": "4-8 semaines"
       },
       "prototype": {
         "title": "Prototypage logiciel",
-        "body": "Prototypes fonctionnels sur la plateforme Innovia, configurés à votre modèle de données et à vos produits. Prêts pour des tests en conditions réelles en quelques semaines.",
+        "body": "Prototypes fonctionnels pour de nouveaux modèles d'affaires et workflows, configurés à vos données et à vos processus. Prêts pour des tests en conditions réelles en quelques semaines.",
         "duration": "6-12 semaines"
       },
       "implementation": {
-        "title": "Support d'implémentation",
-        "body": "Du prototype à la production : intégration, migration de données, change management, hypercare. Nous restons jusqu'à ce que la plateforme fasse tourner l'activité, pas l'inverse.",
+        "title": "Co-conception et support de mise en œuvre",
+        "body": "Du prototype à la production : co-conception avec vos équipes internes et vos fournisseurs, intégration, change management, hypercare. Nous restons jusqu'à ce que le changement fasse tourner l'activité, et non l'inverse.",
         "duration": "3-9 mois"
       }
     }
   },
   "modules": {
-    "eyebrow": "La plateforme derrière le prototype",
-    "title": "Cinq verticaux, un seul moteur.",
-    "body": "Les engagements de prototypage et d'implémentation tournent sur la plateforme Innovia. Cinq modules partagent le même moteur, le même modèle de données et le même orchestrateur de workflow. Asset Finance et Fleet sont en qualité de production, en attente du premier go-live design partner. Working Capital, Consumer Credit et Secured Microcredit sont en pré-production pour H2 2026. Parce que c'est un seul moteur, l'exposition d'un même emprunteur s'agrège sur toutes les lignes face à une seule limite imposée, au lieu d'être réconciliée entre systèmes.",
-    "statusReady": "Qualité production",
-    "statusCoDev": "Pré-production",
+    "eyebrow": "Là où nous nous concentrons",
+    "title": "Domaines de focus.",
+    "body": "Nous nous concentrons sur une transformation pragmatique à travers les workflows qui font réellement tourner votre activité. Six domaines où nous faisons le travail, du premier diagnostic au changement en fonctionnement.",
     "items": {
-      "assetFinance": {
-        "title": "Asset Finance",
-        "body": "Origination, scoring, cycle de vie du contrat, facturation, comptabilité. End-to-end pour le leasing financier et opérationnel, avec reporting cross-tenant au niveau groupe."
+      "fitDiagnostics": {
+        "title": "Diagnostics Fit to Digital / Fit to AI",
+        "body": "Une lecture structurée de votre position et des endroits où le numérique et l'IA créent une valeur concrète, ancrée dans vos opérations réelles."
       },
-      "fleet": {
-        "title": "Fleet",
-        "body": "Gestion des véhicules et des services pour les captives et les flottes indépendantes. Compatible télématique avec adaptateurs live configurables par client, analytique coût-par-km et valeur résiduelle."
+      "transformation": {
+        "title": "Transformation numérique",
+        "body": "De la stratégie à un plan séquencé que vous pouvez exécuter, aligné sur les workflows et les contraintes que vous avez réellement."
       },
-      "workingCapital": {
-        "title": "Working Capital",
-        "body": "Lignes de crédit corporate, tirages, calculs d'intérêts, suivi des covenants, aux côtés de microcrédits SME. Facilités revolving, term et uncommitted, distinctes du floorplan dealer. Notées à l'entrée et intégrées à l'exposition cross-line de l'obligé."
+      "operatingModel": {
+        "title": "Conception des processus métier et du modèle opérationnel",
+        "body": "Processus cœur repensés et un target operating model que l'entreprise peut absorber : organisation, processus, données, technologie, gouvernance."
       },
-      "consumerCredit": {
-        "title": "Consumer Credit",
-        "body": "Crédit point-of-sale et direct-to-consumer. Decisioning conçu pour des minutes, onboarding marchand et workflow KYC + AML intégrés (fournisseurs bureau et screening branchés par engagement). Noté à l'entrée, avec la fenêtre légale de rétractation et une gouvernance à quatre yeux sur la décision, et chaque crédit s'intègre à l'exposition cross-line de l'obligé."
+      "prototyping": {
+        "title": "Prototypage logiciel pour de nouveaux modèles d'affaires",
+        "body": "Des prototypes fonctionnels rapides qui rendent un nouveau modèle d'affaires testable, pas théorique, configurés à vos données et à vos processus."
       },
-      "securedMicrocredit": {
-        "title": "Secured Microcredit",
-        "body": "Crédit gagé, en canal partenaire et intégré au retail marchand. Suivi du collatéral, déboursement rapide, conformité sur tout le cycle. Une porte AML et quatre yeux à l'activation de valeur élevée, une piste d'audit infalsifiable, et un principal qui s'intègre à l'exposition cross-line de l'obligé."
-      }
-    }
-  },
-  "useCases": {
-    "eyebrow": "Depuis la plateforme en production",
-    "title": "Juste quelques-uns des workflows que la plateforme exécute. Bien d'autres derrière.",
-    "body": "Captures de l'application Innovia en fonctionnement, légèrement floutées : la structure reste lisible, les données spécifiques restent privées. Chaque carte correspond à un rôle réel et à un workflow réel déjà opérationnel sur des données de démonstration.",
-    "note": "Captures issues du trunk Innovia. Floutées pour protéger les données de démonstration. Démonstrations nettes disponibles sur demande.",
-    "tabsAria": "Catégories de cas d'usage",
-    "uspLabel": "Pourquoi c'est important",
-    "cardSingular": "carte",
-    "cardPlural": "cartes",
-    "tabs": {
-      "origination": "Origination",
-      "servicing": "Servicing",
-      "catalog": "Catalogue",
-      "portals": "Portails",
-      "platform": "Plateforme"
-    },
-    "items": {
-      "obligor360": {
-        "area": "Risque cross-line",
-        "title": "Obligor 360",
-        "body": "Chaque facilité que détient un même emprunteur, sur asset finance, consumer, prêt sur gage et SME, se regroupe sur un seul écran avec l'exposition agrégée, le plafond de crédit du partenaire et la marge en temps réel. La même limite est imposée comme arrêt strict au moment de la décision, de sorte qu'un emprunteur ne puisse pas accumuler discrètement une exposition dépassant le plafond en la répartissant sur les lignes de produit. Les souscripteurs voient l'obligé entier avant d'approuver la transaction suivante, pas une ligne à la fois.",
-        "usp": "Un emprunteur, toutes les lignes, une seule limite imposée, vue avant la prochaine approbation."
+      "coDesign": {
+        "title": "Co-conception et support de mise en œuvre",
+        "body": "Nous construisons aux côtés de vos équipes internes et de vos fournisseurs, et nous restons tout au long de la mise en œuvre jusqu'à ce que le changement soit en production."
       },
-      "regulatoryReporting": {
-        "area": "Analytique réglementaire",
-        "title": "Classement IFRS 9 et reporting réglementaire",
-        "body": "La perte de crédit attendue tourne sur le portefeuille vivant avec allocation par étape, aux côtés d'un moteur de stress-test et d'échafaudages de reporting pour COREP, FINREP, AnaCredit et les expositions non performantes EBA. Le provisionnement, le portfolio-at-risk et les entonnoirs d'origination lisent depuis le même moteur qui fait tourner l'origination et le servicing, de sorte que la vue réglementaire se réconcilie avec l'opérationnelle par construction. Le risque et la finance cessent de reconstruire les chiffres dans un tableur à chaque soumission.",
-        "usp": "IFRS 9, ECL et rapports prudentiels depuis le même moteur qui comptabilise les contrats."
-      },
-      "executiveDashboard": {
-        "area": "Vue exécutive",
-        "title": "Centre de pilotage du portefeuille",
-        "body": "Les administrateurs accèdent à un seul écran qui consolide les originations, le book actif, les arriérés et les KPI par tenant sur toutes les marques et tous les pays. Chaque tuile descend directement dans les contrats, partenaires ou écritures comptables sous-jacents, sans quitter la session. Les Group COO obtiennent une vue side-by-side sur les filiales qui demandait auparavant une réconciliation Excel hebdomadaire.",
-        "usp": "Une seule vue pour tout le groupe, avec drill-down complet jusqu'à l'écriture source."
-      },
-      "dealPipeline": {
-        "area": "Ventes et origination",
-        "title": "Pipeline de deals",
-        "body": "Les commerciaux font passer un dossier de la demande à l'analyse puis au contrat signé dans un seul workspace, sans aucune re-saisie entre les étapes. La valeur du pipeline, le time-to-yes, le taux d'approbation et la répartition par étapes se suivent sur chaque variante produit. Les canaux direct, concessionnaire et courtier partagent le même funnel, donc les équipes commerciales comparent ce qui est comparable.",
-        "usp": "Un seul funnel pour chaque canal, avec le cycle time visible dès le premier clic."
-      },
-      "financialScoring": {
-        "area": "Risque et underwriting",
-        "title": "Moteur de scoring financier",
-        "body": "Le scoring corporate à cinq dimensions (chiffre d'affaires, marge EBITDA, levier, liquidité, ratio de fonds propres) tourne sur le dossier deal et stocke le score, les inputs et la version du modèle qui l'a produit. Les underwriters obtiennent une justification défendable plutôt qu'une réponse boîte noire, et chaque décision reste auditable des mois plus tard quand le comité des risques ou le régulateur le demande.",
-        "usp": "Des scores explicables, conservés à vie sur le dossier, pour que 'pourquoi avons-nous approuvé ?' ait une réponse en un clic."
-      },
-      "contractManagement": {
-        "area": "Servicing contrats",
-        "title": "Gestion des contrats",
-        "body": "L'ensemble du book de leasing vit dans une seule liste filtrable avec statut, valeur financée, taux moyen et nombre de contrats actifs visibles en permanence. Le drill-in vers un contrat ouvre l'échéancier, les services associés, les documents et la piste d'audit dans le même workspace. Les équipes de servicing arrêtent de jongler entre trois systèmes pour répondre à une seule question client.",
-        "usp": "Chaque contrat, chaque document, un workspace, sans aller-retour entre systèmes."
-      },
-      "collections": {
-        "area": "Recouvrement",
-        "title": "Collections et relance",
-        "body": "Aging buckets, impayés par contrat, comptes marqués à risque et file d'actions quotidienne dirigent les recouvreurs vers les bons dossiers dès le matin. Un clic mène d'un paiement manqué au workflow de relance, à l'historique client et au log de contact. Le recouvrement passe du triage Excel à une liste de travail priorisée par exposition et probabilité de guérison.",
-        "usp": "Les recouvreurs démarrent la journée sur une file priorisée, pas sur un Excel de 9h."
-      },
-      "productCatalog": {
-        "area": "Configuration produit",
-        "title": "Catalogue de produits financiers",
-        "body": "Operating Lease, Finance Lease, location avec option d'achat, crédits corporate, variantes EV et green tiennent tous dans un seul catalogue avec devise, type d'échéancier, plages de taux et d'apport configurés par produit. Les nouveaux produits passent en production en heures plutôt qu'en cycles de release parce que les paramètres sont des données, pas du code. Les équipes pays peuvent lancer une variante locale sans attendre le prochain sprint.",
-        "usp": "Nouveaux produits en heures, pas en releases, parce que le catalogue est de la donnée."
-      },
-      "insuranceCatalog": {
-        "area": "Configuration produit",
-        "title": "Produits d'assurance",
-        "body": "Les produits CASCO, GAP, vie et spécifiques à l'actif sont câblés directement à la valeur financée et à l'économie de marge courtier. L'activation par marché et la tarification par classe d'actif sont de la configuration, pas un changement de code. Le taux d'attache devient un levier que l'équipe commerciale contrôle, et l'impact sur le yield apparaît dans le même dashboard que les contrats sous-jacents.",
-        "usp": "L'attache d'assurance est un levier de configuration, pas un projet trimestriel."
-      },
-      "fleetOperations": {
-        "area": "Flotte et opérations",
-        "title": "Vue flotte client",
-        "body": "Les fleet managers voient l'ensemble du parc dans un seul cadre : taille, valeur financée, exposition résiduelle, contrats arrivant à échéance, actifs suspendus et une timeline de renouvellement qui met en évidence ce qui demande attention dans les quatre-vingt-dix prochains jours. Les renouvellements cessent d'être une urgence du mois 35, et les clients corporate obtiennent une surface self-service qui remplace l'appel de statut mensuel avec le back-office.",
-        "usp": "Renouvellements planifiés à quatre-vingt-dix jours, pas chassés dans la dernière semaine du mois 35."
-      },
-      "dealerPortal": {
-        "area": "Self-service concessionnaire",
-        "title": "Portail concessionnaire",
-        "body": "Les concessionnaires cotent, soumettent et suivent le financement depuis leur propre portail, et les campagnes actives affichent le taux subventionné, l'uplift VR et le volume restant directement alignés sur l'offre. Le time-to-yes pour un deal introduit par un concessionnaire passe de jours à minutes parce que le concessionnaire saisit des données propres une seule fois. La subvention reste sous contrôle captive, et la friction au point de vente disparaît.",
-        "usp": "Financement à la vitesse du showroom, avec l'économie de la subvention toujours pilotée par le captif."
-      },
-      "clientPortal": {
-        "area": "Self-service emprunteur",
-        "title": "Portail client",
-        "body": "Les emprunteurs retail et corporate voient leur échéancier, payé versus restant, prochaines échéances, alertes d'impayé et services actifs sans jamais ouvrir de ticket. Le self-service absorbe le volume d'appels routiniers qui remplit les files du back-office, donc les agents se concentrent sur les cas qui demandent vraiment un humain. Le NPS monte, le cost-to-serve baisse, et l'emprunteur reste maître de son propre contrat.",
-        "usp": "Emprunteurs en contrôle, back-office libéré pour les cas qui demandent vraiment un humain."
-      },
-      "glPosting": {
-        "area": "Intégration comptable",
-        "title": "Comptabilisation et export GL",
-        "body": "Chaque événement contractuel (origination, facturation, paiement, write-off) est comptabilisé dans le grand livre via un mapping déterministe configuré par produit et par pays. Les batches d'export se réconcilient avec l'ERP back-end sans tableur finance parallèle, et chaque écriture remonte à l'événement contractuel qui l'a produite. Les équipes finance clôturent le mois depuis le même workspace dans lequel elles investiguent les exceptions.",
-        "usp": "Chaque événement contractuel est comptabilisé avec un mapping auditable, sans tableur finance parallèle."
-      },
-      "corporateCreditLines": {
-        "area": "Corporate banking",
-        "title": "Lignes de crédit corporate",
-        "body": "Facilités revolving, prêts term et lignes uncommitted vivent à côté du book de leasing, avec drawdowns, remboursements, calcul d'intérêts et vérification des covenants sur le même moteur. Un relationship manager voit l'exposition sur leasing et lending dans une seule vue, sans réconcilier entre systèmes. Les workflows de corporate banking sont natifs, donc une plateforme partie d'un core leasing peut porter l'intégralité du wallet client.",
-        "usp": "Workflows de corporate banking natifs sur la même plateforme qui pilote votre book de leasing."
-      },
-      "workflowOrchestration": {
-        "area": "Fondation plateforme",
-        "title": "Orchestration de workflows",
-        "body": "Les processus métier (origination, KYC, activation de contrat, collecte de documents, escalade de relance) tournent comme workflows versionnés sur un orchestrateur embarqué, avec observabilité complète, retries et tâches human-in-the-loop. Modifier une étape est une édition de workflow, pas un sprint, et chaque exécution est auditable. Les équipes opérations et produit cessent de discuter avec l'ingénierie pour savoir quel chemin emprunte réellement le système.",
-        "usp": "Processus métier comme workflows versionnés et observables, pas enfouis dans le code."
-      },
-      "kycOnboarding": {
-        "area": "KYC et onboarding",
-        "title": "Onboarding client et bénéficiaires effectifs",
-        "body": "Les clients corporate sont modélisés avec toute la chaîne des bénéficiaires effectifs : dirigeants, actionnaires et Ultimate Beneficial Owners à travers des structures de propriété imbriquées. L'onboarding capture identité, résidence, indicateurs PEP et sanctions dans un seul workflow, et le graphe obtenu accompagne chaque dossier pendant toute la durée de la relation. Fini les fiches client plates qui cachent qui détient vraiment le cash flow.",
-        "usp": "Chaîne complète des bénéficiaires effectifs modélisée dès l'onboarding, pas une fiche client plate."
-      },
-      "modelMonitoring": {
-        "area": "Fondation plateforme",
-        "title": "Conseil risque ML et monitoring de modèle",
-        "body": "Le scoring de risque est augmenté par une couche ML explicable qui tourne à côté du moteur de règles, avec feature importance, calibration et drift suivis sur une page de monitoring dédiée. Les underwriters voient l'accord et le désaccord du modèle sur chaque dossier, et la direction des risques voit quand un modèle doit être ré-entraîné avant que la performance ne se dégrade. L'augmentation est consultative, jamais autonome, l'humain valide.",
-        "usp": "Scoring augmenté par ML explicable, drift et calibration sous surveillance visible."
+      "aiReadiness": {
+        "title": "Préparation à l'IA et automatisation concrète",
+        "body": "Préparation des données, decisioning et automatisation qui partent en production, avec explicabilité et gouvernance dès le premier jour, pas rajoutées après coup."
       }
     }
   },
   "partnership": {
     "eyebrow": "Comment l'engagement est structuré",
     "title": "Innovation Partnership.",
-    "body": "L'année un se déroule comme un engagement de co-création. Le partenaire obtient un déploiement configuré, des droits de décision sur la roadmap de son module et la profondeur d'opérateur issue de près de deux décennies d'exploitation de plateformes européennes de leasing.",
+    "body": "Au-delà d'un seul engagement, l'Innovation Partnership est une relation de co-création plus longue qui amène la stratégie en exécution. Vous obtenez une équipe qui travaille aux côtés de la vôtre, des droits de décision sur la roadmap et la profondeur d'opérateur issue de près de deux décennies à faire tourner des workflows opérationnels et clients complexes.",
     "pillars": {
       "configured": {
-        "title": "Déploiement configuré",
-        "body": "Une plateforme fonctionnelle modelée sur le modèle de données, les produits et les processus du partenaire dès le premier jour."
+        "title": "Construit autour de votre opération",
+        "body": "Modelé sur vos données, vos processus et votre modèle d'affaires dès le premier jour, pas un gabarit appliqué de l'extérieur."
       },
       "decision": {
         "title": "Droits de décision",
-        "body": "Le partenaire co-détient la roadmap du module. Ce qui sort en premier, deuxième et troisième reflète ses priorités."
+        "body": "Vous co-détenez la roadmap. Ce que nous traitons en premier, deuxième et troisième reflète vos priorités."
       },
       "operator": {
         "title": "Profondeur d'opérateur",
-        "body": "Près de deux décennies à exploiter des plateformes européennes de leasing. Les engagements partent d'un contexte métier au niveau opérateur."
+        "body": "Près de deux décennies à faire tourner des workflows opérationnels et clients complexes. Les engagements partent d'un contexte au niveau opérateur, pas d'une page blanche."
       },
       "outcome": {
         "title": "Résultat concret",
-        "body": "À la fin de l'année 1, vous avez un déploiement qui fait tourner vos produits sur vos données, pas un empilement de slides et un mémo de sélection de vendeur."
+        "body": "À la fin de la première année, vous avez un changement qui fonctionne dans votre opération, pas un empilement de slides et un mémo de sélection de vendeur."
       }
     }
-  },
-  "operator": {
-    "eyebrow": "Track record",
-    "title": "Construit par un opérateur.",
-    "body": "Près de deux décennies à exploiter des plateformes européennes de leasing sur les segments automotive, equipment et captive finance, dans des contextes mid-tier et groupe. Le travail a couvert des migrations, des déploiements multi-pays, des refontes de politique de crédit, des changements réglementaires et le firefighting de fin de mois sans gloire qui transforme une plateforme de théorique à fiable. La roadmap produit et la pratique d'advisory reflètent toutes deux ce qui casse réellement en production."
   },
   "fitSprint": {
     "hero": {
@@ -277,7 +110,7 @@
       "title": "Quatre semaines pour votre prochaine décision défendable au conseil.",
       "tagline": "Fit for Digital. Fit for AI.",
       "bodyPara1": "Un mandat d'advisory productisé, vendu à prix et périmètre fixes, qui livre un résultat unique : un sponsor capable de prendre une décision défendable au niveau du conseil, qu'il n'aurait pas pu prendre avant le sprint.",
-      "bodyPara2": "Ce qui le rend différent, c'est la combinaison. Discipline consulting top-tier (structure MECE, chiffres sourcés, principe de la pyramide, aucune affirmation rhétorique) sur chaque livrable reçu. Logiciel fonctionnel dans lequel vous vous connectez en semaine deux, configuré à vos couleurs avec un échantillon de vos données. Prix fixe, périmètre fixe, calendrier fixe de quatre semaines, aucun scope creep déguisé en discovery. Mené par un opérateur ayant près de deux décennies passées à construire, soutenir et faire passer à l'échelle des plateformes européennes de leasing.",
+      "bodyPara2": "Ce qui le rend différent, c'est la combinaison. Discipline consulting top-tier (structure MECE, chiffres sourcés, principe de la pyramide, aucune affirmation rhétorique) sur chaque livrable reçu. Logiciel fonctionnel dans lequel vous vous connectez en semaine deux, configuré à vos couleurs avec un échantillon de vos données. Prix fixe, périmètre fixe, calendrier fixe de quatre semaines, aucun scope creep déguisé en discovery. Mené par un opérateur ayant près de deux décennies passées à construire, soutenir et faire passer à l'échelle des workflows opérationnels et clients complexes dans les services financiers européens.",
       "bodyPara3": "Entre douze et quinze livrables qui vous reviennent, en anglais, prêts pour le conseil. Un moment de décision au readout, trois états seulement : oui, non ou une échéance nommée. L'Innovation Partnership est annoncée tout au long, prête si vous décidez de poursuivre.",
       "cta": "Réserver un appel de discovery"
     },
@@ -287,7 +120,7 @@
       "pillars": {
         "operator": {
           "title": "Profondeur d'opérateur, pas de théorie.",
-          "body": "Mené par un fondateur ayant près de deux décennies d'expérience d'exploitation de plateformes européennes de leasing. Chaque recommandation est informée par l'expérience réelle d'avoir construit, soutenu et fait passer à l'échelle les systèmes dont nous parlons."
+          "body": "Mené par un fondateur ayant près de deux décennies à faire tourner des workflows opérationnels et clients complexes dans les services financiers européens. Chaque recommandation est informée par l'expérience réelle d'avoir construit, soutenu et fait passer à l'échelle les systèmes dont nous parlons."
         },
         "software": {
           "title": "Logiciel fonctionnel, pas seulement des slides.",
@@ -418,7 +251,7 @@
       "items": {
         "who": {
           "q": "À qui cela s'adresse-t-il ?",
-          "a": "Aux chief operating, information ou risk officers d'institutions financières indépendantes, sociétés de leasing, opérateurs de flotte, consumer finance et corporate credit en Europe. Le sweet spot est un opérateur mid-tier confronté aux mêmes questions que les banques Tier 1, mais avec moins de marge pour y répondre."
+          "a": "Aux chief operating, information ou risk officers d'organisations qui font tourner des workflows opérationnels et clients complexes en Europe. Le sweet spot est un opérateur mid-tier confronté aux mêmes questions que les plus grands acteurs, mais avec moins de marge pour y répondre."
         },
         "outcome": {
           "q": "Et si la décision est non ?",
@@ -475,7 +308,6 @@
       "ctaTitle": "Le score est la partie facile. C'est la conversation qui le rend utile.",
       "ctaBody": "Si quelque chose dans ce détail vous a surpris, c'est exactement ce à quoi servent les premières 45 minutes. Votre roadmap, notre prototype, une lecture honnête de l'adéquation.",
       "ctaPrimary": "Réserver une session de 45 minutes",
-      "ctaSecondary": "Lire le whitepaper",
       "buckets": {
         "exposed": {
           "title": "Exposition significative.",
@@ -483,7 +315,7 @@
         },
         "gaps": {
           "title": "Lacunes fondamentales.",
-          "body": "C'est là que se situent la plupart des opérateurs mid-tier du lending à une première lecture honnête. La base fonctionne, mais le cœur, la configuration et la maturité IA ne sont pas encore au niveau opérateur. La bonne nouvelle, c'est que l'écart se referme en un seul cycle d'Innovation Partnership."
+          "body": "C'est là que se situent la plupart des organisations à une première lecture honnête. La base fonctionne, mais le cœur, la configuration et la maturité IA ne sont pas encore au niveau opérateur. La bonne nouvelle, c'est que l'écart se referme en un seul cycle d'Innovation Partnership."
         },
         "strong": {
           "title": "Base solide, écart IA.",
@@ -496,61 +328,19 @@
       }
     }
   },
-  "changelog": {
-    "eyebrow": "Changelog",
-    "title": "Ce qui sort sur la plateforme.",
-    "subtitle": "Entrées datées de changements de capacités pertinents pour un acheteur. Refactorings internes et fixes mineurs restent hors de cette page.",
-    "cadence": "Nous mettons à jour le jour où le changement est en production. Pas de résumé trimestriel, pas de surprises.",
-    "whitepapersFooter": "Pourquoi ces capacités, dans l'ordre où elles sortent, suivent notre thèse de positionnement :",
-    "whitepapersLink": "voir les whitepapers"
-  },
-  "whitepapersIndex": {
-    "eyebrow": "Whitepapers",
-    "title": "Le point de vue Innovia.",
-    "body": "Notes engagées, au niveau opérateur, sur la direction du stack de lending. De nouveaux papers à mesure que la plateforme s'étend.",
-    "readMore": "Lire le paper",
-    "minutes": "min de lecture"
-  },
   "whitepaper": {
     "backToList": "Retour à tous les whitepapers",
     "backToHome": "Retour à l'accueil"
   },
   "contact": {
     "eyebrow": "Prendre contact",
-    "title": "Une décision de plateforme à dimensionner pour 2026-2027 ?",
-    "body": "Ouvert à une conversation si vous opérez dans l'un des cinq segments ci-dessus. Le premier appel est une session de travail de 45 minutes : votre roadmap, notre prototype, une lecture honnête de l'adéquation.",
+    "title": "Une décision de transformation à dimensionner pour 2026-2027 ?",
+    "body": "Ouvert à une conversation si vous faites tourner des workflows opérationnels ou clients complexes. Le premier appel est une session de travail de 45 minutes : vos priorités, notre lecture, une vue honnête sur l'adéquation.",
     "email": "E-mail",
     "linkedin": "LinkedIn"
   },
   "footer": {
     "copyright": "Innovia Systems",
     "tagline": "Fit for Digital. Fit for AI."
-  },
-  "foundation": {
-    "eyebrow": "La plateforme, sous le capot",
-    "title": "Bâtie sur une fondation moderne et ouverte",
-    "body": "Une stack actuelle et bien instrumentée, choisie pour que la plateforme évolue vite, s'audite en toute sécurité et soit prête pour l'IA dès le premier jour.",
-    "caps": {
-      "aiNative": {
-        "title": "Nativement IA, pas ajoutée après coup",
-        "body": "Copilote intégré, Model Context Protocol et signaux de risque ML, intégrés à la plateforme."
-      },
-      "auditable": {
-        "title": "Auditable par conception",
-        "body": "Chaque action, humaine ou IA, consignée dans une chaîne infalsifiable que vous pouvez revérifier."
-      },
-      "multiTenant": {
-        "title": "Multi-tenant vérifiable",
-        "body": "Isolation stricte des locataires, prouvée en continu par une suite de tests automatisés."
-      },
-      "observable": {
-        "title": "Observable de bout en bout",
-        "body": "Télémétrie et métriques ouvertes sur chaque couche, rien ne tourne dans l'ombre."
-      },
-      "cloudAgnostic": {
-        "title": "Indépendante du cloud",
-        "body": "Native conteneurs ; fonctionne sur tout grand cloud ou on-premise, sans verrouillage."
-      }
-    }
   }
 }

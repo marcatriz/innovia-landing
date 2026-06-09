@@ -1,275 +1,108 @@
 {
   "nav": {
     "services": "Servicii",
-    "modules": "Platformă",
-    "useCases": "Cazuri de utilizare",
+    "modules": "Focus",
     "partnership": "Parteneriat",
     "fitSprint": "Fit Sprint",
-    "thesis": "Teza",
     "diagnostic": "Diagnostic",
-    "whitepapers": "Whitepapers",
     "contact": "Contact",
     "backToTop": "Înapoi sus",
     "menu": "Meniu"
   },
   "hero": {
     "eyebrow": "Innovia Systems",
-    "title": "Proiectăm platforme de lending AI-first. De la diagnostic la prototip în săptămâni.",
+    "title": "Te ajutăm să treci de la strategie la implementare. De la diagnostic la prototip în săptămâni.",
     "tagline": "Fit for Digital. Fit for AI.",
-    "body": "Reconstruim nucleul pe care l-au depășit operatorii de leasing, finanțare de consum și flote. Diagnostic în săptămâni. Prototipuri Asset Finance sau Fleet configurate pe datele tale într-un trimestru; Working Capital, Consumer Credit și Secured Microcredit urmează un parcurs mai lung de engagement. Aproape două decenii de operare a platformelor europene de leasing, Europa Centrală și de Est inclusă, stau în spatele fiecărei decizii.",
+    "body": "Innovia Systems este o consultanță specializată pentru organizații care rulează fluxuri operaționale și de client complexe. Te ajutăm să înțelegi unde te afli astăzi, unde digitalul și AI pot crea valoare practică și cum să treci de la strategie la implementare. Aproape două decenii de rulare a unor fluxuri operaționale și de client complexe în serviciile financiare europene stau în spatele fiecărei recomandări.",
     "cta": "Programează o sesiune de lucru de 45 de minute",
-    "ctaSecondary": "Vezi platforma",
-    "ctaModules": "Explorează modulele"
-  },
-  "stats": {
-    "items": {
-      "verticals": {
-        "value": "5",
-        "label": "Verticale pe un singur motor"
-      },
-      "ready": {
-        "value": "2",
-        "label": "Module la calitate de producție"
-      },
-      "codev": {
-        "value": "3",
-        "label": "Pre-producție pentru H2 2026"
-      },
-      "operator": {
-        "value": "~20 ani",
-        "label": "Profunzime de operator în leasing european"
-      }
-    }
+    "ctaSecondary": "Vezi cum lucrăm",
+    "ctaModules": "Explorează ariile noastre de focus"
   },
   "problem": {
-    "eyebrow": "Golul din piață",
-    "title": "Operatorii mid-tier rulează pe stack-uri pe care le-au depășit.",
-    "body": "Companiile de leasing, captive-urile, IFN-urile și operatorii de flote ajung într-un punct în care sistemele existente nu mai țin pasul cu produsele noi, canalele noi și cerințele noi de conformitate. Până vine aprobarea pe board paper-ul de rebuild, următorul ciclu de produs e deja pierdut și competitorii AI-native au livrat de două ori. Innovia închide acest gol ca o practică de consultanță specializată cu o platformă funcțională în spate, nu un slide deck și o căutare de partener."
-  },
-  "thesis": {
-    "eyebrow": "Teza",
-    "title": "Trei proprietăți țin valoare pe măsură ce stratul de UI se comoditizează.",
-    "intro": "LLM-urile și orchestrarea de workflow mănâncă front-end-ul oricărei aplicații enterprise. Ce rămâne defensibil este structural, nu cosmetic. Am construit Innovia în jurul celor trei de la primul commit.",
-    "readPaper": "Citește paperul",
-    "properties": {
-      "isolation": {
-        "title": "Izolare verificată",
-        "body": "Douăzeci și cinci de teste de integrare în CI demonstrează granițele de tenant la fiecare build. Nu o promisiune în contract, nu o diagramă în deck-ul de arhitectură."
-      },
-      "codebase": {
-        "title": "Single codebase",
-        "body": "Un singur stack care compune peste audit, IA, schemă și deployment. Un portal care unifică cinci backend-uri lasă tot cinci backend-uri."
-      },
-      "aiNative": {
-        "title": "AI-native din ziua unu",
-        "body": "Anthropic vision pe documente, tool-uri apelabile prin MCP, audit log de calitate agent. Încorporat de la primul commit, nu lipit ulterior peste un memo de board."
-      }
-    }
+    "eyebrow": "Golul",
+    "title": "Transformare pragmatică, nu consultanță tehnologică generică.",
+    "body": "Organizațiile care rulează fluxuri operaționale și de client complexe ajung într-un punct în care deck-urile de strategie se adună, dar puține dintre ele ajung în producție. Consultanța tehnologică generică nu închide acest gol. Ne concentrăm pe munca reală: fluxuri operaționale, pregătirea datelor, decizionare, procese de bază, parcursurile clienților, automatizare și modelele de business din spatele lor. Și rămânem până când schimbarea rulează, nu doar până e proiectată."
   },
   "services": {
-    "eyebrow": "Ce livrăm",
+    "eyebrow": "Ce facem",
     "title": "Diagnostic, redesign, prototip, implementare.",
-    "body": "Innovia operează ca o consultanță specializată cu livrare tehnologică încorporată. Cele patru tipuri de engagement se înlănțuie: cei mai mulți parteneri încep cu un diagnostic și avansează prin redesign către deployment de prototip și suport de implementare.",
+    "body": "Operăm ca o consultanță specializată cu livrare tehnologică încorporată. Cele patru tipuri de engagement se înlănțuie: cei mai mulți clienți încep cu un diagnostic și avansează prin redesign către prototipare și suport de implementare.",
     "items": {
       "diagnostics": {
-        "title": "Diagnostic",
-        "body": "O citire structurată a stadiului stack-ului vostru de originare, decizionare, ciclu de viață al contractului și raportare, comparat cu benchmark-urile actuale ale operatorilor. Rezultat decision-grade pe care echipa de leadership îl poate acționa.",
+        "title": "Diagnostic Fit to Digital / Fit to AI",
+        "body": "O citire structurată a stadiului actual al operațiunii tale și a locului unde digitalul și AI pot crea valoare practică. Rezultat decision-grade pe care echipa de leadership îl poate acționa.",
         "duration": "2-4 săptămâni"
       },
       "redesign": {
-        "title": "Redesign de model operațional",
-        "body": "Target operating model pentru segmentele pe care le serviți: organizație, proces, date, tehnologie. Secvențiat pe ce poate business-ul efectiv să absoarbă.",
+        "title": "Design de model operațional și de procese",
+        "body": "Target operating model și procese de bază reproiectate pentru fluxurile pe care le rulezi: organizație, proces, date, tehnologie. Secvențiat pe ce poate business-ul efectiv să absoarbă.",
         "duration": "4-8 săptămâni"
       },
       "prototype": {
         "title": "Prototipare software",
-        "body": "Prototipuri funcționale pe platforma Innovia, configurate pe modelul vostru de date și produsele voastre. Gata pentru testare live în câteva săptămâni.",
+        "body": "Prototipuri funcționale pentru modele de business și fluxuri noi, configurate pe datele și procesele tale. Gata pentru testare live în câteva săptămâni.",
         "duration": "6-12 săptămâni"
       },
       "implementation": {
-        "title": "Suport de implementare",
-        "body": "De la prototip la producție: integrare, migrare de date, change management, hypercare. Rămânem până când platforma rulează business-ul, nu invers.",
+        "title": "Co-design și suport de implementare",
+        "body": "De la prototip la producție: co-design cu echipele tale interne și cu vendorii, integrare, change management, hypercare. Rămânem până când schimbarea rulează business-ul, nu invers.",
         "duration": "3-9 luni"
       }
     }
   },
   "modules": {
-    "eyebrow": "Platforma din spatele prototipului",
-    "title": "Cinci verticale, un singur motor.",
-    "body": "Engagement-urile de prototipare și implementare rulează pe platforma Innovia. Cinci module împart același motor, același model de date și același orchestrator de workflow. Asset Finance și Fleet sunt la calitate de producție, în așteptarea primului go-live cu design partner. Working Capital, Consumer Credit și Secured Microcredit sunt pre-producție pentru H2 2026. Fiindcă este un singur motor, expunerea unui singur debitor se adună pe toate liniile față de o singură limită impusă, în loc să fie reconciliată între sisteme.",
-    "statusReady": "Calitate de producție",
-    "statusCoDev": "Pre-producție",
+    "eyebrow": "Unde ne concentrăm",
+    "title": "Arii de focus.",
+    "body": "Ne concentrăm pe transformare pragmatică în fluxurile care îți rulează efectiv business-ul. Șase arii unde facem munca, de la primul diagnostic până la schimbarea care rulează.",
     "items": {
-      "assetFinance": {
-        "title": "Asset Finance",
-        "body": "Originare, scoring, ciclu de viață al contractului, facturare, contabilitate. End-to-end pentru leasing financiar și operațional, cu raportare cross-tenant la nivel de grup."
+      "fitDiagnostics": {
+        "title": "Diagnostic Fit to Digital / Fit to AI",
+        "body": "O citire structurată a stadiului în care te afli și a locului unde digitalul și AI creează valoare practică, ancorată în operațiunile tale reale."
       },
-      "fleet": {
-        "title": "Fleet",
-        "body": "Gestiunea vehiculelor și a serviciilor pentru flote captive și independente. Pregătit pentru telematică, cu adaptoare live configurabile per client, analitici cost-per-km și valoare reziduală."
+      "transformation": {
+        "title": "Transformare digitală",
+        "body": "De la strategie la un plan secvențiat pe care îl poți executa, mapat pe fluxurile și constrângerile pe care le ai efectiv."
       },
-      "workingCapital": {
-        "title": "Working Capital",
-        "body": "Linii corporate de credit, trageri, calcul de dobândă, monitorizare de covenante, alături de microcredite SME. Facilități revolving, term și uncommitted, distincte de dealer floorplan. Scorate la intrare și incluse în expunerea cross-line a debitorului."
+      "operatingModel": {
+        "title": "Design de procese de business și model operațional",
+        "body": "Procese de bază reproiectate și un target operating model pe care business-ul îl poate absorbi: organizație, proces, date, tehnologie, guvernanță."
       },
-      "consumerCredit": {
-        "title": "Consumer Credit",
-        "body": "Creditare la punctul de vânzare și direct-to-consumer. Decizionare proiectată pentru minute, onboarding de merchanți și workflow KYC + AML încorporate (furnizorii de bureau și screening cablați per engagement). Scorată la intrare, cu fereastra legală de retragere și guvernanță four-eyes pe decizie, iar fiecare credit intră în expunerea cross-line a debitorului."
+      "prototyping": {
+        "title": "Prototipare software pentru modele de business noi",
+        "body": "Prototipuri funcționale rapide care fac un model de business testabil, nu teoretic, configurate pe datele și procesele tale."
       },
-      "securedMicrocredit": {
-        "title": "Secured Microcredit",
-        "body": "Amanet, canal de parteneri și creditare integrată în retail. Monitorizare colateral, disbursement rapid, full-cycle compliance. Poartă AML și four-eyes la activarea de valoare mare, un traseu de audit rezistent la falsificare, iar principalul intră în expunerea cross-line a debitorului."
-      }
-    }
-  },
-  "useCases": {
-    "eyebrow": "Din platforma operațională",
-    "title": "Doar câteva dintre fluxurile pe care le rulează platforma. Mai sunt destule în spatele lor.",
-    "body": "Capturi din aplicația Innovia live, blurate ușor astfel încât structura rămâne lizibilă iar datele specifice rămân private. Fiecare card corespunde unui rol real și unui flux real care rulează deja pe date demo.",
-    "note": "Capturi din branch-ul Innovia. Blurate pentru protecția datelor demo. Demonstrații clare disponibile la cerere.",
-    "tabsAria": "Categorii de use case",
-    "uspLabel": "De ce contează",
-    "cardSingular": "card",
-    "cardPlural": "carduri",
-    "tabs": {
-      "origination": "Originare",
-      "servicing": "Servicing",
-      "catalog": "Catalog",
-      "portals": "Portaluri",
-      "platform": "Platformă"
-    },
-    "items": {
-      "obligor360": {
-        "area": "Risc cross-line",
-        "title": "Obligor 360",
-        "body": "Fiecare facilitate a unui singur debitor, pe asset finance, consumer, amanet și SME, se adună pe un singur ecran cu expunerea agregată, plafonul de credit al partenerului și headroom-ul în timp real. Aceeași limită este impusă ca hard-stop la momentul deciziei, astfel încât un debitor să nu poată acumula discret expunere care încalcă plafonul împrăștiind-o pe linii de produs. Analiștii văd întregul obligor înainte de a aproba următoarea tranzacție, nu o linie pe rând.",
-        "usp": "Un debitor, toate liniile, o singură limită impusă, văzute înainte de următoarea aprobare."
+      "coDesign": {
+        "title": "Co-design și suport de implementare",
+        "body": "Construim alături de echipele tale interne și de vendori și rămânem pe tot parcursul implementării până când schimbarea rulează în producție."
       },
-      "regulatoryReporting": {
-        "area": "Analitică regulatorie",
-        "title": "Încadrare IFRS 9 și raportare regulatorie",
-        "body": "Pierderea de credit așteptată rulează pe portofoliul viu cu alocare pe stadii, alături de un motor de stress-testing și schele de raportare pentru COREP, FINREP, AnaCredit și expunerile neperformante EBA. Provizionarea, portfolio-at-risk și pâlniile de originare citesc din același motor care rulează originarea și servisarea, astfel încât vederea regulatorie se reconciliază cu cea operațională prin construcție. Riscul și finanțele nu mai reconstruiesc cifrele într-un spreadsheet la fiecare raportare.",
-        "usp": "IFRS 9, ECL și rapoarte de supraveghere din același motor care înregistrează contractele."
-      },
-      "executiveDashboard": {
-        "area": "Privire executivă",
-        "title": "Centru de comandă portofoliu",
-        "body": "Administratorii intră într-un singur ecran care consolidează originările, portofoliul activ, restanțele și KPI-urile per tenant pe toate brandurile și țările. Fiecare tile coboară direct în contractele, partenerii sau înregistrările contabile suport, fără să părăsești sesiunea. Group COO obține o privire side-by-side pe subsidiare, care înlocuiește reconcilierea săptămânală pe Excel.",
-        "usp": "O singură imagine pentru întregul grup, cu drill-down până la înregistrarea sursă."
-      },
-      "dealPipeline": {
-        "area": "Vânzări și originare",
-        "title": "Pipeline de deal-uri",
-        "body": "Operatorii de vânzări duc un dosar de la cerere prin analiză până la contract semnat într-un singur workspace, fără să re-introducă date între etape. Valoarea pipeline-ului, time-to-yes, rata de aprobare și distribuția pe etape se urmăresc peste fiecare variantă de produs. Canalele direct, dealer și broker împart același funnel, așa că echipele comerciale compară mere cu mere.",
-        "usp": "Un singur funnel pentru orice canal, cu cycle time vizibil din primul click."
-      },
-      "financialScoring": {
-        "area": "Risc și underwriting",
-        "title": "Motor de scoring financiar",
-        "body": "Scoring corporate pe cinci dimensiuni (venit, marjă EBITDA, levier, lichiditate, rată capital propriu) rulează pe dosarul deal-ului și stochează scorul, inputurile și versiunea modelului care l-a produs. Underwriterii primesc o rațiune defensabilă, nu un răspuns black-box, iar fiecare decizie rămâne auditabilă luni mai târziu când întreabă comitetul de risc sau reglementatorul.",
-        "usp": "Scoruri explicabile, păstrate pe dosar pentru totdeauna, ca 'de ce am aprobat?' să aibă răspuns într-un click."
-      },
-      "contractManagement": {
-        "area": "Servicing contracte",
-        "title": "Managementul contractelor",
-        "body": "Întregul portofoliu de leasing trăiește într-o singură listă căutabilă, cu status, valoare finanțată, dobândă medie și număr de contracte active vizibile tot timpul. Detaliul pe contract deschide eșalonarea, serviciile asociate, documentele și pista de audit în același workspace. Echipa de servicing nu mai face swivel-chair între trei sisteme pentru o singură întrebare a clientului.",
-        "usp": "Fiecare contract, fiecare document, un singur workspace, fără swivel-chair între sisteme."
-      },
-      "collections": {
-        "area": "Colectări și recuperare",
-        "title": "Collections și dunning",
-        "body": "Aging buckets, restanțe per contract, conturi marcate la risc și o coadă zilnică de acțiuni îi pun pe colectori pe cazurile potrivite chiar de la prima cafea. Un singur click duce de la o plată ratată la workflow-ul de dunning, istoricul clientului și log-ul de contact. Recuperările trec de la triaj pe Excel la o listă de lucru prioritizată după expunere și probabilitate de vindecare.",
-        "usp": "Colectorii încep ziua pe o coadă prioritizată, nu pe un Excel de la 9 dimineața."
-      },
-      "productCatalog": {
-        "area": "Configurare produse",
-        "title": "Catalog produse financiare",
-        "body": "Operating Lease, Finance Lease, Hire Purchase, credite corporate, variantele EV și green stau toate într-un singur catalog, cu moneda, tipul de eșalonare, benzile de dobândă și de avans configurate per produs. Produse noi intră în producție în ore, nu în cicluri de release, pentru că parametrii sunt date, nu cod. Echipele de țară pot lansa o variantă pe piață fără să aștepte următorul sprint.",
-        "usp": "Produse noi în ore, nu în release-uri, pentru că catalogul e dată."
-      },
-      "insuranceCatalog": {
-        "area": "Configurare produse",
-        "title": "Produse de asigurare",
-        "body": "Produsele CASCO, GAP, viață și cele specifice activului sunt legate direct de suma finanțată și de economia marjei de broker. Activarea per piață și prețul per clasă de activ sunt configurație, nu modificare de cod. Rata de atașare devine o pârghie pe care echipa comercială o controlează, iar impactul pe yield apare în același dashboard cu contractele suport.",
-        "usp": "Atașarea asigurărilor e o pârghie de configurație, nu un proiect trimestrial."
-      },
-      "fleetOperations": {
-        "area": "Flotă și operațiuni",
-        "title": "Vedere flotă client",
-        "body": "Fleet managerii văd întreaga flotă într-un singur cadru: dimensiune, valoare finanțată, expunere reziduală, contracte care expiră, active suspendate și un timeline de reînnoire care marchează ce trebuie atins în următoarele nouăzeci de zile. Reînnoirile nu mai sunt panică în luna 35, iar clienții corporate primesc o suprafață self-service care înlocuiește apelul lunar de status cu back-office-ul.",
-        "usp": "Reînnoiri planificate cu nouăzeci de zile înainte, nu alergate în ultima săptămână din luna 35."
-      },
-      "dealerPortal": {
-        "area": "Self-service dealer",
-        "title": "Portal dealer",
-        "body": "Dealerii cotează, aplică și urmăresc finanțarea din propriul portal, iar campaniile active afișează rata subvenționată, uplift-ul RV și volumul rămas exact în linie cu oferta. Time-to-yes pentru un deal introdus de dealer scade de la zile la minute pentru că dealer-ul captează date curate o singură dată. Subvenția rămâne sub control captive, iar frecarea din showroom dispare.",
-        "usp": "Finanțare la viteza showroom-ului, cu economia subvenției păstrată sub controlul captive."
-      },
-      "clientPortal": {
-        "area": "Self-service împrumutat",
-        "title": "Portal client",
-        "body": "Împrumutații retail și corporate își văd eșalonarea, plătit versus rămas, plățile viitoare, alertele de restanță și serviciile active fără să deschidă vreun ticket. Self-service-ul absoarbe volumul de apeluri de rutină care umple cozile back-office-ului, așa că agenții se concentrează pe cazurile care chiar au nevoie de un om. NPS crește, cost-to-serve scade, iar împrumutatul rămâne în control pe propriul contract.",
-        "usp": "Împrumutații în control, back-office-ul liber pentru cazurile care chiar au nevoie de om."
-      },
-      "glPosting": {
-        "area": "Integrare contabilitate",
-        "title": "Postare și export GL",
-        "body": "Fiecare eveniment de contract (originare, facturare, plată, write-off) postează în registrul general printr-un mapping determinist, configurat per produs și per țară. Loturile de export se reconciliază cu ERP-ul back-end fără un Excel paralel de finance, iar orice înregistrare se trasează înapoi până la evenimentul de contract care a produs-o. Echipele de finance închid luna din același workspace în care investighează excepțiile.",
-        "usp": "Fiecare eveniment de contract postează în GL cu mapping auditabil, fără Excel paralel de finance."
-      },
-      "corporateCreditLines": {
-        "area": "Corporate banking",
-        "title": "Linii de credit corporate",
-        "body": "Facilități revolving, credite term și linii uncommitted trăiesc lângă portofoliul de leasing, cu drawdown-uri, rambursări, calcul de dobândă și verificări de covenant rulând pe același motor. Un relationship manager vede expunerea pe leasing și lending într-o singură vedere, nu reconciliază între sisteme. Fluxurile de corporate banking sunt native, așa că o platformă pornită ca leasing core poate duce întregul wallet al clientului.",
-        "usp": "Fluxuri de corporate banking native pe aceeași platformă care îți rulează leasing book-ul."
-      },
-      "workflowOrchestration": {
-        "area": "Fundație platformă",
-        "title": "Orchestrare workflow",
-        "body": "Procesele de business (originare, KYC, activare contract, colectare documente, escaladare dunning) rulează ca workflow-uri versionate pe un orchestrator integrat, cu observabilitate completă, retry-uri și task-uri human-in-the-loop. Modificarea unui pas e o editare de workflow, nu un sprint, iar fiecare execuție e auditabilă. Operațiunile și produsul nu mai discută cu inginerii despre ce traseu urmează de fapt sistemul.",
-        "usp": "Procese de business ca workflow-uri versionate și observabile, nu îngropate în cod."
-      },
-      "kycOnboarding": {
-        "area": "KYC și onboarding",
-        "title": "Onboarding client și beneficiari reali",
-        "body": "Clienții corporate sunt modelați cu întregul lanț de beneficiari reali: directori, acționari și ultimate beneficial owners pe structuri de proprietate imbricate. Onboarding-ul captează identitate, rezidență, indicatori PEP și sancțiuni într-un singur workflow, iar graful rezultat călătorește cu fiecare deal pe toată durata relației. Gata cu fișa de client plată care ascunde cine deține de fapt cash flow-ul.",
-        "usp": "Lanț complet de beneficiari reali modelat la onboarding, nu o fișă de client plată."
-      },
-      "modelMonitoring": {
-        "area": "Fundație platformă",
-        "title": "ML risk advisory și monitorizare model",
-        "body": "Scoring-ul de risc este augmentat de un strat ML explicabil care rulează alături de motorul de reguli, cu importanță feature, calibrare și drift urmărite pe o pagină dedicată de monitorizare. Underwriterii văd acordul și dezacordul modelului pe fiecare deal, iar conducerea de risc vede când un model are nevoie de retrain înainte să se degradeze performanța. Augmentarea e advisory, niciodată autonomă, deci omul semnează.",
-        "usp": "Scoring augmentat de ML explicabil, cu drift și calibrare monitorizate la vedere."
+      "aiReadiness": {
+        "title": "Pregătire pentru AI și automatizare practică",
+        "body": "Pregătirea datelor, decizionare și automatizare care ajunge în producție, cu explicabilitate și guvernanță din ziua unu, nu lipite ulterior."
       }
     }
   },
   "partnership": {
     "eyebrow": "Cum este structurat engagement-ul",
     "title": "Innovation Partnership.",
-    "body": "Primul an rulează ca o colaborare de co-creație. Partenerul primește un deployment configurat, drept de decizie pe roadmap-ul modulului propriu și profunzimea operațională venită din aproape două decenii de operare a platformelor europene de leasing.",
+    "body": "Dincolo de un singur engagement, Innovation Partnership este o relație de co-creație mai lungă care duce strategia în execuție. Primești o echipă care lucrează alături de a ta, drept de decizie asupra roadmap-ului și profunzime de operator din aproape două decenii de rulare a unor fluxuri operaționale și de client complexe.",
     "pillars": {
       "configured": {
-        "title": "Deployment configurat",
-        "body": "O platformă funcțională modelată pe datele, produsele și procesele partenerului din ziua unu."
+        "title": "Construit în jurul operațiunii tale",
+        "body": "Modelat pe datele, procesele și modelul tău de business din ziua unu, nu un șablon aplicat din afară."
       },
       "decision": {
         "title": "Drept de decizie",
-        "body": "Partenerul co-deține roadmap-ul modulului. Ce intră în producție întâi, al doilea, al treilea reflectă prioritățile lui."
+        "body": "Co-deții roadmap-ul. Ce abordăm întâi, al doilea, al treilea reflectă prioritățile tale."
       },
       "operator": {
-        "title": "Profunzime operațională",
-        "body": "Aproape două decenii de operare a platformelor europene de leasing. Engagement-urile pornesc dintr-un context de domeniu de nivel de operator."
+        "title": "Profunzime de operator",
+        "body": "Aproape două decenii de rulare a unor fluxuri operaționale și de client complexe. Engagement-urile pornesc dintr-un context de nivel de operator, nu de la zero."
       },
       "outcome": {
         "title": "Rezultat concret",
-        "body": "La sfârșitul Anului 1 ai un deployment care rulează produsele tale pe datele tale, nu un teanc de slide-uri și un memo de selecție de vendor."
+        "body": "La sfârșitul primului an ai o schimbare care rulează în operațiunea ta, nu un teanc de slide-uri și un memo de selecție de vendor."
       }
     }
-  },
-  "operator": {
-    "eyebrow": "Track record",
-    "title": "Construit de un operator.",
-    "body": "Aproape două decenii de operare a platformelor europene de leasing, în auto, echipamente și captive finance, în setări mid-tier și de grup. Munca a acoperit migrări, roll-out-uri multi-țară, redesign de politică de credit, schimbări de reglementare, și luptele nesexy de month-end care transformă o platformă din teoretică în una de încredere. Roadmap-ul produsului și practica de advisory reflectă amândouă ce se sparge efectiv în producție."
   },
   "fitSprint": {
     "hero": {
@@ -277,7 +110,7 @@
       "title": "Patru săptămâni până la următoarea decizie pregătită pentru board.",
       "tagline": "Fit for Digital. Fit for AI.",
       "bodyPara1": "Un angajament de advisory productizat, vândut la preț fix și scope fix, care livrează un singur rezultat: un sponsor care poate lua o decizie defensabilă, pregătită pentru board, pe care nu ar fi putut-o lua înainte de sprint.",
-      "bodyPara2": "Ce îl face diferit e combinația. Disciplină de consulting top-tier (structură MECE, cifre sursate, principiul piramidei, fără afirmații retorice) pe fiecare livrabil pe care îl primești. Software funcțional în care te loghezi în săptămâna a doua, configurat în culorile tale cu un eșantion din datele tale. Preț fix, scope fix, calendar de patru săptămâni fix, fără scope creep deghizat în discovery. Condus de un operator cu aproape două decenii de livrat, susținut și scalat platforme europene de leasing.",
+      "bodyPara2": "Ce îl face diferit e combinația. Disciplină de consulting top-tier (structură MECE, cifre sursate, principiul piramidei, fără afirmații retorice) pe fiecare livrabil pe care îl primești. Software funcțional în care te loghezi în săptămâna a doua, configurat în culorile tale cu un eșantion din datele tale. Preț fix, scope fix, calendar de patru săptămâni fix, fără scope creep deghizat în discovery. Condus de un operator cu aproape două decenii de livrat, susținut și scalat fluxuri operaționale și de client complexe în serviciile financiare europene.",
       "bodyPara3": "Între douăsprezece și cincisprezece livrabile care rămân ale tale, în engleză, gata pentru board. Un singur moment de decizie la readout, doar trei stări: da, nu sau un termen numit. Innovation Partnership este anunțat în avans pe tot parcursul, gata dacă decizi să continui.",
       "cta": "Programează o sesiune de discovery"
     },
@@ -287,7 +120,7 @@
       "pillars": {
         "operator": {
           "title": "Profunzime de operator, nu teorie.",
-          "body": "Condus de un fondator cu aproape două decenii de operare a platformelor europene de leasing. Fiecare recomandare e informată de experiența reală de a fi livrat, susținut și scalat sistemele despre care vorbim."
+          "body": "Condus de un fondator cu aproape două decenii de rulare a unor fluxuri operaționale și de client complexe în serviciile financiare europene. Fiecare recomandare e informată de experiența reală de a fi livrat, susținut și scalat sistemele despre care vorbim."
         },
         "software": {
           "title": "Software funcțional, nu doar slide-uri.",
@@ -418,7 +251,7 @@
       "items": {
         "who": {
           "q": "Pentru cine este?",
-          "a": "Pentru chief operating, information sau risk officers la instituții financiare independente, companii de leasing, operatori de flotă, consumer finance și corporate credit din Europa. Sweet spot-ul e un operator mid-tier care se confruntă cu aceleași întrebări ca băncile Tier 1, dar cu mai puțin runway pentru a răspunde."
+          "a": "Pentru chief operating, information sau risk officers la organizații care rulează fluxuri operaționale și de client complexe din Europa. Sweet spot-ul e un operator mid-tier care se confruntă cu aceleași întrebări ca cei mai mari jucători, dar cu mai puțin runway pentru a răspunde."
         },
         "outcome": {
           "q": "Ce se întâmplă dacă decizia e nu?",
@@ -475,7 +308,6 @@
       "ctaTitle": "Scorul e partea ușoară. Discuția e acolo unde devine utilă.",
       "ctaBody": "Dacă ceva din breakdown-ul de mai sus te-a surprins, exact pentru asta sunt bune primele 45 de minute. Roadmap-ul tău, prototipul nostru, o citire onestă de potrivire.",
       "ctaPrimary": "Programează o sesiune de lucru de 45 de minute",
-      "ctaSecondary": "Citește whitepaper-ul",
       "buckets": {
         "exposed": {
           "title": "Expunere semnificativă.",
@@ -483,7 +315,7 @@
         },
         "gaps": {
           "title": "Goluri fundamentale.",
-          "body": "Aici stau majoritatea operatorilor mid-tier din lending pe o primă citire onestă. Baza funcționează, dar core-ul, configurația și pregătirea pentru AI nu sunt încă la nivel de operator. Vestea bună e că golul se închide într-un singur ciclu de Innovation Partnership."
+          "body": "Aici stau majoritatea organizațiilor pe o primă citire onestă. Baza funcționează, dar core-ul, configurația și pregătirea pentru AI nu sunt încă la nivel de operator. Vestea bună e că golul se închide într-un singur ciclu de Innovation Partnership."
         },
         "strong": {
           "title": "Bază solidă, gol pe AI.",
@@ -496,61 +328,19 @@
       }
     }
   },
-  "changelog": {
-    "eyebrow": "Changelog",
-    "title": "Ce iese pe platformă.",
-    "subtitle": "Intrări datate cu schimbări de capability care contează pentru un cumpărător. Refactorings interne și fix-uri minore rămân în afara acestei pagini.",
-    "cadence": "Actualizăm în ziua în care schimbarea este în producție. Fără sumar trimestrial, fără surprize.",
-    "whitepapersFooter": "De ce aceste capability-uri, în ordinea în care ies, urmează teza noastră de poziționare:",
-    "whitepapersLink": "vezi whitepapers"
-  },
-  "whitepapersIndex": {
-    "eyebrow": "Whitepapers",
-    "title": "Punctul de vedere Innovia.",
-    "body": "Note opinionate, de nivel operator, despre unde se mișcă stack-ul de lending. Papers noi pe măsură ce platforma se extinde.",
-    "readMore": "Citește documentul",
-    "minutes": "min de citit"
-  },
   "whitepaper": {
     "backToList": "Înapoi la toate whitepapers",
     "backToHome": "Înapoi la pagina principală"
   },
   "contact": {
     "eyebrow": "Hai să vorbim",
-    "title": "O decizie de platformă în roadmap pentru 2026-2027?",
-    "body": "Deschiși la o discuție dacă operați în oricare dintre cele cinci segmente de mai sus. Prima discuție este o sesiune de lucru de 45 de minute: roadmap-ul vostru, prototipul nostru, o citire onestă de potrivire.",
+    "title": "Dimensionezi o decizie de transformare pentru 2026-2027?",
+    "body": "Deschiși la o discuție dacă rulezi fluxuri operaționale sau de client complexe. Prima discuție este o sesiune de lucru de 45 de minute: prioritățile tale, citirea noastră, o vedere onestă de potrivire.",
     "email": "Email",
     "linkedin": "LinkedIn"
   },
   "footer": {
     "copyright": "Innovia Systems",
     "tagline": "Fit for Digital. Fit for AI."
-  },
-  "foundation": {
-    "eyebrow": "Platforma, pe dinăuntru",
-    "title": "Construită pe o fundație modernă și deschisă",
-    "body": "Un stack actual și bine instrumentat, ales astfel încât platforma să evolueze rapid, să fie ușor de auditat și pregătită pentru AI din prima zi.",
-    "caps": {
-      "aiNative": {
-        "title": "AI nativ, nu adăugat ulterior",
-        "body": "Copilot în aplicație, Model Context Protocol și semnale de risc ML, integrate în platformă."
-      },
-      "auditable": {
-        "title": "Auditabilă prin design",
-        "body": "Fiecare acțiune, umană sau AI, înregistrată într-un lanț inviolabil pe care îl poți reverifica."
-      },
-      "multiTenant": {
-        "title": "Multi-tenant verificabil",
-        "body": "Izolare strictă între tenanți, demonstrată continuu de o suită de teste automate."
-      },
-      "observable": {
-        "title": "Observabilă cap la cap",
-        "body": "Telemetrie și metrici deschise pe fiecare strat, nimic nu rulează în întuneric."
-      },
-      "cloudAgnostic": {
-        "title": "Independentă de cloud",
-        "body": "Nativ în containere; rulează pe orice cloud major sau on-premises, fără dependență de furnizor."
-      }
-    }
   }
 }

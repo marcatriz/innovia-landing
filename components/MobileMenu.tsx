@@ -13,12 +13,9 @@ import { Link } from '@/i18n/routing';
  */
 const ITEMS = [
   { href: '/#services', key: 'services' },
-  { href: '/#modules', key: 'modules' },
-  { href: '/#use-cases', key: 'useCases' },
+  { href: '/#focus', key: 'modules' },
   { href: '/fit-sprint', key: 'fitSprint' },
   { href: '/#partnership', key: 'partnership' },
-  { href: '/#thesis', key: 'thesis' },
-  { href: '/whitepapers', key: 'whitepapers' },
   { href: '/diagnostic', key: 'diagnostic' },
   { href: '/#contact', key: 'contact' },
 ] as const;
