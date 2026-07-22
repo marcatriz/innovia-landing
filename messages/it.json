@@ -225,12 +225,12 @@
     "tiers": {
       "eyebrow": "Investimento",
       "title": "Tre tier. Standard è il default.",
-      "footnote": "Il prezzo è bloccato allo scoping, mai aggiustato a metà sprint. I change order sono fatturati in modo trasparente a 2.000 € al giorno. Termini di pagamento: 50% alla firma, 50% al readout. Trasferte nell'UE incluse.",
+      "footnote": "Il prezzo è bloccato allo scoping, mai aggiustato a metà sprint. I change order sono fatturati in modo trasparente a 1.200 € al giorno. Termini di pagamento: 50% alla firma, 50% al readout. Trasferte nell'UE incluse.",
       "items": {
         "lite": {
           "tag": "Tier 1",
-          "title": "Lite",
-          "price": "8k – 12k €",
+          "title": "Discovery",
+          "price": "3,5k – 5k €",
           "body": "Due settimane. Solo diagnostica e executive memo. Per prospect che hanno bisogno di una lettura veloce prima di impegnarsi su uno sprint completo.",
           "includes": [
             "Capability assessment",
@@ -242,10 +242,10 @@
         "standard": {
           "tag": "Tier 2 · Consigliato",
           "title": "Standard",
-          "price": "18k – 25k €",
+          "price": "9k – 14k €",
           "body": "Tre-quattro settimane. Diagnostica, design e pacchetto decisionale completi. Il tier di default per la maggior parte dei mandati.",
           "includes": [
-            "Tutto ciò che è in Lite, più",
+            "Tutto ciò che è in Discovery, più",
             "Target operating model",
             "Capability roadmap",
             "Board deck e business case",
@@ -256,7 +256,7 @@
         "premium": {
           "tag": "Tier 3",
           "title": "Premium",
-          "price": "35k – 50k €",
+          "price": "18k – 25k €",
           "body": "Sei settimane. Standard più lavoro più profondo di processo e integrazione. Per mandati che anticipano un'esecuzione immediata.",
           "includes": [
             "Tutto ciò che è in Standard, più",
@@ -282,7 +282,7 @@
         },
         "scope": {
           "q": "E se ci servono più o meno di quattro settimane?",
-          "a": "Lite è di due settimane per prospect che hanno bisogno di una diagnostica rapida. Standard è di tre-quattro settimane e copre la maggior parte dei mandati. Premium è di sei settimane quando si anticipa un'esecuzione immediata. Lo scope è fisso alla firma e può essere esteso solo tramite change order scritti a 2.000 € al giorno."
+          "a": "Discovery è di due settimane per prospect che hanno bisogno di una diagnostica rapida. Standard è di tre-quattro settimane e copre la maggior parte dei mandati. Premium è di sei settimane quando si anticipa un'esecuzione immediata. Lo scope è fisso alla firma e può essere esteso solo tramite change order scritti a 1.200 € al giorno."
         },
         "data": {
           "q": "Come gestite riservatezza e dati?",

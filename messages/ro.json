@@ -225,12 +225,12 @@
     "tiers": {
       "eyebrow": "Investiția",
       "title": "Trei tier-uri. Standard este default.",
-      "footnote": "Prețul e blocat la scoping, nu se ajustează mid-sprint. Modificările se facturează transparent la 2.000 € pe zi. Termeni de plată: 50% la semnătură, 50% la readout. Transportul în UE inclus.",
+      "footnote": "Prețul e blocat la scoping, nu se ajustează mid-sprint. Modificările se facturează transparent la 1.200 € pe zi. Termeni de plată: 50% la semnătură, 50% la readout. Transportul în UE inclus.",
       "items": {
         "lite": {
           "tag": "Tier 1",
-          "title": "Lite",
-          "price": "8k – 12k €",
+          "title": "Discovery",
+          "price": "3,5k – 5k €",
           "body": "Două săptămâni. Doar diagnostic și executive memo. Pentru prospecți care au nevoie de o citire rapidă înainte de a se angaja la un sprint complet.",
           "includes": [
             "Capability assessment",
@@ -242,10 +242,10 @@
         "standard": {
           "tag": "Tier 2 · Recomandat",
           "title": "Standard",
-          "price": "18k – 25k €",
+          "price": "9k – 14k €",
           "body": "Trei până la patru săptămâni. Diagnostic, design și pachet de decizie complet. Tier-ul default pentru majoritatea angajamentelor.",
           "includes": [
-            "Tot ce e în Lite, plus",
+            "Tot ce e în Discovery, plus",
             "Target operating model",
             "Capability roadmap",
             "Board deck și business case",
@@ -256,7 +256,7 @@
         "premium": {
           "tag": "Tier 3",
           "title": "Premium",
-          "price": "35k – 50k €",
+          "price": "18k – 25k €",
           "body": "Șase săptămâni. Standard plus muncă mai profundă de proces și integrare. Pentru angajamente care anticipează execuție imediată.",
           "includes": [
             "Tot ce e în Standard, plus",
@@ -282,7 +282,7 @@
         },
         "scope": {
           "q": "Ce facem dacă avem nevoie de mai mult sau mai puțin de patru săptămâni?",
-          "a": "Lite e două săptămâni pentru prospecți care au nevoie de un diagnostic rapid. Standard e trei până la patru săptămâni și acoperă majoritatea angajamentelor. Premium e șase săptămâni când execuția imediată e așteptată. Scope-ul e fix la semnătură și poate fi extins doar prin change orders scrise la 2.000 € pe zi."
+          "a": "Discovery e două săptămâni pentru prospecți care au nevoie de un diagnostic rapid. Standard e trei până la patru săptămâni și acoperă majoritatea angajamentelor. Premium e șase săptămâni când execuția imediată e așteptată. Scope-ul e fix la semnătură și poate fi extins doar prin change orders scrise la 1.200 € pe zi."
         },
         "data": {
           "q": "Cum stăm cu confidențialitatea și datele?",

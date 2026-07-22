@@ -69,17 +69,29 @@ export default function MobileMenu() {
           />
           <nav className="fixed inset-x-0 top-24 z-50 max-h-[calc(100vh-6rem)] overflow-y-auto border-b border-slate-100 bg-paper shadow-lg">
             <ul className="container-x flex flex-col py-3">
-              {ITEMS.map((it) => (
-                <li key={it.key} className="border-b border-slate-100 last:border-0">
-                  <Link
-                    href={it.href}
-                    onClick={() => setOpen(false)}
-                    className="block py-4 text-body font-medium text-ink-700 hover:text-teal-700"
-                  >
-                    {t(it.key)}
-                  </Link>
-                </li>
-              ))}
+              {ITEMS.map((it) =>
+                it.key === 'fitSprint' ? (
+                  <li key={it.key} className="py-3">
+                    <Link
+                      href={it.href}
+                      onClick={() => setOpen(false)}
+                      className="inline-flex items-center rounded-full bg-teal-500 px-5 py-2.5 text-body font-semibold text-paper hover:bg-teal-700"
+                    >
+                      {t(it.key)}
+                    </Link>
+                  </li>
+                ) : (
+                  <li key={it.key} className="border-b border-slate-100 last:border-0">
+                    <Link
+                      href={it.href}
+                      onClick={() => setOpen(false)}
+                      className="block py-4 text-body font-medium text-ink-700 hover:text-teal-700"
+                    >
+                      {t(it.key)}
+                    </Link>
+                  </li>
+                )
+              )}
             </ul>
           </nav>
         </>
