@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Logiciel fonctionnel, pas seulement des slides.",
-          "body": "Dès la deuxième semaine, vous vous connectez à une plateforme fonctionnelle configurée à vos couleurs, avec vos produits et un échantillon de vos données. Le readout la parcourt en direct, pas via des captures d'écran."
+          "body": "Dès la deuxième semaine, vous vous connectez à un logiciel fonctionnel configuré pour votre flux de travail, à vos couleurs, avec un échantillon de vos données. Le readout le parcourt en direct, pas via des captures d'écran."
         },
         "fixed": {
           "title": "Prix fixe, périmètre fixe, durée fixe.",
@@ -172,7 +172,7 @@
         "design": {
           "label": "Design",
           "week": "Semaines 2-3",
-          "body": "Target operating model, future-state journeys, capability roadmap priorisée en vagues. Branded working tenant configuré avec vos produits et un échantillon de vos données."
+          "body": "Target operating model, future-state journeys, capability roadmap priorisée en vagues. Branded working prototype configuré pour votre flux de travail, avec un échantillon de vos données."
         },
         "decide": {
           "label": "Decide",
@@ -182,7 +182,7 @@
         "readout": {
           "label": "Readout",
           "week": "Semaine 4",
-          "body": "Deux heures sur site. Walkthrough en direct sur le branded tenant. Proposition d'Innovation Partnership présentée. Moment de décision explicite : oui, non ou échéance nommée."
+          "body": "Deux heures sur site. Walkthrough en direct du prototype fonctionnel. Proposition d'Innovation Partnership présentée. Moment de décision explicite : oui, non ou échéance nommée."
         }
       }
     },
@@ -217,8 +217,8 @@
         },
         "tenant": {
           "tag": "Connecté en semaine deux",
-          "title": "Branded working tenant",
-          "body": "Une instance configurée de la plateforme Innovia à vos couleurs, avec vos produits, dans laquelle vous pouvez vous connecter pendant le readout et continuer à explorer pendant 90 jours après."
+          "title": "Branded working prototype",
+          "body": "Un prototype fonctionnel configuré pour votre flux de travail, à vos couleurs, avec un échantillon de vos données, dans lequel vous pouvez vous connecter pendant le readout et continuer à explorer pendant 90 jours après."
         }
       }
     },
@@ -249,7 +249,7 @@
             "Target operating model",
             "Capability roadmap",
             "Board deck et business case",
-            "Branded working tenant",
+            "Branded working prototype",
             "Readout sur site"
           ]
         },
@@ -298,7 +298,7 @@
       "title": "Voyons si un sprint est la bonne étape suivante.",
       "body": "Un appel de discovery de trente minutes est gratuit, sans engagement. Nous confirmons si un Fit Sprint correspond à votre situation et à votre calendrier de décision. Si ce n'est pas le cas, nous vous le disons directement.",
       "primary": "Réserver un appel de discovery",
-      "secondary": "Retour à la plateforme"
+      "secondary": "Retour à l'accueil"
     }
   },
   "diagnostic": {

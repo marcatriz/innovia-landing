@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Working software, not just slides.",
-          "body": "By week two you log into a working platform configured in your colors, with your products and a sample of your data. The readout walks through it live, not from screenshots."
+          "body": "By week two you log into working software configured for your workflow, in your colors, with a sample of your data. The readout walks through it live, not from screenshots."
         },
         "fixed": {
           "title": "Fixed price, fixed scope, fixed time.",
@@ -172,7 +172,7 @@
         "design": {
           "label": "Design",
           "week": "Weeks 2-3",
-          "body": "Target operating model, future-state journeys, capability roadmap prioritized in waves. Branded working tenant configured with your products and a sample of your data."
+          "body": "Target operating model, future-state journeys, capability roadmap prioritized in waves. Branded working prototype configured for your workflow, with a sample of your data."
         },
         "decide": {
           "label": "Decide",
@@ -182,7 +182,7 @@
         "readout": {
           "label": "Readout",
           "week": "Week 4",
-          "body": "Two hours on-site. Live walkthrough on the branded tenant. Innovation Partnership proposal presented. Explicit decision moment: yes, no, or named deadline."
+          "body": "Two hours on-site. Live walkthrough of the working prototype. Innovation Partnership proposal presented. Explicit decision moment: yes, no, or named deadline."
         }
       }
     },
@@ -217,8 +217,8 @@
         },
         "tenant": {
           "tag": "Logged in by week two",
-          "title": "Branded working tenant",
-          "body": "A configured instance of the Innovia platform in your colors, with your products, that you can log into during the readout and keep exploring for 90 days after."
+          "title": "Branded working prototype",
+          "body": "A working prototype configured for your workflow, in your colors, with a sample of your data, that you can log into during the readout and keep exploring for 90 days after."
         }
       }
     },
@@ -249,7 +249,7 @@
             "Target operating model",
             "Capability roadmap",
             "Board deck and business case",
-            "Branded working tenant",
+            "Branded working prototype",
             "On-site readout"
           ]
         },
@@ -298,7 +298,7 @@
       "title": "Let us see if a sprint is the right next move.",
       "body": "A thirty-minute discovery call is free, with no obligation. We confirm whether a Fit Sprint fits your situation and your decision timeline. If it does not, we say so directly.",
       "primary": "Book a discovery call",
-      "secondary": "Back to the platform"
+      "secondary": "Back to home"
     }
   },
   "diagnostic": {

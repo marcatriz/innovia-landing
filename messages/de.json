@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Funktionierende Software, nicht nur Folien.",
-          "body": "Bis zur zweiten Woche loggen Sie sich in eine funktionierende Plattform in Ihren Markenfarben ein, mit Ihren Produkten und einer Stichprobe Ihrer Daten. Der Readout läuft live durch, nicht über Screenshots."
+          "body": "Bis zur zweiten Woche loggen Sie sich in funktionierende Software ein, konfiguriert für Ihren Arbeitsablauf, in Ihren Markenfarben, mit einer Stichprobe Ihrer Daten. Der Readout läuft live durch, nicht über Screenshots."
         },
         "fixed": {
           "title": "Fixer Preis, fixer Scope, fixe Zeit.",
@@ -172,7 +172,7 @@
         "design": {
           "label": "Design",
           "week": "Wochen 2-3",
-          "body": "Target Operating Model, Future-State Journeys, in Wellen priorisierte Capability Roadmap. Branded Working Tenant mit Ihren Produkten und einer Datenstichprobe konfiguriert."
+          "body": "Target Operating Model, Future-State Journeys, in Wellen priorisierte Capability Roadmap. Branded Working Prototype konfiguriert für Ihren Arbeitsablauf, mit einer Datenstichprobe."
         },
         "decide": {
           "label": "Decide",
@@ -182,7 +182,7 @@
         "readout": {
           "label": "Readout",
           "week": "Woche 4",
-          "body": "Zwei Stunden vor Ort. Live-Walkthrough auf dem Branded Tenant. Innovation-Partnership-Vorschlag präsentiert. Expliziter Entscheidungsmoment: Ja, Nein oder genannte Frist."
+          "body": "Zwei Stunden vor Ort. Live-Walkthrough des funktionierenden Prototyps. Innovation-Partnership-Vorschlag präsentiert. Expliziter Entscheidungsmoment: Ja, Nein oder genannte Frist."
         }
       }
     },
@@ -217,8 +217,8 @@
         },
         "tenant": {
           "tag": "Eingeloggt in Woche zwei",
-          "title": "Branded Working Tenant",
-          "body": "Eine konfigurierte Instanz der Innovia-Plattform in Ihren Farben, mit Ihren Produkten, in die Sie sich beim Readout einloggen und die Sie 90 Tage danach weiter erkunden können."
+          "title": "Branded Working Prototype",
+          "body": "Ein funktionierender Prototyp, konfiguriert für Ihren Arbeitsablauf, in Ihren Farben, mit einer Stichprobe Ihrer Daten, in den Sie sich beim Readout einloggen und den Sie 90 Tage danach weiter erkunden können."
         }
       }
     },
@@ -249,7 +249,7 @@
             "Target Operating Model",
             "Capability Roadmap",
             "Board Deck und Business Case",
-            "Branded Working Tenant",
+            "Branded Working Prototype",
             "Readout vor Ort"
           ]
         },
@@ -298,7 +298,7 @@
       "title": "Lassen Sie uns prüfen, ob ein Sprint der richtige nächste Schritt ist.",
       "body": "Ein 30-minütiger Discovery-Call ist kostenlos und unverbindlich. Wir prüfen, ob ein Fit Sprint zu Ihrer Situation und Ihrem Entscheidungszeitplan passt. Falls nicht, sagen wir es Ihnen direkt.",
       "primary": "Discovery-Call vereinbaren",
-      "secondary": "Zurück zur Plattform"
+      "secondary": "Zurück zur Startseite"
     }
   },
   "diagnostic": {

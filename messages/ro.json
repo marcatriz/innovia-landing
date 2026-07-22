@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Software funcțional, nu doar slide-uri.",
-          "body": "Până în săptămâna a doua te loghezi într-o platformă funcțională configurată în culorile tale, cu produsele tale și un eșantion din datele tale. Readout-ul o parcurge live, nu prin screenshot-uri."
+          "body": "Până în săptămâna a doua te loghezi într-un software funcțional configurat pentru fluxul tău, în culorile tale, cu un eșantion din datele tale. Readout-ul îl parcurge live, nu prin screenshot-uri."
         },
         "fixed": {
           "title": "Preț fix, scope fix, timp fix.",
@@ -172,7 +172,7 @@
         "design": {
           "label": "Design",
           "week": "Săptămânile 2-3",
-          "body": "Target operating model, future-state journeys, capability roadmap prioritizat în valuri. Tenant funcțional în brand-ul tău configurat cu produsele tale și un eșantion din date."
+          "body": "Target operating model, future-state journeys, capability roadmap prioritizat în valuri. Prototip funcțional în brand-ul tău configurat pentru fluxul tău, cu un eșantion din date."
         },
         "decide": {
           "label": "Decide",
@@ -182,7 +182,7 @@
         "readout": {
           "label": "Readout",
           "week": "Săptămâna 4",
-          "body": "Două ore la sediu. Walkthrough live pe tenant-ul în brand. Propunerea de Innovation Partnership prezentată. Moment de decizie explicit: da, nu sau termen numit."
+          "body": "Două ore la sediu. Walkthrough live pe prototipul funcțional. Propunerea de Innovation Partnership prezentată. Moment de decizie explicit: da, nu sau termen numit."
         }
       }
     },
@@ -217,8 +217,8 @@
         },
         "tenant": {
           "tag": "Logat în săptămâna a doua",
-          "title": "Tenant funcțional în brand",
-          "body": "O instanță configurată a platformei Innovia în culorile tale, cu produsele tale, în care te poți loga la readout și o poți explora încă 90 de zile după."
+          "title": "Prototip funcțional în brand",
+          "body": "Un prototip funcțional configurat pentru fluxul tău, în culorile tale, cu un eșantion din datele tale, în care te poți loga la readout și îl poți explora încă 90 de zile după."
         }
       }
     },
@@ -249,7 +249,7 @@
             "Target operating model",
             "Capability roadmap",
             "Board deck și business case",
-            "Tenant funcțional în brand",
+            "Prototip funcțional în brand",
             "Readout la sediu"
           ]
         },
@@ -298,7 +298,7 @@
       "title": "Hai să vedem dacă un sprint e următorul pas potrivit.",
       "body": "O sesiune de discovery de treizeci de minute e gratuită, fără obligație. Confirmăm dacă un Fit Sprint se potrivește situației și calendarului tău de decizie. Dacă nu, ți-o spunem direct.",
       "primary": "Programează o sesiune de discovery",
-      "secondary": "Înapoi la platformă"
+      "secondary": "Înapoi la pagina principală"
     }
   },
   "diagnostic": {
