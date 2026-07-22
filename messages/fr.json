@@ -130,16 +130,16 @@
   "fitSprint": {
     "hero": {
       "eyebrow": "Innovia Fit Sprint",
-      "title": "Quatre semaines pour savoir exactement quoi changer, ce que cela vaut, et le voir fonctionner.",
+      "title": "Savoir exactement quoi changer, ce que cela vaut, et par quoi commencer.",
       "tagline": "Fit for Digital. Fit for AI.",
-      "bodyPara1": "La plupart des opérateurs sentent que quelque chose dans leur fonctionnement doit changer. Peu peuvent dire précisément quoi, ce que cela vaut ou à quoi cela ressemblerait en pratique, sans s'engager d'abord dans un projet d'un an. Le Fit Sprint vous donne cette réponse à prix et périmètre fixes : une décision défendable au niveau du conseil, que vous n'auriez pas pu prendre auparavant, appuyée par un logiciel fonctionnel dans lequel vous vous connectez en semaine deux.",
-      "bodyPara2": "Ce qui le rend différent, c'est la combinaison. Discipline consulting top-tier (structure MECE, chiffres sourcés, principe de la pyramide, aucune affirmation rhétorique) sur chaque livrable reçu. Logiciel fonctionnel dans lequel vous vous connectez en semaine deux, configuré à vos couleurs avec un échantillon de vos données. Prix fixe, périmètre fixe, calendrier fixe de quatre semaines, aucun scope creep déguisé en discovery. Mené par un opérateur qui a lui-même construit, soutenu et fait passer à l'échelle des workflows opérationnels et clients complexes.",
+      "bodyPara1": "La plupart des opérateurs sentent que quelque chose dans leur fonctionnement doit changer. Peu peuvent dire précisément quoi, ce que cela vaut ou à quoi cela ressemblerait en pratique, sans s'engager d'abord dans un projet d'un an. Le Fit Sprint vous donne cette réponse à prix et périmètre fixes : une décision défendable au niveau du conseil, que vous n'auriez pas pu prendre auparavant. Cela commence par un Discovery de deux semaines et va aussi loin que vous le souhaitez ensuite.",
+      "bodyPara2": "Ce qui le rend différent, c'est la combinaison. Discipline consulting top-tier (structure MECE, chiffres sourcés, principe de la pyramide, aucune affirmation rhétorique) sur chaque livrable reçu. Logiciel fonctionnel dans lequel vous pouvez vous connecter, configuré à vos couleurs avec un échantillon de vos données. Prix fixe, périmètre fixe, calendrier fixe, aucun scope creep déguisé en discovery. Mené par un opérateur qui a lui-même construit, soutenu et fait passer à l'échelle des workflows opérationnels et clients complexes.",
       "bodyPara3": "Entre douze et quinze livrables qui vous reviennent, en anglais, prêts pour le conseil. Un moment de décision au readout, trois états seulement : oui, non ou une échéance nommée. L'Innovation Partnership est annoncée tout au long, prête si vous décidez de poursuivre.",
       "cta": "Réserver un appel de discovery"
     },
     "product": {
       "eyebrow": "Qu'est-ce que c'est",
-      "title": "Quatre semaines. Prix fixe. Une décision que le conseil peut défendre.",
+      "title": "Prix fixe. Périmètre fixe. Une décision que le conseil peut défendre.",
       "pillars": {
         "operator": {
           "title": "Profondeur d'opérateur, pas de théorie.",
@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Logiciel fonctionnel, pas seulement des slides.",
-          "body": "Dès la deuxième semaine, vous vous connectez à un logiciel fonctionnel configuré pour votre flux de travail, à vos couleurs, avec un échantillon de vos données. Le readout le parcourt en direct, pas via des captures d'écran."
+          "body": "Vous vous connectez à un logiciel fonctionnel configuré pour votre flux de travail, à vos couleurs, avec un échantillon de vos données. Le readout le parcourt en direct, pas via des captures d'écran."
         },
         "fixed": {
           "title": "Prix fixe, périmètre fixe, durée fixe.",
@@ -216,7 +216,7 @@
           "body": "Douze à trente-six mois. Chaque initiative avec effort, impact, dépendances et owner."
         },
         "tenant": {
-          "tag": "Connecté en semaine deux",
+          "tag": "À vous pendant 90 jours",
           "title": "Branded working prototype",
           "body": "Un prototype fonctionnel configuré pour votre flux de travail, à vos couleurs, avec un échantillon de vos données, dans lequel vous pouvez vous connecter pendant le readout et continuer à explorer pendant 90 jours après."
         }
@@ -281,7 +281,7 @@
           "a": "Un non clair est un résultat parfaitement valable du mandat, et les livrables vous reviennent. Le sprint est payé pour l'exécution et un pack de décision défendable, pas pour une direction spécifique. Nous traitons un non clair avec le même respect qu'un oui clair."
         },
         "scope": {
-          "q": "Et si nous avons besoin de plus ou moins de quatre semaines ?",
+          "q": "Combien de temps cela prend-il ?",
           "a": "Discovery, c'est deux semaines pour les prospects qui ont besoin d'un diagnostic rapide. Blueprint, c'est trois à quatre semaines et couvre la majorité des mandats. Launch, c'est six semaines lorsque l'exécution immédiate est anticipée. Le périmètre est fixé à la signature et ne peut être étendu que par change orders écrits à 1 200 € par jour."
         },
         "data": {

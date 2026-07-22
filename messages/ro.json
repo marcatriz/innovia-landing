@@ -130,16 +130,16 @@
   "fitSprint": {
     "hero": {
       "eyebrow": "Innovia Fit Sprint",
-      "title": "Patru săptămâni ca să știi exact ce să schimbi, cât valorează și să-l vezi funcționând.",
+      "title": "Știi exact ce să schimbi, cât valorează și ce să faci mai întâi.",
       "tagline": "Fit for Digital. Fit for AI.",
-      "bodyPara1": "Majoritatea operatorilor simt că ceva în modul cum lucrează trebuie schimbat. Puțini pot spune precis ce anume, cât valorează sau cum ar arăta în practică, fără să se angajeze mai întâi într-un proiect de un an. Fit Sprint îți dă acest răspuns la preț fix și scope fix: o decizie defensabilă, pregătită pentru board, pe care nu ai fi putut-o lua înainte, susținută de software funcțional în care te loghezi în săptămâna a doua.",
-      "bodyPara2": "Ce îl face diferit e combinația. Disciplină de consulting top-tier (structură MECE, cifre sursate, principiul piramidei, fără afirmații retorice) pe fiecare livrabil pe care îl primești. Software funcțional în care te loghezi în săptămâna a doua, configurat în culorile tale cu un eșantion din datele tale. Preț fix, scope fix, calendar de patru săptămâni fix, fără scope creep deghizat în discovery. Condus de un operator care a livrat, susținut și scalat direct fluxuri operaționale și de client complexe.",
+      "bodyPara1": "Majoritatea operatorilor simt că ceva în modul cum lucrează trebuie schimbat. Puțini pot spune precis ce anume, cât valorează sau cum ar arăta în practică, fără să se angajeze mai întâi într-un proiect de un an. Fit Sprint îți dă acest răspuns la preț fix și scope fix: o decizie defensabilă, pregătită pentru board, pe care nu ai fi putut-o lua înainte. Începe cu un Discovery de două săptămâni și merge oricât de departe vrei de acolo.",
+      "bodyPara2": "Ce îl face diferit e combinația. Disciplină de consulting top-tier (structură MECE, cifre sursate, principiul piramidei, fără afirmații retorice) pe fiecare livrabil pe care îl primești. Software funcțional în care te poți loga, configurat în culorile tale cu un eșantion din datele tale. Preț fix, scope fix, calendar fix, fără scope creep deghizat în discovery. Condus de un operator care a livrat, susținut și scalat direct fluxuri operaționale și de client complexe.",
       "bodyPara3": "Între douăsprezece și cincisprezece livrabile care rămân ale tale, în engleză, gata pentru board. Un singur moment de decizie la readout, doar trei stări: da, nu sau un termen numit. Innovation Partnership este anunțat în avans pe tot parcursul, gata dacă decizi să continui.",
       "cta": "Programează o sesiune de discovery"
     },
     "product": {
       "eyebrow": "Ce este",
-      "title": "Patru săptămâni. Preț fix. O decizie pe care board-ul o poate apăra.",
+      "title": "Preț fix. Scope fix. O decizie pe care board-ul o poate apăra.",
       "pillars": {
         "operator": {
           "title": "Profunzime de operator, nu teorie.",
@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Software funcțional, nu doar slide-uri.",
-          "body": "Până în săptămâna a doua te loghezi într-un software funcțional configurat pentru fluxul tău, în culorile tale, cu un eșantion din datele tale. Readout-ul îl parcurge live, nu prin screenshot-uri."
+          "body": "Te loghezi într-un software funcțional configurat pentru fluxul tău, în culorile tale, cu un eșantion din datele tale. Readout-ul îl parcurge live, nu prin screenshot-uri."
         },
         "fixed": {
           "title": "Preț fix, scope fix, timp fix.",
@@ -216,7 +216,7 @@
           "body": "Douăsprezece până la treizeci și șase de luni. Fiecare inițiativă cu efort, impact, dependențe și owner."
         },
         "tenant": {
-          "tag": "Logat în săptămâna a doua",
+          "tag": "Al tău 90 de zile",
           "title": "Prototip funcțional în brand",
           "body": "Un prototip funcțional configurat pentru fluxul tău, în culorile tale, cu un eșantion din datele tale, în care te poți loga la readout și îl poți explora încă 90 de zile după."
         }
@@ -281,7 +281,7 @@
           "a": "Un nu clar e un rezultat perfect valid al angajamentului, iar deliverable-urile rămân ale tale. Sprint-ul e plătit pentru execuție și un pachet de decizie defensabil, nu pentru o direcție specifică. Tratăm un nu clar cu același respect ca un da clar."
         },
         "scope": {
-          "q": "Ce facem dacă avem nevoie de mai mult sau mai puțin de patru săptămâni?",
+          "q": "Cât durează?",
           "a": "Discovery e două săptămâni pentru prospecți care au nevoie de un diagnostic rapid. Blueprint e trei până la patru săptămâni și acoperă majoritatea angajamentelor. Launch e șase săptămâni când execuția imediată e așteptată. Scope-ul e fix la semnătură și poate fi extins doar prin change orders scrise la 1.200 € pe zi."
         },
         "data": {

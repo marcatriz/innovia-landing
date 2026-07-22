@@ -130,16 +130,16 @@
   "fitSprint": {
     "hero": {
       "eyebrow": "Innovia Fit Sprint",
-      "title": "Vier Wochen, um genau zu wissen, was zu ändern ist, was es wert ist, und es in Betrieb zu sehen.",
+      "title": "Genau wissen, was zu ändern ist, was es wert ist, und was zuerst zu tun ist.",
       "tagline": "Fit for Digital. Fit for AI.",
-      "bodyPara1": "Die meisten Betreiber spüren, dass sich an ihrer Arbeitsweise etwas ändern muss. Nur wenige können genau sagen, was, welchen Wert es hat oder wie es in der Praxis aussähe, ohne sich zuerst auf ein einjähriges Projekt festzulegen. Der Fit Sprint liefert Ihnen diese Antwort zu fixem Preis und fixem Scope: eine belastbare, boardreife Entscheidung, die vorher nicht möglich gewesen wäre, gestützt auf funktionierende Software, in die Sie sich in Woche zwei einloggen.",
-      "bodyPara2": "Was es unterscheidet, ist die Kombination. Top-Tier-Consulting-Disziplin (MECE-Struktur, belegte Zahlen, Pyramidenprinzip, keine rhetorischen Behauptungen) auf jedem Deliverable, das Sie erhalten. Funktionierende Software, in die Sie sich in Woche zwei einloggen, konfiguriert in Ihren Farben mit einer Stichprobe Ihrer Daten. Fixer Preis, fixer Scope, fixer Vier-Wochen-Kalender, kein als Discovery getarnter Scope Creep. Geleitet von einem Betreiber, der komplexe operative und kundenbezogene Abläufe selbst gebaut, betrieben und skaliert hat.",
+      "bodyPara1": "Die meisten Betreiber spüren, dass sich an ihrer Arbeitsweise etwas ändern muss. Nur wenige können genau sagen, was, welchen Wert es hat oder wie es in der Praxis aussähe, ohne sich zuerst auf ein einjähriges Projekt festzulegen. Der Fit Sprint liefert Ihnen diese Antwort zu fixem Preis und fixem Scope: eine belastbare, boardreife Entscheidung, die vorher nicht möglich gewesen wäre. Es beginnt mit einem zweiwöchigen Discovery und geht von dort so weit, wie Sie wollen.",
+      "bodyPara2": "Was es unterscheidet, ist die Kombination. Top-Tier-Consulting-Disziplin (MECE-Struktur, belegte Zahlen, Pyramidenprinzip, keine rhetorischen Behauptungen) auf jedem Deliverable, das Sie erhalten. Funktionierende Software, in die Sie sich einloggen können, konfiguriert in Ihren Farben mit einer Stichprobe Ihrer Daten. Fixer Preis, fixer Scope, fixer Kalender, kein als Discovery getarnter Scope Creep. Geleitet von einem Betreiber, der komplexe operative und kundenbezogene Abläufe selbst gebaut, betrieben und skaliert hat.",
       "bodyPara3": "Zwölf bis fünfzehn Deliverables, die Ihnen gehören, in Englisch, boardreif. Ein Entscheidungsmoment beim Readout, nur drei Zustände: Ja, Nein oder eine genannte Frist. Die Innovation Partnership wird durchgängig vorbereitet, bereit, falls Sie sich für die Fortsetzung entscheiden.",
       "cta": "Discovery-Call vereinbaren"
     },
     "product": {
       "eyebrow": "Was es ist",
-      "title": "Vier Wochen. Fixer Preis. Eine Entscheidung, die das Board verteidigen kann.",
+      "title": "Fixer Preis. Fixer Scope. Eine Entscheidung, die das Board verteidigen kann.",
       "pillars": {
         "operator": {
           "title": "Betreiber-Tiefe, keine Theorie.",
@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Funktionierende Software, nicht nur Folien.",
-          "body": "Bis zur zweiten Woche loggen Sie sich in funktionierende Software ein, konfiguriert für Ihren Arbeitsablauf, in Ihren Markenfarben, mit einer Stichprobe Ihrer Daten. Der Readout läuft live durch, nicht über Screenshots."
+          "body": "Sie loggen sich in funktionierende Software ein, konfiguriert für Ihren Arbeitsablauf, in Ihren Markenfarben, mit einer Stichprobe Ihrer Daten. Der Readout läuft live durch, nicht über Screenshots."
         },
         "fixed": {
           "title": "Fixer Preis, fixer Scope, fixe Zeit.",
@@ -216,7 +216,7 @@
           "body": "Zwölf bis sechsunddreißig Monate. Jede Initiative mit Aufwand, Wirkung, Abhängigkeiten und Verantwortlichem."
         },
         "tenant": {
-          "tag": "Eingeloggt in Woche zwei",
+          "tag": "90 Tage für Sie",
           "title": "Branded Working Prototype",
           "body": "Ein funktionierender Prototyp, konfiguriert für Ihren Arbeitsablauf, in Ihren Farben, mit einer Stichprobe Ihrer Daten, in den Sie sich beim Readout einloggen und den Sie 90 Tage danach weiter erkunden können."
         }
@@ -281,7 +281,7 @@
           "a": "Ein klares Nein ist ein vollständig gültiges Ergebnis des Mandats, und die Lieferobjekte bleiben Ihre. Der Sprint wird für Ausführung und ein belastbares Entscheidungspaket bezahlt, nicht für eine bestimmte Richtung. Wir behandeln ein klares Nein mit demselben Respekt wie ein klares Ja."
         },
         "scope": {
-          "q": "Was, wenn wir mehr oder weniger als vier Wochen brauchen?",
+          "q": "Wie lange dauert es?",
           "a": "Discovery umfasst zwei Wochen für Interessenten, die eine schnelle Diagnostik benötigen. Blueprint umfasst drei bis vier Wochen und deckt die meisten Mandate ab. Launch umfasst sechs Wochen, wenn unmittelbare Umsetzung erwartet wird. Der Scope ist bei Unterzeichnung fixiert und kann nur durch schriftliche Change Orders zu 1.200 € pro Tag erweitert werden."
         },
         "data": {

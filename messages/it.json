@@ -130,16 +130,16 @@
   "fitSprint": {
     "hero": {
       "eyebrow": "Innovia Fit Sprint",
-      "title": "Quattro settimane per sapere esattamente cosa cambiare, quanto vale e vederlo funzionare.",
+      "title": "Sapere esattamente cosa cambiare, quanto vale e cosa fare per primo.",
       "tagline": "Fit for Digital. Fit for AI.",
-      "bodyPara1": "La maggior parte degli operatori percepisce che qualcosa nel proprio modo di lavorare deve cambiare. Pochi sanno dire con precisione cosa, quanto vale o come apparirebbe nella pratica, senza prima impegnarsi in un progetto di un anno. Il Fit Sprint vi dà questa risposta a prezzo e scope fissi: una decisione difendibile a livello di board, che prima non avreste potuto prendere, sostenuta da software funzionante in cui vi loggate in settimana due.",
-      "bodyPara2": "Ciò che lo rende diverso è la combinazione. Disciplina di consulting top-tier (struttura MECE, numeri sourced, principio della piramide, nessuna affermazione retorica) su ogni deliverable che ricevete. Software funzionante in cui vi loggate in settimana due, configurato nei vostri colori con un campione dei vostri dati. Prezzo fisso, scope fisso, calendario di quattro settimane fisso, nessuno scope creep mascherato da discovery. Guidato da un operatore che ha costruito, supportato e fatto scalare in prima persona workflow operativi e di relazione con il cliente complessi.",
+      "bodyPara1": "La maggior parte degli operatori percepisce che qualcosa nel proprio modo di lavorare deve cambiare. Pochi sanno dire con precisione cosa, quanto vale o come apparirebbe nella pratica, senza prima impegnarsi in un progetto di un anno. Il Fit Sprint vi dà questa risposta a prezzo e scope fissi: una decisione difendibile a livello di board, che prima non avreste potuto prendere. Inizia con un Discovery di due settimane e prosegue fin dove volete da lì.",
+      "bodyPara2": "Ciò che lo rende diverso è la combinazione. Disciplina di consulting top-tier (struttura MECE, numeri sourced, principio della piramide, nessuna affermazione retorica) su ogni deliverable che ricevete. Software funzionante in cui potete loggarvi, configurato nei vostri colori con un campione dei vostri dati. Prezzo fisso, scope fisso, calendario fisso, nessuno scope creep mascherato da discovery. Guidato da un operatore che ha costruito, supportato e fatto scalare in prima persona workflow operativi e di relazione con il cliente complessi.",
       "bodyPara3": "Tra dodici e quindici deliverable che rimangono vostri, in inglese, pronti per il board. Un momento di decisione al readout, solo tre stati: sì, no o una scadenza nominata. La Innovation Partnership viene anticipata lungo tutto il percorso, pronta se decidete di proseguire.",
       "cta": "Prenota una discovery call"
     },
     "product": {
       "eyebrow": "Di cosa si tratta",
-      "title": "Quattro settimane. Prezzo fisso. Una decisione che il board può difendere.",
+      "title": "Prezzo fisso. Scope fisso. Una decisione che il board può difendere.",
       "pillars": {
         "operator": {
           "title": "Profondità di operatore, non teoria.",
@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Software funzionante, non solo slide.",
-          "body": "Entro la seconda settimana vi loggate in un software funzionante configurato per il vostro flusso di lavoro, nei vostri colori, con un campione dei vostri dati. Il readout lo percorre in diretta, non tramite screenshot."
+          "body": "Vi loggate in un software funzionante configurato per il vostro flusso di lavoro, nei vostri colori, con un campione dei vostri dati. Il readout lo percorre in diretta, non tramite screenshot."
         },
         "fixed": {
           "title": "Prezzo fisso, scope fisso, tempo fisso.",
@@ -216,7 +216,7 @@
           "body": "Dodici-trentasei mesi. Ogni iniziativa con sforzo, impatto, dipendenze e owner."
         },
         "tenant": {
-          "tag": "Loggato in settimana due",
+          "tag": "Vostro per 90 giorni",
           "title": "Branded working prototype",
           "body": "Un prototipo funzionante configurato per il vostro flusso di lavoro, nei vostri colori, con un campione dei vostri dati, in cui potete loggarvi durante il readout e continuare a esplorarlo per 90 giorni dopo."
         }
@@ -281,7 +281,7 @@
           "a": "Un no chiaro è un risultato perfettamente valido del mandato, e i deliverable rimangono vostri. Lo sprint è pagato per l'esecuzione e un pacchetto decisionale difendibile, non per una direzione specifica. Trattiamo un no chiaro con lo stesso rispetto di un sì chiaro."
         },
         "scope": {
-          "q": "E se ci servono più o meno di quattro settimane?",
+          "q": "Quanto dura?",
           "a": "Discovery è di due settimane per prospect che hanno bisogno di una diagnostica rapida. Blueprint è di tre-quattro settimane e copre la maggior parte dei mandati. Launch è di sei settimane quando si anticipa un'esecuzione immediata. Lo scope è fisso alla firma e può essere esteso solo tramite change order scritti a 1.200 € al giorno."
         },
         "data": {

@@ -130,16 +130,16 @@
   "fitSprint": {
     "hero": {
       "eyebrow": "Innovia Fit Sprint",
-      "title": "Four weeks to know exactly what to change, what it is worth, and see it working.",
+      "title": "Know exactly what to change, what it is worth, and what to do first.",
       "tagline": "Fit for Digital. Fit for AI.",
-      "bodyPara1": "Most operators sense that something in how they run needs to change. Few can say precisely what, what it is worth, or what it would look like in practice, without first committing to a year-long project. The Fit Sprint gives you that answer at fixed price and fixed scope: a defensible, board-grade decision you could not have made before it began, backed by working software you log into in week two.",
-      "bodyPara2": "What makes it different is the combination. Top-tier consulting discipline (MECE structure, sourced numbers, pyramid principle, no rhetorical claims) on every deliverable you receive. Working software you log into in week two, configured in your colors with a sample of your data. Fixed price, fixed scope, fixed four-week calendar, no scope creep dressed up as discovery. Led by an operator who has shipped, supported, and scaled complex operational and customer workflows firsthand.",
+      "bodyPara1": "Most operators sense that something in how they run needs to change. Few can say precisely what, what it is worth, or what it would look like in practice, without first committing to a year-long project. The Fit Sprint gives you that answer at fixed price and fixed scope: a defensible, board-grade decision you could not have made before it began. It starts with a two-week Discovery, and goes as far as you want from there.",
+      "bodyPara2": "What makes it different is the combination. Top-tier consulting discipline (MECE structure, sourced numbers, pyramid principle, no rhetorical claims) on every deliverable you receive. Working software you can log into, configured in your colors with a sample of your data. Fixed price, fixed scope, a fixed calendar, no scope creep dressed up as discovery. Led by an operator who has shipped, supported, and scaled complex operational and customer workflows firsthand.",
       "bodyPara3": "Twelve to fifteen deliverables you keep, in English, board-ready. One decision moment at the readout, three states only: yes, no, or a named deadline. The Innovation Partnership is pre-teased throughout, ready if you decide to proceed.",
       "cta": "Book a discovery call"
     },
     "product": {
       "eyebrow": "What it is",
-      "title": "Four weeks. Fixed price. One decision the board can defend.",
+      "title": "Fixed price. Fixed scope. One decision the board can defend.",
       "pillars": {
         "operator": {
           "title": "Operator depth, not theory.",
@@ -147,7 +147,7 @@
         },
         "software": {
           "title": "Working software, not just slides.",
-          "body": "By week two you log into working software configured for your workflow, in your colors, with a sample of your data. The readout walks through it live, not from screenshots."
+          "body": "You log into working software configured for your workflow, in your colors, with a sample of your data. The readout walks through it live, not from screenshots."
         },
         "fixed": {
           "title": "Fixed price, fixed scope, fixed time.",
@@ -216,7 +216,7 @@
           "body": "Twelve to thirty-six months. Each initiative with effort, impact, dependencies, and owner."
         },
         "tenant": {
-          "tag": "Logged in by week two",
+          "tag": "Yours for 90 days",
           "title": "Branded working prototype",
           "body": "A working prototype configured for your workflow, in your colors, with a sample of your data, that you can log into during the readout and keep exploring for 90 days after."
         }
@@ -281,7 +281,7 @@
           "a": "A clear no is a perfectly valid outcome of the engagement, and the deliverables are still yours. The sprint is paid for execution and a defensible decision pack, not for a specific direction. We treat a clear no with the same respect as a clear yes."
         },
         "scope": {
-          "q": "What if we need more or less than four weeks?",
+          "q": "How long does it take?",
           "a": "Discovery is two weeks for prospects who need a fast diagnostic. Blueprint is three to four weeks and covers most engagements. Launch is six weeks when immediate execution is expected. Scope is fixed at signature and can only be expanded via written change orders at €1,200 per day."
         },
         "data": {
