@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import { BOOKING_URL } from '@/lib/booking';
 
 const PILLARS = ['operator', 'software', 'fixed'] as const;
 const PHASES = ['intake', 'discovery', 'design', 'decide', 'readout'] as const;
@@ -24,12 +25,14 @@ export default function FitSprint() {
               <p className="mt-4 max-w-3xl text-body text-slate-200">{t('hero.bodyPara2')}</p>
               <p className="mt-4 max-w-3xl text-body text-slate-200">{t('hero.bodyPara3')}</p>
               <div className="mt-10">
-                <Link
-                  href="/#contact"
+                <a
+                  href={BOOKING_URL}
+                  target="_blank"
+                  rel="noreferrer noopener"
                   className="inline-flex items-center rounded-md bg-teal-500 px-6 py-3 text-body-sm font-semibold text-paper hover:bg-teal-400"
                 >
                   {t('hero.cta')}
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -215,12 +218,14 @@ export default function FitSprint() {
               <h2 className="text-h2 text-paper">{t('cta.title')}</h2>
               <p className="mt-6 max-w-3xl text-body-lg text-slate-200">{t('cta.body')}</p>
               <div className="mt-10 flex flex-wrap gap-4">
-                <Link
-                  href="/#contact"
+                <a
+                  href={BOOKING_URL}
+                  target="_blank"
+                  rel="noreferrer noopener"
                   className="inline-flex items-center rounded-md bg-teal-500 px-6 py-3 text-body-sm font-semibold text-paper hover:bg-teal-400"
                 >
                   {t('cta.primary')}
-                </Link>
+                </a>
                 <Link
                   href="/"
                   className="inline-flex items-center rounded-md border border-paper px-6 py-3 text-body-sm font-semibold text-paper hover:bg-paper hover:text-navy-800"

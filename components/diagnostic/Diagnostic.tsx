@@ -8,13 +8,14 @@
  * progress. No backend, no analytics, no email gate. All scoring happens in
  * the browser.
  *
- * Reset and Back are first-class controls. The result page links to /#contact
- * for the conversion step.
+ * Reset and Back are first-class controls. The result page links to the
+ * booking link for the conversion step.
  */
 
 import { useEffect, useReducer } from 'react';
-import { Link, type AppLocale } from '@/i18n/routing';
+import { type AppLocale } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
+import { BOOKING_URL } from '@/lib/booking';
 import {
   DIMENSIONS,
   QUESTIONS,
@@ -422,10 +423,15 @@ function Result({
             {t('result.ctaBody')}
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Link href="/#contact" className="btn-primary bg-teal-500 hover:bg-teal-700">
+            <a
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="btn-primary bg-teal-500 hover:bg-teal-700"
+            >
               {t('result.ctaPrimary')}
               <span aria-hidden>→</span>
-            </Link>
+            </a>
             <button onClick={onReset} className="text-body-sm font-medium text-slate-200 underline decoration-slate-300 underline-offset-4 hover:text-paper">
               {t('cta.reset')}
             </button>

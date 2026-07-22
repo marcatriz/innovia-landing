@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import { BOOKING_URL } from '@/lib/booking';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -28,10 +29,15 @@ export default function Hero() {
             {t('body')}
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/#contact" className="btn-primary">
+            <a
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="btn-primary"
+            >
               {t('cta')}
               <span aria-hidden>→</span>
-            </Link>
+            </a>
             <Link href="/#services" className="btn-secondary">
               {t('ctaSecondary')}
             </Link>
