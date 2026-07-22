@@ -225,7 +225,7 @@
     "tiers": {
       "eyebrow": "Investment",
       "title": "Three tiers. Most start with Discovery.",
-      "footnote": "Pricing is locked at scoping, never adjusted mid-sprint. Change orders are billed transparently at €1,200 per day. Payment terms: 50% on signature, 50% on readout. Travel within the EU included.",
+      "footnote": "Pricing is locked at scoping, never adjusted mid-sprint. Payment terms: 50% on signature, 50% on readout. Travel within the EU included.",
       "items": {
         "lite": {
           "tag": "Start here",
@@ -282,7 +282,7 @@
         },
         "scope": {
           "q": "How long does it take?",
-          "a": "Discovery is two weeks for prospects who need a fast diagnostic. Blueprint is three to four weeks and covers most engagements. Launch is six weeks when immediate execution is expected. Scope is fixed at signature and can only be expanded via written change orders at €1,200 per day."
+          "a": "Discovery is two weeks for prospects who need a fast diagnostic. Blueprint is three to four weeks and covers most engagements. Launch is six weeks when immediate execution is expected. Scope is fixed at signature and can only be expanded via written change orders."
         },
         "data": {
           "q": "What about confidentiality and data?",

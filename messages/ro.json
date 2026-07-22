@@ -225,7 +225,7 @@
     "tiers": {
       "eyebrow": "Investiția",
       "title": "Trei tier-uri. Cei mai mulți încep cu Discovery.",
-      "footnote": "Prețul e blocat la scoping, nu se ajustează mid-sprint. Modificările se facturează transparent la 1.200 € pe zi. Termeni de plată: 50% la semnătură, 50% la readout. Transportul în UE inclus.",
+      "footnote": "Prețul e blocat la scoping, nu se ajustează mid-sprint. Termeni de plată: 50% la semnătură, 50% la readout. Transportul în UE inclus.",
       "items": {
         "lite": {
           "tag": "Începe aici",
@@ -282,7 +282,7 @@
         },
         "scope": {
           "q": "Cât durează?",
-          "a": "Discovery e două săptămâni pentru prospecți care au nevoie de un diagnostic rapid. Blueprint e trei până la patru săptămâni și acoperă majoritatea angajamentelor. Launch e șase săptămâni când execuția imediată e așteptată. Scope-ul e fix la semnătură și poate fi extins doar prin change orders scrise la 1.200 € pe zi."
+          "a": "Discovery e două săptămâni pentru prospecți care au nevoie de un diagnostic rapid. Blueprint e trei până la patru săptămâni și acoperă majoritatea angajamentelor. Launch e șase săptămâni când execuția imediată e așteptată. Scope-ul e fix la semnătură și poate fi extins doar prin change orders scrise."
         },
         "data": {
           "q": "Cum stăm cu confidențialitatea și datele?",

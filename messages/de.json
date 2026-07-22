@@ -225,7 +225,7 @@
     "tiers": {
       "eyebrow": "Investition",
       "title": "Drei Tiers. Die meisten starten mit Discovery.",
-      "footnote": "Der Preis wird beim Scoping fixiert und nicht mid-sprint angepasst. Änderungsanträge werden transparent zu 1.200 € pro Tag abgerechnet. Zahlungsbedingungen: 50% bei Unterzeichnung, 50% beim Readout. Reisekosten innerhalb der EU enthalten.",
+      "footnote": "Der Preis wird beim Scoping fixiert und nicht mid-sprint angepasst. Zahlungsbedingungen: 50% bei Unterzeichnung, 50% beim Readout. Reisekosten innerhalb der EU enthalten.",
       "items": {
         "lite": {
           "tag": "Hier starten",
@@ -282,7 +282,7 @@
         },
         "scope": {
           "q": "Wie lange dauert es?",
-          "a": "Discovery umfasst zwei Wochen für Interessenten, die eine schnelle Diagnostik benötigen. Blueprint umfasst drei bis vier Wochen und deckt die meisten Mandate ab. Launch umfasst sechs Wochen, wenn unmittelbare Umsetzung erwartet wird. Der Scope ist bei Unterzeichnung fixiert und kann nur durch schriftliche Change Orders zu 1.200 € pro Tag erweitert werden."
+          "a": "Discovery umfasst zwei Wochen für Interessenten, die eine schnelle Diagnostik benötigen. Blueprint umfasst drei bis vier Wochen und deckt die meisten Mandate ab. Launch umfasst sechs Wochen, wenn unmittelbare Umsetzung erwartet wird. Der Scope ist bei Unterzeichnung fixiert und kann nur durch schriftliche Change Orders erweitert werden."
         },
         "data": {
           "q": "Wie sieht es mit Vertraulichkeit und Daten aus?",
