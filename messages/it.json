@@ -224,11 +224,11 @@
     },
     "tiers": {
       "eyebrow": "Investimento",
-      "title": "Tre tier. Blueprint è il default.",
+      "title": "Tre tier. La maggior parte inizia con Discovery.",
       "footnote": "Il prezzo è bloccato allo scoping, mai aggiustato a metà sprint. I change order sono fatturati in modo trasparente a 1.200 € al giorno. Termini di pagamento: 50% alla firma, 50% al readout. Trasferte nell'UE incluse.",
       "items": {
         "lite": {
-          "tag": "Tier 1",
+          "tag": "Inizia qui",
           "title": "Discovery",
           "price": "3,5k – 5k €",
           "body": "Due settimane. Solo diagnostica e executive memo. Per prospect che hanno bisogno di una lettura veloce prima di impegnarsi su uno sprint completo.",
@@ -240,7 +240,7 @@
           ]
         },
         "standard": {
-          "tag": "Tier 2 · Consigliato",
+          "tag": "Tier 2",
           "title": "Blueprint",
           "price": "9k – 14k €",
           "body": "Tre-quattro settimane. Diagnostica, design e pacchetto decisionale completi. Il tier di default per la maggior parte dei mandati.",

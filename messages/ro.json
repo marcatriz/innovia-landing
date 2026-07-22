@@ -224,11 +224,11 @@
     },
     "tiers": {
       "eyebrow": "Investiția",
-      "title": "Trei tier-uri. Blueprint este default.",
+      "title": "Trei tier-uri. Cei mai mulți încep cu Discovery.",
       "footnote": "Prețul e blocat la scoping, nu se ajustează mid-sprint. Modificările se facturează transparent la 1.200 € pe zi. Termeni de plată: 50% la semnătură, 50% la readout. Transportul în UE inclus.",
       "items": {
         "lite": {
-          "tag": "Tier 1",
+          "tag": "Începe aici",
           "title": "Discovery",
           "price": "3,5k – 5k €",
           "body": "Două săptămâni. Doar diagnostic și executive memo. Pentru prospecți care au nevoie de o citire rapidă înainte de a se angaja la un sprint complet.",
@@ -240,7 +240,7 @@
           ]
         },
         "standard": {
-          "tag": "Tier 2 · Recomandat",
+          "tag": "Tier 2",
           "title": "Blueprint",
           "price": "9k – 14k €",
           "body": "Trei până la patru săptămâni. Diagnostic, design și pachet de decizie complet. Tier-ul default pentru majoritatea angajamentelor.",

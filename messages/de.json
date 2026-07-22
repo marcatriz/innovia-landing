@@ -224,11 +224,11 @@
     },
     "tiers": {
       "eyebrow": "Investition",
-      "title": "Drei Tiers. Blueprint ist der Default.",
+      "title": "Drei Tiers. Die meisten starten mit Discovery.",
       "footnote": "Der Preis wird beim Scoping fixiert und nicht mid-sprint angepasst. Änderungsanträge werden transparent zu 1.200 € pro Tag abgerechnet. Zahlungsbedingungen: 50% bei Unterzeichnung, 50% beim Readout. Reisekosten innerhalb der EU enthalten.",
       "items": {
         "lite": {
-          "tag": "Tier 1",
+          "tag": "Hier starten",
           "title": "Discovery",
           "price": "3,5k – 5k €",
           "body": "Zwei Wochen. Nur Diagnostik und Executive Memo. Für Interessenten, die vor einem vollen Sprint eine schnelle Einschätzung brauchen.",
@@ -240,7 +240,7 @@
           ]
         },
         "standard": {
-          "tag": "Tier 2 · Empfohlen",
+          "tag": "Tier 2",
           "title": "Blueprint",
           "price": "9k – 14k €",
           "body": "Drei bis vier Wochen. Volle Diagnostik, Design und Entscheidungspaket. Der Default-Tier für die meisten Mandate.",

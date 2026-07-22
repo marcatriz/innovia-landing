@@ -224,11 +224,11 @@
     },
     "tiers": {
       "eyebrow": "Investment",
-      "title": "Three tiers. Blueprint is the default.",
+      "title": "Three tiers. Most start with Discovery.",
       "footnote": "Pricing is locked at scoping, never adjusted mid-sprint. Change orders are billed transparently at €1,200 per day. Payment terms: 50% on signature, 50% on readout. Travel within the EU included.",
       "items": {
         "lite": {
-          "tag": "Tier 1",
+          "tag": "Start here",
           "title": "Discovery",
           "price": "€3.5k to €5k",
           "body": "Two weeks. Diagnostic and executive memo only. For prospects who need a fast read before committing to a full sprint.",
@@ -240,7 +240,7 @@
           ]
         },
         "standard": {
-          "tag": "Tier 2 · Recommended",
+          "tag": "Tier 2",
           "title": "Blueprint",
           "price": "€9k to €14k",
           "body": "Three to four weeks. The full diagnostic, design, and decision pack. The default tier for most engagements.",

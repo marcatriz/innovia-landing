@@ -224,11 +224,11 @@
     },
     "tiers": {
       "eyebrow": "Investissement",
-      "title": "Trois tiers. Blueprint est le défaut.",
+      "title": "Trois tiers. La plupart commencent par Discovery.",
       "footnote": "Le prix est verrouillé au scoping, jamais ajusté en cours de sprint. Les change orders sont facturés de manière transparente à 1 200 € par jour. Conditions de paiement : 50 % à la signature, 50 % au readout. Déplacements dans l'UE inclus.",
       "items": {
         "lite": {
-          "tag": "Tier 1",
+          "tag": "Commencez ici",
           "title": "Discovery",
           "price": "3,5k – 5k €",
           "body": "Deux semaines. Diagnostic et executive memo uniquement. Pour les prospects qui ont besoin d'une lecture rapide avant de s'engager sur un sprint complet.",
@@ -240,7 +240,7 @@
           ]
         },
         "standard": {
-          "tag": "Tier 2 · Recommandé",
+          "tag": "Tier 2",
           "title": "Blueprint",
           "price": "9k – 14k €",
           "body": "Trois à quatre semaines. Le diagnostic, le design et le pack de décision complets. Le tier par défaut pour la plupart des mandats.",

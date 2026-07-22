@@ -125,7 +125,7 @@ export default function FitSprint() {
           </div>
           <div className="grid gap-6 md:grid-cols-3">
             {TIERS.map((tier) => {
-              const featured = tier === 'standard';
+              const featured = tier === 'lite';
               const includes = t.raw(`tiers.items.${tier}.includes`) as string[];
               return (
                 <article
