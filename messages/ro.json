@@ -81,6 +81,29 @@
       }
     }
   },
+  "fitForAI": {
+    "eyebrow": "Fit for AI",
+    "title": "Construim AI-ul pe care îl recomandăm.",
+    "body": "Cele mai multe sfaturi despre AI se opresc la slide. Găsim unde AI își câștigă locul în felul în care lucrezi, apoi construim integrările, agenții și controalele care îl fac real. Cunoaștem terenul pentru că ne rulăm propria operațiune pe el.",
+    "items": {
+      "connectors": {
+        "title": "Asistenți care îți folosesc uneltele",
+        "body": "Conectori în sistemele în care echipele tale lucrează deja, astfel încât un asistent acționează pe contextul și datele tale reale, nu ca un chatbot generic."
+      },
+      "agents": {
+        "title": "Agenți care fac munca",
+        "body": "Fluxuri multi-agent care preiau o sarcină, o duc la capăt, se verifică reciproc și o predau mai departe, același tipar pe care îl rulăm intern ca să livrăm și să revizuim software."
+      },
+      "governance": {
+        "title": "Guvernat de la prima linie",
+        "body": "Limite de acces, urme de audit și controale asupra datelor incluse de la început, ca adopția să rămână sigură și defensabilă."
+      },
+      "measurement": {
+        "title": "Măsurat, nu presupus",
+        "body": "Fiecare caz de utilizare legat de timp economisit sau calitate câștigată, ca să scalezi ce funcționează și să renunți la ce nu."
+      }
+    }
+  },
   "partnership": {
     "eyebrow": "Cum este structurat engagement-ul",
     "title": "Innovation Partnership.",
@@ -107,9 +130,9 @@
   "fitSprint": {
     "hero": {
       "eyebrow": "Innovia Fit Sprint",
-      "title": "Patru săptămâni până la următoarea decizie pregătită pentru board.",
+      "title": "Patru săptămâni ca să știi exact ce să schimbi, cât valorează și să-l vezi funcționând.",
       "tagline": "Fit for Digital. Fit for AI.",
-      "bodyPara1": "Un angajament de advisory productizat, vândut la preț fix și scope fix, care livrează un singur rezultat: un sponsor care poate lua o decizie defensabilă, pregătită pentru board, pe care nu ar fi putut-o lua înainte de sprint.",
+      "bodyPara1": "Majoritatea operatorilor simt că ceva în modul cum lucrează trebuie schimbat. Puțini pot spune precis ce anume, cât valorează sau cum ar arăta în practică, fără să se angajeze mai întâi într-un proiect de un an. Fit Sprint îți dă acest răspuns la preț fix și scope fix: o decizie defensabilă, pregătită pentru board, pe care nu ai fi putut-o lua înainte, susținută de software funcțional în care te loghezi în săptămâna a doua.",
       "bodyPara2": "Ce îl face diferit e combinația. Disciplină de consulting top-tier (structură MECE, cifre sursate, principiul piramidei, fără afirmații retorice) pe fiecare livrabil pe care îl primești. Software funcțional în care te loghezi în săptămâna a doua, configurat în culorile tale cu un eșantion din datele tale. Preț fix, scope fix, calendar de patru săptămâni fix, fără scope creep deghizat în discovery. Condus de un operator care a livrat, susținut și scalat direct fluxuri operaționale și de client complexe.",
       "bodyPara3": "Între douăsprezece și cincisprezece livrabile care rămân ale tale, în engleză, gata pentru board. Un singur moment de decizie la readout, doar trei stări: da, nu sau un termen numit. Innovation Partnership este anunțat în avans pe tot parcursul, gata dacă decizi să continui.",
       "cta": "Programează o sesiune de discovery"

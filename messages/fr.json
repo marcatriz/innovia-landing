@@ -81,6 +81,29 @@
       }
     }
   },
+  "fitForAI": {
+    "eyebrow": "Fit for AI",
+    "title": "Nous construisons l'IA que nous recommandons.",
+    "body": "La plupart des conseils sur l'IA s'arrêtent à la diapositive. Nous trouvons où l'IA gagne sa place dans votre façon de travailler, puis nous construisons les intégrations, les agents et les contrôles qui la rendent réelle. Nous connaissons le terrain parce que nous faisons tourner notre propre activité dessus.",
+    "items": {
+      "connectors": {
+        "title": "Des assistants qui utilisent vos outils",
+        "body": "Des connecteurs vers les systèmes dans lesquels vos équipes travaillent déjà, pour qu'un assistant agisse sur votre contexte et vos données réels, pas comme un chatbot générique."
+      },
+      "agents": {
+        "title": "Des agents qui font le travail",
+        "body": "Des workflows multi-agents qui prennent une tâche, la mènent à terme, se vérifient mutuellement et se la passent, le même modèle que nous utilisons en interne pour livrer et réviser du logiciel."
+      },
+      "governance": {
+        "title": "Encadré dès la première ligne",
+        "body": "Limites d'accès, pistes d'audit et contrôles des données intégrés dès le départ, pour que l'adoption reste sûre et défendable."
+      },
+      "measurement": {
+        "title": "Mesuré, pas supposé",
+        "body": "Chaque cas d'usage lié au temps gagné ou à la qualité gagnée, pour que vous développiez ce qui marche et abandonniez ce qui ne marche pas."
+      }
+    }
+  },
   "partnership": {
     "eyebrow": "Comment l'engagement est structuré",
     "title": "Innovation Partnership.",
@@ -107,9 +130,9 @@
   "fitSprint": {
     "hero": {
       "eyebrow": "Innovia Fit Sprint",
-      "title": "Quatre semaines pour votre prochaine décision défendable au conseil.",
+      "title": "Quatre semaines pour savoir exactement quoi changer, ce que cela vaut, et le voir fonctionner.",
       "tagline": "Fit for Digital. Fit for AI.",
-      "bodyPara1": "Un mandat d'advisory productisé, vendu à prix et périmètre fixes, qui livre un résultat unique : un sponsor capable de prendre une décision défendable au niveau du conseil, qu'il n'aurait pas pu prendre avant le sprint.",
+      "bodyPara1": "La plupart des opérateurs sentent que quelque chose dans leur fonctionnement doit changer. Peu peuvent dire précisément quoi, ce que cela vaut ou à quoi cela ressemblerait en pratique, sans s'engager d'abord dans un projet d'un an. Le Fit Sprint vous donne cette réponse à prix et périmètre fixes : une décision défendable au niveau du conseil, que vous n'auriez pas pu prendre auparavant, appuyée par un logiciel fonctionnel dans lequel vous vous connectez en semaine deux.",
       "bodyPara2": "Ce qui le rend différent, c'est la combinaison. Discipline consulting top-tier (structure MECE, chiffres sourcés, principe de la pyramide, aucune affirmation rhétorique) sur chaque livrable reçu. Logiciel fonctionnel dans lequel vous vous connectez en semaine deux, configuré à vos couleurs avec un échantillon de vos données. Prix fixe, périmètre fixe, calendrier fixe de quatre semaines, aucun scope creep déguisé en discovery. Mené par un opérateur qui a lui-même construit, soutenu et fait passer à l'échelle des workflows opérationnels et clients complexes.",
       "bodyPara3": "Entre douze et quinze livrables qui vous reviennent, en anglais, prêts pour le conseil. Un moment de décision au readout, trois états seulement : oui, non ou une échéance nommée. L'Innovation Partnership est annoncée tout au long, prête si vous décidez de poursuivre.",
       "cta": "Réserver un appel de discovery"

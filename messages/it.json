@@ -81,6 +81,29 @@
       }
     }
   },
+  "fitForAI": {
+    "eyebrow": "Fit for AI",
+    "title": "Costruiamo l'AI che raccomandiamo.",
+    "body": "La maggior parte dei consigli sull'AI si ferma alla slide. Troviamo dove l'AI si guadagna il suo posto nel vostro modo di lavorare, poi costruiamo le integrazioni, gli agenti e i controlli che la rendono reale. Conosciamo il terreno perché ci facciamo girare la nostra stessa operatività.",
+    "items": {
+      "connectors": {
+        "title": "Assistenti che usano i vostri strumenti",
+        "body": "Connettori nei sistemi in cui i vostri team già lavorano, così che un assistente agisca sul vostro contesto e sui vostri dati reali, non come un chatbot generico."
+      },
+      "agents": {
+        "title": "Agenti che fanno il lavoro",
+        "body": "Workflow multi-agente che prendono un compito, lo portano a termine, si controllano a vicenda e se lo passano, lo stesso schema che usiamo internamente per rilasciare e revisionare software."
+      },
+      "governance": {
+        "title": "Governato dalla prima riga",
+        "body": "Limiti di accesso, tracce di audit e controlli sui dati integrati fin dall'inizio, così che l'adozione resti sicura e difendibile."
+      },
+      "measurement": {
+        "title": "Misurato, non presunto",
+        "body": "Ogni caso d'uso legato al tempo risparmiato o alla qualità guadagnata, così che scaliate ciò che funziona e abbandoniate ciò che non funziona."
+      }
+    }
+  },
   "partnership": {
     "eyebrow": "Come è strutturato l'engagement",
     "title": "Innovation Partnership.",
@@ -107,9 +130,9 @@
   "fitSprint": {
     "hero": {
       "eyebrow": "Innovia Fit Sprint",
-      "title": "Quattro settimane verso la prossima decisione pronta per il board.",
+      "title": "Quattro settimane per sapere esattamente cosa cambiare, quanto vale e vederlo funzionare.",
       "tagline": "Fit for Digital. Fit for AI.",
-      "bodyPara1": "Un mandato di advisory productized, venduto a prezzo e scope fissi, che consegna un unico risultato: uno sponsor capace di prendere una decisione difendibile a livello di board, che non avrebbe potuto prendere prima dello sprint.",
+      "bodyPara1": "La maggior parte degli operatori percepisce che qualcosa nel proprio modo di lavorare deve cambiare. Pochi sanno dire con precisione cosa, quanto vale o come apparirebbe nella pratica, senza prima impegnarsi in un progetto di un anno. Il Fit Sprint vi dà questa risposta a prezzo e scope fissi: una decisione difendibile a livello di board, che prima non avreste potuto prendere, sostenuta da software funzionante in cui vi loggate in settimana due.",
       "bodyPara2": "Ciò che lo rende diverso è la combinazione. Disciplina di consulting top-tier (struttura MECE, numeri sourced, principio della piramide, nessuna affermazione retorica) su ogni deliverable che ricevete. Software funzionante in cui vi loggate in settimana due, configurato nei vostri colori con un campione dei vostri dati. Prezzo fisso, scope fisso, calendario di quattro settimane fisso, nessuno scope creep mascherato da discovery. Guidato da un operatore che ha costruito, supportato e fatto scalare in prima persona workflow operativi e di relazione con il cliente complessi.",
       "bodyPara3": "Tra dodici e quindici deliverable che rimangono vostri, in inglese, pronti per il board. Un momento di decisione al readout, solo tre stati: sì, no o una scadenza nominata. La Innovation Partnership viene anticipata lungo tutto il percorso, pronta se decidete di proseguire.",
       "cta": "Prenota una discovery call"
