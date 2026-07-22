@@ -10,7 +10,7 @@ export default function Header() {
   const linkClass =
     'whitespace-nowrap text-[0.8125rem] font-medium text-ink-700 hover:text-teal-700 2xl:text-body-sm';
   const ctaClass =
-    'whitespace-nowrap rounded-full bg-teal-500 px-4 py-2 text-[0.8125rem] font-semibold text-paper transition-colors hover:bg-teal-700 2xl:text-body-sm';
+    'inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-teal-500 px-4 py-2 text-[0.8125rem] font-semibold text-paper transition-colors hover:bg-teal-700 2xl:text-body-sm';
 
   return (
     <header className="sticky top-0 z-50 border-b border-slate-100 bg-paper/90 backdrop-blur">
@@ -34,6 +34,7 @@ export default function Header() {
           </Link>
           <Link href="/fit-sprint" className={ctaClass}>
             {t('fitSprint')}
+            <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-paper animate-pulse" />
           </Link>
           <Link href="/#partnership" className={linkClass}>
             {t('partnership')}

@@ -75,9 +75,10 @@ export default function MobileMenu() {
                     <Link
                       href={it.href}
                       onClick={() => setOpen(false)}
-                      className="inline-flex items-center rounded-full bg-teal-500 px-5 py-2.5 text-body font-semibold text-paper hover:bg-teal-700"
+                      className="inline-flex items-center gap-2 rounded-full bg-teal-500 px-5 py-2.5 text-body font-semibold text-paper hover:bg-teal-700"
                     >
                       {t(it.key)}
+                      <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-paper animate-pulse" />
                     </Link>
                   </li>
                 ) : (

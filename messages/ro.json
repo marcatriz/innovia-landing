@@ -224,7 +224,7 @@
     },
     "tiers": {
       "eyebrow": "Investiția",
-      "title": "Trei tier-uri. Standard este default.",
+      "title": "Trei tier-uri. Blueprint este default.",
       "footnote": "Prețul e blocat la scoping, nu se ajustează mid-sprint. Modificările se facturează transparent la 1.200 € pe zi. Termeni de plată: 50% la semnătură, 50% la readout. Transportul în UE inclus.",
       "items": {
         "lite": {
@@ -241,7 +241,7 @@
         },
         "standard": {
           "tag": "Tier 2 · Recomandat",
-          "title": "Standard",
+          "title": "Blueprint",
           "price": "9k – 14k €",
           "body": "Trei până la patru săptămâni. Diagnostic, design și pachet de decizie complet. Tier-ul default pentru majoritatea angajamentelor.",
           "includes": [
@@ -255,11 +255,11 @@
         },
         "premium": {
           "tag": "Tier 3",
-          "title": "Premium",
+          "title": "Launch",
           "price": "18k – 25k €",
-          "body": "Șase săptămâni. Standard plus muncă mai profundă de proces și integrare. Pentru angajamente care anticipează execuție imediată.",
+          "body": "Șase săptămâni. Blueprint plus muncă mai profundă de proces și integrare. Pentru angajamente care anticipează execuție imediată.",
           "includes": [
-            "Tot ce e în Standard, plus",
+            "Tot ce e în Blueprint, plus",
             "Două procese redesignate",
             "Specificație de integration spike",
             "Cadru de evaluare a vendorilor",
@@ -282,7 +282,7 @@
         },
         "scope": {
           "q": "Ce facem dacă avem nevoie de mai mult sau mai puțin de patru săptămâni?",
-          "a": "Discovery e două săptămâni pentru prospecți care au nevoie de un diagnostic rapid. Standard e trei până la patru săptămâni și acoperă majoritatea angajamentelor. Premium e șase săptămâni când execuția imediată e așteptată. Scope-ul e fix la semnătură și poate fi extins doar prin change orders scrise la 1.200 € pe zi."
+          "a": "Discovery e două săptămâni pentru prospecți care au nevoie de un diagnostic rapid. Blueprint e trei până la patru săptămâni și acoperă majoritatea angajamentelor. Launch e șase săptămâni când execuția imediată e așteptată. Scope-ul e fix la semnătură și poate fi extins doar prin change orders scrise la 1.200 € pe zi."
         },
         "data": {
           "q": "Cum stăm cu confidențialitatea și datele?",

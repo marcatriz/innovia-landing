@@ -224,7 +224,7 @@
     },
     "tiers": {
       "eyebrow": "Investment",
-      "title": "Three tiers. Standard is the default.",
+      "title": "Three tiers. Blueprint is the default.",
       "footnote": "Pricing is locked at scoping, never adjusted mid-sprint. Change orders are billed transparently at €1,200 per day. Payment terms: 50% on signature, 50% on readout. Travel within the EU included.",
       "items": {
         "lite": {
@@ -241,7 +241,7 @@
         },
         "standard": {
           "tag": "Tier 2 · Recommended",
-          "title": "Standard",
+          "title": "Blueprint",
           "price": "€9k to €14k",
           "body": "Three to four weeks. The full diagnostic, design, and decision pack. The default tier for most engagements.",
           "includes": [
@@ -255,11 +255,11 @@
         },
         "premium": {
           "tag": "Tier 3",
-          "title": "Premium",
+          "title": "Launch",
           "price": "€18k to €25k",
-          "body": "Six weeks. Standard plus deeper process and integration work. For engagements that anticipate immediate execution.",
+          "body": "Six weeks. Blueprint plus deeper process and integration work. For engagements that anticipate immediate execution.",
           "includes": [
-            "Everything in Standard, plus",
+            "Everything in Blueprint, plus",
             "Two process redesigns",
             "Integration spike specification",
             "Vendor evaluation framework",
@@ -282,7 +282,7 @@
         },
         "scope": {
           "q": "What if we need more or less than four weeks?",
-          "a": "Discovery is two weeks for prospects who need a fast diagnostic. Standard is three to four weeks and covers most engagements. Premium is six weeks when immediate execution is expected. Scope is fixed at signature and can only be expanded via written change orders at €1,200 per day."
+          "a": "Discovery is two weeks for prospects who need a fast diagnostic. Blueprint is three to four weeks and covers most engagements. Launch is six weeks when immediate execution is expected. Scope is fixed at signature and can only be expanded via written change orders at €1,200 per day."
         },
         "data": {
           "q": "What about confidentiality and data?",
