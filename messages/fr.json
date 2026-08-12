@@ -360,7 +360,11 @@
     "title": "Une décision de transformation à dimensionner pour 2026-2027 ?",
     "body": "Ouvert à une conversation si vous faites tourner des workflows opérationnels ou clients complexes. Le premier appel est une session de travail de 45 minutes : vos priorités, notre lecture, une vue honnête sur l'adéquation.",
     "email": "E-mail",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "emailDirect": "Ou écrivez-nous directement :",
+    "copy": "Copier",
+    "copied": "Copié",
+    "copyEmail": "Copier l'adresse e-mail"
   },
   "footer": {
     "copyright": "Innovia Systems",

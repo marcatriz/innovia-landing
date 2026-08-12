@@ -360,7 +360,11 @@
     "title": "Steht eine Transformationsentscheidung für 2026-2027 an?",
     "body": "Offen für ein Gespräch, wenn Sie komplexe operative oder kundenbezogene Abläufe betreiben. Das erste Gespräch ist eine 45-minütige Arbeitssitzung: Ihre Prioritäten, unsere Einschätzung, eine ehrliche Sicht auf die Passung.",
     "email": "E-Mail",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "emailDirect": "Oder schreiben Sie uns direkt:",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "copyEmail": "E-Mail-Adresse kopieren"
   },
   "footer": {
     "copyright": "Innovia Systems",

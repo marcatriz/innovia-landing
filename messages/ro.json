@@ -360,7 +360,11 @@
     "title": "Dimensionezi o decizie de transformare pentru 2026-2027?",
     "body": "Deschiși la o discuție dacă rulezi fluxuri operaționale sau de client complexe. Prima discuție este o sesiune de lucru de 45 de minute: prioritățile tale, citirea noastră, o vedere onestă de potrivire.",
     "email": "Email",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "emailDirect": "Sau scrie-ne direct:",
+    "copy": "Copiază",
+    "copied": "Copiat",
+    "copyEmail": "Copiază adresa de email"
   },
   "footer": {
     "copyright": "Innovia Systems",

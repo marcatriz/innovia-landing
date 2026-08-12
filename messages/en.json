@@ -360,7 +360,11 @@
     "title": "Sizing a transformation decision for 2026-2027?",
     "body": "Open to a conversation if you run complex operational or customer workflows. The first call is a 45-minute working session: your priorities, our read, an honest view on fit.",
     "email": "Email",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "emailDirect": "Or write to us directly:",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyEmail": "Copy email address"
   },
   "footer": {
     "copyright": "Innovia Systems",

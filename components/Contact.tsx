@@ -1,4 +1,7 @@
 import { useTranslations } from 'next-intl';
+import CopyEmail from './CopyEmail';
+
+const EMAIL = 'catalin.rizea@innoviasystems.io';
 
 export default function Contact() {
   const t = useTranslations('contact');
@@ -11,10 +14,7 @@ export default function Contact() {
           <h2 className="mb-6 text-h2 text-ink-700">{t('title')}</h2>
           <p className="mb-10 text-body-lg text-slate-500">{t('body')}</p>
           <div className="flex flex-wrap gap-4">
-            <a
-              href="mailto:catalin.rizea@innoviasystems.io"
-              className="btn-primary"
-            >
+            <a href={`mailto:${EMAIL}`} className="btn-primary">
               {t('email')}
               <span aria-hidden>→</span>
             </a>
@@ -28,6 +28,7 @@ export default function Contact() {
               <span aria-hidden>↗</span>
             </a>
           </div>
+          <CopyEmail address={EMAIL} />
         </div>
       </div>
     </section>

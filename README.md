@@ -43,6 +43,7 @@ components/
   Thesis.tsx              # UI commoditised, core defensible
   Operator.tsx            # nearly two decades track record
   Contact.tsx             # mailto + LinkedIn CTA
+  CopyEmail.tsx           # visible address + copy button (mailto fallback)
   Footer.tsx
   LanguageToggle.tsx      # EN/RO switch
 i18n/
@@ -72,7 +73,12 @@ Mirrored from the permanent brand memory:
 
 ## To do
 
-- Replace `mailto:` target with a contact form if a backend is added
+- Replace `mailto:` target with a contact form if a backend is added. Until then
+  `CopyEmail.tsx` carries readers whose browser has no mail handler, where a bare
+  `mailto:` click is silently swallowed.
+- Keep Cloudflare Scrape Shield email obfuscation OFF for this zone: it rewrites
+  the `mailto:` href to `/cdn-cgi/l/email-protection#...`, which 404s on any
+  click landing before React hydration.
 - Generate dark variants of the logo (white wordmark on navy) for footer/dark sections
 - Add SEO metadata per locale once domain is decided
 - Add favicon ICO + Apple touch icons from `innovia-profile.png`
