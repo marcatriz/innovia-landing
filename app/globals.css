@@ -12,9 +12,24 @@
     --innovia-tint: #F4F6F8;
   }
 
+  /*
+   * No `scroll-behavior: smooth` here. It silently breaks every in-page anchor
+   * under the App Router: the router calls scrollIntoView on the target, smooth
+   * makes that scroll asynchronous, and the router's own scroll handling then
+   * lands first and leaves the page at the top. The URL updates to #contact and
+   * nothing moves. Verified on the live site: the identical click travels 4653px
+   * with `auto` and 0px with `smooth`.
+   *
+   * BackToTop still animates, because it calls window.scrollTo with an explicit
+   * behavior and never goes through the router.
+   */
   html {
-    scroll-behavior: smooth;
     font-feature-settings: 'cv11', 'ss01', 'ss03';
+  }
+
+  /* Clears the sticky header (97px) so an anchored section is not hidden under it. */
+  section[id] {
+    scroll-margin-top: 6.5rem;
   }
 
   body {
