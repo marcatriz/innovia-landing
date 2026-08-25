@@ -14,7 +14,7 @@
     },
     "privacy": {
       "title": "Informativa sulla privacy | Innovia Systems",
-      "description": "Questo sito non usa cookie, non esegue analytics e non ha backend. Che cosa accade ai dati personali, chi altro è coinvolto e come esercitare i vostri diritti."
+      "description": "Questo sito non usa cookie e non ha backend. Che cosa viene misurato, che cosa accade ai dati personali, chi altro è coinvolto e come esercitare i vostri diritti."
     },
     "legal": {
       "title": "Dati societari e condizioni d'uso | Innovia Systems",
@@ -478,7 +478,7 @@
     "eyebrow": "Privacy",
     "title": "Che cosa fa questo sito con i dati personali.",
     "updated": "Ultimo aggiornamento 25 agosto 2026.",
-    "intro": "In breve: questo sito non usa cookie, non esegue analytics e non ha backend. Non può identificarvi. Le sezioni che seguono dicono esattamente che cosa accade e chi altro è coinvolto.",
+    "intro": "In breve: questo sito non usa cookie e non ha backend. Non può identificarvi. Le visualizzazioni di pagina vengono contate, con uno strumento senza cookie descritto più avanti. Le sezioni che seguono dicono esattamente che cosa accade e chi altro è coinvolto.",
     "sections": [
       {
         "heading": "Chi è responsabile",
@@ -489,7 +489,15 @@
       {
         "heading": "Che cosa raccoglie il sito in sé",
         "paragraphs": [
-          "Nulla. Su nessuna pagina esistono moduli, registrazioni, account, script di analytics, pixel pubblicitari o cookie di tracciamento. Non sappiamo chi ci visita e non possiamo costruire un profilo su di voi."
+          "Nessun modulo, nessuna registrazione, nessun account, nessun pixel pubblicitario e nessun cookie di tracciamento, su nessuna pagina. Nulla di quello che fate qui viene conservato accanto a un nome.",
+          "Una sola cosa viene misurata, e la sezione seguente la descrive. È aggregata e senza cookie, e non ci consente di risalire a chi siete."
+        ]
+      },
+      {
+        "heading": "Che cosa viene misurato",
+        "paragraphs": [
+          "Contiamo le visualizzazioni di pagina con Cloudflare Web Analytics. Non imposta cookie, non memorizza nulla sul vostro dispositivo e non vi segue su altri siti. Non esiste alcun identificativo che ci permetta di isolarvi o di riconoscervi in una visita successiva.",
+          "Registra la pagina aperta, il sito da cui siete arrivati, un paese approssimativo e il tipo di browser e dispositivo, e ce li riporta come totali. Lo usiamo per vedere quali pagine vengono lette e se ciò che pubblichiamo raggiunge qualcuno."
         ]
       },
       {

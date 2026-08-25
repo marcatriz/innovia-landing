@@ -14,7 +14,7 @@
     },
     "privacy": {
       "title": "Datenschutzhinweis | Innovia Systems",
-      "description": "Diese Website setzt keine Cookies, betreibt keine Analyse und hat kein Backend. Was mit personenbezogenen Daten geschieht, wer sonst beteiligt ist und wie Sie Ihre Rechte ausüben."
+      "description": "Diese Website setzt keine Cookies und hat kein Backend. Was gemessen wird, was mit personenbezogenen Daten geschieht, wer sonst beteiligt ist und wie Sie Ihre Rechte ausüben."
     },
     "legal": {
       "title": "Impressum und Nutzungsbedingungen | Innovia Systems",
@@ -478,7 +478,7 @@
     "eyebrow": "Datenschutz",
     "title": "Was diese Website mit personenbezogenen Daten macht.",
     "updated": "Zuletzt aktualisiert am 25. August 2026.",
-    "intro": "Kurz gesagt: diese Website setzt keine Cookies, betreibt keine Analyse und hat kein Backend. Sie kann Sie nicht identifizieren. Die folgenden Abschnitte sagen genau, was stattdessen geschieht und wer sonst beteiligt ist.",
+    "intro": "Kurz gesagt: diese Website setzt keine Cookies und hat kein Backend. Sie kann Sie nicht identifizieren. Seitenaufrufe werden gezählt, mit einem cookiefreien Werkzeug, das unten beschrieben ist. Die folgenden Abschnitte sagen genau, was geschieht und wer sonst beteiligt ist.",
     "sections": [
       {
         "heading": "Wer verantwortlich ist",
@@ -489,7 +489,15 @@
       {
         "heading": "Was die Website selbst erhebt",
         "paragraphs": [
-          "Nichts. Es gibt auf keiner Seite ein Formular, eine Anmeldung, ein Konto, ein Analyseskript, ein Werbepixel oder ein Tracking-Cookie. Wir wissen nicht, wer uns besucht, und können kein Profil von Ihnen bilden."
+          "Kein Formular, keine Anmeldung, kein Konto, kein Werbepixel und kein Tracking-Cookie, auf keiner Seite. Nichts, was Sie hier tun, wird zu einem Namen gespeichert.",
+          "Eine Sache wird gemessen, und der nächste Abschnitt beschreibt sie. Sie ist aggregiert und cookiefrei und lässt uns nicht herausfinden, wer Sie sind."
+        ]
+      },
+      {
+        "heading": "Was gemessen wird",
+        "paragraphs": [
+          "Wir zählen Seitenaufrufe mit Cloudflare Web Analytics. Es setzt kein Cookie, speichert nichts auf Ihrem Gerät und folgt Ihnen nicht auf andere Websites. Es gibt keine Kennung, die uns erlauben würde, Sie herauszulösen oder bei einem späteren Besuch wiederzuerkennen.",
+          "Erfasst werden die aufgerufene Seite, die Website, von der Sie kamen, ein ungefähres Land sowie Browser- und Gerätetyp; an uns gemeldet wird das als Summe. Wir nutzen es, um zu sehen, welche Seiten gelesen werden und ob das, was wir veröffentlichen, jemanden erreicht."
         ]
       },
       {

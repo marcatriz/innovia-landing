@@ -14,7 +14,7 @@
     },
     "privacy": {
       "title": "Politique de confidentialité | Innovia Systems",
-      "description": "Ce site ne dépose aucun cookie, n'exécute aucune analyse et n'a pas de backend. Ce qu'il advient des données personnelles, qui d'autre intervient et comment exercer vos droits."
+      "description": "Ce site ne dépose aucun cookie et n'a pas de backend. Ce qui est mesuré, ce qu'il advient des données personnelles, qui d'autre intervient et comment exercer vos droits."
     },
     "legal": {
       "title": "Mentions légales et conditions d'utilisation | Innovia Systems",
@@ -478,7 +478,7 @@
     "eyebrow": "Confidentialité",
     "title": "Ce que ce site fait des données personnelles.",
     "updated": "Dernière mise à jour le 25 août 2026.",
-    "intro": "En résumé : ce site ne dépose aucun cookie, n'exécute aucune analyse et n'a pas de backend. Il ne peut pas vous identifier. Les sections ci-dessous disent exactement ce qui se passe et qui d'autre intervient.",
+    "intro": "En résumé : ce site ne dépose aucun cookie et n'a pas de backend. Il ne peut pas vous identifier. Les pages vues sont comptées, avec un outil sans cookie décrit plus bas. Les sections qui suivent disent exactement ce qui se passe et qui d'autre intervient.",
     "sections": [
       {
         "heading": "Qui est responsable",
@@ -489,7 +489,15 @@
       {
         "heading": "Ce que le site collecte lui-même",
         "paragraphs": [
-          "Rien. Aucune page ne comporte de formulaire, d'inscription, de compte, de script d'analyse, de pixel publicitaire ni de cookie de suivi. Nous ne savons pas qui nous rend visite et nous ne pouvons pas construire de profil vous concernant."
+          "Aucun formulaire, aucune inscription, aucun compte, aucun pixel publicitaire et aucun cookie de suivi, sur aucune page. Rien de ce que vous faites ici n'est enregistré en face d'un nom.",
+          "Une seule chose est mesurée, et la section suivante la décrit. Elle est agrégée et sans cookie, et ne nous permet pas de déduire qui vous êtes."
+        ]
+      },
+      {
+        "heading": "Ce qui est mesuré",
+        "paragraphs": [
+          "Nous comptons les pages vues avec Cloudflare Web Analytics. L'outil ne dépose aucun cookie, n'enregistre rien sur votre appareil et ne vous suit pas sur d'autres sites. Aucun identifiant ne permet de vous isoler ni de vous reconnaître lors d'une visite ultérieure.",
+          "Il enregistre la page ouverte, le site d'où vous venez, un pays approximatif, ainsi que le type de navigateur et d'appareil, et nous les restitue sous forme de totaux. Nous l'utilisons pour voir quelles pages sont lues et si ce que nous publions atteint quelqu'un."
         ]
       },
       {

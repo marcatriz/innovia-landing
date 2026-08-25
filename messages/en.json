@@ -14,7 +14,7 @@
     },
     "privacy": {
       "title": "Privacy notice | Innovia Systems",
-      "description": "This site sets no cookies, runs no analytics and has no backend. What happens to personal data, who else is involved, and how to exercise your rights."
+      "description": "This site sets no cookies and has no backend. What is measured, what happens to personal data, who else is involved, and how to exercise your rights."
     },
     "legal": {
       "title": "Company details and terms of use | Innovia Systems",
@@ -478,7 +478,7 @@
     "eyebrow": "Privacy",
     "title": "What this site does with personal data.",
     "updated": "Last updated 25 August 2026.",
-    "intro": "Short version: this site sets no cookies, runs no analytics and has no backend. It cannot identify you. The sections below say exactly what does happen and who else is involved.",
+    "intro": "Short version: this site sets no cookies and has no backend. It cannot identify you. Page views are counted, with a cookieless tool described below. The sections that follow say exactly what happens and who else is involved.",
     "sections": [
       {
         "heading": "Who is responsible",
@@ -489,7 +489,15 @@
       {
         "heading": "What the site itself collects",
         "paragraphs": [
-          "Nothing. There is no form, no sign-up, no account, no analytics script, no advertising pixel and no tracking cookie on any page. We do not know who visits, and we cannot build a profile of you."
+          "No form, no sign-up, no account, no advertising pixel and no tracking cookie, on any page. Nothing you do here is stored against a name.",
+          "One thing is measured, and it is described in the next section. It is aggregate and cookieless, and it does not let us work out who you are."
+        ]
+      },
+      {
+        "heading": "What is measured",
+        "paragraphs": [
+          "We count page views with Cloudflare Web Analytics. It sets no cookie, stores nothing on your device, and does not follow you to other sites. There is no identifier that would let us single you out or recognise you on a later visit.",
+          "It records the page opened, the site you arrived from, an approximate country, and browser and device type, and reports them to us as totals. We use it to see which pages get read and whether what we publish reaches anyone."
         ]
       },
       {

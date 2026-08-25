@@ -14,7 +14,7 @@
     },
     "privacy": {
       "title": "Notă de confidențialitate | Innovia Systems",
-      "description": "Site-ul nu pune cookie-uri, nu rulează analytics și nu are backend. Ce se întâmplă cu datele personale, cine mai este implicat și cum îți exerciți drepturile."
+      "description": "Site-ul nu pune cookie-uri și nu are backend. Ce se măsoară, ce se întâmplă cu datele personale, cine mai este implicat și cum îți exerciți drepturile."
     },
     "legal": {
       "title": "Datele firmei și termenii de utilizare | Innovia Systems",
@@ -478,7 +478,7 @@
     "eyebrow": "Confidențialitate",
     "title": "Ce face acest site cu datele personale.",
     "updated": "Ultima actualizare: 25 august 2026.",
-    "intro": "Pe scurt: site-ul nu pune cookie-uri, nu rulează analytics și nu are backend. Nu te poate identifica. Secțiunile de mai jos spun exact ce se întâmplă și cine mai este implicat.",
+    "intro": "Pe scurt: site-ul nu pune cookie-uri și nu are backend. Nu te poate identifica. Afișările de pagină sunt numărate, cu un instrument fără cookie-uri descris mai jos. Secțiunile care urmează spun exact ce se întâmplă și cine mai este implicat.",
     "sections": [
       {
         "heading": "Cine răspunde",
@@ -489,7 +489,15 @@
       {
         "heading": "Ce colectează site-ul în sine",
         "paragraphs": [
-          "Nimic. Nu există formular, înregistrare, cont, script de analytics, pixel publicitar sau cookie de urmărire pe nicio pagină. Nu știm cine ne vizitează și nu putem construi un profil despre tine."
+          "Niciun formular, nicio înregistrare, niciun cont, niciun pixel publicitar și niciun cookie de urmărire, pe nicio pagină. Nimic din ce faci aici nu se stochează în dreptul unui nume.",
+          "Un singur lucru se măsoară, iar secțiunea următoare îl descrie. Este agregat și fără cookie-uri, și nu ne permite să deducem cine ești."
+        ]
+      },
+      {
+        "heading": "Ce se măsoară",
+        "paragraphs": [
+          "Numărăm afișările de pagină cu Cloudflare Web Analytics. Nu pune niciun cookie, nu stochează nimic pe dispozitivul tău și nu te urmărește pe alte site-uri. Nu există niciun identificator care să ne lase să te izolăm sau să te recunoaștem la o vizită ulterioară.",
+          "Înregistrează pagina deschisă, site-ul de pe care ai venit, o țară aproximativă și tipul de browser și de dispozitiv, și ni le raportează ca totaluri. Îl folosim ca să vedem ce pagini se citesc și dacă ce publicăm ajunge la cineva."
         ]
       },
       {
