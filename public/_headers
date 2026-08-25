@@ -10,16 +10,17 @@
 #   server to mint a per-request nonce.
 #   The one third-party origin allowed to run a script is
 #   static.cloudflareinsights.com: Cloudflare injects its Web Analytics beacon
-#   into the HTML at the edge, and connect-src lets that beacon report to
-#   cloudflareinsights.com. It is cookieless and is declared in /privacy.
-#   Removing it here silently disables measurement, so change both together.
+#   into the HTML at the edge. The beacon reports to /cdn-cgi/rum on this same
+#   origin, so connect-src 'self' already covers it and needs no third-party
+#   entry. It is cookieless and is declared in /privacy; removing this origin
+#   silently disables measurement, so change the two together.
 #   style-src keeps 'unsafe-inline' for the same reason (Tailwind critical CSS
 #   plus React inline style attributes) and allows the Google Fonts stylesheet.
 #   font-src allows fonts.gstatic.com, where that stylesheet points. Serving
 #   the fonts from this origin instead would let both entries drop.
 
 /*
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; manifest-src 'self'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; upgrade-insecure-requests
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
