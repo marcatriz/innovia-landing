@@ -401,12 +401,16 @@
           "value": "Innovia Systems & Technologies SRL"
         },
         {
+          "label": "Forma juridică",
+          "value": "Societate cu răspundere limitată (SRL)"
+        },
+        {
           "label": "Nume comercial",
           "value": "Innovia Systems"
         },
         {
           "label": "Sediu social",
-          "value": "Strada Cetății 6, Corbeanca, județul Ilfov, România"
+          "value": "Strada Cetății nr. 6, sat Corbeanca, comuna Corbeanca, județul Ilfov, România"
         },
         {
           "label": "Număr de ordine în registrul comerțului",
@@ -415,6 +419,10 @@
         {
           "label": "Cod unic de înregistrare",
           "value": "54793622"
+        },
+        {
+          "label": "Capital social",
+          "value": "500 lei, integral subscris (500 părți sociale a 1 leu)"
         },
         {
           "label": "Statut TVA",
@@ -475,7 +483,7 @@
       {
         "heading": "Cine răspunde",
         "paragraphs": [
-          "Innovia Systems & Technologies SRL, cu sediul în Strada Cetății 6, Corbeanca, județul Ilfov, România, cod unic de înregistrare 54793622, este operatorul pentru datele descrise aici. Scrie la catalin.rizea@innoviasystems.io pentru orice întrebare sau cerere."
+          "Innovia Systems & Technologies SRL, cu sediul în Strada Cetății nr. 6, sat Corbeanca, comuna Corbeanca, județul Ilfov, România, cod unic de înregistrare 54793622, este operatorul pentru datele descrise aici. Scrie la catalin.rizea@innoviasystems.io pentru orice întrebare sau cerere."
         ]
       },
       {

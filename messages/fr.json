@@ -401,12 +401,16 @@
           "value": "Innovia Systems & Technologies SRL"
         },
         {
+          "label": "Forme juridique",
+          "value": "Société à responsabilité limitée (SRL) de droit roumain"
+        },
+        {
           "label": "Nom commercial",
           "value": "Innovia Systems"
         },
         {
           "label": "Siège social",
-          "value": "Strada Cetatii 6, Corbeanca, département d'Ilfov, Roumanie"
+          "value": "Strada Cetatii n° 6, village de Corbeanca, commune de Corbeanca, département d'Ilfov, Roumanie"
         },
         {
           "label": "Numéro au registre du commerce",
@@ -415,6 +419,10 @@
         {
           "label": "Identifiant fiscal",
           "value": "54793622"
+        },
+        {
+          "label": "Capital social",
+          "value": "500 lei, intégralement souscrit (500 parts de 1 leu)"
         },
         {
           "label": "TVA",
@@ -475,7 +483,7 @@
       {
         "heading": "Qui est responsable",
         "paragraphs": [
-          "Innovia Systems & Technologies SRL, siège social Strada Cetatii 6, Corbeanca, département d'Ilfov, Roumanie, identifiant fiscal 54793622, est le responsable du traitement pour les données décrites ici. Écrivez à catalin.rizea@innoviasystems.io pour toute question ou demande."
+          "Innovia Systems & Technologies SRL, siège social Strada Cetatii n° 6, village de Corbeanca, commune de Corbeanca, département d'Ilfov, Roumanie, identifiant fiscal 54793622, est le responsable du traitement pour les données décrites ici. Écrivez à catalin.rizea@innoviasystems.io pour toute question ou demande."
         ]
       },
       {
