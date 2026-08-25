@@ -18,7 +18,7 @@ export default function Header() {
             src="/innovia-logo.png"
             alt="Innovia Systems"
             width={500}
-            height={120}
+            height={274}
             priority
             className="h-14 w-auto xl:h-16"
           />
