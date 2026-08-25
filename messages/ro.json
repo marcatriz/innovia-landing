@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "home": {
+      "title": "Innovia Systems. Fit for Digital. Fit for AI.",
+      "description": "Consultanță specializată pentru organizații care rulează fluxuri operaționale și de client complexe. Diagnostice Fit to Digital și Fit to AI, design de model operațional și de proces, prototipare software, co-design și suport la implementare."
+    },
+    "fitSprint": {
+      "title": "Fit Sprint. Preț fix, scop fix. | Innovia Systems",
+      "description": "Un sprint cu preț fix și scop fix care se încheie cu o singură decizie pe care o poți susține, cu livrabile gata de board și un prototip funcțional configurat pentru fluxul tău."
+    },
+    "diagnostic": {
+      "title": "Diagnostic Fit for Digital / Fit for AI | Innovia Systems",
+      "description": "Douăzeci de întrebări pe șapte dimensiuni, șapte minute, fără email. O citire onestă a locului în care stă operațiunea ta pe digital și AI."
+    },
+    "privacy": {
+      "title": "Notă de confidențialitate | Innovia Systems",
+      "description": "Site-ul nu pune cookie-uri, nu rulează analytics și nu are backend. Ce se întâmplă cu datele personale, cine mai este implicat și cum îți exerciți drepturile."
+    },
+    "legal": {
+      "title": "Datele firmei și termenii de utilizare | Innovia Systems",
+      "description": "Cine administrează acest site: denumire legală, sediu social, număr de ordine în registrul comerțului și cod unic de înregistrare, plus termenii care se aplică utilizării lui."
+    }
+  },
   "nav": {
     "services": "Servicii",
     "modules": "Focus",
@@ -366,8 +388,159 @@
     "copied": "Copiat",
     "copyEmail": "Copiază adresa de email"
   },
+  "legal": {
+    "eyebrow": "Legal",
+    "title": "Datele firmei și termenii de utilizare.",
+    "updated": "Ultima actualizare: 25 august 2026.",
+    "intro": "Innovia Systems este numele comercial al societății identificate mai jos. Datele sunt publicate conform regulilor românești și europene care cer unui furnizor de servicii online să se identifice.",
+    "identity": {
+      "heading": "Cine administrează acest site",
+      "rows": [
+        {
+          "label": "Denumire legală",
+          "value": "Innovia Systems & Technologies SRL"
+        },
+        {
+          "label": "Nume comercial",
+          "value": "Innovia Systems"
+        },
+        {
+          "label": "Sediu social",
+          "value": "Strada Cetății 6, Corbeanca, județul Ilfov, România"
+        },
+        {
+          "label": "Număr de ordine în registrul comerțului",
+          "value": "J2026035478001 (EUID ROONRC.J2026035478001), Oficiul Registrului Comerțului de pe lângă Tribunalul Ilfov"
+        },
+        {
+          "label": "Cod unic de înregistrare",
+          "value": "54793622"
+        },
+        {
+          "label": "Statut TVA",
+          "value": "Neînregistrată în scopuri de TVA"
+        },
+        {
+          "label": "Email",
+          "value": "catalin.rizea@innoviasystems.io"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Ce este acest site",
+        "paragraphs": [
+          "Site-ul prezintă serviciile Innovia Systems și se adresează organizațiilor, nu consumatorilor. Nimic din ce se află aici nu este o ofertă fermă și nimic nu constituie consultanță juridică, fiscală, financiară sau de investiții.",
+          "O colaborare începe de la un contract semnat, iar numai acel document definește ce se livrează, când și în ce condiții."
+        ]
+      },
+      {
+        "heading": "Prețurile afișate pe site",
+        "paragraphs": [
+          "Intervalele de preț publicate pentru Fit Sprint și pentru Innovation Partnership sunt orientative și există ca să poți dimensiona o decizie înainte să vorbim. Prețul care obligă este cel scris în contractul semnat pentru acea colaborare."
+        ]
+      },
+      {
+        "heading": "Conținut și proprietate intelectuală",
+        "paragraphs": [
+          "Textul, designul, diagramele și însemnele de brand de pe acest site aparțin Innovia Systems & Technologies SRL, dacă nu se specifică altfel. Le poți cita și le poți da link cu atribuire. Nu le poți republica drept ale tale și nu poți folosi însemnele de brand fără acord scris."
+        ]
+      },
+      {
+        "heading": "Acuratețe și disponibilitate",
+        "paragraphs": [
+          "Ținem site-ul corect și la zi, dar îl publicăm ca atare. Nu garantăm că este lipsit de erori sau că este mereu accesibil. Linkurile externe sunt oferite pentru comoditate; nu controlăm ce se află în spatele lor."
+        ]
+      },
+      {
+        "heading": "Legea aplicabilă",
+        "paragraphs": [
+          "Acestui site și oricărui litigiu născut din el li se aplică legea română, competente fiind instanțele de la sediul societății. Aceasta nu afectează drepturile imperative pe care le poți avea în baza legii din țara în care te afli."
+        ]
+      },
+      {
+        "heading": "Contact",
+        "paragraphs": [
+          "Scrie la catalin.rizea@innoviasystems.io pentru orice ține de această pagină. Pentru modul în care sunt tratate datele cu caracter personal, vezi nota de confidențialitate."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Confidențialitate",
+    "title": "Ce face acest site cu datele personale.",
+    "updated": "Ultima actualizare: 25 august 2026.",
+    "intro": "Pe scurt: site-ul nu pune cookie-uri, nu rulează analytics și nu are backend. Nu te poate identifica. Secțiunile de mai jos spun exact ce se întâmplă și cine mai este implicat.",
+    "sections": [
+      {
+        "heading": "Cine răspunde",
+        "paragraphs": [
+          "Innovia Systems & Technologies SRL, cu sediul în Strada Cetății 6, Corbeanca, județul Ilfov, România, cod unic de înregistrare 54793622, este operatorul pentru datele descrise aici. Scrie la catalin.rizea@innoviasystems.io pentru orice întrebare sau cerere."
+        ]
+      },
+      {
+        "heading": "Ce colectează site-ul în sine",
+        "paragraphs": [
+          "Nimic. Nu există formular, înregistrare, cont, script de analytics, pixel publicitar sau cookie de urmărire pe nicio pagină. Nu știm cine ne vizitează și nu putem construi un profil despre tine."
+        ]
+      },
+      {
+        "heading": "Diagnosticul rămâne în browserul tău",
+        "paragraphs": [
+          "Diagnosticul Fit for Digital / Fit for AI rulează integral în browserul tău. Răspunsurile și scorul se salvează în local storage-ul browserului, sub cheia innovia-diagnostic-v1, ca să nu pierzi progresul dacă închizi fila. Nu ajung niciodată la noi și nici la altcineva.",
+          "Ștergerea datelor din browser, sau butonul Reset din diagnostic, le elimină."
+        ]
+      },
+      {
+        "heading": "Ce vede furnizorul de găzduire",
+        "paragraphs": [
+          "Site-ul este servit de Cloudflare Pages. Ca orice server web, Cloudflare procesează adresa IP și user agentul browserului pentru fiecare cerere, ca să livreze pagina și ca să protejeze serviciul de abuz. Asta se sprijină pe interesul nostru legitim de a opera și de a securiza site-ul. Cloudflare acționează ca persoană împuternicită, în baza addendumului său de prelucrare a datelor."
+        ]
+      },
+      {
+        "heading": "Fonturile se încarcă de la Google",
+        "paragraphs": [
+          "Tipografia paginii se încarcă din Google Fonts. Browserul tău face deci o cerere către fonts.googleapis.com și fonts.gstatic.com, iar Google primește adresa ta IP odată cu ea. Noi nu primim nimic înapoi din acea cerere și nu obținem niciun fel de statistici din ea. Intenționăm să servim aceste fonturi de pe domeniul nostru, ca cererea să nu mai iasă din el."
+        ]
+      },
+      {
+        "heading": "Dacă ne scrii sau îți rezervi o discuție",
+        "paragraphs": [
+          "Dacă ne trimiți un email, procesăm adresa, numele și ce ai scris în mesaj, ca să îți răspundem. Emailul nostru rulează pe Google Workspace.",
+          "Dacă rezervi prin linkul de programare, Calendly colectează numele, adresa de email și răspunsurile pe care le dai în propriul formular, sub propria notă de confidențialitate, și ni le transmite ca să poată avea loc întâlnirea. Folosim aceste date ca să pregătim și să ținem întâlnirea și ca să revenim după ea."
+        ]
+      },
+      {
+        "heading": "Cât timp sunt păstrate",
+        "paragraphs": [
+          "Corespondența și datele de rezervare se păstrează cât timp discuția sau colaborarea este activă și până la trei ani după ultimul contact, ca un fir pe care îl redeschizi să nu înceapă de la zero. Documentele contabile se păstrează pe perioada cerută de legea română. Dincolo de asta nu păstrăm nimic."
+        ]
+      },
+      {
+        "heading": "Transferuri în afara Spațiului Economic European",
+        "paragraphs": [
+          "Cloudflare, Google și Calendly sunt stabilite în Statele Unite și pot procesa date acolo sau în alte țări. Fiecare acoperă aceste transferuri prin clauzele contractuale standard ale Comisiei Europene sau, acolo unde este certificat, prin EU-US Data Privacy Framework."
+        ]
+      },
+      {
+        "heading": "Drepturile tale",
+        "paragraphs": [
+          "În temeiul Regulamentului general privind protecția datelor poți cere o copie a datelor personale pe care le deținem despre tine, ne poți cere să le corectăm sau să le ștergem, să restrângem folosirea lor, te poți opune folosirii lor acolo unde ne bazăm pe interes legitim și le poți cere într-un format portabil. Scrie la catalin.rizea@innoviasystems.io și îți răspundem în termen de o lună.",
+          "Dacă socotești că ți-am tratat prost datele, poți depune plângere la ANSPDCP (B-dul General Gheorghe Magheru 28-30, Sector 1, București, dataprotection.ro) sau la autoritatea din țara în care locuiești."
+        ]
+      },
+      {
+        "heading": "Modificări ale acestei note",
+        "paragraphs": [
+          "Dacă se schimbă ceva, se schimbă și data din capul paginii. Modificările importante sunt descrise aici, nu aplicate în tăcere."
+        ]
+      }
+    ]
+  },
   "footer": {
     "copyright": "Innovia Systems",
-    "tagline": "Fit for Digital. Fit for AI."
+    "tagline": "Fit for Digital. Fit for AI.",
+    "privacy": "Confidențialitate",
+    "legal": "Legal"
   }
 }

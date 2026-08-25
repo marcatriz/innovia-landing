@@ -1,4 +1,26 @@
 {
+  "meta": {
+    "home": {
+      "title": "Innovia Systems. Fit for Digital. Fit for AI.",
+      "description": "Eine spezialisierte Beratung für Organisationen, die komplexe operative und kundenbezogene Abläufe betreiben. Fit-to-Digital- und Fit-to-AI-Diagnostik, Betriebsmodell- und Prozessdesign, Software-Prototyping, Co-Design und Umsetzungsbegleitung."
+    },
+    "fitSprint": {
+      "title": "Fit Sprint. Festpreis, fester Umfang. | Innovia Systems",
+      "description": "Ein Sprint zu Festpreis und festem Umfang, der mit einer belastbaren Entscheidung endet, mit Ergebnissen in Vorstandsqualität und einem lauffähigen Prototyp für Ihren Ablauf."
+    },
+    "diagnostic": {
+      "title": "Fit-for-Digital- / Fit-for-AI-Diagnostik | Innovia Systems",
+      "description": "Zwanzig Fragen über sieben Dimensionen, sieben Minuten, ohne E-Mail. Eine ehrliche Standortbestimmung Ihres Betriebs bei Digitalisierung und KI."
+    },
+    "privacy": {
+      "title": "Datenschutzhinweis | Innovia Systems",
+      "description": "Diese Website setzt keine Cookies, betreibt keine Analyse und hat kein Backend. Was mit personenbezogenen Daten geschieht, wer sonst beteiligt ist und wie Sie Ihre Rechte ausüben."
+    },
+    "legal": {
+      "title": "Impressum und Nutzungsbedingungen | Innovia Systems",
+      "description": "Wer diese Website betreibt: Firmenname, Sitz, Handelsregisternummer und Steuernummer, dazu die Bedingungen für ihre Nutzung."
+    }
+  },
   "nav": {
     "services": "Leistungen",
     "modules": "Fokus",
@@ -366,8 +388,159 @@
     "copied": "Kopiert",
     "copyEmail": "E-Mail-Adresse kopieren"
   },
+  "legal": {
+    "eyebrow": "Rechtliches",
+    "title": "Impressum und Nutzungsbedingungen.",
+    "updated": "Zuletzt aktualisiert am 25. August 2026.",
+    "intro": "Innovia Systems ist der Handelsname des unten genannten Unternehmens. Diese Angaben werden nach den rumänischen und europäischen Regeln veröffentlicht, die einen Anbieter von Online-Diensten zur Identifikation verpflichten.",
+    "identity": {
+      "heading": "Wer diese Website betreibt",
+      "rows": [
+        {
+          "label": "Firmenname",
+          "value": "Innovia Systems & Technologies SRL"
+        },
+        {
+          "label": "Handelsname",
+          "value": "Innovia Systems"
+        },
+        {
+          "label": "Sitz",
+          "value": "Strada Cetatii 6, Corbeanca, Kreis Ilfov, Rumänien"
+        },
+        {
+          "label": "Handelsregisternummer",
+          "value": "J2026035478001 (EUID ROONRC.J2026035478001), Handelsregister beim Tribunal Ilfov"
+        },
+        {
+          "label": "Steuernummer",
+          "value": "54793622"
+        },
+        {
+          "label": "Umsatzsteuer",
+          "value": "Nicht umsatzsteuerlich registriert"
+        },
+        {
+          "label": "E-Mail",
+          "value": "catalin.rizea@innoviasystems.io"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "heading": "Was diese Website ist",
+        "paragraphs": [
+          "Diese Website stellt die Leistungen von Innovia Systems dar und richtet sich an Organisationen, nicht an Verbraucher. Nichts darauf ist ein bindendes Angebot, und nichts darauf ist eine rechtliche, steuerliche, finanzielle oder Anlageberatung.",
+          "Ein Mandat beginnt mit einem unterzeichneten Leistungsschein, und nur dieses Dokument bestimmt, was wann und zu welchen Bedingungen geliefert wird."
+        ]
+      },
+      {
+        "heading": "Preise auf dieser Website",
+        "paragraphs": [
+          "Die für den Fit Sprint und die Innovation Partnership veröffentlichten Preisspannen sind Richtwerte und dienen dazu, eine Entscheidung vor dem ersten Gespräch einordnen zu können. Verbindlich ist der Preis, der im unterzeichneten Leistungsschein steht."
+        ]
+      },
+      {
+        "heading": "Inhalte und geistiges Eigentum",
+        "paragraphs": [
+          "Text, Gestaltung, Diagramme und Markenzeichen dieser Website gehören der Innovia Systems & Technologies SRL, soweit nicht anders angegeben. Zitieren und Verlinken mit Quellenangabe sind willkommen. Eine Wiederveröffentlichung als eigenes Werk sowie die Nutzung der Markenzeichen ohne schriftliche Erlaubnis sind nicht gestattet."
+        ]
+      },
+      {
+        "heading": "Richtigkeit und Verfügbarkeit",
+        "paragraphs": [
+          "Wir halten diese Website richtig und aktuell, veröffentlichen sie aber so, wie sie ist. Wir sichern weder Fehlerfreiheit noch ständige Erreichbarkeit zu. Externe Links sind eine Bequemlichkeit; worauf sie führen, kontrollieren wir nicht."
+        ]
+      },
+      {
+        "heading": "Anwendbares Recht",
+        "paragraphs": [
+          "Für diese Website und für Streitigkeiten aus ihr gilt rumänisches Recht, vor den für den Sitz des Unternehmens zuständigen Gerichten. Zwingende Rechte nach dem Recht Ihres Aufenthaltslands bleiben davon unberührt."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Schreiben Sie an catalin.rizea@innoviasystems.io zu allem, was auf dieser Seite steht. Wie personenbezogene Daten behandelt werden, steht im Datenschutzhinweis."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Datenschutz",
+    "title": "Was diese Website mit personenbezogenen Daten macht.",
+    "updated": "Zuletzt aktualisiert am 25. August 2026.",
+    "intro": "Kurz gesagt: diese Website setzt keine Cookies, betreibt keine Analyse und hat kein Backend. Sie kann Sie nicht identifizieren. Die folgenden Abschnitte sagen genau, was stattdessen geschieht und wer sonst beteiligt ist.",
+    "sections": [
+      {
+        "heading": "Wer verantwortlich ist",
+        "paragraphs": [
+          "Innovia Systems & Technologies SRL, Sitz Strada Cetatii 6, Corbeanca, Kreis Ilfov, Rumänien, Steuernummer 54793622, ist Verantwortlicher für die hier beschriebenen personenbezogenen Daten. Schreiben Sie an catalin.rizea@innoviasystems.io für jede Frage oder jedes Anliegen."
+        ]
+      },
+      {
+        "heading": "Was die Website selbst erhebt",
+        "paragraphs": [
+          "Nichts. Es gibt auf keiner Seite ein Formular, eine Anmeldung, ein Konto, ein Analyseskript, ein Werbepixel oder ein Tracking-Cookie. Wir wissen nicht, wer uns besucht, und können kein Profil von Ihnen bilden."
+        ]
+      },
+      {
+        "heading": "Die Diagnostik bleibt in Ihrem Browser",
+        "paragraphs": [
+          "Die Diagnostik Fit for Digital / Fit for AI läuft vollständig in Ihrem Browser. Ihre Antworten und Ihr Score werden im Local Storage Ihres Browsers unter dem Schlüssel innovia-diagnostic-v1 gespeichert, damit das Schließen des Tabs den Fortschritt nicht vernichtet. Sie werden nie an uns oder an Dritte gesendet.",
+          "Das Löschen der Browserdaten oder die Schaltfläche Reset in der Diagnostik entfernt sie."
+        ]
+      },
+      {
+        "heading": "Was der Hosting-Anbieter sieht",
+        "paragraphs": [
+          "Die Website wird über Cloudflare Pages ausgeliefert. Wie jeder Webserver verarbeitet Cloudflare IP-Adresse und User-Agent jeder Anfrage, um die Seite auszuliefern und den Dienst vor Missbrauch zu schützen. Grundlage ist unser berechtigtes Interesse am Betrieb und an der Sicherheit der Website. Cloudflare handelt als unser Auftragsverarbeiter nach seinem Zusatz zur Datenverarbeitung."
+        ]
+      },
+      {
+        "heading": "Schriften werden von Google geladen",
+        "paragraphs": [
+          "Die Typografie der Seite wird von Google Fonts geladen. Ihr Browser stellt dafür eine Anfrage an fonts.googleapis.com und fonts.gstatic.com, und Google erhält dabei Ihre IP-Adresse. Wir erhalten daraus nichts zurück und gewinnen daraus keine Auswertung. Wir beabsichtigen, diese Schriften von unserer eigenen Domain auszuliefern, damit die Anfrage sie nicht mehr verlässt."
+        ]
+      },
+      {
+        "heading": "Wenn Sie schreiben oder ein Gespräch buchen",
+        "paragraphs": [
+          "Wenn Sie uns eine E-Mail schreiben, verarbeiten wir Ihre Adresse, Ihren Namen und den Inhalt der Nachricht, um Ihnen zu antworten. Unser E-Mail-Dienst läuft auf Google Workspace.",
+          "Wenn Sie über den Terminlink buchen, erhebt Calendly Name, E-Mail-Adresse und die Antworten in seinem eigenen Buchungsformular, nach seinem eigenen Datenschutzhinweis, und übermittelt sie an uns, damit das Gespräch stattfinden kann. Wir nutzen diese Angaben zur Vorbereitung, Durchführung und Nachbereitung des Gesprächs."
+        ]
+      },
+      {
+        "heading": "Wie lange gespeichert wird",
+        "paragraphs": [
+          "Korrespondenz und Buchungsangaben bleiben gespeichert, solange das Gespräch oder das Mandat läuft, und bis zu drei Jahre nach dem letzten Kontakt, damit ein von Ihnen wieder aufgenommener Faden nicht bei null beginnt. Buchhaltungsunterlagen werden für den nach rumänischem Recht vorgeschriebenen Zeitraum aufbewahrt. Darüber hinaus bewahren wir nichts auf."
+        ]
+      },
+      {
+        "heading": "Übermittlungen außerhalb des Europäischen Wirtschaftsraums",
+        "paragraphs": [
+          "Cloudflare, Google und Calendly sind in den Vereinigten Staaten ansässig und können Daten dort oder in anderen Ländern verarbeiten. Jeder von ihnen deckt diese Übermittlungen über die Standardvertragsklauseln der Europäischen Kommission ab oder, soweit zertifiziert, über das EU-US Data Privacy Framework."
+        ]
+      },
+      {
+        "heading": "Ihre Rechte",
+        "paragraphs": [
+          "Nach der Datenschutz-Grundverordnung können Sie eine Kopie der bei uns gespeicherten personenbezogenen Daten verlangen, deren Berichtigung oder Löschung, die Einschränkung der Verarbeitung, den Widerspruch gegen eine Verarbeitung auf Grundlage berechtigten Interesses sowie die Herausgabe in einem übertragbaren Format. Schreiben Sie an catalin.rizea@innoviasystems.io, wir antworten innerhalb eines Monats.",
+          "Wenn Sie meinen, dass wir mit Ihren Daten schlecht umgegangen sind, können Sie sich bei der rumänischen Aufsichtsbehörde ANSPDCP (B-dul General Gheorghe Magheru 28-30, Sector 1, Bukarest, dataprotection.ro) oder bei der Behörde Ihres Wohnsitzlands beschweren."
+        ]
+      },
+      {
+        "heading": "Änderungen an diesem Hinweis",
+        "paragraphs": [
+          "Ändert sich etwas, ändert sich das Datum oben mit. Wesentliche Änderungen werden hier beschrieben und nicht stillschweigend angewendet."
+        ]
+      }
+    ]
+  },
   "footer": {
     "copyright": "Innovia Systems",
-    "tagline": "Fit for Digital. Fit for AI."
+    "tagline": "Fit for Digital. Fit for AI.",
+    "privacy": "Datenschutz",
+    "legal": "Impressum"
   }
 }

@@ -1,5 +1,9 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
+
+const legalLinkClass =
+  'text-body-sm text-slate-300 underline decoration-slate-500 underline-offset-4 transition-colors hover:text-paper hover:decoration-paper';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -10,7 +14,7 @@ export default function Footer() {
       <div className="container-x flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
         <div className="flex items-center gap-4">
           <Image
-            src="/innovia-profile.png"
+            src="/innovia-mark-96.png"
             alt="Innovia Systems"
             width={36}
             height={36}
@@ -21,7 +25,15 @@ export default function Footer() {
             <p className="text-body-sm text-slate-300">{t('tagline')}</p>
           </div>
         </div>
-        <p className="font-mono text-caption text-slate-300">© {year}</p>
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+          <Link href="/legal" className={legalLinkClass}>
+            {t('legal')}
+          </Link>
+          <Link href="/privacy" className={legalLinkClass}>
+            {t('privacy')}
+          </Link>
+          <p className="font-mono text-caption text-slate-300">© {year}</p>
+        </div>
       </div>
     </footer>
   );
