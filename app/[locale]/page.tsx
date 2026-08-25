@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -8,6 +9,17 @@ import FitForAI from '@/components/FitForAI';
 import Partnership from '@/components/Partnership';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import { buildMetadata } from '@/lib/seo';
+import type { AppLocale } from '@/i18n/routing';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return buildMetadata(locale as AppLocale, 'home', '/');
+}
 
 export default async function HomePage({
   params,
