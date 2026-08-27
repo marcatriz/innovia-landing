@@ -132,7 +132,9 @@
     "title": "The Price of Knowing",
     "subtitle": "How Asset Data and AI Decide Who Wins in Leasing",
     "body": "A book by our founder, Marius Catalin Rizea, drawn from nearly two decades operating European leasing platforms. It asks a question that reaches past any single industry: what an organization actually knows about the assets it finances, who is allowed to read that record, and whether the answer arrives in time to change a decision.",
-    "method": "The method is the one we bring to client work. Every figure carries its source and its date, where the numbers are not public the book says so instead of estimating, and it states in advance what would prove it wrong.",
+    "argument": "Five parties touch a financed asset, and each holds a different fragment of it. The gap between the fragments is where the money goes: the same fact is established again on every deal, and the asset is examined at two moments instead of being observable in between. The book traces one ordinary transaction from the quoted rate to the shareholder's return, and shows where a 269 basis point margin becomes 129, and why the identical deal returns thirteen per cent on one balance sheet and five on another.",
+    "capability": "That gap is the work we do. We map where a decision is actually made, find what the organization already knows but cannot reach in time, and rebuild the path so the answer arrives while the decision is still open. Sometimes the answer is a process change and no software at all. When it is software, we prototype it and put it in front of the people who will use it before anyone commits to a build.",
+    "method": "Every figure in the book carries its source and its date, and it states in advance what would prove it wrong. That is the standard we hold our own recommendations to.",
     "cta": "Read it on Amazon",
     "formats": "Paperback, hardcover and Kindle. Published August 2026.",
     "coverAlt": "Cover of The Price of Knowing by Marius Rizea"

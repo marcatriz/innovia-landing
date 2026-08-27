@@ -132,7 +132,9 @@
     "title": "The Price of Knowing",
     "subtitle": "How Asset Data and AI Decide Who Wins in Leasing",
     "body": "Un livre de notre fondateur, Marius Catalin Rizea, né de près de deux décennies passées à opérer des plateformes de leasing européennes. Il pose une question qui dépasse une seule industrie : ce qu'une organisation sait réellement des actifs qu'elle finance, qui a le droit de lire cet enregistrement, et si la réponse arrive à temps pour changer une décision.",
-    "method": "La méthode est celle que nous apportons aux missions clients. Chaque chiffre porte sa source et sa date, là où les nombres ne sont pas publics le livre le dit au lieu d'estimer, et il énonce d'avance ce qui le réfuterait.",
+    "argument": "Cinq parties touchent le même actif financé, et chacune détient un fragment différent. C'est dans l'écart entre les fragments que part l'argent : le même fait est réétabli à chaque opération, et l'actif est examiné à deux moments au lieu d'être observable entre les deux. Le livre suit une transaction ordinaire du taux proposé jusqu'au rendement de l'actionnaire, et montre où une marge de 269 points de base devient 129, et pourquoi la même opération rapporte treize pour cent dans un bilan et cinq dans un autre.",
+    "capability": "Cet écart, c'est notre travail. Nous cartographions où la décision se prend réellement, trouvons ce que l'organisation sait déjà sans pouvoir l'atteindre à temps, et reconstruisons le chemin pour que la réponse arrive tant que la décision reste ouverte. Parfois la réponse est un changement de processus et aucun logiciel. Quand c'est un logiciel, nous le prototypons et le mettons devant les personnes qui l'utiliseront avant que quiconque n'engage une construction.",
+    "method": "Chaque chiffre du livre porte sa source et sa date, et le livre énonce d'avance ce qui le réfuterait. C'est la norme à laquelle nous tenons nos propres recommandations.",
     "cta": "Lire sur Amazon",
     "formats": "Broché, relié et Kindle. Paru en août 2026.",
     "coverAlt": "Couverture de The Price of Knowing par Marius Rizea"

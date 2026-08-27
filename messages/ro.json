@@ -132,7 +132,9 @@
     "title": "The Price of Knowing",
     "subtitle": "How Asset Data and AI Decide Who Wins in Leasing",
     "body": "O carte scrisă de fondatorul nostru, Marius Cătălin Rizea, care vine din aproape două decenii de operare a platformelor europene de leasing. Pune o întrebare care trece dincolo de o singură industrie: ce știe cu adevărat o organizație despre activele pe care le finanțează, cine are dreptul să citească acea evidență și dacă răspunsul ajunge la timp ca să schimbe o decizie.",
-    "method": "Metoda este cea pe care o aducem în proiectele cu clienții. Fiecare cifră își poartă sursa și data, acolo unde numerele nu sunt publice cartea spune asta în loc să estimeze, iar la început declară ce anume ar infirma-o.",
+    "argument": "Cinci părți ating același activ finanțat și fiecare deține un alt fragment din el. În golul dintre fragmente se duc banii: același fapt este stabilit din nou la fiecare tranzacție, iar activul este examinat în două momente în loc să fie observabil între ele. Cartea urmărește o tranzacție obișnuită de la rata cotată până la returul acționarului și arată unde o marjă de 269 de puncte de bază devine 129 și de ce aceeași tranzacție returnează treisprezece la sută pe un bilanț și cinci pe altul.",
+    "capability": "Golul acela este munca noastră. Cartografiem unde se ia efectiv o decizie, găsim ce știe deja organizația dar nu poate ajunge la timp, și reconstruim drumul astfel încât răspunsul să sosească până nu se închide decizia. Uneori răspunsul este o schimbare de proces și niciun software. Când este software, îl prototipăm și îl punem în fața oamenilor care îl vor folosi înainte ca cineva să angajeze un buget de construcție.",
+    "method": "Fiecare cifră din carte își poartă sursa și data, iar cartea declară de la început ce anume ar infirma-o. Acesta este standardul la care ne ținem propriile recomandări.",
     "cta": "Citește pe Amazon",
     "formats": "Broșată, cartonată și Kindle. Publicată în august 2026.",
     "coverAlt": "Coperta cărții The Price of Knowing de Marius Rizea"

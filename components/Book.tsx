@@ -36,7 +36,12 @@ export default function Book() {
             <p className="mt-2 text-body-lg text-teal-700">{t('subtitle')}</p>
 
             <p className="mt-8 text-body-lg text-ink-700">{t('body')}</p>
-            <p className="mt-4 text-body text-ink-700">{t('method')}</p>
+            <p className="mt-4 text-body text-ink-700">{t('argument')}</p>
+            {/* Capabilitatea sta pe fundal propriu: e singurul paragraf despre noi, nu despre carte. */}
+            <p className="mt-6 rounded-lg border-l-2 border-teal-500 bg-slate-50 py-4 pl-5 pr-4 text-body text-ink-700">
+              {t('capability')}
+            </p>
+            <p className="mt-4 text-caption text-ink-500">{t('method')}</p>
 
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
               <a

@@ -12,6 +12,8 @@ Do NOT reintroduce vertical/product framing: no leasing, consumer finance, fleet
 
 The same section carries the founder's background as "nearly two decades operating European leasing platforms" (since 2007). That phrasing is the standing one and it is deliberate on two counts: the former employer and its predecessor products are never named, and the time anchor is attached to a person's career, never to Innovia-the-platform. The sentence that follows it, that the question reaches past any single industry, is what keeps a founder credential from becoming company positioning. Do not drop that bridge.
 
+The `capability` paragraph is the only one in that section that talks about us rather than about the book, which is why it is set apart visually. Two things in it are deliberate and should survive editing: it claims a method, not an outcome, and it names the case where we are not the answer ("sometimes the answer is a process change and no software at all"). Removing that concession to make the paragraph punchier would turn an honest capability claim into a sales line, and it is the sentence a sceptical reader trusts.
+
 ## Five-locale lockstep
 
 Every site edit ships in `en`, `ro`, `de`, `fr`, `it` in the same commit. Never partial coverage. `en.json` is canonical; keep keys identical and in the same order across all 5 files (`messages/*.json`). Brand line "Fit for Digital. Fit for AI." (period, not comma) stays English in every locale. No em dashes in any copy. Romanian site copy keeps diacritics (formal), unlike chat.
