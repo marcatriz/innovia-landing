@@ -26,6 +26,7 @@
     "modules": "Focus",
     "partnership": "Parteneriat",
     "fitSprint": "Fit Sprint",
+    "book": "Carte",
     "diagnostic": "Diagnostic",
     "contact": "Contact",
     "backToTop": "Înapoi sus",
@@ -125,6 +126,16 @@
         "body": "Fiecare caz de utilizare legat de timp economisit sau calitate câștigată, ca să scalezi ce funcționează și să renunți la ce nu."
       }
     }
+  },
+  "book": {
+    "eyebrow": "Publicații",
+    "title": "The Price of Knowing",
+    "subtitle": "How Asset Data and AI Decide Who Wins in Leasing",
+    "body": "O carte scrisă de fondatorul nostru, Marius Rizea, despre o întrebare care trece dincolo de o singură industrie: ce știe cu adevărat o organizație despre activele pe care le finanțează, cine are dreptul să citească acea evidență și dacă răspunsul ajunge la timp ca să schimbe o decizie.",
+    "method": "Metoda este cea pe care o aducem în proiectele cu clienții. Fiecare cifră își poartă sursa și data, acolo unde numerele nu sunt publice cartea spune asta în loc să estimeze, iar la început declară ce anume ar infirma-o.",
+    "cta": "Citește pe Amazon",
+    "formats": "Broșată, cartonată și Kindle. Publicată în august 2026.",
+    "coverAlt": "Coperta cărții The Price of Knowing de Marius Rizea"
   },
   "partnership": {
     "eyebrow": "Cum este structurat engagement-ul",

@@ -33,6 +33,9 @@ export default function Header() {
           <Link href="/fit-sprint" className={linkClass}>
             {t('fitSprint')}
           </Link>
+          <Link href="/#book" className={linkClass}>
+            {t('book')}
+          </Link>
           <Link href="/#partnership" className={linkClass}>
             {t('partnership')}
           </Link>

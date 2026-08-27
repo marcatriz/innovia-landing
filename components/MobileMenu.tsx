@@ -15,6 +15,7 @@ const ITEMS = [
   { href: '/#services', key: 'services' },
   { href: '/#focus', key: 'modules' },
   { href: '/fit-sprint', key: 'fitSprint' },
+  { href: '/#book', key: 'book' },
   { href: '/#partnership', key: 'partnership' },
   { href: '/diagnostic', key: 'diagnostic' },
   { href: '/#contact', key: 'contact' },
