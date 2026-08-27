@@ -10,6 +10,8 @@ Do NOT reintroduce vertical/product framing: no leasing, consumer finance, fleet
 
 **One deliberate exception, added 2026-08-27: the `book` section (`components/Book.tsx`, section id `#book`).** The founder published *The Price of Knowing: How Asset Data and AI Decide Who Wins in Leasing* in August 2026, and the site links to it. The word "leasing" appears there only inside the book's own subtitle and cover, never as a description of what Innovia does. The surrounding copy is deliberately written one level up, about what an organization knows about the assets it finances and whether the answer arrives in time to change a decision. Keep it that way: this is authorship and evidence of method, not a change of positioning, and it is not a licence to reintroduce vertical framing elsewhere.
 
+The same section carries the founder's background as "nearly two decades operating European leasing platforms" (since 2007). That phrasing is the standing one and it is deliberate on two counts: the former employer and its predecessor products are never named, and the time anchor is attached to a person's career, never to Innovia-the-platform. The sentence that follows it, that the question reaches past any single industry, is what keeps a founder credential from becoming company positioning. Do not drop that bridge.
+
 ## Five-locale lockstep
 
 Every site edit ships in `en`, `ro`, `de`, `fr`, `it` in the same commit. Never partial coverage. `en.json` is canonical; keep keys identical and in the same order across all 5 files (`messages/*.json`). Brand line "Fit for Digital. Fit for AI." (period, not comma) stays English in every locale. No em dashes in any copy. Romanian site copy keeps diacritics (formal), unlike chat.
