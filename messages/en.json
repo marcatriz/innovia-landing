@@ -132,7 +132,25 @@
     "title": "The Price of Knowing",
     "subtitle": "How Asset Data and AI Decide Who Wins in Leasing",
     "body": "A book by our founder, Marius Catalin Rizea, drawn from nearly two decades operating European leasing platforms. It asks a question that reaches past any single industry: what an organization actually knows about the assets it finances, who is allowed to read that record, and whether the answer arrives in time to change a decision.",
-    "argument": "Five parties touch a financed asset, and each holds a different fragment of it. The gap between the fragments is where the money goes: the same fact is established again on every deal, and the asset is examined at two moments instead of being observable in between. The book traces one ordinary transaction from the quoted rate to the shareholder's return, and shows where a 269 basis point margin becomes 129, and why the identical deal returns thirteen per cent on one balance sheet and five on another.",
+    "blocks": {
+      "levers": {
+        "title": "Two levers",
+        "body": "The first is the rate, and it is worked hard already. The second is what the lender actually knows about the asset, which has been slow to arrive and expensive to establish."
+      },
+      "fragments": {
+        "title": "Five fragments",
+        "body": "The maker, the workshop, the insurer, the customer and the funder each hold a different piece of the same financed asset. On every deal, each of them pays again to establish something another already knew."
+      },
+      "gap": {
+        "title": "The gap, not the pieces",
+        "body": "A record gains value as it connects. Each party that joins removes a duplicate verification for the others, and the asset stops being examined at two moments and starts being observable in between."
+      },
+      "winners": {
+        "title": "Who wins",
+        "body": "The advantage goes less to whoever holds the best data, or trains the best model, than to whoever acts on it fastest. The book shows where a 269 basis point margin becomes 129, and why the identical deal returns thirteen per cent on one balance sheet and five on another."
+      }
+    },
+    "law": "From February 2027 a battery must carry a passport any authorised party can read, on open standards, through an open exchange network. The law uses the phrase \"without vendor lock-in\". Interconnection is being written into the market as a condition, rather than sold into it as a product.",
     "capability": "That gap is the work we do. We map where a decision is actually made, find what the organization already knows but cannot reach in time, and rebuild the path so the answer arrives while the decision is still open. Sometimes the answer is a process change and no software at all. When it is software, we prototype it and put it in front of the people who will use it before anyone commits to a build.",
     "method": "Every figure in the book carries its source and its date, and it states in advance what would prove it wrong. That is the standard we hold our own recommendations to.",
     "cta": "Read it on Amazon",

@@ -132,7 +132,25 @@
     "title": "The Price of Knowing",
     "subtitle": "How Asset Data and AI Decide Who Wins in Leasing",
     "body": "Ein Buch unseres Gründers Marius Catalin Rizea, aus fast zwei Jahrzehnten Arbeit an europäischen Leasingplattformen. Es stellt eine Frage, die über eine einzelne Branche hinausreicht: Was weiß eine Organisation tatsächlich über die Vermögenswerte, die sie finanziert, wer darf diese Aufzeichnung lesen, und kommt die Antwort rechtzeitig, um eine Entscheidung zu verändern?",
-    "argument": "Fünf Parteien berühren denselben finanzierten Vermögenswert, und jede hält ein anderes Fragment davon. In der Lücke zwischen den Fragmenten verschwindet das Geld: derselbe Sachverhalt wird bei jedem Geschäft erneut festgestellt, und der Vermögenswert wird zu zwei Zeitpunkten geprüft, statt dazwischen beobachtbar zu sein. Das Buch verfolgt eine gewöhnliche Transaktion vom angebotenen Zinssatz bis zur Aktionärsrendite und zeigt, wo aus einer Marge von 269 Basispunkten 129 werden und warum dasselbe Geschäft in der einen Bilanz dreizehn Prozent und in der anderen fünf abwirft.",
+    "blocks": {
+      "levers": {
+        "title": "Zwei Hebel",
+        "body": "Der erste ist der Zinssatz, und er wird bereits voll ausgereizt. Der zweite ist, was der Finanzierer tatsächlich über den Vermögenswert weiß, und das kam bisher spät und war teuer festzustellen."
+      },
+      "fragments": {
+        "title": "Fünf Fragmente",
+        "body": "Hersteller, Werkstatt, Versicherer, Kunde und Finanzierer halten jeweils ein anderes Stück desselben finanzierten Vermögenswerts. Bei jedem Geschäft zahlt jeder erneut, um etwas festzustellen, das ein anderer bereits wusste."
+      },
+      "gap": {
+        "title": "Die Lücke, nicht die Stücke",
+        "body": "Eine Aufzeichnung gewinnt an Wert, während sie sich verbindet. Jede Partei, die hinzukommt, erspart den anderen eine doppelte Prüfung, und der Vermögenswert wird nicht mehr zu zwei Zeitpunkten geprüft, sondern dazwischen beobachtbar."
+      },
+      "winners": {
+        "title": "Wer gewinnt",
+        "body": "Der Vorteil geht weniger an den mit den besten Daten oder dem besten Modell als an den, der am schnellsten handelt. Das Buch zeigt, wo aus einer Marge von 269 Basispunkten 129 werden und warum dasselbe Geschäft in der einen Bilanz dreizehn Prozent und in der anderen fünf abwirft."
+      }
+    },
+    "law": "Ab Februar 2027 muss eine Batterie einen Pass tragen, den jede berechtigte Partei lesen kann, auf offenen Standards, über ein offenes Austauschnetz. Das Gesetz verwendet die Formulierung \"ohne Anbieterbindung\". Interconnection wird als Bedingung in den Markt geschrieben, nicht als Produkt hineinverkauft.",
     "capability": "Diese Lücke ist unsere Arbeit. Wir kartieren, wo eine Entscheidung tatsächlich fällt, finden, was die Organisation bereits weiß, aber nicht rechtzeitig erreichen kann, und bauen den Weg so um, dass die Antwort eintrifft, solange die Entscheidung noch offen ist. Manchmal ist die Antwort eine Prozessänderung und gar keine Software. Wenn es Software ist, bauen wir einen Prototyp und legen ihn den Menschen vor, die damit arbeiten werden, bevor jemand ein Bauprojekt beschließt.",
     "method": "Jede Zahl im Buch trägt ihre Quelle und ihr Datum, und das Buch nennt vorab, was es widerlegen würde. Das ist der Maßstab, an dem wir unsere eigenen Empfehlungen messen.",
     "cta": "Auf Amazon lesen",

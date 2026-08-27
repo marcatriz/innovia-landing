@@ -7,10 +7,16 @@ import { useTranslations } from 'next-intl';
  * only place the book's industry appears is inside its own subtitle. See the
  * note in CLAUDE.md about the industry-neutral rule and this exception.
  *
+ * The argument is broken into four blocks rather than run as one column of
+ * prose. It carries the same substance as the Amazon listing, which is around
+ * 3,300 characters; poured into a single column that reads as a wall and gets
+ * skipped, and the numbers in it are the part worth reaching.
+ *
  * The Amazon link is the only outbound link on the homepage. It carries
  * rel="noopener" and opens in a new tab so the visitor keeps the site.
  */
 const AMAZON_URL = 'https://www.amazon.com/dp/B0HGNP3ZGX';
+const BLOCKS = ['levers', 'fragments', 'gap', 'winners'] as const;
 
 export default function Book() {
   const t = useTranslations('book');
@@ -34,29 +40,41 @@ export default function Book() {
             <p className="eyebrow mb-4 text-teal-700">{t('eyebrow')}</p>
             <h2 className="text-h2 text-ink-900">{t('title')}</h2>
             <p className="mt-2 text-body-lg text-teal-700">{t('subtitle')}</p>
-
             <p className="mt-8 text-body-lg text-ink-700">{t('body')}</p>
-            <p className="mt-4 text-body text-ink-700">{t('argument')}</p>
-            {/* Capabilitatea sta pe fundal propriu: e singurul paragraf despre noi, nu despre carte. */}
-            <p className="mt-6 rounded-lg border-l-2 border-teal-500 bg-slate-50 py-4 pl-5 pr-4 text-body text-ink-700">
-              {t('capability')}
-            </p>
-            <p className="mt-4 text-caption text-ink-500">{t('method')}</p>
-
-            <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
-              <a
-                href={AMAZON_URL}
-                target="_blank"
-                rel="noopener"
-                className="inline-flex items-center gap-2 rounded-lg bg-navy-800 px-6 py-3 text-body font-medium text-paper transition-colors hover:bg-navy-900"
-              >
-                {t('cta')}
-                <span aria-hidden>&rarr;</span>
-              </a>
-              <p className="text-caption text-ink-500">{t('formats')}</p>
-            </div>
           </div>
         </div>
+
+        <div className="mt-16 grid gap-x-10 gap-y-8 md:grid-cols-2">
+          {BLOCKS.map((b, i) => (
+            <article key={b}>
+              <span className="font-mono text-caption text-teal-500">0{i + 1}</span>
+              <h3 className="mt-1 text-h3 text-ink-900">{t(`blocks.${b}.title`)}</h3>
+              <p className="mt-2 text-body text-ink-700">{t(`blocks.${b}.body`)}</p>
+            </article>
+          ))}
+        </div>
+
+        <p className="mt-10 border-t border-slate-100 pt-8 text-body text-ink-700">{t('law')}</p>
+
+        {/* Capabilitatea sta pe fundal propriu: e singurul paragraf despre noi, nu despre carte. */}
+        <p className="mt-8 rounded-lg border-l-2 border-teal-500 bg-slate-50 py-5 pl-6 pr-5 text-body text-ink-700">
+          {t('capability')}
+        </p>
+
+        <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
+          <a
+            href={AMAZON_URL}
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center gap-2 rounded-lg bg-navy-800 px-6 py-3 text-body font-medium text-paper transition-colors hover:bg-navy-900"
+          >
+            {t('cta')}
+            <span aria-hidden>&rarr;</span>
+          </a>
+          <p className="text-caption text-ink-500">{t('formats')}</p>
+        </div>
+
+        <p className="mt-6 text-caption text-ink-500">{t('method')}</p>
       </div>
     </section>
   );

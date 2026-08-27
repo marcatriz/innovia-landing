@@ -132,7 +132,25 @@
     "title": "The Price of Knowing",
     "subtitle": "How Asset Data and AI Decide Who Wins in Leasing",
     "body": "O carte scrisă de fondatorul nostru, Marius Cătălin Rizea, care vine din aproape două decenii de operare a platformelor europene de leasing. Pune o întrebare care trece dincolo de o singură industrie: ce știe cu adevărat o organizație despre activele pe care le finanțează, cine are dreptul să citească acea evidență și dacă răspunsul ajunge la timp ca să schimbe o decizie.",
-    "argument": "Cinci părți ating același activ finanțat și fiecare deține un alt fragment din el. În golul dintre fragmente se duc banii: același fapt este stabilit din nou la fiecare tranzacție, iar activul este examinat în două momente în loc să fie observabil între ele. Cartea urmărește o tranzacție obișnuită de la rata cotată până la returul acționarului și arată unde o marjă de 269 de puncte de bază devine 129 și de ce aceeași tranzacție returnează treisprezece la sută pe un bilanț și cinci pe altul.",
+    "blocks": {
+      "levers": {
+        "title": "Două pârghii",
+        "body": "Prima este rata, și este deja folosită la maximum. A doua este ce știe efectiv finanțatorul despre activ, iar asta a sosit întotdeauna greu și a costat scump."
+      },
+      "fragments": {
+        "title": "Cinci fragmente",
+        "body": "Producătorul, atelierul, asigurătorul, clientul și finanțatorul dețin fiecare altă bucată din același activ finanțat. La fiecare tranzacție, fiecare plătește din nou ca să stabilească un lucru pe care altul îl știa deja."
+      },
+      "gap": {
+        "title": "Golul, nu bucățile",
+        "body": "O evidență capătă valoare pe măsură ce se conectează. Fiecare parte care se alătură elimină o verificare duplicată pentru celelalte, iar activul încetează să fie examinat în două momente și devine observabil între ele."
+      },
+      "winners": {
+        "title": "Cine câștigă",
+        "body": "Avantajul merge mai puțin la cine deține cele mai bune date, sau antrenează cel mai bun model, cât la cine acționează cel mai repede. Cartea arată unde o marjă de 269 de puncte de bază devine 129 și de ce aceeași tranzacție returnează treisprezece la sută pe un bilanț și cinci pe altul."
+      }
+    },
+    "law": "Din februarie 2027 o baterie trebuie să poarte un pașaport pe care orice parte autorizată îl poate citi, pe standarde deschise, printr-o rețea deschisă de schimb. Legea folosește formularea \"fără dependență de furnizor\". Interconectarea este scrisă în piață ca o condiție, nu vândută în ea ca un produs.",
     "capability": "Golul acela este munca noastră. Cartografiem unde se ia efectiv o decizie, găsim ce știe deja organizația dar nu poate ajunge la timp, și reconstruim drumul astfel încât răspunsul să sosească până nu se închide decizia. Uneori răspunsul este o schimbare de proces și niciun software. Când este software, îl prototipăm și îl punem în fața oamenilor care îl vor folosi înainte ca cineva să angajeze un buget de construcție.",
     "method": "Fiecare cifră din carte își poartă sursa și data, iar cartea declară de la început ce anume ar infirma-o. Acesta este standardul la care ne ținem propriile recomandări.",
     "cta": "Citește pe Amazon",
