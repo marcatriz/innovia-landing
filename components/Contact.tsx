@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 import CopyEmail from './CopyEmail';
 
-const EMAIL = 'catalin.rizea@innoviasystems.io';
+const EMAIL = 'contact@innoviasystems.io';
 
 export default function Contact() {
   const t = useTranslations('contact');
