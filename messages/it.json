@@ -12,6 +12,10 @@
       "title": "Diagnostica Fit for Digital / Fit for AI | Innovia Systems",
       "description": "Venti domande su sette dimensioni, sette minuti, senza email. Una lettura onesta di dove si trova la vostra operazione su digitale e AI."
     },
+    "insights": {
+      "title": "Asset Finance Letter | Innovia Systems",
+      "description": "Quattro pagine al mese sull'asset finance europeo: che cosa hanno effettivamente pubblicato le associazioni, che cosa si è mosso e un'affermazione scritta per poter essere smentita."
+    },
     "privacy": {
       "title": "Informativa sulla privacy | Innovia Systems",
       "description": "Questo sito non usa cookie e non ha backend. Che cosa viene misurato, che cosa accade ai dati personali, chi altro è coinvolto e come esercitare i vostri diritti."
@@ -26,6 +30,7 @@
     "modules": "Focus",
     "partnership": "Partnership",
     "fitSprint": "Fit Sprint",
+    "insights": "Analisi",
     "book": "Libro",
     "diagnostic": "Diagnostica",
     "contact": "Contatti",
@@ -403,6 +408,25 @@
         }
       }
     }
+  },
+  "insights": {
+    "masthead": "Asset Finance Letter",
+    "issueLabel": "Numero",
+    "pageLabel": "Pagina",
+    "indexTitle": "Un mese di asset finance europeo, in quattro pagine",
+    "indexLead": "Una volta al mese leggiamo ciò che le associazioni europee del leasing e dell'asset finance hanno effettivamente pubblicato e annotiamo che cosa si è mosso. Quattro pagine: un argomento, una tabella di cifre che porta i propri avvertimenti di comparabilità, che cosa è cambiato nella regolamentazione e un'affermazione scritta in modo che il mese prossimo possiate verificare se ci siamo sbagliati.",
+    "indexMethod": "Solo fonti pubbliche. Ogni cifra porta il proprio periodo, la propria base di calcolo e l'indirizzo da cui l'abbiamo letta, perché un numero privo di questi tre elementi non è una prova. Quando una cifra si appoggia a una sola fonte lo diciamo, invece di prendere in prestito fiducia da una seconda citazione che non esiste.",
+    "englishOnly": "Ogni numero è pubblicato in inglese, la lingua di lavoro del mercato europeo dell'asset finance.",
+    "readIssue": "Leggi il numero",
+    "downloadPdf": "Scarica il PDF",
+    "extent": "Copertina e quattro pagine",
+    "backToIssues": "Torna a tutti i numeri",
+    "inThisIssue": "In questo numero",
+    "englishOnlyShort": "Pubblicato in inglese",
+    "bookMode": "Leggi come opuscolo",
+    "flowMode": "Leggi su una pagina",
+    "prevPage": "Pagina precedente",
+    "nextPage": "Pagina successiva"
   },
   "whitepaper": {
     "backToList": "Torna a tutti i whitepapers",

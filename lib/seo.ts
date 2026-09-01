@@ -25,7 +25,7 @@ const OG_LOCALE: Record<AppLocale, string> = {
  */
 export async function buildMetadata(
   locale: AppLocale,
-  page: 'home' | 'fitSprint' | 'diagnostic' | 'privacy' | 'legal',
+  page: 'home' | 'fitSprint' | 'diagnostic' | 'privacy' | 'legal' | 'insights',
   path = '/'
 ): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'meta' });
@@ -55,6 +55,52 @@ export async function buildMetadata(
       locale: OG_LOCALE[locale],
       alternateLocale: LOCALES.filter((l) => l !== locale).map((l) => OG_LOCALE[l]),
       url,
+      title,
+      description,
+      images: [image],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [image],
+    },
+  };
+}
+
+/**
+ * Metadata for one issue of the asset finance letter.
+ *
+ * Issues are published in English only, so every locale points its canonical at
+ * the English URL. Without that, five locale prefixes would serve the same
+ * English document and compete with each other in search results. The locale
+ * routes still exist and still render, because a reader arriving from a
+ * Romanian or German page should get the document rather than a 404.
+ */
+export function buildIssueMetadata(
+  locale: AppLocale,
+  issue: { slug: string; number: number; edition: string; title: string; dek: string }
+): Metadata {
+  const canonical = `${SITE_URL}/en/insights/${issue.slug}/`;
+  const title = `${issue.title} | Innovia Asset Finance Letter ${issue.number}`;
+  const description = issue.dek;
+
+  const image = {
+    url: `${SITE_URL}/og-image.png`,
+    width: 1200,
+    height: 630,
+    alt: 'Innovia Systems. Fit for Digital. Fit for AI.',
+  };
+
+  return {
+    title,
+    description,
+    alternates: { canonical, languages: { 'x-default': canonical, en: canonical } },
+    openGraph: {
+      type: 'article',
+      siteName: 'Innovia Systems',
+      locale: OG_LOCALE[locale],
+      url: `${SITE_URL}/${locale}/insights/${issue.slug}/`,
       title,
       description,
       images: [image],

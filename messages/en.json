@@ -12,6 +12,10 @@
       "title": "Fit for Digital / Fit for AI diagnostic | Innovia Systems",
       "description": "Twenty questions across seven dimensions, seven minutes, no email required. An honest read on where your operation sits on digital and AI readiness."
     },
+    "insights": {
+      "title": "Asset Finance Letter | Innovia Systems",
+      "description": "A four-page letter each month on European asset finance: what the associations actually published, what moved, and one claim written so it can be proved wrong."
+    },
     "privacy": {
       "title": "Privacy notice | Innovia Systems",
       "description": "This site sets no cookies and has no backend. What is measured, what happens to personal data, who else is involved, and how to exercise your rights."
@@ -26,6 +30,7 @@
     "modules": "Focus",
     "partnership": "Partnership",
     "fitSprint": "Fit Sprint",
+    "insights": "Insights",
     "book": "Book",
     "diagnostic": "Diagnostic",
     "contact": "Contact",
@@ -403,6 +408,25 @@
         }
       }
     }
+  },
+  "insights": {
+    "masthead": "Asset Finance Letter",
+    "issueLabel": "Issue",
+    "pageLabel": "Page",
+    "indexTitle": "One month of European asset finance, in four pages",
+    "indexLead": "Once a month we read what the European leasing and asset finance associations actually published, and write down what moved. Four pages: one argument, one table of figures carrying their comparability caveats, what changed in regulation, and one claim written so that you can find out next month whether we were wrong.",
+    "indexMethod": "Public sources only. Every figure carries its period, its basis and the address it was read from, because a number missing those three is not evidence. Where a figure rests on a single source we say so, rather than borrowing confidence from a second citation that does not exist.",
+    "englishOnly": "Every issue is published in English, the working language of the European asset finance market.",
+    "readIssue": "Read the issue",
+    "downloadPdf": "Download the PDF",
+    "extent": "Cover and four pages",
+    "backToIssues": "Back to all issues",
+    "inThisIssue": "In this issue",
+    "englishOnlyShort": "Published in English",
+    "bookMode": "Read as a booklet",
+    "flowMode": "Read as one page",
+    "prevPage": "Previous page",
+    "nextPage": "Next page"
   },
   "whitepaper": {
     "backToList": "Back to all whitepapers",

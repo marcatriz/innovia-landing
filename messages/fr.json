@@ -12,6 +12,10 @@
       "title": "Diagnostic Fit for Digital / Fit for AI | Innovia Systems",
       "description": "Vingt questions sur sept dimensions, sept minutes, sans e-mail. Une lecture honnête de la position de votre opération sur le numérique et l'IA."
     },
+    "insights": {
+      "title": "Asset Finance Letter | Innovia Systems",
+      "description": "Quatre pages par mois sur le financement d'actifs en Europe : ce que les associations ont réellement publié, ce qui a bougé, et une affirmation rédigée pour pouvoir être réfutée."
+    },
     "privacy": {
       "title": "Politique de confidentialité | Innovia Systems",
       "description": "Ce site ne dépose aucun cookie et n'a pas de backend. Ce qui est mesuré, ce qu'il advient des données personnelles, qui d'autre intervient et comment exercer vos droits."
@@ -26,6 +30,7 @@
     "modules": "Focus",
     "partnership": "Partenariat",
     "fitSprint": "Fit Sprint",
+    "insights": "Analyses",
     "book": "Livre",
     "diagnostic": "Diagnostic",
     "contact": "Contact",
@@ -403,6 +408,25 @@
         }
       }
     }
+  },
+  "insights": {
+    "masthead": "Asset Finance Letter",
+    "issueLabel": "Numéro",
+    "pageLabel": "Page",
+    "indexTitle": "Un mois de financement d'actifs en Europe, en quatre pages",
+    "indexLead": "Une fois par mois, nous lisons ce que les associations européennes de leasing et de financement d'actifs ont réellement publié, et nous notons ce qui a bougé. Quatre pages : un argument, un tableau de chiffres portant leurs réserves de comparabilité, ce qui a changé dans la réglementation, et une affirmation rédigée de sorte que vous puissiez savoir le mois prochain si nous nous sommes trompés.",
+    "indexMethod": "Sources publiques uniquement. Chaque chiffre porte sa période, sa base de calcul et l'adresse à laquelle nous l'avons lu, car un nombre privé de ces trois éléments n'est pas une preuve. Lorsqu'un chiffre repose sur une source unique, nous le disons, au lieu d'emprunter de la confiance à une seconde citation qui n'existe pas.",
+    "englishOnly": "Chaque numéro paraît en anglais, langue de travail du marché européen du financement d'actifs.",
+    "readIssue": "Lire le numéro",
+    "downloadPdf": "Télécharger le PDF",
+    "extent": "Couverture et quatre pages",
+    "backToIssues": "Retour à tous les numéros",
+    "inThisIssue": "Dans ce numéro",
+    "englishOnlyShort": "Publié en anglais",
+    "bookMode": "Lire comme une brochure",
+    "flowMode": "Lire sur une seule page",
+    "prevPage": "Page précédente",
+    "nextPage": "Page suivante"
   },
   "whitepaper": {
     "backToList": "Retour à tous les whitepapers",

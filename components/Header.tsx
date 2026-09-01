@@ -11,7 +11,7 @@ export default function Header() {
     'whitespace-nowrap text-[0.8125rem] font-medium text-ink-700 hover:text-teal-700 2xl:text-body-sm';
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-100 bg-paper/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-slate-100 bg-paper/90 backdrop-blur print:hidden">
       <div className="container-x flex h-24 items-center gap-x-6">
         <Link href="/" className="flex shrink-0 items-center gap-3">
           <Image
@@ -32,6 +32,9 @@ export default function Header() {
           </Link>
           <Link href="/fit-sprint" className={linkClass}>
             {t('fitSprint')}
+          </Link>
+          <Link href="/insights" className={linkClass}>
+            {t('insights')}
           </Link>
           <Link href="/#book" className={linkClass}>
             {t('book')}

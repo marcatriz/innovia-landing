@@ -12,6 +12,10 @@
       "title": "Fit-for-Digital- / Fit-for-AI-Diagnostik | Innovia Systems",
       "description": "Zwanzig Fragen über sieben Dimensionen, sieben Minuten, ohne E-Mail. Eine ehrliche Standortbestimmung Ihres Betriebs bei Digitalisierung und KI."
     },
+    "insights": {
+      "title": "Asset Finance Letter | Innovia Systems",
+      "description": "Jeden Monat vier Seiten zur europäischen Leasing- und Investitionsgüterfinanzierung: was die Verbände tatsächlich veröffentlicht haben, was sich bewegt hat, und eine Aussage, die widerlegt werden kann."
+    },
     "privacy": {
       "title": "Datenschutzhinweis | Innovia Systems",
       "description": "Diese Website setzt keine Cookies und hat kein Backend. Was gemessen wird, was mit personenbezogenen Daten geschieht, wer sonst beteiligt ist und wie Sie Ihre Rechte ausüben."
@@ -26,6 +30,7 @@
     "modules": "Fokus",
     "partnership": "Partnerschaft",
     "fitSprint": "Fit Sprint",
+    "insights": "Analysen",
     "book": "Buch",
     "diagnostic": "Diagnostik",
     "contact": "Kontakt",
@@ -403,6 +408,25 @@
         }
       }
     }
+  },
+  "insights": {
+    "masthead": "Asset Finance Letter",
+    "issueLabel": "Ausgabe",
+    "pageLabel": "Seite",
+    "indexTitle": "Ein Monat europäische Leasing- und Investitionsgüterfinanzierung, auf vier Seiten",
+    "indexLead": "Einmal im Monat lesen wir, was die europäischen Leasing- und Anlagenfinanzierungsverbände tatsächlich veröffentlicht haben, und halten fest, was sich bewegt hat. Vier Seiten: ein Argument, eine Zahlentabelle mit ihren Vergleichbarkeitsvorbehalten, was sich in der Regulierung geändert hat, und eine Aussage, die so formuliert ist, dass Sie im nächsten Monat feststellen können, ob wir falsch lagen.",
+    "indexMethod": "Nur öffentliche Quellen. Jede Zahl trägt ihren Zeitraum, ihre Berechnungsbasis und die Adresse, von der wir sie gelesen haben, denn eine Zahl ohne diese drei Angaben ist kein Beleg. Wo eine Zahl auf einer einzigen Quelle beruht, sagen wir das, statt Sicherheit von einem zweiten Zitat zu leihen, das es nicht gibt.",
+    "englishOnly": "Jede Ausgabe erscheint auf Englisch, der Arbeitssprache des europäischen Asset-Finance-Markts.",
+    "readIssue": "Ausgabe lesen",
+    "downloadPdf": "PDF herunterladen",
+    "extent": "Titelseite und vier Seiten",
+    "backToIssues": "Zurück zu allen Ausgaben",
+    "inThisIssue": "In dieser Ausgabe",
+    "englishOnlyShort": "Erscheint auf Englisch",
+    "bookMode": "Als Broschüre lesen",
+    "flowMode": "Auf einer Seite lesen",
+    "prevPage": "Vorherige Seite",
+    "nextPage": "Nächste Seite"
   },
   "whitepaper": {
     "backToList": "Zurück zu allen Whitepapers",

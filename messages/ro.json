@@ -12,6 +12,10 @@
       "title": "Diagnostic Fit for Digital / Fit for AI | Innovia Systems",
       "description": "Douăzeci de întrebări pe șapte dimensiuni, șapte minute, fără email. O citire onestă a locului în care stă operațiunea ta pe digital și AI."
     },
+    "insights": {
+      "title": "Asset Finance Letter | Innovia Systems",
+      "description": "Patru pagini pe lună despre finanțarea activelor în Europa: ce au publicat efectiv asociațiile, ce s-a mișcat și o afirmație scrisă astfel încât să poată fi infirmată."
+    },
     "privacy": {
       "title": "Notă de confidențialitate | Innovia Systems",
       "description": "Site-ul nu pune cookie-uri și nu are backend. Ce se măsoară, ce se întâmplă cu datele personale, cine mai este implicat și cum îți exerciți drepturile."
@@ -26,6 +30,7 @@
     "modules": "Focus",
     "partnership": "Parteneriat",
     "fitSprint": "Fit Sprint",
+    "insights": "Analize",
     "book": "Carte",
     "diagnostic": "Diagnostic",
     "contact": "Contact",
@@ -403,6 +408,25 @@
         }
       }
     }
+  },
+  "insights": {
+    "masthead": "Asset Finance Letter",
+    "issueLabel": "Numărul",
+    "pageLabel": "Pagina",
+    "indexTitle": "O lună de finanțare a activelor în Europa, în patru pagini",
+    "indexLead": "O dată pe lună citim ce au publicat efectiv asociațiile europene de leasing și finanțare a activelor și notăm ce s-a mișcat. Patru pagini: un argument, un tabel de cifre care își poartă avertismentele de comparabilitate, ce s-a schimbat în reglementare și o afirmație scrisă astfel încât să puteți afla luna viitoare dacă am greșit.",
+    "indexMethod": "Doar surse publice. Fiecare cifră își poartă perioada, baza de calcul și adresa de la care a fost citită, fiindcă un număr căruia îi lipsesc cele trei nu este o dovadă. Unde o cifră stă pe o singură sursă, o spunem, în loc să împrumutăm încredere de la o a doua citare care nu există.",
+    "englishOnly": "Fiecare număr apare în limba engleză, limba de lucru a pieței europene de finanțare a activelor.",
+    "readIssue": "Citiți numărul",
+    "downloadPdf": "Descărcați PDF-ul",
+    "extent": "Copertă și patru pagini",
+    "backToIssues": "Înapoi la toate numerele",
+    "inThisIssue": "În acest număr",
+    "englishOnlyShort": "Apare în limba engleză",
+    "bookMode": "Citiți ca broșură",
+    "flowMode": "Citiți pe o singură pagină",
+    "prevPage": "Pagina anterioară",
+    "nextPage": "Pagina următoare"
   },
   "whitepaper": {
     "backToList": "Înapoi la toate whitepapers",
