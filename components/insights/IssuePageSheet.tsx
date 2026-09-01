@@ -77,7 +77,7 @@ export default function IssuePageSheet({
       {/* Running foot, printed on every page so a loose sheet identifies itself. */}
       <p className="mt-8 flex justify-between border-t border-navy-900 pt-2 text-caption uppercase tracking-wider text-slate-500 print:mt-2 print:pt-1 print:text-[6pt]">
         <span>
-          Innovia Systems · {t('masthead')} · {issue.edition}
+          {t('masthead')} · {issue.edition}
         </span>
         <span>
           {t('pageLabel')} {sheet}/{sheets} · innoviasystems.io

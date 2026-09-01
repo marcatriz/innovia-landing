@@ -31,14 +31,9 @@ export default function IssueCoverSheet({
 
       <div className="flex flex-1 flex-col px-10 py-12 pl-14 print:px-[16mm] print:pb-[14mm] print:pl-[22mm] print:pt-[18mm]">
         <header>
-          <div className="flex items-center gap-3">
-            <span className="block h-5 w-[3px] bg-teal-500 print:h-[6mm] print:w-[1mm]" />
-            <span className="font-display text-h4 font-bold uppercase tracking-[0.2em] text-paper print:text-[11pt]">
-              Innovia Systems
-            </span>
-          </div>
-
-          <p className="mt-10 font-display text-[2.75rem] font-bold uppercase leading-[0.95] tracking-[0.02em] text-teal-300 print:mt-[14mm] print:text-[30pt]">
+          {/* The name, once, at the size a masthead earns. The publisher credit sits
+              in the imprint at the foot rather than repeating "Innovia" twice here. */}
+          <p className="font-display text-[2.75rem] font-bold uppercase leading-[0.95] tracking-[0.02em] text-teal-300 print:text-[30pt]">
             {t('masthead')}
           </p>
           <p className="mt-3 max-w-[30rem] text-body-lg italic leading-snug text-slate-300 print:mt-[3mm] print:text-[11pt]">
@@ -101,8 +96,9 @@ export default function IssueCoverSheet({
           </ol>
         </div>
 
+        {/* Imprint. */}
         <p className="mt-auto pt-10 text-caption uppercase tracking-wider text-slate-300/70 print:pt-[10mm] print:text-[6.5pt]">
-          innoviasystems.io · {t('englishOnlyShort')}
+          {t('publishedBy')} Innovia Systems · innoviasystems.io · {t('englishOnlyShort')}
         </p>
       </div>
     </section>

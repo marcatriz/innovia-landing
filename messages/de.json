@@ -13,7 +13,7 @@
       "description": "Zwanzig Fragen über sieben Dimensionen, sieben Minuten, ohne E-Mail. Eine ehrliche Standortbestimmung Ihres Betriebs bei Digitalisierung und KI."
     },
     "insights": {
-      "title": "Asset Finance Letter | Innovia Systems",
+      "title": "Innovia Asset Finance Letter",
       "description": "Jeden Monat vier Seiten zur europäischen Leasing- und Investitionsgüterfinanzierung: was die Verbände tatsächlich veröffentlicht haben, was sich bewegt hat, und eine Aussage, die widerlegt werden kann."
     },
     "privacy": {
@@ -410,7 +410,7 @@
     }
   },
   "insights": {
-    "masthead": "Asset Finance Letter",
+    "masthead": "Innovia Asset Finance Letter",
     "issueLabel": "Ausgabe",
     "pageLabel": "Seite",
     "indexTitle": "Ein Monat europäische Leasing- und Investitionsgüterfinanzierung, auf vier Seiten",
@@ -423,6 +423,7 @@
     "backToIssues": "Zurück zu allen Ausgaben",
     "inThisIssue": "In dieser Ausgabe",
     "englishOnlyShort": "Erscheint auf Englisch",
+    "publishedBy": "Herausgegeben von",
     "bookMode": "Als Broschüre lesen",
     "flowMode": "Auf einer Seite lesen",
     "prevPage": "Vorherige Seite",

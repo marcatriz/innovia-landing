@@ -13,7 +13,7 @@
       "description": "Douăzeci de întrebări pe șapte dimensiuni, șapte minute, fără email. O citire onestă a locului în care stă operațiunea ta pe digital și AI."
     },
     "insights": {
-      "title": "Asset Finance Letter | Innovia Systems",
+      "title": "Innovia Asset Finance Letter",
       "description": "Patru pagini pe lună despre finanțarea activelor în Europa: ce au publicat efectiv asociațiile, ce s-a mișcat și o afirmație scrisă astfel încât să poată fi infirmată."
     },
     "privacy": {
@@ -410,7 +410,7 @@
     }
   },
   "insights": {
-    "masthead": "Asset Finance Letter",
+    "masthead": "Innovia Asset Finance Letter",
     "issueLabel": "Numărul",
     "pageLabel": "Pagina",
     "indexTitle": "O lună de finanțare a activelor în Europa, în patru pagini",
@@ -423,6 +423,7 @@
     "backToIssues": "Înapoi la toate numerele",
     "inThisIssue": "În acest număr",
     "englishOnlyShort": "Apare în limba engleză",
+    "publishedBy": "Publicat de",
     "bookMode": "Citiți ca broșură",
     "flowMode": "Citiți pe o singură pagină",
     "prevPage": "Pagina anterioară",
