@@ -12,10 +12,15 @@ import { useTranslations } from 'next-intl';
  * 3,300 characters; poured into a single column that reads as a wall and gets
  * skipped, and the numbers in it are the part worth reaching.
  *
- * The Amazon link is the only outbound link on the homepage. It carries
- * rel="noopener" and opens in a new tab so the visitor keeps the site.
+ * Two outbound links leave the homepage from here, and they are the only ones.
+ * Both carry rel="noopener" and open in a new tab so the visitor keeps the site.
+ * The second one, added 2026-09-11, is the audio introduction: the full opening
+ * chapter, read by a synthetic voice, on its own page under our domain. It is the
+ * free sample, so it sits as a secondary link next to the Amazon button, never
+ * competing with it.
  */
 const AMAZON_URL = 'https://www.amazon.com/dp/B0HGNP3ZGX';
+const LISTEN_URL = 'https://thepriceofknowing.innoviasystems.io';
 const BLOCKS = ['levers', 'fragments', 'gap', 'winners'] as const;
 
 export default function Book() {
@@ -71,8 +76,19 @@ export default function Book() {
             {t('cta')}
             <span aria-hidden>&rarr;</span>
           </a>
+          <a
+            href={LISTEN_URL}
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center gap-2 rounded-lg border border-navy-800 px-6 py-3 text-body font-medium text-navy-800 transition-colors hover:bg-navy-800 hover:text-paper"
+          >
+            {t('ctaListen')}
+            <span aria-hidden>&rarr;</span>
+          </a>
           <p className="text-caption text-ink-500">{t('formats')}</p>
         </div>
+
+        <p className="mt-3 text-caption text-ink-500">{t('listenNote')}</p>
 
         <p className="mt-6 text-caption text-ink-500">{t('method')}</p>
       </div>
