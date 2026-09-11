@@ -146,3 +146,31 @@ Adding email capture to the letter means editing `/privacy` in the same commit.
 ---
 
 (Other conventions can be added here as they accumulate. Keep this file under 400 lines so it stays loaded into context.)
+
+## Build, verification and deploy
+
+`next.config` sets `output: export`, so the build writes static HTML to `out/`. **`next start`
+does not work here** and says so: it tells you to serve `out/` instead. Two consequences for
+anyone verifying a change: serve `out/` (`npx serve out`) or, simpler, grep the built files
+directly, because `out/en/index.html` is literally what ships. And never read "zero matches" from
+a server you did not confirm is answering; on 2026-09-11 a check reported the new link missing in
+all five locales when in fact `next start` had refused to boot.
+
+Deploy is the Cloudflare Pages project **`innovia-landing`** (domains `innovia-landing.pages.dev`,
+`innoviasystems.io`, `www.innoviasystems.io`), connected to the GitHub repo. **Pushing to `main`
+is the deploy**; there is no workflow file and no manual `wrangler pages deploy` step. Measured on
+2026-09-11: about seventy-five seconds from `git push` to the change being live on
+`innoviasystems.io`. A change that is meant to reach the site therefore lands on `main`, not on a
+branch.
+
+## Editing messages/*.json
+
+The files are CRLF with two-space indent. Prefer a targeted insertion over a `json.load` plus
+`json.dump` round trip: reserialising rewrites line endings and key order and turns a two-line
+change into a whole-file diff that hides what actually changed.
+
+**Anchor on the object, not on the key name.** `"book"` appears twice in every locale file: once
+as a nav label near the top (`"book": "Book"`) and once as the section object (`"book": {`). A
+script that searches for `"book"` and then for the next `"cta"` lands in the hero block. This
+happened on 2026-09-11 and put a book string next to the "Book a 45-minute working session"
+button before it was caught and reverted.
