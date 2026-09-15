@@ -290,11 +290,9 @@
         "lite": {
           "tag": "Hier starten",
           "title": "Discovery",
-          "price": "3,5k – 5k €",
-          "body": "Zwei Wochen. Nur Diagnostik und Executive Memo. Für Interessenten, die vor einem vollen Sprint eine schnelle Einschätzung brauchen.",
+          "price": "1.900 €",
+          "body": "Drei Tage. Nur Diagnostik und Executive Memo. Für Interessenten, die vor einem vollen Sprint eine schnelle Einschätzung brauchen.",
           "includes": [
-            "Capability Assessment",
-            "Gap Report",
             "Executive Memo",
             "Virtueller Readout"
           ]
@@ -302,10 +300,12 @@
         "standard": {
           "tag": "Tier 2",
           "title": "Blueprint",
-          "price": "9k – 14k €",
+          "price": "7.500 €",
           "body": "Drei bis vier Wochen. Volle Diagnostik, Design und Entscheidungspaket. Der Default-Tier für die meisten Mandate.",
           "includes": [
             "Alles aus Discovery, plus",
+            "Capability Assessment",
+            "Gap Report",
             "Target Operating Model",
             "Capability Roadmap",
             "Board Deck und Business Case",
@@ -316,7 +316,7 @@
         "premium": {
           "tag": "Tier 3",
           "title": "Launch",
-          "price": "18k – 25k €",
+          "price": "16.000 €",
           "body": "Sechs Wochen. Blueprint plus tiefere Prozess- und Integrationsarbeit. Für Mandate, die unmittelbare Umsetzung antizipieren.",
           "includes": [
             "Alles aus Blueprint, plus",
@@ -350,7 +350,7 @@
         },
         "after": {
           "q": "Was passiert nach dem Readout?",
-          "a": "Bei einem Ja beginnt das Innovation-Partnership-Scoping innerhalb von fünf Geschäftstagen. Die Partnership ist ein längeres Mandat, das die Empfehlung in die Umsetzung trägt, dimensioniert zwischen 60k und 150k € je nach Scope. Bei einem Nein oder einer genannten Frist schließt das Mandat sauber, ohne weiteres Nachfassen, sofern Sie nicht selbst wieder Kontakt aufnehmen."
+          "a": "Bei einem Ja beginnt das Innovation-Partnership-Scoping innerhalb von fünf Geschäftstagen. Die Partnership ist ein längeres Mandat, das die Empfehlung in die Umsetzung trägt, ab 2.500 € pro Monat je nach Scope. Bei einem Nein oder einer genannten Frist schließt das Mandat sauber, ohne weiteres Nachfassen, sofern Sie nicht selbst wieder Kontakt aufnehmen."
         }
       }
     },

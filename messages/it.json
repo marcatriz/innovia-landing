@@ -290,11 +290,9 @@
         "lite": {
           "tag": "Inizia qui",
           "title": "Discovery",
-          "price": "3,5k – 5k €",
-          "body": "Due settimane. Solo diagnostica e executive memo. Per prospect che hanno bisogno di una lettura veloce prima di impegnarsi su uno sprint completo.",
+          "price": "1.900 €",
+          "body": "Tre giorni. Solo diagnostica e executive memo. Per prospect che hanno bisogno di una lettura veloce prima di impegnarsi su uno sprint completo.",
           "includes": [
-            "Capability assessment",
-            "Gap report",
             "Executive memo",
             "Readout virtuale"
           ]
@@ -302,10 +300,12 @@
         "standard": {
           "tag": "Tier 2",
           "title": "Blueprint",
-          "price": "9k – 14k €",
+          "price": "7.500 €",
           "body": "Tre-quattro settimane. Diagnostica, design e pacchetto decisionale completi. Il tier di default per la maggior parte dei mandati.",
           "includes": [
             "Tutto ciò che è in Discovery, più",
+            "Capability assessment",
+            "Gap report",
             "Target operating model",
             "Capability roadmap",
             "Board deck e business case",
@@ -316,7 +316,7 @@
         "premium": {
           "tag": "Tier 3",
           "title": "Launch",
-          "price": "18k – 25k €",
+          "price": "16.000 €",
           "body": "Sei settimane. Blueprint più lavoro più profondo di processo e integrazione. Per mandati che anticipano un'esecuzione immediata.",
           "includes": [
             "Tutto ciò che è in Blueprint, più",
@@ -350,7 +350,7 @@
         },
         "after": {
           "q": "Cosa succede dopo il readout?",
-          "a": "Se la decisione è sì, lo scoping della Innovation Partnership inizia entro cinque giorni lavorativi. La Partnership è un mandato più lungo che porta la raccomandazione fino all'esecuzione, dimensionato tra 60k e 150k € a seconda dello scope. Se la decisione è no o una scadenza nominata, il mandato si chiude in modo pulito, senza follow-up a meno che non riprendiate voi il contatto."
+          "a": "Se la decisione è sì, lo scoping della Innovation Partnership inizia entro cinque giorni lavorativi. La Partnership è un mandato più lungo che porta la raccomandazione fino all'esecuzione, a partire da 2.500 € al mese a seconda dello scope. Se la decisione è no o una scadenza nominata, il mandato si chiude in modo pulito, senza follow-up a meno che non riprendiate voi il contatto."
         }
       }
     },

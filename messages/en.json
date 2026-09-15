@@ -290,11 +290,9 @@
         "lite": {
           "tag": "Start here",
           "title": "Discovery",
-          "price": "€3.5k to €5k",
-          "body": "Two weeks. Diagnostic and executive memo only. For prospects who need a fast read before committing to a full sprint.",
+          "price": "€1,900",
+          "body": "Three days. Diagnostic and executive memo only. For prospects who need a fast read before committing to a full sprint.",
           "includes": [
-            "Capability assessment",
-            "Gap report",
             "Executive memo",
             "Virtual readout"
           ]
@@ -302,10 +300,12 @@
         "standard": {
           "tag": "Tier 2",
           "title": "Blueprint",
-          "price": "€9k to €14k",
+          "price": "€7,500",
           "body": "Three to four weeks. The full diagnostic, design, and decision pack. The default tier for most engagements.",
           "includes": [
             "Everything in Discovery, plus",
+            "Capability assessment",
+            "Gap report",
             "Target operating model",
             "Capability roadmap",
             "Board deck and business case",
@@ -316,7 +316,7 @@
         "premium": {
           "tag": "Tier 3",
           "title": "Launch",
-          "price": "€18k to €25k",
+          "price": "€16,000",
           "body": "Six weeks. Blueprint plus deeper process and integration work. For engagements that anticipate immediate execution.",
           "includes": [
             "Everything in Blueprint, plus",
@@ -350,7 +350,7 @@
         },
         "after": {
           "q": "What happens after the readout?",
-          "a": "If the decision is yes, the Innovation Partnership scoping starts within five business days. The Partnership is a longer engagement that takes the recommendation into execution, sized between €60k and €150k depending on scope. If the decision is no or a named deadline, the engagement closes cleanly with no further outreach unless you reinitiate."
+          "a": "If the decision is yes, the Innovation Partnership scoping starts within five business days. The Partnership is a longer engagement that takes the recommendation into execution, from €2,500 per month depending on scope. If the decision is no or a named deadline, the engagement closes cleanly with no further outreach unless you reinitiate."
         }
       }
     },
